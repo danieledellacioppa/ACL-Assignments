@@ -1,6 +1,6 @@
 \contentsline {section}{\numberline {1}Introduction}{1}%
-\contentsline {section}{\numberline {2}Second section}{2}%
-\contentsline {section}{\numberline {3}True Monster Hunter}{2}%
-\contentsline {subsection}{\numberline {3.1}Re del Tornante}{2}%
-\contentsline {section}{\numberline {4}Dio Maledetto}{2}%
-\contentsline {subsection}{\numberline {4.1}illegal Dio Maledetto}{3}%
+\contentsline {section}{\numberline {2}CPU aka Processor}{2}%
+\contentsline {section}{\numberline {3}Hard Drive}{2}%
+\contentsline {subsection}{\numberline {3.1}types of hard drive}{2}%
+\contentsline {section}{\numberline {4}Memory}{2}%
+\contentsline {subsection}{\numberline {4.1}types of Memory}{3}%
