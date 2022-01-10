@@ -1,16 +1,20 @@
 \begin{theindex}
 
+  \item CPU, Processor, 2
+
+  \indexspace
+
+  \item data, 3
+
+  \indexspace
+
   \item generate, 1
 
   \indexspace
 
-  \item Index, 1
+  \item Index
     \subitem nested, 1
-
-  \indexspace
-
-  \item keywords
-    \subitem used, 2
+  \item Introduction, 1
 
   \indexspace
 
@@ -18,10 +22,8 @@
 
   \indexspace
 
-  \item parts, 1
-
-  \indexspace
-
-  \item section, 2
+  \item SDRAM, 4
+  \item SO-DIMM, 4
+  \item SSD, 3
 
 \end{theindex}

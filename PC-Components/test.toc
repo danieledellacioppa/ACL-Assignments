@@ -1,5 +1,5 @@
 \contentsline {section}{\numberline {1}Introduction}{1}%
-\contentsline {section}{\numberline {2}CPU aka Processor}{2}%
+\contentsline {section}{\numberline {2}Central Processor Unit}{2}%
 \contentsline {section}{\numberline {3}Hard Drive}{3}%
 \contentsline {subsection}{\numberline {3.1}types of hard drive}{3}%
 \contentsline {section}{\numberline {4}Memory}{4}%
