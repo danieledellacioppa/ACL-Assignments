@@ -10,17 +10,29 @@
 In this document,we explain several parts \index{Introduction} of the Personal Computer
 and every one of them should appear in the Index\index{Introduction} above.
 
-Terms like generate\index{generate} and some\index{others} 
-will also show up. Terms in the index can also be 
-nested \index{Index!nested}
-
 \clearpage
 
 \section{Central Processor Unit}
-This section\index{CPU, Processor} spends some words on the main component of a PC 
+This section\index{CPU, Processor} is meant to illustrate the main component of a PC 
 which is the Processor usually addressed as CPU.
 This is the piece of hardware that phisically executes \emph{software} instructions one at at time.
+Without this component there is no chance to have a running computer. It belongs to the bare minimum set of 
+components that you need to have if you want to have something that you can call a PC.
 
+Inside of it there is a set of \emph{registers} available for software developers to use.
+Usually software developer write their code in a \emph{high level language} such as C++, Python, Java, etc.
+The reason they're called high level languages is because there is a high level of abstraction from the processor
+language level which is usually called assembly language (like 8086 or Motorola M68000)
+
+Every \emph{core} of the processor executes one piece of code properly \emph {compiled} in the low level architecture
+language by the compiler.
+
+The reason why today we have usually more than one core is to allow concurrency which means more than one piece of
+code executed at a time. This is achieved by developers by doing concurrent programming which essentially is all about
+writing a software thinking at every instruction which process is executing it, so we'll find in the code checks like
+\[if (pid==0)\]
+where $pid$ is the ID of the $\bf process$ executing the "if" instruction which returns true only when the $\bf process$ hasn't  got any \emph{sons}. If it returns false then we're facing the father process, which usually is the process where the son has been generated from but
+we'll go more in depht on this later on
 
 %Let $D$ be a subset of $\bf R$ and let
 %$f \colon D \to \mathbf{R}$ be a real-valued function on
