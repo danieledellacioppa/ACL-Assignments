@@ -1,4 +1,4 @@
-##Gender pay gap
+## Gender pay gap
 
 Many women tend to choose occupations that offer less financial reward for example, in administration
 Many high-paying sectors are disproportionately made up of male workers, for example, information and communications technology.
