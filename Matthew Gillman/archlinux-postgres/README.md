@@ -2,6 +2,7 @@
 
 in this document we are going through all the steps I needed to install postgres on ArchLinux
 
+
 ```
 sudo pacman -S postgresql
 ```
@@ -19,6 +20,17 @@ Total Installed Size:  59.23 MiB
 
 :: Proceed with installation? [Y/n]      
 ```
+
+``
+sudo passwd postgres
+```
+then
+change the password
+
+```
+sudo -iu postgres
+```
+
 
 the command ```psql```
 
@@ -89,6 +101,7 @@ pg_ctl: could not start server
 Examine the log output.
 ```
 
+let us make postgres a sudoer
 
 ```
 systemctl status postgresql.service
@@ -169,10 +182,10 @@ sudo -u postgres initdb -D /var/lib/postgres/data
 
 
 
----
+```
 postgresql-setup --initdb
 systemctl restart postgresql.service
 systemctl enable postgresql.service
----
+```
 
 
