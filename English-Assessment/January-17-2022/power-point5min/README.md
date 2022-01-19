@@ -14,8 +14,10 @@ When you realize that the time has come to write again and soon because otherwis
 An example is :
 ```
 why do you smoke?
-**Because I like it.**
 ```
+
+**Because I like it.**
+
 
 End of the story. The answer you gave you think is true. And you can continue smoking happily.
 It's very important to understand that no effort is needed. Effort is something you use to make difficult things.
@@ -50,7 +52,7 @@ smoking the whole lifetime is disgusting and terrifying
 because I have to do it. I don't choose to do it. I have to.
 ```
 
-** would still say that you love doing something that you must do? **
+**would still say that you love doing something that you must do?**
 
 At this point the wall cracks and you realize you don't like smoking. You have to do it which is different.
 
