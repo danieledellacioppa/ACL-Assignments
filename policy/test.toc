@@ -1,0 +1,4 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{}%
+\contentsline {section}{\numberline {2}What is a policy?}{2}{}%
+\contentsline {section}{\numberline {3}why we have them?}{2}{}%
+\contentsline {section}{\numberline {4}Type of policies}{2}{}%
