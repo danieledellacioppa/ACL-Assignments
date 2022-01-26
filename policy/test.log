@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.10)  26 JAN 2022 12:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.10)  26 JAN 2022 14:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -55,7 +55,14 @@ LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 
-(./test.toc)
+(./test.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 5.
+)
 \tf@toc=\write3
 \openout3 = `test.toc'.
 
@@ -65,27 +72,30 @@ LaTeX Font Info:    ... okay on input line 4.
 
 ]
 ! Undefined control sequence.
-l.24 \printindex
+l.27 \printindex
                 
 ? 
-(./test.aux) ) 
+[3
+
+] (./test.aux) ) 
 Here is how much of TeX's memory you used:
- 643 strings out of 478353
- 9478 string characters out of 5854635
- 305730 words of memory out of 5000000
- 18839 multiletter control sequences out of 15000+600000
- 407497 words of font info for 33 fonts, out of 8000000 for 9000
+ 665 strings out of 478353
+ 9714 string characters out of 5854635
+ 307730 words of memory out of 5000000
+ 18852 multiletter control sequences out of 15000+600000
+ 411478 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 33i,5n,38p,265b,109s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<
-/usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texm
-f-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/ty
-pe1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-s
-uper/sfti1200.pfb>
-Output written on test.pdf (2 pages, 76146 bytes).
+ 33i,5n,38p,543b,109s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
+}</usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/te
+xmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/
+type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm
+-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1200
+.pfb>
+Output written on test.pdf (3 pages, 96267 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 40 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
