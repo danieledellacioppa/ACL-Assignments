@@ -1,9 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.10)  26 JAN 2022 14:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.10)  26 JAN 2022 15:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**test.tex
-(./test.tex
+**/home/daniele/Documents/Programming/akhter2/ACL/ACL-Assignments/policy/policy
+.tex
+
+(/home/daniele/Documents/Programming/akhter2/ACL/ACL-Assignments/policy/policy.
+tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2021-11-22>
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -37,8 +40,8 @@ Enter file name:
 File: l3backend-pdftex.def 2021-12-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count191
 \l__pdf_internal_box=\box50
-) (./test.aux)
-\openout1 = `test.aux'.
+) (./policy.aux)
+\openout1 = `policy.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
@@ -54,8 +57,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
-
-(./test.toc
+(./policy.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -64,7 +66,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 5.
 )
 \tf@toc=\write3
-\openout3 = `test.toc'.
+\openout3 = `policy.toc'.
 
  [1
 
@@ -77,22 +79,22 @@ l.27 \printindex
 ? 
 [3
 
-] (./test.aux) ) 
+] (./policy.aux) ) 
 Here is how much of TeX's memory you used:
- 665 strings out of 478353
- 9714 string characters out of 5854635
- 307730 words of memory out of 5000000
+ 666 strings out of 478353
+ 9955 string characters out of 5854635
+ 307734 words of memory out of 5000000
  18852 multiletter control sequences out of 15000+600000
  411478 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 33i,5n,38p,543b,109s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
-}</usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/te
-xmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/
-type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm
--super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1200
-.pfb>
-Output written on test.pdf (3 pages, 99419 bytes).
+ 33i,5n,38p,616b,109s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.e
+nc}</usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/
+texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/font
+s/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/
+cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti12
+00.pfb>
+Output written on policy.pdf (3 pages, 99419 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream
