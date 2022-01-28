@@ -1,12 +1,12 @@
 # PGTap installation on Archlinux
 
-pgTAP download pgTAP 1.2.0
-unzip pgtap-1.2.0.zip
-cd pgtap-1.2.0
-sudo -iu postgres
-move all the stuff in the postgres user via the postgres user
-cd pgtap
-make
+* pgTAP download pgTAP 1.2.0
+* unzip pgtap-1.2.0.zip
+* cd pgtap-1.2.0
+* sudo -iu postgres
+* move all the stuff in the postgres user via the postgres user
+* cd pgtap
+* make
 
 ```
 make install
@@ -118,7 +118,73 @@ parallel group (35 tests):  performs_ok cmpok do_tap istap performs_within pg73 
 the installation looks like it went fine.
 
 
+WHat I'm going to do is create an extension in the database
 
 ```
-prova
+create extension if not exists pgtap;
 ```
+
+
+and then create a test.sql file with the pgTAP sample Test Script in it but the position of pgtap.sql needs to be specified after \i.
+
+in order to do it I need the **mlocate** package which updatedb depends from
+
+```
+sudo pacman -S mlocate
+```
+
+now i can issue updatedb to create a database of all the files in the partition I'm in
+
+and then issue locate X
+
+where X is the name of the file I'm looking for
+
+
+that's the output of locate pgtap.sql
+
+```
+/home/daniele/Downloads/pgtap-1.2.0/sql/pgtap.sql.in
+/usr/share/postgresql/extension/pgtap.sql
+/usr/share/postgresql/extension/uninstall_pgtap.sql
+/var/lib/postgres/pgtap-1.2.0/sql/pgtap.sql
+/var/lib/postgres/pgtap-1.2.0/sql/pgtap.sql.in
+/var/lib/postgres/pgtap-1.2.0/sql/uninstall_pgtap.sql
+
+```
+
+I've put one of these after the \i in the test.sql
+
+and then run
+
+
+```
+psql -d gen2test -Xf test.sql
+```
+
+the output is 
+
+```
+1..1
+ok 1 - My test passed, w00t!
+```
+
+let's now try to state the 9*9 = 81 and then 9*9 = 82
+
+the syntax I'm goin to use is
+
+```
+SELECT ok( 9 ^ 2 = 81,    'simple exponential' );
+```
+
+I've called the function stating 9*9=81 expected and the one stating 9*9=82 unexpected
+
+Let's see the output
+
+```
+1..2
+ok 1 - expected result
+not ok 2 - unexpected result
+# Failed test 2: "unexpected result"
+# Looks like you failed 1 test of 2
+
+``` 
