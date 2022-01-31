@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2022.1.10)  31 JAN 2022 15:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.10)  31 JAN 2022 15:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -126,15 +126,10 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 
 
 Writing index file test.idx
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-File: l3backend-dvips.def 2020-02-03 L3 backend support: dvips
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count186
 \l__pdf_internal_box=\box91
-\g__pdf_backend_object_int=\count186
-\l__pdf_backend_content_box=\box92
-\l__pdf_backend_model_box=\box93
-\g__pdf_backend_annotation_int=\count187
-\g__pdf_backend_link_int=\count188
-\g__pdf_backend_link_sf_int=\count189
 )
 (./test.aux)
 \openout1 = `test.aux'.
@@ -166,7 +161,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [1
 
-] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ] [3
 
@@ -179,12 +174,26 @@ runsystem(makeindex test.idx)...executed safely (allowed).
 
 ] (./test.aux) ) 
 Here is how much of TeX's memory you used:
- 1173 strings out of 483184
- 16547 string characters out of 5966318
- 245484 words of memory out of 5000000
- 16216 multiletter control sequences out of 15000+600000
+ 1171 strings out of 483183
+ 16468 string characters out of 5966292
+ 244477 words of memory out of 5000000
+ 16213 multiletter control sequences out of 15000+600000
  541314 words of font info for 43 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  30i,4n,32p,364b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen
+/ec/ecbx1440.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknap
+pen/ec/ecti1200.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jk
+nappen/ec/ecrm1200.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour
+/jknappen/ec/ecbx1200.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljf
+our/jknappen/ec/ecbx1728.600pk></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr12.pfb>
+Output written on test.pdf (5 pages, 83046 bytes).
+PDF statistics:
+ 220 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on test.dvi (5 pages, 5784 bytes).
