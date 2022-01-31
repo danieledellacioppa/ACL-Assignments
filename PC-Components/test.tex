@@ -1,6 +1,7 @@
 \documentclass[a4paper,12pt]{article}
 \usepackage[T1]{fontenc}
 \usepackage{imakeidx}
+\usepackage{graphicx}
 \makeindex[columns=3, title=Alphabetical Index, intoc]
 
 \begin{document}
@@ -59,8 +60,14 @@ There are SSD\index{SSD} drives and traditional drives
 
 \section{Memory}
 
-This is where \emph{programs} allocate space for their \emph{execution}
+Usually addressed as RAM (stands for Random Access Memory), made in silicon technology it is used to store temporary data for the operative system to function properly. It's usually installed in modules each one of each provides a specific capacity.
 
+Every bit is stored thanks to a component called Flip-Flop. It is usually organized as a matrix of Flip-Flop JK every one of each stores 1 bit only. Every Flip Flop can be accessed thanks to the presence of two decoders as shown in figure :
+ 
+\includegraphics[width=9cm]{./DRAM-02.jpg}
+
+The module shown in picture is one of the most essential and primitive blocks in a RAM slots and stores just 256 bits, namely 32 bytes. 
+The word Random now makes sense. By looking at the two decoders in pictures we can now understand what Random means. It means that no matter which block of memory we want to have access at, the time needed to read/write that block will be the same. That's why it's called Random. You can choose a Random point in a memory slot and this won't affect in any way the time needed to access that particular portion of memory
 \subsection{types of Memory}
 
 We have SDRAM\index{SDRAM}, SO-DIMM\index{SO-DIMM} and SERVER RAM.
