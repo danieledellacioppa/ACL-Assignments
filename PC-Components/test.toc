@@ -4,5 +4,5 @@
 \contentsline {subsection}{\numberline {3.1}types of hard drive}{3}%
 \contentsline {section}{\numberline {4}Memory}{4}%
 \contentsline {subsection}{\numberline {4.1}types of Memory}{4}%
-\contentsline {subsubsection}{\numberline {4.1.1}SERVER RAM}{4}%
-\contentsline {section}{Alphabetical Index}{5}%
+\contentsline {subsubsection}{\numberline {4.1.1}SERVER RAM}{5}%
+\contentsline {section}{Alphabetical Index}{6}%
