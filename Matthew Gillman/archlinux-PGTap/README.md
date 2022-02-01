@@ -281,7 +281,7 @@ and here is the output of both commands issued above:
   Using 89 parallel test connections   
   Rebuilding test/build/all_tests   
   Schedule changed to test/build/parallel.sch   
-  cp `cat test/build/which_schedule` test/build/run.sch   
+  cp 'cat test/build/which_schedule' test/build/run.sch   
   /usr/lib/postgresql/pgxs/src/makefiles/../../src/test/regress/pg_regress --inputdir=./ --bindir='/usr/bin'    --inputdir=test --max-connections=89 --schedule test/schedule/main.sch   --schedule test/build/run.sch    
   (using postmaster on Unix socket, default port)   
   ============== dropping database "regression"         ==============   
@@ -332,11 +332,8 @@ and here is the output of both commands issued above:
        util                         ... ok          256 ms   
        valueset                     ... ok         1145 ms   
   ======================   
-  
   All 39 tests passed.    
-  
-  ======================   
-[postgres@alpha pgtap-1.2.0]$ 
+  [postgres@alpha pgtap-1.2.0]$    
 
 
 
