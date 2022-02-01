@@ -28,6 +28,7 @@ psql: error: could not connect to server: No such file or directory
 	Is the server running locally and accepting
 	connections on Unix domain socket "/run/postgresql/.s.PGSQL.5432"?
 
+---
 
 ```
 initdb -D /var/lib/postgres/data
@@ -68,10 +69,10 @@ You can change this by editing pg_hba.conf or using the option -A, or
 --auth-local and --auth-host, the next time you run initdb.
 
 Success. You can now start the database server using:
+pg_ctl -D /var/lib/postgres/data -l logfile start
 
-    pg_ctl -D /var/lib/postgres/data -l logfile start
 
-
+---
 
 
 ```
@@ -91,6 +92,7 @@ waiting for server to start..../bin/sh: line 1: logfile: Permission denied
 pg_ctl: could not start server
 Examine the log output.
 
+---
 
 
 ```
@@ -106,6 +108,7 @@ the output was
 
 Created symlink /etc/systemd/system/multi-user.target.wants/postgresql.service → /usr/lib/systemd/system/postgresql.service.
 
+---
 
 
 ```
@@ -120,6 +123,8 @@ psql (13.4)
 Type "help" for help.
 
 postgres=# 
+
+---
 
 ### you're all done
 
