@@ -86,8 +86,7 @@ You can change this by editing pg_hba.conf or using the option -A, or
 --auth-local and --auth-host, the next time you run initdb.
 
 Success. You can now start the database server using:
-
-    pg_ctl -D /var/lib/postgres/data -l logfile start
+pg_ctl -D /var/lib/postgres/data -l logfile start
 
 
 ---
