@@ -38,11 +38,11 @@ gives the error
 
 #### error output
 
-<p>psql: error: could not connect to server: No such file or directory
+psql: error: could not connect to server: No such file or directory
 	Is the server running locally and accepting
 	connections on Unix domain socket "/run/postgresql/.s.PGSQL.5432"?
-</p>
 
+---
 
 let us initialize the database cluster by issuing this command
 
@@ -52,7 +52,8 @@ initdb -D /var/lib/postgres/data
 
 and here you can find the output
 
-```
+#### shell output
+
 [postgres@daniele-virtualbox ~]$ initdb -D /var/lib/postgres/data
 The files belonging to this database system will be owned by user "postgres".
 This user must also own the server process.
@@ -88,35 +89,45 @@ Success. You can now start the database server using:
 
     pg_ctl -D /var/lib/postgres/data -l logfile start
 
-```
+
+---
+
+
 
 as you can see all is being done from the postgres user as it will be the only user meant to be using the database
+
 
 ```
 pg_ctl -D /var/lib/postgres/data -l logfile start
 ```
 
-```
+#### shell output
+
 waiting for server to start..../bin/sh: line 1: logfile: Permission denied
  stopped waiting
 pg_ctl: could not start server
 Examine the log output.
-```
 
-let us make postgres a sudoer
+---
+
+
+let us make postgres a sudoer by adding it via the command `sudo visudo`. Once that's done then issue the following command:
+
 
 ```
 systemctl status postgresql.service
 ```
 
-gives
+which gives
 
 
-```
+#### shell output
 ○ postgresql.service - PostgreSQL database server
      Loaded: loaded (/usr/lib/systemd/system/postgresql.service; disabled; vendor preset: disabled)
      Active: inactive (dead)
-```
+
+---
+
 
 
 this command then gets issued from the postgres user
@@ -126,12 +137,15 @@ initdb --locale=en_US.UTF-8 -E UTF8 -D /var/lib/postgres/data
 
 ```
 
-```
+#### shell output
+
 initdb: error: directory "/var/lib/postgres/data" exists but is not empty
 If you want to create a new database system, either remove or empty
 the directory "/var/lib/postgres/data" or run initdb
 with an argument other than "/var/lib/postgres/data".
-```
+
+---
+
 
 ideally i'll try to remove or empty the directory mentioned above
 
@@ -146,7 +160,8 @@ sudo -u postgres initdb -D /var/lib/postgres/data
 
 this one was the output
 
-```
+#### shell output
+
 mkdir: cannot create directory ‘/var/lib/postgres/data’: File exists
 could not change directory to "/home/daniele": Permission denied
 The files belonging to this database system will be owned by user "postgres".
@@ -168,11 +183,13 @@ initdb: error: directory "/var/lib/postgres/data" exists but is not empty
 If you want to create a new database system, either remove or empty
 the directory "/var/lib/postgres/data" or run initdb
 with an argument other than "/var/lib/postgres/data".
-```
 
-I removed the data folder with sudo privileges
-added postgres to the sudoers and rebooted
-then issued the commands again
+---
+Here I took some steps:
+
+* I removed the data folder with sudo privileges
+* I added postgres to the sudoers and rebooted
+* then issued the commands again
 
 ```
 sudo mkdir /var/lib/postgres/data
@@ -182,7 +199,7 @@ sudo chown postgres:postgres /var/lib/postgres/data
 sudo -u postgres initdb -D /var/lib/postgres/data
 ```
 
-
+and then 
 
 ```
 postgresql-setup --initdb
@@ -191,3 +208,4 @@ systemctl enable postgresql.service
 ```
 
 
+and it all started to work but I've made another simpler guide which should cover only the steps you really need in the order you really need them which is [this](https://github.com/danieledellacioppa/ACL-Assignments/tree/archlinux_postgres_long_installation/Matthew%20Gillman/archlinux-postgres/one-step-installation)
