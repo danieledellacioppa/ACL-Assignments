@@ -23,10 +23,11 @@ sudo -iu postgres
 ```
 
 #### shell output
-[postgres@daniele-virtualbox2 ~]$ psql
-psql: error: could not connect to server: No such file or directory
-	Is the server running locally and accepting
-	connections on Unix domain socket "/run/postgresql/.s.PGSQL.5432"?
+>[postgres@daniele-virtualbox2 ~]$ psql   
+  psql: error: could not connect to server: No such file or directory   
+  	Is the server running locally and accepting   
+  	connections on Unix domain socket "/run/postgresql/.s.PGSQL.5432"?   
+
 
 ---
 
@@ -82,10 +83,11 @@ gives the following error
 
 #### error output
 
-waiting for server to start..../bin/sh: line 1: logfile: Permission denied
- stopped waiting
-pg_ctl: could not start server
-Examine the log output.
+>waiting for server to start..../bin/sh: line 1: logfile: Permission denied   
+  stopped waiting   
+  pg_ctl: could not start server   
+  Examine the log output.   
+
 
 ---
 
@@ -101,7 +103,7 @@ the output was
 
 #### shell output
 
-Created symlink /etc/systemd/system/multi-user.target.wants/postgresql.service → /usr/lib/systemd/system/postgresql.service.
+>Created symlink /etc/systemd/system/multi-user.target.wants/postgresql.service → /usr/lib/systemd/system/postgresql.service.
 
 ---
 
@@ -114,10 +116,10 @@ this is what you should get hopefully
 
 #### shell postgres output
 
-psql (13.4)
-Type "help" for help.
+>psql (13.4)  
+  Type "help" for help.  
+  postgres=#    
 
-postgres=# 
 
 ---
 
