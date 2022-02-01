@@ -4,7 +4,7 @@ this is a list of steps to be taken to install PGTap.
 
 * download pgTAP 1.2.0 via the default user with normal privileges
 * now issue the command `sudo -iu postgres`
-* from the postgres user copy pgtap-1.2.0.zip in the directory called ./ which will be the place where postgres normally stores every file locally. The syntax in my case was `cp /home/daniele/Downloads/pgtap-1.2.0.zip ./`
+* from the postgres user copy pgtap-1.2.0.zip in the directory called ./ which will be the place where postgres normally stores every file locally. If the .zip file is in the Downloads folder in your home then the command to issue is `cp $HOME/Downloads/pgtap-1.2.0.zip ./`
 * unzip the pgtap-1.2.0.zip you just copied. There is a tool called unzip and what essentially does is creating a folder called pgtap-1.2.0. The syntax is this 'unzip pgtap-1.2.0.zip'
 
 the output you're expecting to get is something along these lines:
