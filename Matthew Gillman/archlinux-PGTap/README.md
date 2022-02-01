@@ -9,6 +9,7 @@ this is a list of steps to be taken to install PGTap.
 
 the output you're expecting to get is something along these lines:
 
+#### shell output
 Archive:  pgtap-1.2.0.zip
 6ca7aec6d7e9ddca05fcecba3ac9132a446e2511
    creating: pgtap-1.2.0/
@@ -172,21 +173,49 @@ What is basically happening here we're extracting the .zip file and creating a f
 cd pgtap-1.2.0
 ```
 
-Let's make sure you're in the right place and let's issue this command `ls`.
+Let's make sure you're in the right place and let's issue this command `ls *`.
 The output you want is something like this:
 
-Changes  contrib  Makefile   pgtap.control  release.md  test
-compat   doc      META.json  README.md      sql         tools
+#### shell output
+Changes  Makefile  META.json  pgtap.control  README.md  release.md
 
-we're indeed ready to issue the ` make` command and start building the source code
+compat:
+10   9.4  gencore            install-9.2.patch  install-9.6.patch
+9.2  9.6  install-9.1.patch  install-9.4.patch
 
-once all is done without errors from the compiler then we can issue the following command:
+contrib:
+pgtap.spec
+
+doc:
+pgtap.mmd
+
+sql:
+pgtap--0.90.0--0.91.0.sql     pgtap--0.97.0--0.98.0.sql.in
+pgtap--0.91.0--0.92.0.sql     pgtap--0.98.0--0.99.0.sql.in
+pgtap--0.92.0--0.93.0.sql     pgtap--0.99.0--1.0.0.sql.in
+pgtap--0.93.0--0.94.0.sql     pgtap--1.0.0--1.1.0.sql
+pgtap--0.94.0--0.95.0.sql     pgtap--1.1.0--1.2.0.sql
+pgtap--0.95.0--0.96.0.sql.in  pgtap.sql.in
+pgtap--0.96.0--0.97.0.sql.in  pgtap--unpackaged--0.91.0.sql
+
+test:
+docker-compose.yml  expected  run       setup.sql  test_MVU.sh
+Dockerfile          psql.sql  schedule  sql
+
+tools:
+
+
+
+### it's now time to MAKE
+
+
+If we are at this stage it means we're indeed ready to issue the ` make` command and start building the source code by issuing the following command:
 
 ```
 make install
 ```
 
-and when I've done it on my platform this was the output :
+but when I've done it on my platform this was the output :
 
 
 ```
@@ -208,12 +237,16 @@ make: *** [/usr/lib/postgresql/pgxs/src/makefiles/pgxs.mk:232: install] Error 1
 
 my decision in the past was to install pg_prove via CPAN but I'll try to give postgres move privileges first
 
+
 What we need to do here is running 
+
 ```
 sudo visudo
 ```
+
 and when vi opens give to postgres user the same privileges as root.
 What we have to do here essentially is adding somewhere this line
+
 
 ```
 postgres ALL=(ALL:ALL) ALL
