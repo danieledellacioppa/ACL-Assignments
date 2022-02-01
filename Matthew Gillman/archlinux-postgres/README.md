@@ -20,7 +20,7 @@ Total Installed Size:  59.23 MiB
 :: Proceed with installation? [Y/n]      
 
 
-``
+```
 sudo passwd postgres
 ```
 
@@ -37,7 +37,8 @@ the command ```psql```
 gives the error
 
 #### error output
-<p> psql: error: could not connect to server: No such file or directory
+
+<p>psql: error: could not connect to server: No such file or directory
 	Is the server running locally and accepting
 	connections on Unix domain socket "/run/postgresql/.s.PGSQL.5432"?
 </p>
