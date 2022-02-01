@@ -218,7 +218,7 @@ make install
 but when I've done it on my platform this was the output :
 
 
-```
+#### output on my machine
 make install
 
 GNUmake running against Postgres version 13.4, with pg_config located at /usr/bin
@@ -233,7 +233,7 @@ Makefile:188: cpan TAP::Parser::SourceHandler::pgTAP
 /usr/bin/install: cannot create regular file '/usr/share/postgresql/extension/pgtap.control': Permission denied
 make: *** [/usr/lib/postgresql/pgxs/src/makefiles/pgxs.mk:232: install] Error 1
 
-```
+
 
 my decision in the past was to install pg_prove via CPAN but I'll try to give postgres move privileges first
 
