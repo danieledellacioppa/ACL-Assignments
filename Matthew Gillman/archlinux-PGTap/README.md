@@ -413,10 +413,11 @@ I've called the function stating **9 * 9 = 81** expected and the one stating **9
 #### the output
 
 
-1..2
-ok 1 - expected result
-not ok 2 - unexpected result
-**Failed test 2: "unexpected result"**
-**Looks like you failed 1 test of 2**
+>1..2   
+  ok 1 - expected result   
+  not ok 2 - unexpected result   
+  **Failed test 2: "unexpected result"**   
+  **Looks like you failed 1 test of 2**   
+
 
 --- 
