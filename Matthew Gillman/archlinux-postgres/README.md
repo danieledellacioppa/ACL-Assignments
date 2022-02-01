@@ -208,4 +208,4 @@ systemctl enable postgresql.service
 ```
 
 
-and it all started to work but I've made another simpler guide which should cover only the steps you really need in the order you really need them which is [this](https://github.com/danieledellacioppa/ACL-Assignments/tree/main/Matthew%20Gillman/archlinux-postgres/one-step-installation)
+and it all started to work but I've made another simpler guide which should cover only the steps you really need in the order you really need them which is [this](./one-step-installation/README.md)
