@@ -1,6 +1,6 @@
 # archlinux postgres installation
 
-in this document we are going through all the steps I historically needed to install postgres on ArchLinux. Before reading this guide is encouraged to go through [this](https://github.com/danieledellacioppa/ACL-Assignments/tree/archlinux_postgres_long_installation/Matthew%20Gillman/archlinux-postgres/one-step-installation) guide first and then come on this page if you get any issues
+in this document we are going through all the steps I historically needed to install postgres on ArchLinux. Before reading this guide is encouraged to go through [this](https://github.com/danieledellacioppa/ACL-Assignments/tree/main/Matthew%20Gillman/archlinux-postgres/one-step-installation) guide first and then come on this page if you get any issues
 
 
 ```
@@ -208,4 +208,4 @@ systemctl enable postgresql.service
 ```
 
 
-and it all started to work but I've made another simpler guide which should cover only the steps you really need in the order you really need them which is [this](https://github.com/danieledellacioppa/ACL-Assignments/tree/archlinux_postgres_long_installation/Matthew%20Gillman/archlinux-postgres/one-step-installation)
+and it all started to work but I've made another simpler guide which should cover only the steps you really need in the order you really need them which is [this](https://github.com/danieledellacioppa/ACL-Assignments/tree/main/Matthew%20Gillman/archlinux-postgres/one-step-installation)
