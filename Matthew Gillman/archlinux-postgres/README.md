@@ -1,6 +1,6 @@
 # archlinux postgres installation
 
-in this document we are going through all the steps I historically needed to install postgres on ArchLinux. Before reading this guide is encouraged to go through [this](https://github.com/danieledellacioppa/ACL-Assignments/tree/main/Matthew%20Gillman/archlinux-postgres/one-step-installation) guide first and then come on this page if you get any issues
+in this document we are going through all the steps I historically needed to install postgres on ArchLinux. Before reading this guide is encouraged to go through [this](./one-step-installation/README.md) guide first and then come on this page if you get any issues
 
 
 ```
