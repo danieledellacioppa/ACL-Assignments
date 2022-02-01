@@ -401,7 +401,7 @@ ok 1 - My test passed, w00t!
 
 let's now try to state the **9 * 9 = 81** and then **9 * 9 = 82**
 
-the syntax I'm goin to use is
+the syntax I'm going to use is
 
 
 ```
