@@ -274,8 +274,7 @@ and here is the output of both commands issued above:
 
 #### output 
 
-GNUmake running against Postgres version 13.4, with pg_config located at /usr/bin
-
+>GNUmake running against Postgres version 13.4, with pg_config located at /usr/bin
 Makefile:186: To use pg_prove, TAP::Parser::SourceHandler::pgTAP Perl module
 Makefile:187: must be installed from CPAN. To do so, simply run:
 Makefile:188: cpan TAP::Parser::SourceHandler::pgTAP
@@ -332,12 +331,11 @@ parallel group (35 tests):  performs_ok cmpok do_tap istap performs_within pg73 
      usergroup                    ... ok          420 ms
      util                         ... ok          256 ms
      valueset                     ... ok         1145 ms
-
 ======================
  All 39 tests passed. 
 ======================
-
 [postgres@alpha pgtap-1.2.0]$ 
+
 
 
 ---
