@@ -7,9 +7,8 @@ in this document we are going through all the steps I historically needed to ins
 sudo pacman -S postgresql
 ```
 
-output
+#### output
 
-```
 resolving dependencies...
 looking for conflicting packages...
 
@@ -19,11 +18,12 @@ Total Download Size:   18.36 MiB
 Total Installed Size:  59.23 MiB
 
 :: Proceed with installation? [Y/n]      
-```
+
 
 ``
 sudo passwd postgres
 ```
+
 then
 change the password
 
@@ -36,11 +36,12 @@ the command ```psql```
 
 gives the error
 
-```
-psql: error: could not connect to server: No such file or directory
+#### error output
+<p> psql: error: could not connect to server: No such file or directory
 	Is the server running locally and accepting
 	connections on Unix domain socket "/run/postgresql/.s.PGSQL.5432"?
-```
+</p>
+
 
 let us initialize the database cluster by issuing this command
 
