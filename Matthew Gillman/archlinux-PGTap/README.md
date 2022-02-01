@@ -167,8 +167,11 @@ Archive:  pgtap-1.2.0.zip
   inflating: pgtap-1.2.0/tools/psql_args.sh  
   inflating: pgtap-1.2.0/tools/util.sh  
 
+---
+
 What is basically happening here we're extracting the .zip file and creating a folder called pgtap-1.2.0. Let's now change directory and move inside of the pgtap-1.2.0 directory which is what we just created with the unzip command:
   
+
 ```
 cd pgtap-1.2.0
 ```
@@ -177,6 +180,7 @@ Let's make sure you're in the right place and let's issue this command `ls *`.
 The output you want is something like this:
 
 #### shell output
+
 Changes  Makefile  META.json  pgtap.control  README.md  release.md
 
 compat:
@@ -204,7 +208,7 @@ Dockerfile          psql.sql  schedule  sql
 
 tools:
 
-
+---
 
 ### it's now time to MAKE
 
@@ -233,7 +237,7 @@ Makefile:188: cpan TAP::Parser::SourceHandler::pgTAP
 /usr/bin/install: cannot create regular file '/usr/share/postgresql/extension/pgtap.control': Permission denied
 make: *** [/usr/lib/postgresql/pgxs/src/makefiles/pgxs.mk:232: install] Error 1
 
-
+---
 
 my decision in the past was to install pg_prove via CPAN but I'll try to give postgres move privileges first
 
@@ -267,7 +271,9 @@ make installcheck
 
 and here is the output of both commands issued above:
 
-```
+
+#### output 
+
 GNUmake running against Postgres version 13.4, with pg_config located at /usr/bin
 
 Makefile:186: To use pg_prove, TAP::Parser::SourceHandler::pgTAP Perl module
@@ -334,7 +340,7 @@ parallel group (35 tests):  performs_ok cmpok do_tap istap performs_within pg73 
 [postgres@alpha pgtap-1.2.0]$ 
 
 
-```
+---
 
 
 the installation looks like it went fine.
@@ -362,9 +368,10 @@ and then issue locate X
 where X is the name of the file I'm looking for
 
 
-that's the output of locate pgtap.sql
+#### output of `locate pgtap.sql`
 
-```
+
+
 /home/daniele/Downloads/pgtap-1.2.0/sql/pgtap.sql.in
 /usr/share/postgresql/extension/pgtap.sql
 /usr/share/postgresql/extension/uninstall_pgtap.sql
@@ -372,7 +379,10 @@ that's the output of locate pgtap.sql
 /var/lib/postgres/pgtap-1.2.0/sql/pgtap.sql.in
 /var/lib/postgres/pgtap-1.2.0/sql/uninstall_pgtap.sql
 
-```
+
+---
+
+
 
 I've put one of these after the \i in the test.sql
 
@@ -383,16 +393,19 @@ and then run
 psql -d gen2test -Xf test.sql
 ```
 
-the output is 
+#### output 
 
-```
+
 1..1
 ok 1 - My test passed, w00t!
-```
+
+---
+
 
 let's now try to state the **9 * 9 = 81** and then **9 * 9 = 82**
 
 the syntax I'm goin to use is
+
 
 ```
 SELECT ok( 9 ^ 2 = 81,    'simple exponential' );
@@ -400,13 +413,13 @@ SELECT ok( 9 ^ 2 = 81,    'simple exponential' );
 
 I've called the function stating **9 * 9 = 81** expected and the one stating **9 * 9 = 82** unexpected
 
-Let's see the output
+#### the output
 
-```
+
 1..2
 ok 1 - expected result
 not ok 2 - unexpected result
-# Failed test 2: "unexpected result"
-# Looks like you failed 1 test of 2
+**Failed test 2: "unexpected result"**
+**Looks like you failed 1 test of 2**
 
-``` 
+--- 
