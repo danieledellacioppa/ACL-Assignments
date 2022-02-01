@@ -1,19 +1,21 @@
 # PGTap installation on Archlinux
 
-* pgTAP download pgTAP 1.2.0
-* unzip pgtap-1.2.0.zip
-* cd pgtap-1.2.0
+this is a list of steps to be taken to install PGTap.
+
 * sudo -iu postgres
-* move all the stuff in the postgres user via the postgres user
-* cd pgtap
+* download pgTAP 1.2.0 via the default user with normal privileges
+* from the postgres user copy pgtap-1.2.0.zip in the directory called ./ which will be the place where postgres normally stores every file locally
+* unzip the pgtap-1.2.0.zip you just copied. There is a tool called unzip and what essentially does is creating a folder called pgtap-1.2.0  
+* cd pgtap-1.2.0
 * make
+
+once all is done then you can issue the following command:
 
 ```
 make install
 ```
 
-and this is the output
-
+and this will be the output
 
 
 ```
@@ -168,7 +170,7 @@ the output is
 ok 1 - My test passed, w00t!
 ```
 
-let's now try to state the 9*9 = 81 and then 9*9 = 82
+let's now try to state the **9 * 9 = 81** and then **9 * 9 = 82**
 
 the syntax I'm goin to use is
 
@@ -176,7 +178,7 @@ the syntax I'm goin to use is
 SELECT ok( 9 ^ 2 = 81,    'simple exponential' );
 ```
 
-I've called the function stating 9*9=81 expected and the one stating 9*9=82 unexpected
+I've called the function stating **9 * 9 = 81** expected and the one stating **9 * 9 = 82** unexpected
 
 Let's see the output
 
