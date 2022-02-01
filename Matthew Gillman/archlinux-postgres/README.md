@@ -19,6 +19,7 @@ Total Installed Size:  59.23 MiB
 
 :: Proceed with installation? [Y/n]      
 
+---
 
 ```
 sudo passwd postgres
