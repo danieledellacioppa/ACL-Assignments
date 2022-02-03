@@ -1,8 +1,12 @@
-\contentsline {section}{\numberline {1}Introduction}{1}%
-\contentsline {section}{\numberline {2}Central Processor Unit}{2}%
-\contentsline {section}{\numberline {3}Hard Drive}{3}%
-\contentsline {subsection}{\numberline {3.1}types of hard drive}{3}%
-\contentsline {section}{\numberline {4}Memory}{4}%
-\contentsline {subsection}{\numberline {4.1}types of Memory}{4}%
-\contentsline {subsubsection}{\numberline {4.1.1}SERVER RAM}{5}%
-\contentsline {section}{Alphabetical Index}{6}%
+\contentsline {section}{\numberline {1}Introduction}{1}{}%
+\contentsline {section}{\numberline {2}Central Processor Unit}{2}{}%
+\contentsline {subsection}{\numberline {2.1}internal CPU structure and low level language}{2}{}%
+\contentsline {section}{\numberline {3}Hard Drive}{3}{}%
+\contentsline {subsection}{\numberline {3.1}types of hard drive}{3}{}%
+\contentsline {subsubsection}{\numberline {3.1.1}SSD}{3}{}%
+\contentsline {subsubsection}{\numberline {3.1.2}Old Fashion ones}{3}{}%
+\contentsline {section}{\numberline {4}Memory}{4}{}%
+\contentsline {subsection}{\numberline {4.1}types of Memory}{4}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}SERVER RAM}{5}{}%
+\contentsline {section}{\numberline {5}Power Supply Unit}{5}{}%
+\contentsline {section}{\numberline {6}GPU}{5}{}%
