@@ -1,0 +1,69 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{imakeidx}
+\usepackage{graphicx}
+%\usepackage{hyperref}
+
+\makeindex[columns=3, title=Alphabetical Index, intoc]
+
+
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+
+
+\begin{document}
+\textbf{why pgTAP}
+\tableofcontents
+
+\section{Introduction}
+
+# PGTap installation on Archlinux
+
+This is a document explaining why I've chosen pgTAP to test my database
+
+\section{Frequently updated}
+It's constantly maintained. Last update was on Dec the 5th 2021
+
+\section{Heavily documented}
+Provides lots of features with a huge documentation to go through
+
+\section{Doesn't need JDBC to work}
+We don't have to pay for a licence as it is installed directly inside of postgres. Because installing pgTAP essentially means extending the actual postgres installation with a new module that stays inside postgres there is no need to use JDBC or ODBC as many other tools are usually asking for in order for them to be working
+
+
+\section{Peace of mind}
+Understanding whether or not we can use JDBC and get away with it without paying the licence is tricky. So it's much better to stay away from using it
+
+
+\printindex
+
+
+
+\end{document}
+
+
+
+
+
