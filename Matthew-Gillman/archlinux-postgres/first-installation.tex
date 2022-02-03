@@ -2,9 +2,36 @@
 \usepackage[T1]{fontenc}
 \usepackage{imakeidx}
 \usepackage{graphicx}
-\usepackage{hyperref}
+%\usepackage{hyperref}
 
 \makeindex[columns=3, title=Alphabetical Index, intoc]
+
+
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+
 
 \begin{document}
 \textbf{archlinux postgres installation}
@@ -12,76 +39,172 @@
 
 \section{Introduction}
 
-In this document we are going through all the steps I historically needed to install postgres on ArchLinux. Before reading this guide is encouraged to go through \href{https://github.com/danieledellacioppa/ACL-Assignments/blob/main/Matthew%20Gillman/archlinux-postgres/one-step-installation/README.md} guide first and then come on this page if you get any issues
+In this document we are going through all the steps I historically needed to install postgres on ArchLinux.
 
 
-\clearpage
+\section{Installation}
 
-\section{Central Processor Unit}
-This section\index{CPU, Processor} is meant to illustrate the main component of a PC 
-which is the Processor usually addressed as CPU.
-This is the piece of hardware that phisically executes \emph{software} instructions one at at time.
-Without this component there is no chance to have a running computer. It belongs to the bare minimum set of 
-components that you need to have if you want to have something that you can call a PC.
-
-Inside of it there is a set of \emph{registers} available for software developers to use.
-Usually software developer write their code in a \emph{high level language} such as C++, Python, Java, etc.
-The reason they're called high level languages is because there is a high level of abstraction from the processor
-language level which is usually called assembly language (like 8086 or Motorola M68000)
-
-Every \emph{core} of the processor executes one piece of code properly \emph {compiled} in the low level architecture
-language by the compiler.
-
-The reason why today we have usually more than one core is to allow concurrency which means more than one piece of
-code executed at a time. This is achieved by developers by doing concurrent programming which essentially is all about
-writing a software thinking at every instruction which process is executing it, so we'll find in the code checks like
-\[if (pid==0)\]
-where $pid$ is the ID of the $\bf process$ executing the "if" instruction which returns true only when the $\bf process$ hasn't  got any \emph{sons}. If it returns false then we're facing the father process, which usually is the process where the son has been generated from but
-we'll go more in depht on this later on
-
-%Let $D$ be a subset of $\bf R$ and let
-%$f \colon D \to \mathbf{R}$ be a real-valued function on
-%$D$. The function $f$ is said to be \emph{continuous} on
-%$D$ if, for all $\epsilon > 0$ and for all $x \in D$,
-%there exists some $\delta > 0$ (which may depend on $x$)
-%such that if $y \in D$ satisfies
-%\[ |y - x| < \delta \]
-%then
-%\[ |f(y) - f(x)| < \epsilon. \]
-
-%One may readily verify that if $f$ and $g$ are continuous
-%functions on $D$ then the functions $f+g$, $f-g$ and
-%$f.g$ are continuous. If in addition $g$ is everywhere
-%non-zero then $f/g$ is continuous.
-
-\clearpage
-
-\section{Hard Drive}
-This is where data\index{data} is stored
-\subsection{types of hard drive}
-There are SSD\index{SSD} drives and traditional drives
-\clearpage
-
-\section{Memory}
-
-Usually addressed as RAM (stands for Random Access Memory), made in silicon technology it is used to store temporary data for the operative system to function properly. It's usually installed in modules each one of each provides a specific capacity.
-
-Every bit is stored thanks to a component called Flip-Flop. It is usually organized as a matrix of Flip-Flop JK every one of each stores 1 bit only. Every Flip Flop can be accessed thanks to the presence of two decoders as shown in figure :
- 
-\includegraphics[width=9cm]{./DRAM-02.jpg}
-
-The module shown in picture is one of the most essential and primitive blocks in a RAM slots and stores just 256 bits, namely 32 bytes. 
-The word Random now makes sense. By looking at the two decoders in pictures we can now understand what Random means. It means that no matter which block of memory we want to have access at, the time needed to read/write that block will be the same. That's why it's called Random. You can choose a Random point in a memory slot and this won't affect in any way the time needed to access that particular portion of memory
-\subsection{types of Memory}
-
-We have SDRAM\index{SDRAM}, SO-DIMM\index{SO-DIMM} and SERVER RAM.
-
-\subsubsection{SERVER RAM}
-This ram is mission critical. It's mainly used when a stable environment is required such the one offered by Windows Vista (the only Operative System that has ever achieved \emph{Deadlock Prevention} algorithm).
-Like Windows Vista this RAM suffers from low speed issued. Vista is because of the Deadlock Detection strategy. Server RAM because of the bit parity check. In both cases the user experience would be horrible. This is why these two things should be only operating in Server side where processes have to be checked and memory integrity needs to be ensured
+\subsection {package installation}
+\[sudo \quad pacman -S \quad postgresql \]
 
 
+\begin{lstlisting}
+  resolving dependencies...
+  looking for conflicting packages...   
+  Packages (2) postgresql-libs-13.4-6  postgresql-13.4-6   
+  Total Download Size:   18.36 MiB   
+  Total Installed Size:  59.23 MiB   
+  :: Proceed with installation? [Y/n]         
+\end{lstlisting}
 
+\subsection {changing postgres password}
+
+\[sudo \quad passwd \quad postgres  \]
+
+then change the password
+
+\[sudo \quad -iu \quad postgres \]
+
+
+\[ psql \]
+
+\begin{lstlisting}
+psql: error: could not connect to server: No such file or directory  
+Is the server running locally and accepting   
+connections on Unix domain socket "/run/postgresql/.s.PGSQL.5432"?   
+\end{lstlisting}
+
+\subsection {initialize the database cluster}
+
+let us initialize the database cluster by issuing this command
+
+\[ initdb \quad -D \quad /var/lib/postgres/data \]
+
+\begin{lstlisting}
+  [postgres@daniele-virtualbox ~]$ initdb -D /var/lib/postgres/data  
+  The files belonging to this database system will be owned by user "postgres".   
+  This user must also own the server process.   
+  The database cluster will be initialized with locales   
+  COLLATE:  en_GB.utf8  
+  CTYPE:    en_GB.utf8  
+  MESSAGES: en_GB.utf8  
+  MONETARY: en_GB.UTF-8  
+  NUMERIC:  en_GB.UTF-8  
+  TIME:     en_GB.UTF-8  
+  The default database encoding has accordingly been set to "UTF8".  
+  The default text search configuration will be set to "english".   
+  Data page checksums are disabled.   
+  fixing permissions on existing directory /var/lib/postgres/data ... ok   
+  creating subdirectories ... ok   
+  selecting dynamic shared memory implementation ... posix   
+  selecting default max_connections ... 100   
+  selecting default shared_buffers ... 128MB   
+  selecting default time zone ... Europe/London   
+  creating configuration files ... ok   
+  running bootstrap script ... ok   
+  performing post-bootstrap initialization ... ok   
+  syncing data to disk ... ok   
+  initdb: warning: enabling "trust" authentication for local connections   
+  You can change this by editing pg_hba.conf or using the option -A, or   
+  --auth-local and --auth-host, the next time you run initdb.   
+  Success. You can now start the database server using:   
+  pg_ctl -D /var/lib/postgres/data -l logfile start   
+\end{lstlisting}
+
+
+
+
+as you can see all is being done from the postgres user as it will be the only user meant to be using the database
+
+\[ pg\_ctl \quad -D \quad /var/lib/postgres/data \quad -l \quad logfile \quad start \]
+
+
+\begin{lstlisting}
+  waiting for server to start..../bin/sh: line 1: logfile: Permission denied   
+  stopped waiting   
+  pg_ctl: could not start server   
+  Examine the log output.   
+\end{lstlisting}
+
+\subsubsection{ granting root privileges to postgres user}
+
+let us make postgres a sudoer by adding it via the command `sudo visudo`. Once that's done then issue the following command:
+
+\subsubsection{starting the postgresql service}
+\[ systemctl \quad status \quad postgresql.service \]
+
+\begin{lstlisting}
+     postgresql.service - PostgreSQL database server  
+     Loaded: loaded (/usr/lib/systemd/system/postgresql.service; disabled; vendor preset: disabled)  
+     Active: inactive (dead)   
+\end{lstlisting}
+
+
+the following command then gets issued from the postgres user
+
+\[ initdb \quad --locale=en\_US.UTF-8 \quad -E \quad UTF8 \quad -D \quad /var/lib/postgres/data \]
+
+\begin{lstlisting}
+  initdb: error: directory "/var/lib/postgres/data" exists but is not empty   
+  If you want to create a new database system, either remove or empty   
+  the directory "/var/lib/postgres/data" or run initdb   
+  with an argument other than "/var/lib/postgres/data".   
+\end{lstlisting}
+
+\subsubsection{ housecleaning }
+
+ideally i'll try to remove or empty the directory mentioned above
+
+\[sudo \quad mkdir \quad /var/lib/postgres/data \]
+
+\[sudo \quad chown \quad postgres:postgres \quad /var/lib/postgres/data \] 
+
+\[sudo \quad -u \quad postgres \quad initdb \quad -D \quad /var/lib/postgres/data \]
+
+
+\begin{lstlisting}
+
+  mkdir: cannot create directory ‘/var/lib/postgres/data’: File exists   
+  could not change directory to "/home/daniele": Permission denied   
+  The files belonging to this database system will be owned by user "postgres".   
+  This user must also own the server process.   
+  The database cluster will be initialized with locales   
+  COLLATE:  en_GB.utf8  
+  CTYPE:    en_GB.utf8  
+  MESSAGES: en_GB.utf8  
+  MONETARY: en_GB.UTF-8  
+  NUMERIC:  en_GB.UTF-8  
+  TIME:     en_GB.UTF-8  
+  The default database encoding has accordingly been set to "UTF8".  
+  The default text search configuration will be set to "english".   
+  Data page checksums are disabled.   
+  initdb: error: directory "/var/lib/postgres/data" exists but is not empty  
+  If you want to create a new database system, either remove or empty   
+  the directory "/var/lib/postgres/data" or run initdb   
+  with an argument other than "/var/lib/postgres/data".   
+\end{lstlisting}
+
+
+
+\section { We are good to go }
+
+Here I took some steps:
+
+\begin{enumerate}
+  \item I removed the data folder with sudo privileges
+  \item I added postgres to the sudoers and rebooted
+  \item then issued the following commands again
+\end{enumerate}
+
+
+\[ sudo \quad mkdir \quad /var/lib/postgres/data \]
+\[ sudo \quad chown \quad postgres:postgres \quad /var/lib/postgres/data \]
+\[ sudo \quad -u \quad postgres \quad initdb \quad -D \quad /var/lib/postgres/data \]
+\[ postgresql-setup --initdb \]
+\[ systemctl restart postgresql.service \]
+\[ systemctl enable postgresql.service \]
+
+and it all started to work but I've made another simpler guide which I'll be releasing shortly
 
 \printindex
 
