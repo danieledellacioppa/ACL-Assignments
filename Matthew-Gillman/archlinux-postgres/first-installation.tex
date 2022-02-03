@@ -1,0 +1,91 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{imakeidx}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\makeindex[columns=3, title=Alphabetical Index, intoc]
+
+\begin{document}
+\textbf{archlinux postgres installation}
+\tableofcontents
+
+\section{Introduction}
+
+In this document we are going through all the steps I historically needed to install postgres on ArchLinux. Before reading this guide is encouraged to go through \href{https://github.com/danieledellacioppa/ACL-Assignments/blob/main/Matthew%20Gillman/archlinux-postgres/one-step-installation/README.md} guide first and then come on this page if you get any issues
+
+
+\clearpage
+
+\section{Central Processor Unit}
+This section\index{CPU, Processor} is meant to illustrate the main component of a PC 
+which is the Processor usually addressed as CPU.
+This is the piece of hardware that phisically executes \emph{software} instructions one at at time.
+Without this component there is no chance to have a running computer. It belongs to the bare minimum set of 
+components that you need to have if you want to have something that you can call a PC.
+
+Inside of it there is a set of \emph{registers} available for software developers to use.
+Usually software developer write their code in a \emph{high level language} such as C++, Python, Java, etc.
+The reason they're called high level languages is because there is a high level of abstraction from the processor
+language level which is usually called assembly language (like 8086 or Motorola M68000)
+
+Every \emph{core} of the processor executes one piece of code properly \emph {compiled} in the low level architecture
+language by the compiler.
+
+The reason why today we have usually more than one core is to allow concurrency which means more than one piece of
+code executed at a time. This is achieved by developers by doing concurrent programming which essentially is all about
+writing a software thinking at every instruction which process is executing it, so we'll find in the code checks like
+\[if (pid==0)\]
+where $pid$ is the ID of the $\bf process$ executing the "if" instruction which returns true only when the $\bf process$ hasn't  got any \emph{sons}. If it returns false then we're facing the father process, which usually is the process where the son has been generated from but
+we'll go more in depht on this later on
+
+%Let $D$ be a subset of $\bf R$ and let
+%$f \colon D \to \mathbf{R}$ be a real-valued function on
+%$D$. The function $f$ is said to be \emph{continuous} on
+%$D$ if, for all $\epsilon > 0$ and for all $x \in D$,
+%there exists some $\delta > 0$ (which may depend on $x$)
+%such that if $y \in D$ satisfies
+%\[ |y - x| < \delta \]
+%then
+%\[ |f(y) - f(x)| < \epsilon. \]
+
+%One may readily verify that if $f$ and $g$ are continuous
+%functions on $D$ then the functions $f+g$, $f-g$ and
+%$f.g$ are continuous. If in addition $g$ is everywhere
+%non-zero then $f/g$ is continuous.
+
+\clearpage
+
+\section{Hard Drive}
+This is where data\index{data} is stored
+\subsection{types of hard drive}
+There are SSD\index{SSD} drives and traditional drives
+\clearpage
+
+\section{Memory}
+
+Usually addressed as RAM (stands for Random Access Memory), made in silicon technology it is used to store temporary data for the operative system to function properly. It's usually installed in modules each one of each provides a specific capacity.
+
+Every bit is stored thanks to a component called Flip-Flop. It is usually organized as a matrix of Flip-Flop JK every one of each stores 1 bit only. Every Flip Flop can be accessed thanks to the presence of two decoders as shown in figure :
+ 
+\includegraphics[width=9cm]{./DRAM-02.jpg}
+
+The module shown in picture is one of the most essential and primitive blocks in a RAM slots and stores just 256 bits, namely 32 bytes. 
+The word Random now makes sense. By looking at the two decoders in pictures we can now understand what Random means. It means that no matter which block of memory we want to have access at, the time needed to read/write that block will be the same. That's why it's called Random. You can choose a Random point in a memory slot and this won't affect in any way the time needed to access that particular portion of memory
+\subsection{types of Memory}
+
+We have SDRAM\index{SDRAM}, SO-DIMM\index{SO-DIMM} and SERVER RAM.
+
+\subsubsection{SERVER RAM}
+This ram is mission critical. It's mainly used when a stable environment is required such the one offered by Windows Vista (the only Operative System that has ever achieved \emph{Deadlock Prevention} algorithm).
+Like Windows Vista this RAM suffers from low speed issued. Vista is because of the Deadlock Detection strategy. Server RAM because of the bit parity check. In both cases the user experience would be horrible. This is why these two things should be only operating in Server side where processes have to be checked and memory integrity needs to be ensured
+
+
+
+
+\printindex
+
+
+
+\end{document}
+
