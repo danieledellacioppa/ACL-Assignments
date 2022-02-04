@@ -1,9 +1,10 @@
-# PGTap installation on Archlinux
+# Why chosing PGTap?
 
 This is a document explaining why I've chosen pgTAP to test my database
 
 ## Frequently updated
-It's constantly maintained. Last update was on Dec the 5th 2021
+It's constantly maintained. Last update was on Dec the 5th 2021. The last tool we were using is called dbFIT and
+got its last update in 2015. It was quite easy to learn how to use it but was lacking in functionality and needed JDBC which we would need to pay a licence for.
 
 ## Heavily documented
 Provides lots of features with a huge documentation to go through
