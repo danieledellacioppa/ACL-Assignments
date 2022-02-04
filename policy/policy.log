@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.10)  4 FEB 2022 12:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.10)  4 FEB 2022 14:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -202,11 +202,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
-[3]
+[3] [4]
 ! Undefined control sequence.
 <argument> \imki@jobname 
                          @idxfile
-l.31 
+l.62 
      
 ? 
 
@@ -216,20 +216,20 @@ See the imakeidx package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31 
+l.62 
      
 ? 
-<./seregios.jpg, id=17, 1927.2pt x 1084.05pt>
+<./seregios.jpg, id=21, 1927.2pt x 1084.05pt>
 File: ./seregios.jpg Graphic file (type jpg)
 <use ./seregios.jpg>
-Package pdftex.def Info: ./seregios.jpg  used on input line 41.
+Package pdftex.def Info: ./seregios.jpg  used on input line 72.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
 
-Overfull \hbox (54.41615pt too wide) in paragraph at lines 41--42
+Overfull \hbox (54.41615pt too wide) in paragraph at lines 72--73
 [][] 
  []
 
-[4
+[5
 
  <./seregios.jpg>] (./policy.aux) ) 
 Here is how much of TeX's memory you used:
@@ -239,17 +239,18 @@ Here is how much of TeX's memory you used:
  16920 multiletter control sequences out of 15000+600000
  540386 words of font info for 40 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 30i,4n,32p,771b,162s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,4n,32p,790b,162s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/daniele/.texlive2019/texmf-var/fonts
 /pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/daniele/.texlive2019/texmf-var/fo
 nts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/daniele/.texlive2019/texmf-var
 /fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/daniele/.texlive2019/texmf-
 var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/daniele/.texlive2019/tex
-mf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk>
-Output written on policy.pdf (4 pages, 350058 bytes).
+mf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+Output written on policy.pdf (5 pages, 372501 bytes).
 PDF statistics:
- 205 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 236 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
