@@ -1,7 +1,7 @@
-\contentsline {section}{\numberline {1}Introduction}{1}{}%
-\contentsline {section}{\numberline {2}What is a policy?}{2}{}%
-\contentsline {section}{\numberline {3}why we have them?}{2}{}%
-\contentsline {section}{\numberline {4}Type of policies}{2}{}%
-\contentsline {subsection}{\numberline {4.1}Environmental policies}{2}{}%
-\contentsline {section}{\numberline {5}examples}{3}{}%
-\contentsline {subsection}{\numberline {5.1}Sony Playstation Network Hacking}{3}{}%
+\contentsline {section}{\numberline {1}Introduction}{1}%
+\contentsline {section}{\numberline {2}What is a policy?}{2}%
+\contentsline {section}{\numberline {3}why we have them?}{2}%
+\contentsline {section}{\numberline {4}Type of policies}{2}%
+\contentsline {subsection}{\numberline {4.1}Environmental policies}{2}%
+\contentsline {section}{\numberline {5}examples}{4}%
+\contentsline {subsection}{\numberline {5.1}Sony Playstation Network Hacking}{4}%
