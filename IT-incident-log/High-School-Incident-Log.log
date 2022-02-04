@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.10)  4 FEB 2022 10:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.10)  4 FEB 2022 10:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**why-pgTAP.tex
-(./why-pgTAP.tex
+**High-School-Incident-Log.tex
+(./High-School-Incident-Log.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -141,83 +141,42 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@height=\dimen144
 \Gin@req@width=\dimen145
 )
-\why-pgTAP@idxfile=\write3
-\openout3 = `why-pgTAP.idx'.
-
-
-Writing index file why-pgTAP.idx
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count186
-\lst@gtempboxa=\box91
-\lst@token=\toks16
-\lst@length=\count187
-\lst@currlwidth=\dimen146
-\lst@column=\count188
-\lst@pos=\count189
-\lst@lostspace=\dimen147
-\lst@width=\dimen148
-\lst@newlines=\count190
-\lst@lineno=\count191
-\lst@maxwidth=\dimen149
-
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
-\c@lstnumber=\count192
-\lst@skipnumbers=\count193
-\lst@framebox=\box92
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2019/09/10 1.8c listings configuration
-))
-Package: listings 2019/09/10 1.8c (Carsten Heinz)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 147.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2019/09/10 1.8c listings language file
-)
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count194
-\l__pdf_internal_box=\box93
+\l__kernel_color_stack_int=\count186
+\l__pdf_internal_box=\box91
 )
-(./why-pgTAP.aux)
-\openout1 = `why-pgTAP.aux'.
+(./High-School-Incident-Log.aux)
+\openout1 = `High-School-Incident-Log.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count195
-\scratchdimen=\dimen150
-\scratchbox=\box94
-\nofMPsegments=\count196
-\nofMParguments=\count197
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count198
-\MPscratchDim=\dimen151
-\MPnumerator=\count199
-\makeMPintoPDFobject=\count266
-\everyMPtoPDFconversion=\toks18
+\scratchcounter=\count187
+\scratchdimen=\dimen146
+\scratchbox=\box92
+\nofMPsegments=\count188
+\nofMParguments=\count189
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count190
+\MPscratchDim=\dimen147
+\MPnumerator=\count191
+\makeMPintoPDFobject=\count192
+\everyMPtoPDFconversion=\toks17
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -227,35 +186,70 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count267
-
-(./why-pgTAP.toc)
-\tf@toc=\write4
-\openout4 = `why-pgTAP.toc'.
+(./High-School-Incident-Log.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+)
+\tf@toc=\write3
+\openout3 = `High-School-Incident-Log.toc'.
 
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-[2]
-runsystem(makeindex why-pgTAP.idx)...executed safely (allowed).
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
- (./why-pgTAP.ind) (./why-pgTAP.aux) ) 
+]
+<./boris-pintoflager.jpeg, id=14, 963.6pt x 602.25pt>
+File: ./boris-pintoflager.jpeg Graphic file (type jpg)
+<use ./boris-pintoflager.jpeg>
+Package pdftex.def Info: ./boris-pintoflager.jpeg  used on input line 50.
+(pdftex.def)             Requested size: 426.79134pt x 266.73683pt.
+
+Overfull \hbox (54.41615pt too wide) in paragraph at lines 50--51
+[][] 
+ []
+
+[3
+
+ <./boris-pintoflager.jpeg>]
+! Undefined control sequence.
+<argument> \imki@jobname 
+                         @idxfile
+l.70 
+     
+? 
+
+! Package imakeidx Error: Misplaced \printindex.
+
+See the imakeidx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 
+     
+? 
+[4] (./High-School-Incident-Log.aux) ) 
 Here is how much of TeX's memory you used:
- 3294 strings out of 483183
- 46507 string characters out of 5966292
- 469866 words of memory out of 5000000
- 18299 multiletter control sequences out of 15000+600000
- 535721 words of font info for 29 fonts, out of 8000000 for 9000
+ 1903 strings out of 483183
+ 26839 string characters out of 5966292
+ 256631 words of memory out of 5000000
+ 16920 multiletter control sequences out of 15000+600000
+ 540386 words of font info for 40 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 35i,5n,72p,341b,217s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,4n,32p,525b,162s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/daniele/.texlive2019/texmf-var/fo
-nts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/daniele/.texlive2019/texmf-var
-/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/daniele/.texlive2019/texmf-
-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk>
-Output written on why-pgTAP.pdf (2 pages, 35896 bytes).
+nts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/daniele/.texlive2019/texmf-var
+/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/daniele/.texlive2019/texmf-
+var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/daniele/.texlive2019/tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/daniele/.texlive2019/
+texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk>
+Output written on High-School-Incident-Log.pdf (4 pages, 197812 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 18 compressed objects within 1 object stream
+ 183 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

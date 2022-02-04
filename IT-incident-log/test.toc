@@ -1,9 +1,0 @@
-\contentsline {section}{\numberline {1}Brief description}{2}{}%
-\contentsline {subsection}{\numberline {1.1}Root Cause}{2}{}%
-\contentsline {subsubsection}{\numberline {1.1.1}Corrective and Preventive measures}{2}{}%
-\contentsline {section}{\numberline {2}Timeline}{2}{}%
-\contentsline {subsection}{\numberline {2.1}Resolution and recovery}{2}{}%
-\contentsline {section}{\numberline {3}Evidences}{3}{}%
-\contentsline {section}{\numberline {4}Financial Impact}{3}{}%
-\contentsline {section}{\numberline {5}Psychological Impact}{3}{}%
-\contentsline {subsection}{\numberline {5.1}Financial Recovery Plan}{4}{}%
