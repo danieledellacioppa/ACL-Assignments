@@ -1,0 +1,3 @@
+BCM lifecycle and a few examples of key components like Data Replication Methodology,Single Points of Failure, Impact (Program Initiation)
+
+It's meant to fix a disaster and get back to running
