@@ -14,3 +14,4 @@
 \contentsline {subsection}{\numberline {3.1}data controller}{5}{}%
 \contentsline {subsection}{\numberline {3.2}data processor}{5}{}%
 \contentsline {subsection}{\numberline {3.3}processing}{5}{}%
+\contentsline {section}{\numberline {4}GDPR penalties}{5}{}%

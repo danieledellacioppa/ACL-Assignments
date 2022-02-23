@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.10)  16 FEB 2022 16:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.10)  23 FEB 2022 14:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -120,30 +120,30 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ] [4] [5
 
-]
+] [6]
 ! Undefined control sequence.
-l.97 \printindex
-                
+l.105 \printindex
+                 
 ? 
 (./DPA.aux) ) 
 Here is how much of TeX's memory you used:
- 1512 strings out of 478353
- 22464 string characters out of 5854635
+ 1513 strings out of 478353
+ 22475 string characters out of 5854635
  321822 words of memory out of 5000000
- 19666 multiletter control sequences out of 15000+600000
+ 19667 multiletter control sequences out of 15000+600000
  411131 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,5n,62p,330b,118s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,5n,62p,465b,118s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{
 /usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texm
 f-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/ty
 pe1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-s
 uper/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.p
 fb>
-Output written on DPA.pdf (5 pages, 81641 bytes).
+Output written on DPA.pdf (6 pages, 86233 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 48 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
