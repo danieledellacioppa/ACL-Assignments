@@ -4,3 +4,9 @@
 \contentsline {subsection}{\numberline {3.1}ISO 22301 and differences}{3}{}%
 \contentsline {section}{\numberline {4}Environmental 14001}{3}{}%
 \contentsline {section}{\numberline {5}Quality 9001}{3}{}%
+\contentsline {section}{\numberline {6}BCM}{4}{}%
+\contentsline {subsection}{\numberline {6.1} Impact analysis }{4}{}%
+\contentsline {subsection}{\numberline {6.2}Solution design}{4}{}%
+\contentsline {subsection}{\numberline {6.3}Implementation}{4}{}%
+\contentsline {subsection}{\numberline {6.4}Testing and organisational acceptance}{5}{}%
+\contentsline {subsection}{\numberline {6.5}Maintenance}{5}{}%
