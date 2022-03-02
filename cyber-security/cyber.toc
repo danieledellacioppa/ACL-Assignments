@@ -3,4 +3,3 @@
 \contentsline {section}{\numberline {3}BCS Questions}{2}{}%
 \contentsline {subsection}{\numberline {3.1}Three main security control that relate to delivering any IT solution}{2}{}%
 \contentsline {subsection}{\numberline {3.2}How would you improve cyber security awareness}{3}{}%
-\contentsline {subsubsection}{\numberline {3.2.1}multi-vector approach}{3}{}%
