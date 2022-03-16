@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.10)  16 MAR 2022 09:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.10)  16 MAR 2022 10:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -103,11 +103,11 @@ e
 ))
 (./presentation.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 3.
+(Font)              <12> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
+(Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
+(Font)              <6> on input line 2.
 )
 \tf@toc=\write3
 \openout3 = `presentation.toc'.
@@ -115,32 +115,53 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<risk.jpg, id=9, 1204.5pt x 963.6pt>
+File: risk.jpg Graphic file (type jpg)
+<use risk.jpg>
+Package pdftex.def Info: risk.jpg  used on input line 23.
+(pdftex.def)             Requested size: 426.79134pt x 341.4408pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 23--24
+ [] 
+ []
+
 [2
 
-] [3]
+ <./risk.jpg>]
+<Analysis.jpg, id=15, 556.479pt x 252.945pt>
+File: Analysis.jpg Graphic file (type jpg)
+<use Analysis.jpg>
+Package pdftex.def Info: Analysis.jpg  used on input line 34.
+(pdftex.def)             Requested size: 426.79134pt x 193.99632pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 34--35
+ [] 
+ []
+
+[3 <./Analysis.jpg>] [4]
 ! Undefined control sequence.
-l.39 \printindex
+l.51 \printindex
                 
 ? 
 (./presentation.aux) ) 
 Here is how much of TeX's memory you used:
- 1511 strings out of 478353
- 22586 string characters out of 5854635
- 321840 words of memory out of 5000000
- 19665 multiletter control sequences out of 15000+600000
+ 1528 strings out of 478353
+ 22840 string characters out of 5854635
+ 320840 words of memory out of 5000000
+ 19679 multiletter control sequences out of 15000+600000
  411478 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,5n,62p,489b,109s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,5n,62p,489b,178s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-
 t1.enc}</usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/sh
 are/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/
 fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/pub
 lic/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sf
 ti1200.pfb>
-Output written on presentation.pdf (3 pages, 91770 bytes).
+Output written on presentation.pdf (4 pages, 10690333 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 45 PDF objects out of 1000 (max. 8388607)
+ 26 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
