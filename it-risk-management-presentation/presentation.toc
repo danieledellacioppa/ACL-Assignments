@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{}%
+\contentsline {section}{\numberline {2}Steps to IT risk Management}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Identify the Risk}{2}{}%
+\contentsline {subsection}{\numberline {2.2}Analyzing the risk}{2}{}%
+\contentsline {subsection}{\numberline {2.3}Evaluation of the risk}{2}{}%
+\contentsline {subsection}{\numberline {2.4}Respond to the risk}{2}{}%
+\contentsline {subsection}{\numberline {2.5}Monitor and Review the Risk}{3}{}%
