@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.10)  16 MAR 2022 11:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.10)  16 MAR 2022 13:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -103,11 +103,11 @@ e
 ))
 (./presentation.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 3.
+(Font)              <12> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
+(Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
+(Font)              <6> on input line 2.
 )
 \tf@toc=\write3
 \openout3 = `presentation.toc'.
@@ -115,16 +115,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (0.7877pt too wide) in paragraph at lines 25--27
+\T1/cmr/m/n/12 browser hi-jack-ers, ran-somware, key-log-gers, back-doors, root
+k-its, tro-jan horses,
+ []
+
 [2
 
 ]
-<risk.jpg, id=12, 1204.5pt x 963.6pt>
+<risk.jpg, id=13, 1204.5pt x 963.6pt>
 File: risk.jpg Graphic file (type jpg)
 <use risk.jpg>
-Package pdftex.def Info: risk.jpg  used on input line 32.
+Package pdftex.def Info: risk.jpg  used on input line 39.
 (pdftex.def)             Requested size: 426.79134pt x 341.4408pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 32--33
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 39--40
  [] 
  []
 
@@ -134,16 +139,16 @@ Overfull \hbox (36.79134pt too wide) in paragraph at lines 32--33
 <Analysis.jpg, id=18, 556.479pt x 252.945pt>
 File: Analysis.jpg Graphic file (type jpg)
 <use Analysis.jpg>
-Package pdftex.def Info: Analysis.jpg  used on input line 43.
+Package pdftex.def Info: Analysis.jpg  used on input line 50.
 (pdftex.def)             Requested size: 426.79134pt x 193.99632pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 43--44
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 50--51
  [] 
  []
 
 [4 <./Analysis.jpg>] [5]
 ! Undefined control sequence.
-l.60 \printindex
+l.67 \printindex
                 
 ? 
 (./presentation.aux) ) 
@@ -154,14 +159,14 @@ Here is how much of TeX's memory you used:
  19679 multiletter control sequences out of 15000+600000
  411478 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,5n,62p,489b,178s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,5n,62p,567b,178s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-
 t1.enc}</usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/sh
 are/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/
 fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/pub
 lic/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sf
 ti1200.pfb>
-Output written on presentation.pdf (5 pages, 10691231 bytes).
+Output written on presentation.pdf (5 pages, 10694468 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream
