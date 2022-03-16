@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.10)  16 MAR 2022 10:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.10)  16 MAR 2022 11:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -103,11 +103,11 @@ e
 ))
 (./presentation.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 2.
+(Font)              <12> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 2.
+(Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 2.
+(Font)              <6> on input line 3.
 )
 \tf@toc=\write3
 \openout3 = `presentation.toc'.
@@ -115,32 +115,35 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<risk.jpg, id=9, 1204.5pt x 963.6pt>
-File: risk.jpg Graphic file (type jpg)
-<use risk.jpg>
-Package pdftex.def Info: risk.jpg  used on input line 23.
-(pdftex.def)             Requested size: 426.79134pt x 341.4408pt.
-
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 23--24
- [] 
- []
-
 [2
 
- <./risk.jpg>]
-<Analysis.jpg, id=15, 556.479pt x 252.945pt>
-File: Analysis.jpg Graphic file (type jpg)
-<use Analysis.jpg>
-Package pdftex.def Info: Analysis.jpg  used on input line 34.
-(pdftex.def)             Requested size: 426.79134pt x 193.99632pt.
+]
+<risk.jpg, id=12, 1204.5pt x 963.6pt>
+File: risk.jpg Graphic file (type jpg)
+<use risk.jpg>
+Package pdftex.def Info: risk.jpg  used on input line 32.
+(pdftex.def)             Requested size: 426.79134pt x 341.4408pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 34--35
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 32--33
  [] 
  []
 
-[3 <./Analysis.jpg>] [4]
+[3
+
+ <./risk.jpg>]
+<Analysis.jpg, id=18, 556.479pt x 252.945pt>
+File: Analysis.jpg Graphic file (type jpg)
+<use Analysis.jpg>
+Package pdftex.def Info: Analysis.jpg  used on input line 43.
+(pdftex.def)             Requested size: 426.79134pt x 193.99632pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 43--44
+ [] 
+ []
+
+[4 <./Analysis.jpg>] [5]
 ! Undefined control sequence.
-l.51 \printindex
+l.60 \printindex
                 
 ? 
 (./presentation.aux) ) 
@@ -158,10 +161,10 @@ are/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/
 fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/pub
 lic/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sf
 ti1200.pfb>
-Output written on presentation.pdf (4 pages, 10690333 bytes).
+Output written on presentation.pdf (5 pages, 10691231 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 48 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
