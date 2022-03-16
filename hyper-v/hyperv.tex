@@ -1,0 +1,74 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{imakeidx}
+\usepackage{graphicx}
+%\makeindex[columns=3, title=Alphabetical Index, intoc]
+
+\begin{document}
+
+\textbf{hyper-V}
+
+\tableofcontents
+\clearpage
+ 
+\section{Introduction}
+Here we spend some words on the virtualization topic
+
+\section{How many we have out there?}
+
+Here follows a list of the virtualization tools available on the internet to download and get to work with
+
+\begin{itemize}
+\item Hyper-V
+\item VMWare
+\item VirtualBox
+\item Qemu
+\end{itemize}
+
+\section{Hyper-V}
+Here we focus specifically on hyper-V
+
+\subsection {What it is}
+Hyper-V is a \emph{hypervisor-based} virtualization technology. Hyper-V uses the Windows hypervisor, which requires a physical processor with specific features.
+In most cases, the hypervisor manages the interactions between the hardware and the virtual machines.
+
+\subsubsection {hypervisor}
+
+A hypervisor is computer software or hardware that enables you to host multiple virtual machines able to run
+its own programs working optimally on a single piece of computer hardware.
+
+\subsubsection {PROs and CONs}
+
+Might not be relatively easy to install and set up especially on Windows 10 Home Edition.
+
+You can have software running at a pretty decent performance as if it was not emulated at all
+
+\subsection {Installation on Windows 10 Home Edition}
+Unfortunately, the Hyper-V feature is only available in Windows 10 Professional and Enterprise editions. You can’t install it on Windows 10 Home Edition by default unless you go through some steps.
+
+\subsubsection {Does your system support virtualization?}
+Before moving forward, we need to check if our system supports virtualization.
+Hardware virtualization is required for Hyper-V to function correctly.
+Otherwise, you can use other virtualization platforms like Virtualbox and VMWare.
+
+There are four basic requirements for Hyper-V to be installed on a Windows 10 computer:
+
+\begin{itemize}
+\item VM Monitor Mode Extensions
+\item Virtualization enabled in firmware
+\item Second level address translation
+\item Data execution prevention
+\end{itemize}
+
+You can check all these requirements by opening the Command Prompt by running \emph{cmd} and running the systeminfo command. You can check the Hyper-V requirements section.
+
+\subsubsection{Enable Hyper-V in Windows 10 Home}
+You need to run "optionalfeatures" and tick the \emph{Hyper-V Management Tools} and \emph{Hyper-V Platform}
+
+\section{network tester}
+
+\clearpage
+
+\printindex
+
+\end{document}
