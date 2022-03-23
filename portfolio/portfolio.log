@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.10)  23 MAR 2022 09:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.10)  23 MAR 2022 11:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -102,6 +102,12 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 (./portfolio.toc
+! Misplaced alignment tab character &.
+<argument> \numberline {1.1}iOS &
+                                  Android development
+l.2 ...erline {1.1}iOS & Android development}{3}{}
+                                                  %
+? 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -115,40 +121,60 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<./boris-pintoflager.jpeg, id=9, 963.6pt x 602.25pt>
-File: ./boris-pintoflager.jpeg Graphic file (type jpg)
-<use ./boris-pintoflager.jpeg>
-Package pdftex.def Info: ./boris-pintoflager.jpeg  used on input line 27.
-(pdftex.def)             Requested size: 426.79134pt x 266.73683pt.
-
-Overfull \hbox (54.41615pt too wide) in paragraph at lines 27--28
-[][] 
- []
-
-! Undefined control sequence.
-l.29 \printindex
-                
+! Misplaced alignment tab character &.
+l.28 \item {iOS &
+                  Android development}
 ? 
 [2
 
- <./boris-pintoflager.jpeg>] (./portfolio.aux) ) 
+]
+! Misplaced alignment tab character &.
+<argument> iOS &
+                 Android development
+l.32 \subsection{iOS & Android development}
+                                           
+? 
+<./capture-app.PNG, id=13, 350.16536pt x 727.00179pt>
+File: ./capture-app.PNG Graphic file (type png)
+<use ./capture-app.PNG>
+Package pdftex.def Info: ./capture-app.PNG  used on input line 35.
+(pdftex.def)             Requested size: 256.0748pt x 531.6609pt.
+[3
+
+ <./capture-app.PNG>]
+<./ERSchemaGen2.jpg, id=20, 8788.835pt x 9242.53pt>
+File: ./ERSchemaGen2.jpg Graphic file (type jpg)
+<use ./ERSchemaGen2.jpg>
+Package pdftex.def Info: ./ERSchemaGen2.jpg  used on input line 52.
+(pdftex.def)             Requested size: 426.79134pt x 448.75578pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 52--53
+[] 
+ []
+
+! Undefined control sequence.
+l.54 \printindex
+                
+? 
+[4] [5 <./ERSchemaGen2.jpg>] (./portfolio.aux) ) 
 Here is how much of TeX's memory you used:
- 1517 strings out of 478353
- 22720 string characters out of 5854635
- 317834 words of memory out of 5000000
- 19670 multiletter control sequences out of 15000+600000
- 410794 words of font info for 42 fonts, out of 8000000 for 9000
+ 1528 strings out of 478353
+ 22865 string characters out of 5854635
+ 318834 words of memory out of 5000000
+ 19678 multiletter control sequences out of 15000+600000
+ 411131 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,5n,62p,186b,111s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,5n,62p,186b,161s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/en
-c/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/cm-s
-uper/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.p
-fb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/
-texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on portfolio.pdf (2 pages, 207818 bytes).
+c/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-supe
+r/cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.
+pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share
+/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fon
+ts/type1/public/cm-super/sfrm1200.pfb>
+Output written on portfolio.pdf (5 pages, 6611942 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 49 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
