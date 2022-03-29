@@ -1,0 +1,85 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{imakeidx}
+\usepackage{graphicx}
+
+%\makeindex[columns=3, title=Alphabetical Index, intoc]
+
+\usepackage{listings}
+
+\begin{document}
+
+\textbf{PostgreSQL database activity logging}
+
+
+\tableofcontents
+\clearpage
+
+\section{Logging}
+
+The following is what is currently working to make PostgreSQL database to log some of its activity regarding errors. The postgresql.conf needs to be looked at with more detail to discover more features
+\begin{enumerate}
+\item {logging into postgres}
+\item {issue the command \textbf{SHOW config\_file;}}\footnotemark{}\footnotetext{so that I know what file I need to modify to enable logging}
+    
+ 
+          \begin{lstlisting}
+          config_file   
+          /etc/postgresql/12/main/postgresql.conf
+          (1 row)
+          \end{lstlisting}
+
+
+\item{issue the command \textbf{SHOW data\_directory;}}\footnotemark{}\footnotetext{so that I know where the log file is going to be stored}
+    
+    \begin{lstlisting}
+    data_directory        
+    /var/lib/postgresql/12/main
+    (1 row)
+    \end{lstlisting}
+
+\item {adding the following lines to the postgresql.conf}
+   
+    \begin{lstlisting}
+    log_destination = 'csvlog'
+    logging_collector = on
+    log_directory = 'pg_log'
+    log_filename = 'postgresql-%Y-%m-%d_%H%M%S.log'
+    \end{lstlisting}
+
+\item{I issued \textbf{service postgresql restart}}
+\item{I entered the database and purposively caused an error by trying to insert 3 values in a table with only 2 columns}
+\item{it gave me an error}
+\item{the same error is located under the folder /var/lib/postgresql/12/main/pg\_log/ in a file called postgresql-2022-03-29\_115933.csv}
+
+\section{avoiding the log file to take too much space}
+
+Thanks to this syntax we used in the postgresql.conf `postgresql-%Y-%m-%d_%H%M%S.log` we're saving different logs with names indicating the date when they did get generated.
+If we issue `sudo service postgresql restart` a new log file will be created now and kept open in append mode for the whole duration of the session. Once the computer or the database is shut then the log file will be closed.
+Next time the database istance is launched a new log file will be created.
+
+Thanks to this naming
+\begin{lstlisting}
+postgresql-%Y-%m-%d_%H%M%S.log
+\end{lstlisting}
+
+we can delete unwanted log file from terminal periodically with a simple bash script
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\lstinputlisting[language=Octave]{BitXorMatrix.m}
+ 
+\printindex
+
+\end{document}

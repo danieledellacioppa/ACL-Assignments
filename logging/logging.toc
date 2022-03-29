@@ -1,0 +1,2 @@
+\contentsline {section}{\numberline {1}Logging}{2}%
+\contentsline {section}{\numberline {2}avoiding the log file to take too much space}{3}%
