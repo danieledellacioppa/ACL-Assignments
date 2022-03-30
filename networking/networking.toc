@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}What it is}{2}{}%
+\contentsline {section}{\numberline {2}benefits of a network}{2}{}%
+\contentsline {subsection}{\numberline {2.1}guided wiring}{3}{}%
+\contentsline {subsection}{\numberline {2.2}unguided wiring}{3}{}%
+\contentsline {section}{\numberline {3}LAN vs WAN}{3}{}%
+\contentsline {section}{\numberline {4}IEEE 802.3}{4}{}%
