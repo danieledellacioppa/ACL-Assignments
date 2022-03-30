@@ -4,3 +4,5 @@
 \contentsline {subsection}{\numberline {2.2}unguided wiring}{3}{}%
 \contentsline {section}{\numberline {3}LAN vs WAN}{3}{}%
 \contentsline {section}{\numberline {4}IEEE 802.3}{4}{}%
+\contentsline {section}{\numberline {5}Protocols}{5}{}%
+\contentsline {subsection}{\numberline {5.1}OSI standard}{5}{}%
