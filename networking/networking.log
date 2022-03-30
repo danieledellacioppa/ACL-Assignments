@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.10)  30 MAR 2022 14:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.10)  30 MAR 2022 14:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -177,17 +177,28 @@ Overfull \hbox (36.79134pt too wide) in paragraph at lines 65--66
 
 [4
 
- <./ieee_802.jpg>] [5]
+ <./ieee_802.jpg>]
+<./OSI-7-layers.jpg, id=28, 562.1pt x 457.71pt>
+File: ./OSI-7-layers.jpg Graphic file (type jpg)
+<use ./OSI-7-layers.jpg>
+Package pdftex.def Info: ./OSI-7-layers.jpg  used on input line 74.
+(pdftex.def)             Requested size: 426.79134pt x 347.52798pt.
+
+Overfull \hbox (54.41615pt too wide) in paragraph at lines 74--75
+[][] 
+ []
+
+[5 <./OSI-7-layers.jpg>] [6]
 ! Undefined control sequence.
-l.80 \printindex
+l.82 \printindex
                 
 ? 
 (./networking.aux) ) 
 Here is how much of TeX's memory you used:
- 2908 strings out of 478353
- 42661 string characters out of 5854635
+ 2915 strings out of 478353
+ 42816 string characters out of 5854635
  341594 words of memory out of 5000000
- 21041 multiletter control sequences out of 15000+600000
+ 21047 multiletter control sequences out of 15000+600000
  414886 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,8n,62p,517b,262s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -201,10 +212,10 @@ x1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr
 st/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/
 public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super
 /sfti1200.pfb>
-Output written on networking.pdf (5 pages, 227602 bytes).
+Output written on networking.pdf (6 pages, 268324 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 77 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
