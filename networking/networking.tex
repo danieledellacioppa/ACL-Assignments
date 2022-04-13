@@ -102,6 +102,12 @@ There's a debate on which one is vertical and which is horizontal so that point 
 Address Resolution Protocol translates MAC addresses into IPs so that from the network layer we can communicate over the internet with IPs while RARP demands another computer (usually a server) to assign the demanding one with an IP which is essentially what DHCP is doing that's why RARP got obsolete
 \subsection{ARP Tables}
 These are used from every component in a network to know which MAC address the packet needs to point at 
+On this machine for example all it needs to know is which is the MAC address of the gateway, and the TV who's connected in the same WiFi
+          \begin{lstlisting}
+            _gateway (192.168.0.1) at 24:a7:dc:31:5b:d1 [ether] on wlp3s0
+            TV (192.168.0.129) at cc:d3:c1:64:f9:f3 [ether] on wlp3s0
+          \end{lstlisting}
+
 \subsection{Three-way-handshake}
 This is when the client sends the ARP request to the server. The server does an aknowledgment and answers with an ARP reply saying both its MAC and its IP. It all happens like this :
 
@@ -112,6 +118,7 @@ To send the message, it also requires Computer 2's MAC address. First, Computer 
 Computer 2 responds with an ARP response message containing its MAC and IP addresses. As part of fielding the request, Computer 2 may insert an entry for Computer 1 into its ARP table for future use.
 
 Computer 1 receives and caches the response information in its ARP table and can now send the packet
+
 \clearpage
 \printindex
 
