@@ -6,3 +6,6 @@
 \contentsline {section}{\numberline {4}IEEE 802.3}{4}{}%
 \contentsline {section}{\numberline {5}Protocols}{5}{}%
 \contentsline {subsection}{\numberline {5.1}OSI standard}{5}{}%
+\contentsline {subsection}{\numberline {5.2}good mnemonic for OSI}{6}{}%
+\contentsline {subsection}{\numberline {5.3}theory vs practice}{6}{}%
+\contentsline {subsection}{\numberline {5.4}horizontal vs vertical approach}{6}{}%
