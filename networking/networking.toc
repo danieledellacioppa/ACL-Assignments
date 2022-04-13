@@ -9,3 +9,6 @@
 \contentsline {subsection}{\numberline {5.2}good mnemonic for OSI}{6}{}%
 \contentsline {subsection}{\numberline {5.3}theory vs practice}{6}{}%
 \contentsline {subsection}{\numberline {5.4}horizontal vs vertical approach}{6}{}%
+\contentsline {section}{\numberline {6}ARP/RARP/DHCP}{6}{}%
+\contentsline {subsection}{\numberline {6.1}ARP Tables}{7}{}%
+\contentsline {subsection}{\numberline {6.2}Three-way-handshake}{7}{}%
