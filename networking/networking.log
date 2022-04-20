@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.18)  20 APR 2022 17:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.18)  20 APR 2022 17:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -219,12 +219,16 @@ File: ./performance.PNG Graphic file (type png)
 Package pdftex.def Info: ./performance.PNG  used on input line 148.
 (pdftex.def)             Requested size: 369.88582pt x 323.663pt.
  [10 <./performance.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+
+ []
+
 <./ping.PNG, id=54, 1651.88571pt x 929.18571pt>
 File: ./ping.PNG Graphic file (type png)
 <use ./ping.PNG>
 Package pdftex.def Info: ./ping.PNG  used on input line 166.
 (pdftex.def)             Requested size: 369.88582pt x 208.0511pt.
- [11 <./ping.png>]
+[11 <./ping.png>]
 <./step-by-step/0.PNG, id=60, 818.19965pt x 625.04947pt>
 File: ./step-by-step/0.PNG Graphic file (type png)
 <use ./step-by-step/0.PNG>
@@ -456,7 +460,7 @@ ist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1
 /public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-supe
 r/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
 </usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on networking.pdf (32 pages, 4916961 bytes).
+Output written on networking.pdf (32 pages, 4916951 bytes).
 PDF statistics:
  225 PDF objects out of 1000 (max. 8388607)
  110 compressed objects within 2 object streams
