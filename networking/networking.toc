@@ -12,4 +12,7 @@
 \contentsline {section}{\numberline {6}ARP/RARP/DHCP}{6}{}%
 \contentsline {subsection}{\numberline {6.1}ARP Tables}{7}{}%
 \contentsline {subsection}{\numberline {6.2}Three-way-handshake}{7}{}%
-\contentsline {section}{\numberline {7}Networking Hardware}{7}{}%
+\contentsline {section}{\numberline {7}Networking Hardware}{8}{}%
+\contentsline {subsection}{\numberline {7.1}Routers}{8}{}%
+\contentsline {subsection}{\numberline {7.2}Modems}{8}{}%
+\contentsline {subsection}{\numberline {7.3}Hubs, bridges and switches}{9}{}%
