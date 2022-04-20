@@ -20,5 +20,6 @@
 \contentsline {subsubsection}{\numberline {7.3.2}Bridges}{10}{}%
 \contentsline {subsubsection}{\numberline {7.3.3}Switches}{10}{}%
 \contentsline {section}{\numberline {8}Cisco Packet Tracer}{11}{}%
-\contentsline {section}{\numberline {9}PoE}{11}{}%
-\contentsline {section}{\numberline {10}LAN status LEDs}{11}{}%
+\contentsline {subsection}{\numberline {8.1}a step by step guide from scratch}{11}{}%
+\contentsline {section}{\numberline {9}PoE}{32}{}%
+\contentsline {section}{\numberline {10}LAN status LEDs}{32}{}%
