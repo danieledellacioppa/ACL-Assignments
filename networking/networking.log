@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.18)  20 APR 2022 17:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.18)  20 APR 2022 17:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -326,99 +326,142 @@ Package pdftex.def Info: ./step-by-step/7.PNG  used on input line 213.
 [19
 
  <./step-by-step/7.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
+
+ []
+
 <./step-by-step/8.PNG, id=104, 825.94286pt x 929.18571pt>
 File: ./step-by-step/8.PNG Graphic file (type png)
 <use ./step-by-step/8.PNG>
-Package pdftex.def Info: ./step-by-step/8.PNG  used on input line 218.
+Package pdftex.def Info: ./step-by-step/8.PNG  used on input line 219.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
- [20
+[20
 
  <./step-by-step/8.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
+
+ []
+
 <./step-by-step/9.PNG, id=109, 825.94286pt x 929.18571pt>
 File: ./step-by-step/9.PNG Graphic file (type png)
 <use ./step-by-step/9.PNG>
-Package pdftex.def Info: ./step-by-step/9.PNG  used on input line 222.
+Package pdftex.def Info: ./step-by-step/9.PNG  used on input line 224.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
- [21
+[21
 
  <./step-by-step/9.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
 <./step-by-step/10.PNG, id=114, 825.94286pt x 929.18571pt>
 File: ./step-by-step/10.PNG Graphic file (type png)
 <use ./step-by-step/10.PNG>
-Package pdftex.def Info: ./step-by-step/10.PNG  used on input line 226.
+Package pdftex.def Info: ./step-by-step/10.PNG  used on input line 229.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
- [22
+[22
 
  <./step-by-step/10.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
+
+ []
+
 <./step-by-step/11.PNG, id=119, 825.94286pt x 929.18571pt>
 File: ./step-by-step/11.PNG Graphic file (type png)
 <use ./step-by-step/11.PNG>
-Package pdftex.def Info: ./step-by-step/11.PNG  used on input line 230.
+Package pdftex.def Info: ./step-by-step/11.PNG  used on input line 234.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
- [23
+[23
 
  <./step-by-step/11.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
 <./step-by-step/12.PNG, id=124, 825.94286pt x 929.18571pt>
 File: ./step-by-step/12.PNG Graphic file (type png)
 <use ./step-by-step/12.PNG>
-Package pdftex.def Info: ./step-by-step/12.PNG  used on input line 234.
+Package pdftex.def Info: ./step-by-step/12.PNG  used on input line 239.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
- [24
+[24
 
  <./step-by-step/12.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+
+ []
+
 <./step-by-step/13.PNG, id=129, 603.11035pt x 582.0316pt>
 File: ./step-by-step/13.PNG Graphic file (type png)
 <use ./step-by-step/13.PNG>
-Package pdftex.def Info: ./step-by-step/13.PNG  used on input line 238.
+Package pdftex.def Info: ./step-by-step/13.PNG  used on input line 244.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
- [25
+[25
 
  <./step-by-step/13.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+
+ []
+
 <./step-by-step/14.PNG, id=135, 603.11035pt x 582.0316pt>
 File: ./step-by-step/14.PNG Graphic file (type png)
 <use ./step-by-step/14.PNG>
-Package pdftex.def Info: ./step-by-step/14.PNG  used on input line 243.
+Package pdftex.def Info: ./step-by-step/14.PNG  used on input line 250.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
- [26
+[26
 
  <./step-by-step/14.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
+
+ []
+
 <./step-by-step/15.PNG, id=140, 825.94286pt x 929.18571pt>
 File: ./step-by-step/15.PNG Graphic file (type png)
 <use ./step-by-step/15.PNG>
-Package pdftex.def Info: ./step-by-step/15.PNG  used on input line 247.
+Package pdftex.def Info: ./step-by-step/15.PNG  used on input line 255.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
- [27
+[27
 
  <./step-by-step/15.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
+
+ []
+
 <./step-by-step/16.PNG, id=145, 603.11035pt x 582.0316pt>
 File: ./step-by-step/16.PNG Graphic file (type png)
 <use ./step-by-step/16.PNG>
-Package pdftex.def Info: ./step-by-step/16.PNG  used on input line 252.
+Package pdftex.def Info: ./step-by-step/16.PNG  used on input line 261.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
- [28
+[28
 
  <./step-by-step/16.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 273--275
+
+ []
+
 <./step-by-step/17.PNG, id=150, 603.11035pt x 582.0316pt>
 File: ./step-by-step/17.PNG Graphic file (type png)
 <use ./step-by-step/17.PNG>
-Package pdftex.def Info: ./step-by-step/17.PNG  used on input line 266.
+Package pdftex.def Info: ./step-by-step/17.PNG  used on input line 276.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
- [29
+[29
 
  <./step-by-step/17.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
+
+ []
+
 <./step-by-step/18.PNG, id=156, 603.11035pt x 582.0316pt>
 File: ./step-by-step/18.PNG Graphic file (type png)
 <use ./step-by-step/18.PNG>
-Package pdftex.def Info: ./step-by-step/18.PNG  used on input line 271.
+Package pdftex.def Info: ./step-by-step/18.PNG  used on input line 282.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
-
 [30
 
  <./step-by-step/18.PNG>]
 <./step-by-step/19.PNG, id=161, 825.94286pt x 929.18571pt>
 File: ./step-by-step/19.PNG Graphic file (type png)
 <use ./step-by-step/19.PNG>
-Package pdftex.def Info: ./step-by-step/19.PNG  used on input line 277.
+Package pdftex.def Info: ./step-by-step/19.PNG  used on input line 288.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
  [31
 
@@ -426,23 +469,27 @@ Package pdftex.def Info: ./step-by-step/19.PNG  used on input line 277.
 <./step-by-step/20.PNG, id=167, 603.11035pt x 582.0316pt>
 File: ./step-by-step/20.PNG Graphic file (type png)
 <use ./step-by-step/20.PNG>
-Package pdftex.def Info: ./step-by-step/20.PNG  used on input line 284.
+Package pdftex.def Info: ./step-by-step/20.PNG  used on input line 295.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
  [32
 
  <./step-by-step/20.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
+
+ []
+
 <./step-by-step/21.PNG, id=172, 603.11035pt x 582.0316pt>
 File: ./step-by-step/21.PNG Graphic file (type png)
 <use ./step-by-step/21.PNG>
-Package pdftex.def Info: ./step-by-step/21.PNG  used on input line 288.
+Package pdftex.def Info: ./step-by-step/21.PNG  used on input line 300.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
- [33
+[33
 
  <./step-by-step/21.PNG>] [34
 
 ]
 ! Undefined control sequence.
-l.300 \printindex
+l.312 \printindex
                  
 ? 
 (./networking.aux) ) 
@@ -466,7 +513,7 @@ dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type
 er/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
 ></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/te
 xmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on networking.pdf (34 pages, 4932370 bytes).
+Output written on networking.pdf (34 pages, 4932377 bytes).
 PDF statistics:
  236 PDF objects out of 1000 (max. 8388607)
  117 compressed objects within 2 object streams
