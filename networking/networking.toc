@@ -19,3 +19,4 @@
 \contentsline {subsubsection}{\numberline {7.3.1}Hubs}{9}{}%
 \contentsline {subsubsection}{\numberline {7.3.2}Bridges}{10}{}%
 \contentsline {subsubsection}{\numberline {7.3.3}Switches}{10}{}%
+\contentsline {section}{\numberline {8}Cisco Packet Tracer}{11}{}%
