@@ -22,5 +22,4 @@
 \contentsline {section}{\numberline {8}Cisco Packet Tracer}{11}{}%
 \contentsline {subsection}{\numberline {8.1}A step-by-step guide}{12}{}%
 \contentsline {subsubsection}{\numberline {8.1.1}expanding the network}{32}{}%
-\contentsline {section}{\numberline {9}PoE}{34}{}%
-\contentsline {section}{\numberline {10}LAN status LEDs}{34}{}%
+\contentsline {section}{\numberline {9}Power over Ethernet}{34}{}%
