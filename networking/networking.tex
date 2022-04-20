@@ -208,70 +208,85 @@ The following is what we've got when we open Cisco Packet Tracer : \newline
 \noindent \includegraphics[width=13cm]{./step-by-step/6.PNG}
 \clearpage
 
-\noindent step2 hehe
+\noindent Now we add a new computer \newline
 
 \noindent \includegraphics[width=13cm]{./step-by-step/7.PNG}
 \clearpage
 
 
-\noindent step2 hehe
+\noindent We link the switch to the first computer and wait for all lights to go green \newline
 \noindent \includegraphics[width=13cm]{./step-by-step/8.PNG}
 \clearpage
 
-\noindent step2 hehe
+\noindent Link the switch to the second computer and wait for this link to go all green as well \newline
 \noindent \includegraphics[width=13cm]{./step-by-step/9.PNG}
 \clearpage
 
-\noindent step2 hehe
+\noindent Now it's all green which makes us happy \newline
 \noindent \includegraphics[width=13cm]{./step-by-step/10.PNG}
 \clearpage
 
-\noindent afgstgst
+\noindent Let's add a router \newline
 \noindent \includegraphics[width=13cm]{./step-by-step/11.PNG}
 \clearpage
 
-\noindent non e possible
+\noindent Let's link the router to the first computer \newline
 \noindent \includegraphics[width=13cm]{./step-by-step/12.PNG}
 \clearpage
 
-\noindent che veramente 
+\noindent If you click on the router, in the config tab there is a box you need to check. That box will emulate the router being powered on \newline
 \noindent \includegraphics[width=13cm]{./step-by-step/13.PNG}
 \clearpage
 
 
-\noindent devo fare
+\noindent Once you click in the box a small tick will appear in it. This means the box is ticked and the function that box is proving is now being turned on \newline
 \noindent \includegraphics[width=13cm]{./step-by-step/14.PNG}
 \clearpage
 
-\noindent questa 
+\noindent as a result of ticking that box now you can see the link going green wich means is enabled for data transmission \newline
 \noindent \includegraphics[width=13cm]{./step-by-step/15.PNG}
 \clearpage
 
 
-\noindent buffonata
+\noindent we only need to sort the \textbf{IP Configuration} out as well \newline
 \noindent \includegraphics[width=13cm]{./step-by-step/16.PNG}
 \clearpage
 
 
-\noindent ridicola
+\noindent Now, because the subnet mask indicates how many values can you actually use this means we can use
+
+\[ 255 values - X \]
+
+where \emph{X} is the number in a subnetmask like \emph{Z.Y.W.X} which in this case will be
+
+\[ 255 - 0\]
+
+which returns 255 values but because we start counting from 0 we can go up to 254.
+In the following example you can see the value 0 being accepted as a valid value \newline 
 \noindent \includegraphics[width=13cm]{./step-by-step/17.PNG}
 \clearpage
 
 
-\noindent e inutile
+\noindent Let's pick up PC1 console and ping all devices in the 192.168.0.1 network. The ping works \newline
 \noindent \includegraphics[width=13cm]{./step-by-step/18.PNG}
 \clearpage
 
-\noindent come se poi 
+\noindent Let's create a copy of the subnetwork we have already. The gateway will be this time 
+\[192.168.1.1\]
+ 
 \noindent \includegraphics[width=13cm]{./step-by-step/19.PNG}
 \clearpage
 
-\noindent ci fossero 
+\subsubsection{expanding the network}
+\noindent Let's add a printer with the following IP
+\[192.168.1.20\]
+
 \noindent \includegraphics[width=13cm]{./step-by-step/20.PNG}
 \clearpage
 
-\noindent buffonate utili
+\noindent Let's ping the printer from PC0\newline
 \noindent \includegraphics[width=13cm]{./step-by-step/21.PNG}
+\noindent We can safely assume the network is working
 \clearpage
 
 \section{PoE}
