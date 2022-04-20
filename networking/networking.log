@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.18)  20 APR 2022 17:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.18)  20 APR 2022 17:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -278,8 +278,8 @@ Package pdftex.def Info: ./step-by-step/3.PNG  used on input line 191.
 
  <./step-by-step/3.PNG>]
 ! Undefined control sequence.
-l.194 And we move ourselves in the \textvg
-                                          {Config} tab \newline
+l.194 ...dent And we move ourselves in the \textvg
+                                                  {Config} tab \newline
 ? 
 
 Underfull \hbox (badness 10000) in paragraph at lines 194--195
@@ -328,8 +328,8 @@ File: ./step-by-step/8.PNG Graphic file (type png)
 Package pdftex.def Info: ./step-by-step/8.PNG  used on input line 218.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 
-Overfull \hbox (53.04852pt too wide) in paragraph at lines 217--219
-[]\T1/cmr/m/n/12 step2 hehe [] 
+Overfull \hbox (35.4237pt too wide) in paragraph at lines 217--219
+\T1/cmr/m/n/12 step2 hehe [] 
  []
 
 [20
@@ -341,8 +341,8 @@ File: ./step-by-step/9.PNG Graphic file (type png)
 Package pdftex.def Info: ./step-by-step/9.PNG  used on input line 222.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 
-Overfull \hbox (53.04852pt too wide) in paragraph at lines 221--223
-[]\T1/cmr/m/n/12 step2 hehe [] 
+Overfull \hbox (35.4237pt too wide) in paragraph at lines 221--223
+\T1/cmr/m/n/12 step2 hehe [] 
  []
 
 [21
@@ -354,8 +354,8 @@ File: ./step-by-step/10.PNG Graphic file (type png)
 Package pdftex.def Info: ./step-by-step/10.PNG  used on input line 226.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 
-Overfull \hbox (53.04852pt too wide) in paragraph at lines 225--227
-[]\T1/cmr/m/n/12 step2 hehe [] 
+Overfull \hbox (35.4237pt too wide) in paragraph at lines 225--227
+\T1/cmr/m/n/12 step2 hehe [] 
  []
 
 [22
@@ -367,8 +367,8 @@ File: ./step-by-step/11.PNG Graphic file (type png)
 Package pdftex.def Info: ./step-by-step/11.PNG  used on input line 230.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 
-Overfull \hbox (39.73503pt too wide) in paragraph at lines 229--231
-[]\T1/cmr/m/n/12 afgstgst [] 
+Overfull \hbox (22.11021pt too wide) in paragraph at lines 229--231
+\T1/cmr/m/n/12 afgstgst [] 
  []
 
 [23
@@ -380,8 +380,8 @@ File: ./step-by-step/12.PNG Graphic file (type png)
 Package pdftex.def Info: ./step-by-step/12.PNG  used on input line 234.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 
-Overfull \hbox (69.7555pt too wide) in paragraph at lines 233--235
-[]\T1/cmr/m/n/12 non e pos-si-ble [] 
+Overfull \hbox (52.13068pt too wide) in paragraph at lines 233--235
+\T1/cmr/m/n/12 non e pos-si-ble [] 
  []
 
 [24
@@ -393,8 +393,8 @@ File: ./step-by-step/13.PNG Graphic file (type png)
 Package pdftex.def Info: ./step-by-step/13.PNG  used on input line 238.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 
-Overfull \hbox (71.9092pt too wide) in paragraph at lines 237--239
-[]\T1/cmr/m/n/12 che ve-r-a-mente [] 
+Overfull \hbox (54.28438pt too wide) in paragraph at lines 237--239
+\T1/cmr/m/n/12 che ve-r-a-mente [] 
  []
 
 [25
@@ -406,8 +406,8 @@ File: ./step-by-step/14.PNG Graphic file (type png)
 Package pdftex.def Info: ./step-by-step/14.PNG  used on input line 243.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 
-Overfull \hbox (45.47813pt too wide) in paragraph at lines 242--244
-[]\T1/cmr/m/n/12 devo fare [] 
+Overfull \hbox (27.85332pt too wide) in paragraph at lines 242--244
+\T1/cmr/m/n/12 devo fare [] 
  []
 
 [26
@@ -419,8 +419,8 @@ File: ./step-by-step/15.PNG Graphic file (type png)
 Package pdftex.def Info: ./step-by-step/15.PNG  used on input line 247.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 
-Overfull \hbox (33.1436pt too wide) in paragraph at lines 246--248
-[]\T1/cmr/m/n/12 questa [] 
+Overfull \hbox (15.51878pt too wide) in paragraph at lines 246--248
+\T1/cmr/m/n/12 questa [] 
  []
 
 [27
@@ -432,8 +432,8 @@ File: ./step-by-step/16.PNG Graphic file (type png)
 Package pdftex.def Info: ./step-by-step/16.PNG  used on input line 252.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 
-Overfull \hbox (48.7412pt too wide) in paragraph at lines 251--253
-[]\T1/cmr/m/n/12 buffonata [] 
+Overfull \hbox (31.11638pt too wide) in paragraph at lines 251--253
+\T1/cmr/m/n/12 buffonata [] 
  []
 
 [28
@@ -445,8 +445,8 @@ File: ./step-by-step/17.PNG Graphic file (type png)
 Package pdftex.def Info: ./step-by-step/17.PNG  used on input line 257.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 
-Overfull \hbox (37.97293pt too wide) in paragraph at lines 256--258
-[]\T1/cmr/m/n/12 ridicola [] 
+Overfull \hbox (20.34811pt too wide) in paragraph at lines 256--258
+\T1/cmr/m/n/12 ridicola [] 
  []
 
 [29
@@ -458,8 +458,8 @@ File: ./step-by-step/18.PNG Graphic file (type png)
 Package pdftex.def Info: ./step-by-step/18.PNG  used on input line 262.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 
-Overfull \hbox (40.25716pt too wide) in paragraph at lines 261--263
-[]\T1/cmr/m/n/12 e inu-tile [] 
+Overfull \hbox (22.63234pt too wide) in paragraph at lines 261--263
+\T1/cmr/m/n/12 e inu-tile [] 
  []
 
 [30
@@ -471,8 +471,8 @@ File: ./step-by-step/19.PNG Graphic file (type png)
 Package pdftex.def Info: ./step-by-step/19.PNG  used on input line 266.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 
-Overfull \hbox (57.2905pt too wide) in paragraph at lines 265--267
-[]\T1/cmr/m/n/12 come se poi [] 
+Overfull \hbox (39.66568pt too wide) in paragraph at lines 265--267
+\T1/cmr/m/n/12 come se poi [] 
  []
 
 [31
@@ -484,8 +484,8 @@ File: ./step-by-step/20.PNG Graphic file (type png)
 Package pdftex.def Info: ./step-by-step/20.PNG  used on input line 270.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 
-Overfull \hbox (45.6086pt too wide) in paragraph at lines 269--271
-[]\T1/cmr/m/n/12 ci fos-sero [] 
+Overfull \hbox (27.98378pt too wide) in paragraph at lines 269--271
+\T1/cmr/m/n/12 ci fos-sero [] 
  []
 
 [32
@@ -497,8 +497,8 @@ File: ./step-by-step/21.PNG Graphic file (type png)
 Package pdftex.def Info: ./step-by-step/21.PNG  used on input line 274.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 
-Overfull \hbox (71.58282pt too wide) in paragraph at lines 273--275
-[]\T1/cmr/m/n/12 buffonate utili [] 
+Overfull \hbox (53.95801pt too wide) in paragraph at lines 273--275
+\T1/cmr/m/n/12 buffonate utili [] 
  []
 
 [33
@@ -530,7 +530,7 @@ ist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1
 /public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-supe
 r/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
 </usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on networking.pdf (34 pages, 4917445 bytes).
+Output written on networking.pdf (34 pages, 4917418 bytes).
 PDF statistics:
  231 PDF objects out of 1000 (max. 8388607)
  114 compressed objects within 2 object streams
