@@ -16,3 +16,6 @@
 \contentsline {subsection}{\numberline {7.1}Routers}{8}{}%
 \contentsline {subsection}{\numberline {7.2}Modems}{8}{}%
 \contentsline {subsection}{\numberline {7.3}Hubs, bridges and switches}{9}{}%
+\contentsline {subsubsection}{\numberline {7.3.1}Hubs}{9}{}%
+\contentsline {subsubsection}{\numberline {7.3.2}Bridges}{10}{}%
+\contentsline {subsubsection}{\numberline {7.3.3}Switches}{10}{}%
