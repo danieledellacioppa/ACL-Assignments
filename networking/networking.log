@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.18)  27 APR 2022 10:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.18)  27 APR 2022 10:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -499,16 +499,13 @@ Package pdftex.def Info: ./step-by-step/21.PNG  used on input line 300.
 <./RingNetwork.svg.PNG, id=183, 793.96625pt x 767.86874pt>
 File: ./RingNetwork.svg.PNG Graphic file (type png)
 <use ./RingNetwork.svg.PNG>
-Package pdftex.def Info: ./RingNetwork.svg.PNG  used on input line 335.
-(pdftex.def)             Requested size: 369.88582pt x 357.73485pt.
+Package pdftex.def Info: ./RingNetwork.svg.PNG  used on input line 337.
+(pdftex.def)             Requested size: 199.16928pt x 192.62285pt.
+ [36
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--336
-
- []
-
-[36 <./RingNetwork.svg.png>]
+ <./RingNetwork.svg.png>]
 ! Undefined control sequence.
-l.351 \printindex
+l.354 \printindex
                  
 ? 
 (./networking.aux) ) 
@@ -532,7 +529,7 @@ dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type
 er/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
 ></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/te
 xmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on networking.pdf (36 pages, 4975654 bytes).
+Output written on networking.pdf (36 pages, 5006857 bytes).
 PDF statistics:
  244 PDF objects out of 1000 (max. 8388607)
  121 compressed objects within 2 object streams
