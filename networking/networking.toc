@@ -30,7 +30,7 @@
 \contentsline {subsection}{\numberline {10.2}Ring Topology}{37}{}%
 \contentsline {subsubsection}{\numberline {10.2.1}PROs}{37}{}%
 \contentsline {subsubsection}{\numberline {10.2.2}CONs}{37}{}%
-\contentsline {subsection}{\numberline {10.3}Ring Topology on Cisco Packet Tracer}{37}{}%
+\contentsline {subsection}{\numberline {10.3}Ring Topology on Cisco Packet Tracer}{38}{}%
 \contentsline {section}{\numberline {11}Routing Protocols}{38}{}%
 \contentsline {section}{\numberline {12}Interior gateway protocols}{39}{}%
 \contentsline {subsection}{\numberline {12.1}link state routing protocols}{39}{}%

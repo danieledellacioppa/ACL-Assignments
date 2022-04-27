@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.18)  27 APR 2022 15:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.18)  27 APR 2022 15:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -509,26 +509,29 @@ File: ./RingNetwork.svg.PNG Graphic file (type png)
 <use ./RingNetwork.svg.PNG>
 Package pdftex.def Info: ./RingNetwork.svg.PNG  used on input line 342.
 (pdftex.def)             Requested size: 199.16928pt x 192.62285pt.
-<./star-topology/screenshot.PNG, id=187, 547.61732pt x 536.86285pt>
+ [37
+
+ <./RingNetwork.svg.png>]
+<./star-topology/screenshot.PNG, id=192, 547.61732pt x 536.86285pt>
 File: ./star-topology/screenshot.PNG Graphic file (type png)
 <use ./star-topology/screenshot.PNG>
-Package pdftex.def Info: ./star-topology/screenshot.PNG  used on input line 362
+Package pdftex.def Info: ./star-topology/screenshot.PNG  used on input line 363
 .
 (pdftex.def)             Requested size: 199.16928pt x 195.2529pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--363
+Underfull \hbox (badness 10000) in paragraph at lines 363--364
 
  []
 
-[37
 
- <./RingNetwork.svg.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 366--367
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
 
  []
 
-[38 <./star-topology/screenshot.PNG>] [39] [40]
-Overfull \hbox (12.60864pt too wide) in paragraph at lines 412--413
+[38
+
+ <./star-topology/screenshot.PNG>] [39] [40]
+Overfull \hbox (12.60864pt too wide) in paragraph at lines 413--414
 \T1/cmr/m/n/12 Enhanced In-te-rior Gate-way Rout-ing Pro-to-col (EIGRP) is an a
 d-vanced distance-
  []
@@ -541,7 +544,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.420 ...and Border Gateway Protocol (BGP).[1]: 
+l.421 ...and Border Gateway Protocol (BGP).[1]: 
                                                   188–189 
 ? 
 
@@ -552,12 +555,12 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.420 ...ateway Protocol (BGP).[1]: 188–189 
+l.421 ...ateway Protocol (BGP).[1]: 188–189 
                                                   
 ? 
 [41] [42]
 ! Undefined control sequence.
-l.428 \printindex
+l.429 \printindex
                  
 ? 
 (./networking.aux) ) 
@@ -581,7 +584,7 @@ dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type
 er/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
 ></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/te
 xmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on networking.pdf (42 pages, 2673420 bytes).
+Output written on networking.pdf (42 pages, 2673444 bytes).
 PDF statistics:
  267 PDF objects out of 1000 (max. 8388607)
  136 compressed objects within 2 object streams
