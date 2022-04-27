@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.18)  27 APR 2022 11:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.18)  27 APR 2022 11:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -488,27 +488,38 @@ Package pdftex.def Info: ./step-by-step/21.PNG  used on input line 296.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 [34
 
- <./step-by-step/21.PNG>] [35
+ <./step-by-step/21.PNG>]
+<./StarNetwork.svg.PNG, id=178, 793.96625pt x 767.86874pt>
+File: ./StarNetwork.svg.PNG Graphic file (type png)
+<use ./StarNetwork.svg.PNG>
+Package pdftex.def Info: ./StarNetwork.svg.PNG  used on input line 313.
+(pdftex.def)             Requested size: 199.16928pt x 192.62285pt.
 
-]
-<./RingNetwork.svg.PNG, id=181, 793.96625pt x 767.86874pt>
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
+
+ []
+
+[35
+
+ <./StarNetwork.svg.png>] [36]
+<./RingNetwork.svg.PNG, id=186, 793.96625pt x 767.86874pt>
 File: ./RingNetwork.svg.PNG Graphic file (type png)
 <use ./RingNetwork.svg.PNG>
-Package pdftex.def Info: ./RingNetwork.svg.PNG  used on input line 333.
+Package pdftex.def Info: ./RingNetwork.svg.PNG  used on input line 335.
 (pdftex.def)             Requested size: 199.16928pt x 192.62285pt.
- [36
+ [37
 
  <./RingNetwork.svg.png>]
 ! Undefined control sequence.
-l.350 \printindex
+l.352 \printindex
                  
 ? 
 (./networking.aux) ) 
 Here is how much of TeX's memory you used:
- 3355 strings out of 478276
- 48779 string characters out of 5853013
+ 3362 strings out of 478276
+ 48955 string characters out of 5853013
  340003 words of memory out of 5000000
- 21540 multiletter control sequences out of 15000+600000
+ 21546 multiletter control sequences out of 15000+600000
  480715 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,8n,62p,766b,971s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -524,10 +535,10 @@ dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type
 er/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
 ></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/te
 xmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on networking.pdf (36 pages, 2548594 bytes).
+Output written on networking.pdf (37 pages, 2581399 bytes).
 PDF statistics:
- 242 PDF objects out of 1000 (max. 8388607)
- 121 compressed objects within 2 object streams
+ 250 PDF objects out of 1000 (max. 8388607)
+ 126 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 151 words of extra memory for PDF output out of 10000 (max. 10000000)
 
