@@ -30,3 +30,9 @@
 \contentsline {subsection}{\numberline {10.2}Ring Topology}{37}{}%
 \contentsline {subsubsection}{\numberline {10.2.1}PROs}{37}{}%
 \contentsline {subsubsection}{\numberline {10.2.2}CONs}{37}{}%
+\contentsline {section}{\numberline {11}Routing Protocols}{38}{}%
+\contentsline {subsection}{\numberline {11.1}Interior gateway protocols}{38}{}%
+\contentsline {subsubsection}{\numberline {11.1.1}link state routing protocols}{38}{}%
+\contentsline {subsubsection}{\numberline {11.1.2}distance vector routing protocols}{39}{}%
+\contentsline {subsection}{\numberline {11.2}Exterior gateway protocols}{41}{}%
+\contentsline {subsubsection}{\numberline {11.2.1}BGP}{41}{}%

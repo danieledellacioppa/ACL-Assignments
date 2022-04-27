@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.18)  27 APR 2022 11:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.18)  27 APR 2022 14:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -509,22 +509,70 @@ File: ./RingNetwork.svg.PNG Graphic file (type png)
 <use ./RingNetwork.svg.PNG>
 Package pdftex.def Info: ./RingNetwork.svg.PNG  used on input line 340.
 (pdftex.def)             Requested size: 199.16928pt x 192.62285pt.
- [37
 
- <./RingNetwork.svg.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 358--359
+
+ []
+
+[37
+
+ <./RingNetwork.svg.png>] [38]
 ! Undefined control sequence.
-l.357 \printindex
+l.376 \subsubsubsection
+                       {OSPF}
+? 
+[39]
+! Undefined control sequence.
+l.392 \subsubsubsection
+                       {RIP}
+? 
+
+Overfull \hbox (0.11179pt too wide) in paragraph at lines 392--394
+[]\T1/cmr/m/n/12 RIP The Rout-ing In-for-ma-tion Pro-to-col (RIP) is one of the
+ old-est distance-
+ []
+
+! Undefined control sequence.
+l.403 \subsubsubsection
+                       {EIGRP}
+? 
+[40]
+
+! LaTeX Error: Unicode character   (U+200A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.412 ...and Border Gateway Protocol (BGP).[1]: 
+                                                  188–189 
+? 
+
+! LaTeX Error: Unicode character   (U+200A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.412 ...ateway Protocol (BGP).[1]: 188–189 
+                                                  
+? 
+[41]
+! Undefined control sequence.
+l.420 \printindex
                  
 ? 
 (./networking.aux) ) 
 Here is how much of TeX's memory you used:
- 3362 strings out of 478276
- 48955 string characters out of 5853013
+ 3363 strings out of 478276
+ 48961 string characters out of 5853013
  340003 words of memory out of 5000000
- 21546 multiletter control sequences out of 15000+600000
+ 21547 multiletter control sequences out of 15000+600000
  480715 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,62p,790b,971s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,8n,62p,943b,971s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1
 .enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/sha
 re/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/
@@ -537,10 +585,10 @@ dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type
 er/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
 ></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/te
 xmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on networking.pdf (37 pages, 2582615 bytes).
+Output written on networking.pdf (41 pages, 2592033 bytes).
 PDF statistics:
- 250 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
+ 262 PDF objects out of 1000 (max. 8388607)
+ 134 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  151 words of extra memory for PDF output out of 10000 (max. 10000000)
 
