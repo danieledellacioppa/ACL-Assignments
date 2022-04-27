@@ -20,13 +20,13 @@
 \contentsline {subsubsection}{\numberline {7.3.2}Bridges}{11}{}%
 \contentsline {subsubsection}{\numberline {7.3.3}Switches}{11}{}%
 \contentsline {section}{\numberline {8}Cisco Packet Tracer}{12}{}%
-\contentsline {subsection}{\numberline {8.1}A step-by-step guide}{14}{}%
-\contentsline {subsubsection}{\numberline {8.1.1}expanding the network}{34}{}%
-\contentsline {section}{\numberline {9}Power over Ethernet}{36}{}%
-\contentsline {section}{\numberline {10}Topology}{36}{}%
-\contentsline {subsection}{\numberline {10.1}Star Topology}{36}{}%
-\contentsline {subsubsection}{\numberline {10.1.1}PROs}{36}{}%
-\contentsline {subsubsection}{\numberline {10.1.2}CONs}{36}{}%
-\contentsline {subsection}{\numberline {10.2}Ring Topology}{37}{}%
-\contentsline {subsubsection}{\numberline {10.2.1}PROs}{37}{}%
-\contentsline {subsubsection}{\numberline {10.2.2}CONs}{37}{}%
+\contentsline {subsection}{\numberline {8.1}The step-by-step guide}{13}{}%
+\contentsline {subsubsection}{\numberline {8.1.1}expanding the network}{33}{}%
+\contentsline {section}{\numberline {9}Power over Ethernet}{35}{}%
+\contentsline {section}{\numberline {10}Topology}{35}{}%
+\contentsline {subsection}{\numberline {10.1}Star Topology}{35}{}%
+\contentsline {subsubsection}{\numberline {10.1.1}PROs}{35}{}%
+\contentsline {subsubsection}{\numberline {10.1.2}CONs}{35}{}%
+\contentsline {subsection}{\numberline {10.2}Ring Topology}{36}{}%
+\contentsline {subsubsection}{\numberline {10.2.1}PROs}{36}{}%
+\contentsline {subsubsection}{\numberline {10.2.2}CONs}{36}{}%
