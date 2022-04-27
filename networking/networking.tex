@@ -306,7 +306,44 @@ Power over Ethernet is a technique for delivering DC power to devices over coppe
 
 %\section{LAN status LEDs}
 
+\section{Topology}
 
+It's a layout of physical devices. It's an arrangement of devices
+
+\subsection{Star Topology}
+
+In star topology, every peripheral node (computer workstation or any other peripheral) is connected to a central node called a hub or switch. The hub is the server and the peripherals are the clients. The network does not necessarily have to resemble a star to be classified as a star network, but all of the peripheral nodes on the network must be connected to one central hub. All traffic that traverses the network passes through the central hub, which acts as a signal repeater.
+
+\subsubsection{PROs}
+
+\begin{itemize}
+\item {simplicity of adding additional nodes}
+\item {is the easiest topology to design and implement}
+\end{itemize}
+
+\subsubsection{CONs}
+
+\begin{itemize}
+\item {the hub represents a single point of failure}
+\item {Since all peripheral communication must flow through the central hub, the aggregate central bandwidth forms a network bottleneck for large clusters}
+\end{itemize}
+
+\subsection{Ring Topology}
+
+A ring topology is a daisy chain in a closed loop. Data travels around the ring in one direction. When one node sends data to another, the data passes through each intermediate node on the ring until it reaches its destination. The intermediate nodes repeat (re transmit) the data to keep the signal strong.[5] Every node is a peer; there is no hierarchical relationship of clients and servers. If one node is unable to re transmit data, it severs communication between the nodes before and after it in the bus.
+
+\subsubsection{PROs}
+
+\begin{itemize}
+\item {When the load on the network increases, its performance is better than bus topology}
+\item {There is no need of network server to control the connectivity between workstations}
+\end{itemize}
+
+\subsubsection{CONs}
+
+\begin{itemize}
+\item {Aggregate network bandwidth is bottlenecked by the weakest link between two nodes}
+\end{itemize}
 
 \clearpage
 \printindex

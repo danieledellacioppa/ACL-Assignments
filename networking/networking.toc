@@ -1,25 +1,32 @@
-\contentsline {section}{\numberline {1}What it is}{2}{}%
-\contentsline {section}{\numberline {2}benefits of a network}{2}{}%
-\contentsline {subsection}{\numberline {2.1}guided wiring}{3}{}%
-\contentsline {subsection}{\numberline {2.2}unguided wiring}{3}{}%
-\contentsline {section}{\numberline {3}LAN vs WAN}{3}{}%
-\contentsline {section}{\numberline {4}IEEE 802.3}{4}{}%
-\contentsline {section}{\numberline {5}Protocols}{5}{}%
-\contentsline {subsection}{\numberline {5.1}OSI standard}{5}{}%
-\contentsline {subsection}{\numberline {5.2}good mnemonic for OSI}{6}{}%
-\contentsline {subsection}{\numberline {5.3}theory vs practice}{6}{}%
-\contentsline {subsection}{\numberline {5.4}horizontal vs vertical approach}{6}{}%
-\contentsline {section}{\numberline {6}ARP/RARP/DHCP}{6}{}%
-\contentsline {subsection}{\numberline {6.1}ARP Tables}{7}{}%
-\contentsline {subsection}{\numberline {6.2}Three-way-handshake}{7}{}%
-\contentsline {section}{\numberline {7}Networking Hardware}{8}{}%
-\contentsline {subsection}{\numberline {7.1}Routers}{8}{}%
-\contentsline {subsection}{\numberline {7.2}Modems}{8}{}%
-\contentsline {subsection}{\numberline {7.3}Hubs, bridges and switches}{9}{}%
-\contentsline {subsubsection}{\numberline {7.3.1}Hubs}{9}{}%
-\contentsline {subsubsection}{\numberline {7.3.2}Bridges}{10}{}%
-\contentsline {subsubsection}{\numberline {7.3.3}Switches}{10}{}%
-\contentsline {section}{\numberline {8}Cisco Packet Tracer}{11}{}%
-\contentsline {subsection}{\numberline {8.1}A step-by-step guide}{12}{}%
-\contentsline {subsubsection}{\numberline {8.1.1}expanding the network}{32}{}%
-\contentsline {section}{\numberline {9}Power over Ethernet}{34}{}%
+\contentsline {section}{\numberline {1}What it is}{3}{}%
+\contentsline {section}{\numberline {2}benefits of a network}{3}{}%
+\contentsline {subsection}{\numberline {2.1}guided wiring}{4}{}%
+\contentsline {subsection}{\numberline {2.2}unguided wiring}{4}{}%
+\contentsline {section}{\numberline {3}LAN vs WAN}{4}{}%
+\contentsline {section}{\numberline {4}IEEE 802.3}{5}{}%
+\contentsline {section}{\numberline {5}Protocols}{6}{}%
+\contentsline {subsection}{\numberline {5.1}OSI standard}{6}{}%
+\contentsline {subsection}{\numberline {5.2}good mnemonic for OSI}{7}{}%
+\contentsline {subsection}{\numberline {5.3}theory vs practice}{7}{}%
+\contentsline {subsection}{\numberline {5.4}horizontal vs vertical approach}{7}{}%
+\contentsline {section}{\numberline {6}ARP/RARP/DHCP}{7}{}%
+\contentsline {subsection}{\numberline {6.1}ARP Tables}{8}{}%
+\contentsline {subsection}{\numberline {6.2}Three-way-handshake}{8}{}%
+\contentsline {section}{\numberline {7}Networking Hardware}{9}{}%
+\contentsline {subsection}{\numberline {7.1}Routers}{9}{}%
+\contentsline {subsection}{\numberline {7.2}Modems}{9}{}%
+\contentsline {subsection}{\numberline {7.3}Hubs, bridges and switches}{10}{}%
+\contentsline {subsubsection}{\numberline {7.3.1}Hubs}{10}{}%
+\contentsline {subsubsection}{\numberline {7.3.2}Bridges}{11}{}%
+\contentsline {subsubsection}{\numberline {7.3.3}Switches}{11}{}%
+\contentsline {section}{\numberline {8}Cisco Packet Tracer}{12}{}%
+\contentsline {subsection}{\numberline {8.1}A step-by-step guide}{13}{}%
+\contentsline {subsubsection}{\numberline {8.1.1}expanding the network}{33}{}%
+\contentsline {section}{\numberline {9}Power over Ethernet}{35}{}%
+\contentsline {section}{\numberline {10}Topology}{35}{}%
+\contentsline {subsection}{\numberline {10.1}Star Topology}{35}{}%
+\contentsline {subsubsection}{\numberline {10.1.1}PROs}{35}{}%
+\contentsline {subsubsection}{\numberline {10.1.2}CONs}{35}{}%
+\contentsline {subsection}{\numberline {10.2}Ring Topology}{35}{}%
+\contentsline {subsubsection}{\numberline {10.2.1}PROs}{36}{}%
+\contentsline {subsubsection}{\numberline {10.2.2}CONs}{36}{}%
