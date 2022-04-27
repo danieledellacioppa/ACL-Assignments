@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.18)  27 APR 2022 15:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.18)  27 APR 2022 15:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -494,10 +494,10 @@ Package pdftex.def Info: ./step-by-step/21.PNG  used on input line 296.
 <./StarNetwork.svg.PNG, id=181, 793.96625pt x 767.86874pt>
 File: ./StarNetwork.svg.PNG Graphic file (type png)
 <use ./StarNetwork.svg.PNG>
-Package pdftex.def Info: ./StarNetwork.svg.PNG  used on input line 318.
+Package pdftex.def Info: ./StarNetwork.svg.PNG  used on input line 320.
 (pdftex.def)             Requested size: 199.16928pt x 192.62285pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--319
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
 
  []
 
@@ -507,22 +507,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 318--319
 <./RingNetwork.svg.PNG, id=186, 793.96625pt x 767.86874pt>
 File: ./RingNetwork.svg.PNG Graphic file (type png)
 <use ./RingNetwork.svg.PNG>
-Package pdftex.def Info: ./RingNetwork.svg.PNG  used on input line 340.
+Package pdftex.def Info: ./RingNetwork.svg.PNG  used on input line 342.
 (pdftex.def)             Requested size: 199.16928pt x 192.62285pt.
+<./star-topology/screenshot.PNG, id=187, 547.61732pt x 536.86285pt>
+File: ./star-topology/screenshot.PNG Graphic file (type png)
+<use ./star-topology/screenshot.PNG>
+Package pdftex.def Info: ./star-topology/screenshot.PNG  used on input line 362
+.
+(pdftex.def)             Requested size: 199.16928pt x 195.2529pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--359
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
 
  []
 
 [37
 
- <./RingNetwork.svg.png>] [38] [39]
-Overfull \hbox (12.60864pt too wide) in paragraph at lines 404--405
+ <./RingNetwork.svg.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
+
+ []
+
+[38 <./star-topology/screenshot.PNG>] [39] [40]
+Overfull \hbox (12.60864pt too wide) in paragraph at lines 412--413
 \T1/cmr/m/n/12 Enhanced In-te-rior Gate-way Rout-ing Pro-to-col (EIGRP) is an a
 d-vanced distance-
  []
 
-[40]
 
 ! LaTeX Error: Unicode character   (U+200A)
                not set up for use with LaTeX.
@@ -531,7 +541,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.412 ...and Border Gateway Protocol (BGP).[1]: 
+l.420 ...and Border Gateway Protocol (BGP).[1]: 
                                                   188–189 
 ? 
 
@@ -542,20 +552,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.412 ...ateway Protocol (BGP).[1]: 188–189 
+l.420 ...ateway Protocol (BGP).[1]: 188–189 
                                                   
 ? 
-[41]
+[41] [42]
 ! Undefined control sequence.
-l.420 \printindex
+l.428 \printindex
                  
 ? 
 (./networking.aux) ) 
 Here is how much of TeX's memory you used:
- 3363 strings out of 478276
- 48961 string characters out of 5853013
+ 3371 strings out of 478276
+ 49202 string characters out of 5853013
  340003 words of memory out of 5000000
- 21547 multiletter control sequences out of 15000+600000
+ 21553 multiletter control sequences out of 15000+600000
  480715 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,8n,62p,943b,971s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -571,10 +581,10 @@ dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type
 er/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
 ></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/te
 xmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on networking.pdf (41 pages, 2592641 bytes).
+Output written on networking.pdf (42 pages, 2673420 bytes).
 PDF statistics:
- 262 PDF objects out of 1000 (max. 8388607)
- 134 compressed objects within 2 object streams
+ 267 PDF objects out of 1000 (max. 8388607)
+ 136 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 151 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 156 words of extra memory for PDF output out of 10000 (max. 10000000)
 
