@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.5)  5 MAY 2022 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.5)  5 MAY 2022 16:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -255,8 +255,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 43.
 
-Underfull \hbox (badness 1990) in paragraph at lines 54--55
-[]\T1/cmr/m/n/12 calculation of mid-dle po-si-tion of all
+Overfull \hbox (2.23836pt too wide) in paragraph at lines 54--55
+[]\T1/cmr/m/n/12 calculation of mid-dle po-si-tion of all street-
  []
 
 [3
@@ -372,7 +372,7 @@ Here is how much of TeX's memory you used:
  17562 multiletter control sequences out of 15000+600000
  542334 words of font info for 43 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 35i,7n,33p,572b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,7n,33p,580b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/daniele/.texlive2019/te
 xmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/daniele/.texlive2019
 /texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/daniele/.texlive2
@@ -382,7 +382,7 @@ xlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/daniele/
 .texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/danie
 le/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/da
 niele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk>
-Output written on portfolio.pdf (7 pages, 9084924 bytes).
+Output written on portfolio.pdf (7 pages, 9084905 bytes).
 PDF statistics:
  221 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
