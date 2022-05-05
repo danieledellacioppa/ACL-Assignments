@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.5)  5 MAY 2022 16:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.5)  5 MAY 2022 16:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -266,7 +266,12 @@ Underfull \hbox (badness 1990) in paragraph at lines 56--57
 File: ./current_status_g7.PNG Graphic file (type png)
 <use ./current_status_g7.PNG>
 Package pdftex.def Info: ./current_status_g7.PNG  used on input line 66.
-(pdftex.def)             Requested size: 85.35826pt x 179.24098pt.
+(pdftex.def)             Requested size: 227.62204pt x 477.99911pt.
+
+Overfull \hbox (85.35826pt too wide) in paragraph at lines 66--68
+ [][] 
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 63--69
 \T1/cmr/m/n/12 at-tempts a con-nec-tion to the server
