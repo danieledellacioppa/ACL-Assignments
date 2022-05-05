@@ -1,42 +1,51 @@
-\contentsline {section}{\numberline {1}What it is}{3}{}%
-\contentsline {section}{\numberline {2}benefits of a network}{3}{}%
-\contentsline {subsection}{\numberline {2.1}guided wiring}{4}{}%
-\contentsline {subsection}{\numberline {2.2}unguided wiring}{4}{}%
-\contentsline {section}{\numberline {3}LAN vs WAN}{4}{}%
-\contentsline {section}{\numberline {4}IEEE 802.3}{5}{}%
-\contentsline {section}{\numberline {5}Protocols}{6}{}%
-\contentsline {subsection}{\numberline {5.1}OSI standard}{6}{}%
-\contentsline {subsection}{\numberline {5.2}good mnemonic for OSI}{7}{}%
-\contentsline {subsection}{\numberline {5.3}theory vs practice}{7}{}%
-\contentsline {subsection}{\numberline {5.4}horizontal vs vertical approach}{7}{}%
-\contentsline {section}{\numberline {6}ARP/RARP/DHCP}{7}{}%
-\contentsline {subsection}{\numberline {6.1}ARP Tables}{8}{}%
-\contentsline {subsection}{\numberline {6.2}Three-way-handshake}{8}{}%
-\contentsline {section}{\numberline {7}Networking Hardware}{9}{}%
-\contentsline {subsection}{\numberline {7.1}Routers}{9}{}%
-\contentsline {subsection}{\numberline {7.2}Modems}{9}{}%
-\contentsline {subsection}{\numberline {7.3}Hubs, bridges and switches}{10}{}%
-\contentsline {subsubsection}{\numberline {7.3.1}Hubs}{10}{}%
-\contentsline {subsubsection}{\numberline {7.3.2}Bridges}{11}{}%
-\contentsline {subsubsection}{\numberline {7.3.3}Switches}{11}{}%
-\contentsline {section}{\numberline {8}Cisco Packet Tracer}{12}{}%
-\contentsline {subsection}{\numberline {8.1}The step-by-step guide}{13}{}%
-\contentsline {subsubsection}{\numberline {8.1.1}expanding the network}{33}{}%
-\contentsline {section}{\numberline {9}Power over Ethernet}{35}{}%
-\contentsline {section}{\numberline {10}Network Topology}{35}{}%
-\contentsline {subsection}{\numberline {10.1}Star Topology}{36}{}%
-\contentsline {subsubsection}{\numberline {10.1.1}PROs}{36}{}%
-\contentsline {subsubsection}{\numberline {10.1.2}CONs}{36}{}%
-\contentsline {subsection}{\numberline {10.2}Ring Topology}{37}{}%
-\contentsline {subsubsection}{\numberline {10.2.1}PROs}{37}{}%
-\contentsline {subsubsection}{\numberline {10.2.2}CONs}{37}{}%
-\contentsline {subsection}{\numberline {10.3}Ring Topology on Cisco Packet Tracer}{38}{}%
-\contentsline {section}{\numberline {11}Routing Protocols}{38}{}%
-\contentsline {section}{\numberline {12}Interior gateway protocols}{39}{}%
-\contentsline {subsection}{\numberline {12.1}link state routing protocols}{39}{}%
-\contentsline {subsubsection}{\numberline {12.1.1}OSPF}{39}{}%
-\contentsline {subsection}{\numberline {12.2}distance vector routing protocols}{40}{}%
-\contentsline {subsubsection}{\numberline {12.2.1}RIP}{40}{}%
-\contentsline {subsubsection}{\numberline {12.2.2}EIGRP}{41}{}%
-\contentsline {section}{\numberline {13}Exterior gateway protocols}{41}{}%
-\contentsline {subsection}{\numberline {13.1}BGP}{42}{}%
+\contentsline {section}{\numberline {1}What it is}{3}%
+\contentsline {section}{\numberline {2}benefits of a network}{3}%
+\contentsline {subsection}{\numberline {2.1}guided wiring}{4}%
+\contentsline {subsection}{\numberline {2.2}unguided wiring}{4}%
+\contentsline {section}{\numberline {3}LAN vs WAN}{4}%
+\contentsline {section}{\numberline {4}IEEE 802.3}{5}%
+\contentsline {section}{\numberline {5}Protocols}{6}%
+\contentsline {subsection}{\numberline {5.1}OSI standard}{6}%
+\contentsline {subsection}{\numberline {5.2}good mnemonic for OSI}{7}%
+\contentsline {subsection}{\numberline {5.3}theory vs practice}{7}%
+\contentsline {subsection}{\numberline {5.4}horizontal vs vertical approach}{7}%
+\contentsline {section}{\numberline {6}ARP/RARP/DHCP}{7}%
+\contentsline {subsection}{\numberline {6.1}ARP Tables}{8}%
+\contentsline {subsection}{\numberline {6.2}Three-way-handshake}{8}%
+\contentsline {section}{\numberline {7}Networking Hardware}{9}%
+\contentsline {subsection}{\numberline {7.1}Routers}{9}%
+\contentsline {subsection}{\numberline {7.2}Modems}{9}%
+\contentsline {subsection}{\numberline {7.3}Hubs, bridges and switches}{10}%
+\contentsline {subsubsection}{\numberline {7.3.1}Hubs}{10}%
+\contentsline {subsubsection}{\numberline {7.3.2}Bridges}{11}%
+\contentsline {subsubsection}{\numberline {7.3.3}Switches}{11}%
+\contentsline {section}{\numberline {8}Cisco Packet Tracer}{12}%
+\contentsline {subsection}{\numberline {8.1}The step-by-step guide}{13}%
+\contentsline {subsubsection}{\numberline {8.1.1}expanding the network}{33}%
+\contentsline {section}{\numberline {9}Power over Ethernet}{35}%
+\contentsline {section}{\numberline {10}Network Topology}{35}%
+\contentsline {subsection}{\numberline {10.1}Star Topology}{36}%
+\contentsline {subsubsection}{\numberline {10.1.1}PROs}{36}%
+\contentsline {subsubsection}{\numberline {10.1.2}CONs}{36}%
+\contentsline {subsection}{\numberline {10.2}Ring Topology}{37}%
+\contentsline {subsubsection}{\numberline {10.2.1}PROs}{37}%
+\contentsline {subsubsection}{\numberline {10.2.2}CONs}{37}%
+\contentsline {subsection}{\numberline {10.3}Ring Topology on Cisco Packet Tracer}{38}%
+\contentsline {section}{\numberline {11}Routing Protocols}{38}%
+\contentsline {section}{\numberline {12}Interior gateway protocols}{39}%
+\contentsline {subsection}{\numberline {12.1}link state routing protocols}{39}%
+\contentsline {subsubsection}{\numberline {12.1.1}OSPF}{39}%
+\contentsline {subsection}{\numberline {12.2}distance vector routing protocols}{40}%
+\contentsline {subsubsection}{\numberline {12.2.1}RIP}{40}%
+\contentsline {subsubsection}{\numberline {12.2.2}EIGRP}{41}%
+\contentsline {section}{\numberline {13}Exterior gateway protocols}{41}%
+\contentsline {subsection}{\numberline {13.1}BGP}{42}%
+\contentsline {section}{\numberline {14}IoT}{42}%
+\contentsline {section}{\numberline {15}IoT in Aviation}{42}%
+\contentsline {subsection}{\numberline {15.1}Existing Technologies in Aviation Industry}{43}%
+\contentsline {subsubsection}{\numberline {15.1.1}Digitized Security}{43}%
+\contentsline {subsubsection}{\numberline {15.1.2}VR for Last-Minute Changes}{43}%
+\contentsline {subsubsection}{\numberline {15.1.3}Biometrics}{43}%
+\contentsline {subsection}{\numberline {15.2}IoT Adoption Challenges}{43}%
+\contentsline {subsection}{\numberline {15.3}Opportunities for IoT in Aviation}{44}%
+\contentsline {subsection}{\numberline {15.4}Growth of Aviation IoT Industry}{45}%
