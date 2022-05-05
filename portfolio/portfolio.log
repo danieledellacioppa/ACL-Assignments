@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.5)  5 MAY 2022 14:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.5)  5 MAY 2022 15:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -254,66 +254,103 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 43.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 43.
+
+Underfull \hbox (badness 1990) in paragraph at lines 54--55
+[]\T1/cmr/m/n/12 calculation of mid-dle po-si-tion of all
+ []
+
 [3
 
  <./capture-app.PNG>]
 <./current_status_g7.PNG, id=23, 722.7pt x 1517.67pt>
 File: ./current_status_g7.PNG Graphic file (type png)
 <use ./current_status_g7.PNG>
-Package pdftex.def Info: ./current_status_g7.PNG  used on input line 53.
+Package pdftex.def Info: ./current_status_g7.PNG  used on input line 63.
 (pdftex.def)             Requested size: 85.35826pt x 179.24098pt.
+
+
+Package wrapfig Warning: Collision between wrapping environments on input line 
+68.
+
 <./server_g7.PNG, id=24, 722.7pt x 1517.67pt>
 File: ./server_g7.PNG Graphic file (type png)
 <use ./server_g7.PNG>
-Package pdftex.def Info: ./server_g7.PNG  used on input line 54.
+Package pdftex.def Info: ./server_g7.PNG  used on input line 70.
 (pdftex.def)             Requested size: 85.35826pt x 179.24098pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--56
-[][]
- []
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 76
+.
 
 <./current_status_g8.PNG, id=25, 1084.05pt x 2288.55pt>
 File: ./current_status_g8.PNG Graphic file (type png)
 <use ./current_status_g8.PNG>
-Package pdftex.def Info: ./current_status_g8.PNG  used on input line 60.
+Package pdftex.def Info: ./current_status_g8.PNG  used on input line 76.
 (pdftex.def)             Requested size: 85.35826pt x 180.18935pt.
 <./client_g8.PNG, id=26, 1084.05pt x 2288.55pt>
 File: ./client_g8.PNG Graphic file (type png)
 <use ./client_g8.PNG>
-Package pdftex.def Info: ./client_g8.PNG  used on input line 61.
+Package pdftex.def Info: ./client_g8.PNG  used on input line 77.
 (pdftex.def)             Requested size: 85.35826pt x 180.18935pt.
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 79
+.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 81
+.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 84
+.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 85
+.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 86
+.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 87
+.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 88
+.
+
 [4
 
- <./current_status_g7.png> <./server_g7.png> <./current_status_g8.png> <./clien
-t_g8.png>]
-<./ERSchemaGen2.jpg, id=34, 8788.835pt x 9242.53pt>
+ <./current_status_g7.png> <./current_status_g8.png> <./client_g8.png>]
+[5 <./server_g7.png>]
+<./ERSchemaGen2.jpg, id=37, 8788.835pt x 9242.53pt>
 File: ./ERSchemaGen2.jpg Graphic file (type jpg)
 <use ./ERSchemaGen2.jpg>
-Package pdftex.def Info: ./ERSchemaGen2.jpg  used on input line 80.
+Package pdftex.def Info: ./ERSchemaGen2.jpg  used on input line 96.
 (pdftex.def)             Requested size: 398.33858pt x 418.85753pt.
 
-Overfull \hbox (8.33858pt too wide) in paragraph at lines 80--81
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 96--97
 [] 
  []
 
-[5
+[6
 
  <./ERSchemaGen2.jpg>]
-<./SecondERSchemaGen2.jpg, id=38, 1505.625pt x 548.0475pt>
+<./SecondERSchemaGen2.jpg, id=41, 1505.625pt x 548.0475pt>
 File: ./SecondERSchemaGen2.jpg Graphic file (type jpg)
 <use ./SecondERSchemaGen2.jpg>
-Package pdftex.def Info: ./SecondERSchemaGen2.jpg  used on input line 87.
+Package pdftex.def Info: ./SecondERSchemaGen2.jpg  used on input line 103.
 (pdftex.def)             Requested size: 398.33858pt x 144.99774pt.
 
-Overfull \hbox (8.33858pt too wide) in paragraph at lines 87--88
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 103--104
 [] 
  []
 
 ! Undefined control sequence.
 <argument> \imki@jobname 
                          @idxfile
-l.90 
-     
+l.106 
+      
 ? 
 
 ! Package imakeidx Error: Misplaced \printindex.
@@ -322,20 +359,20 @@ See the imakeidx package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.90 
-     
+l.106 
+      
 ? 
-[6
+[7
 
  <./SecondERSchemaGen2.jpg>] (./portfolio.aux) ) 
 Here is how much of TeX's memory you used:
- 2572 strings out of 483183
- 44087 string characters out of 5966293
+ 2573 strings out of 483183
+ 44099 string characters out of 5966293
  450356 words of memory out of 5000000
- 17561 multiletter control sequences out of 15000+600000
+ 17562 multiletter control sequences out of 15000+600000
  542334 words of font info for 43 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 35i,7n,33p,582b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,7n,33p,572b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/daniele/.texlive2019/te
 xmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/daniele/.texlive2019
 /texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/daniele/.texlive2
@@ -345,10 +382,10 @@ xlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/daniele/
 .texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/danie
 le/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/da
 niele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk>
-Output written on portfolio.pdf (6 pages, 9082264 bytes).
+Output written on portfolio.pdf (7 pages, 9084869 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 221 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
