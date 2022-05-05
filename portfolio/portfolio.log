@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.10)  5 MAY 2022 13:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.5)  5 MAY 2022 14:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -141,42 +141,66 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@height=\dimen144
 \Gin@req@width=\dimen145
 )
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen146
+\WF@size=\dimen147
+\c@WF@wrappedlines=\count186
+\WF@box=\box91
+\WF@everypar=\toks16
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-02-14 L3 programming layer (loader) 
+
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count186
-\l__pdf_internal_box=\box91
+\l__kernel_color_stack_int=\count187
+\l__pdf_internal_box=\box92
+))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-02-14 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count188
+\g__xparse_grabber_int=\count189
+\l__xparse_m_args_int=\count190
+\l__xparse_v_nesting_int=\count191
 )
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+))
 (./portfolio.aux)
 \openout1 = `portfolio.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count187
-\scratchdimen=\dimen146
-\scratchbox=\box92
-\nofMPsegments=\count188
-\nofMParguments=\count189
-\everyMPshowfont=\toks16
-\MPscratchCnt=\count190
-\MPscratchDim=\dimen147
-\MPnumerator=\count191
-\makeMPintoPDFobject=\count192
-\everyMPtoPDFconversion=\toks17
+\scratchcounter=\count192
+\scratchdimen=\dimen148
+\scratchbox=\box93
+\nofMPsegments=\count193
+\nofMParguments=\count194
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count195
+\MPscratchDim=\dimen149
+\MPnumerator=\count196
+\makeMPintoPDFobject=\count197
+\everyMPtoPDFconversion=\toks18
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -206,38 +230,67 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <./capture-app.PNG, id=13, 350.16536pt x 727.00179pt>
 File: ./capture-app.PNG Graphic file (type png)
 <use ./capture-app.PNG>
-Package pdftex.def Info: ./capture-app.PNG  used on input line 35.
-(pdftex.def)             Requested size: 256.0748pt x 531.6609pt.
+Package pdftex.def Info: ./capture-app.PNG  used on input line 38.
+(pdftex.def)             Requested size: 142.26378pt x 295.36594pt.
  [3
 
- <./capture-app.PNG>] [4]
-<./ERSchemaGen2.jpg, id=23, 8788.835pt x 9242.53pt>
+ <./capture-app.PNG>]
+<./current_status_g7.PNG, id=20, 722.7pt x 1517.67pt>
+File: ./current_status_g7.PNG Graphic file (type png)
+<use ./current_status_g7.PNG>
+Package pdftex.def Info: ./current_status_g7.PNG  used on input line 53.
+(pdftex.def)             Requested size: 85.35826pt x 179.24098pt.
+<./server_g7.PNG, id=21, 722.7pt x 1517.67pt>
+File: ./server_g7.PNG Graphic file (type png)
+<use ./server_g7.PNG>
+Package pdftex.def Info: ./server_g7.PNG  used on input line 54.
+(pdftex.def)             Requested size: 85.35826pt x 179.24098pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--56
+[][]
+ []
+
+<./current_status_g8.PNG, id=22, 1084.05pt x 2288.55pt>
+File: ./current_status_g8.PNG Graphic file (type png)
+<use ./current_status_g8.PNG>
+Package pdftex.def Info: ./current_status_g8.PNG  used on input line 60.
+(pdftex.def)             Requested size: 85.35826pt x 180.18935pt.
+<./client_g8.PNG, id=23, 1084.05pt x 2288.55pt>
+File: ./client_g8.PNG Graphic file (type png)
+<use ./client_g8.PNG>
+Package pdftex.def Info: ./client_g8.PNG  used on input line 61.
+(pdftex.def)             Requested size: 85.35826pt x 180.18935pt.
+[4
+
+ <./current_status_g7.png> <./server_g7.png> <./current_status_g8.png> <./clien
+t_g8.png>]
+<./ERSchemaGen2.jpg, id=31, 8788.835pt x 9242.53pt>
 File: ./ERSchemaGen2.jpg Graphic file (type jpg)
 <use ./ERSchemaGen2.jpg>
-Package pdftex.def Info: ./ERSchemaGen2.jpg  used on input line 58.
+Package pdftex.def Info: ./ERSchemaGen2.jpg  used on input line 80.
 (pdftex.def)             Requested size: 398.33858pt x 418.85753pt.
 
-Overfull \hbox (8.33858pt too wide) in paragraph at lines 58--59
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 80--81
 [] 
  []
 
 [5
 
  <./ERSchemaGen2.jpg>]
-<./SecondERSchemaGen2.jpg, id=27, 1505.625pt x 548.0475pt>
+<./SecondERSchemaGen2.jpg, id=35, 1505.625pt x 548.0475pt>
 File: ./SecondERSchemaGen2.jpg Graphic file (type jpg)
 <use ./SecondERSchemaGen2.jpg>
-Package pdftex.def Info: ./SecondERSchemaGen2.jpg  used on input line 65.
+Package pdftex.def Info: ./SecondERSchemaGen2.jpg  used on input line 87.
 (pdftex.def)             Requested size: 398.33858pt x 144.99774pt.
 
-Overfull \hbox (8.33858pt too wide) in paragraph at lines 65--66
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 87--88
 [] 
  []
 
 ! Undefined control sequence.
 <argument> \imki@jobname 
                          @idxfile
-l.68 
+l.90 
      
 ? 
 
@@ -247,30 +300,30 @@ See the imakeidx package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.68 
+l.90 
      
 ? 
 [6
 
  <./SecondERSchemaGen2.jpg>] (./portfolio.aux) ) 
 Here is how much of TeX's memory you used:
- 1917 strings out of 483183
- 26905 string characters out of 5966292
- 255586 words of memory out of 5000000
- 16931 multiletter control sequences out of 15000+600000
+ 2564 strings out of 483183
+ 43998 string characters out of 5966293
+ 450356 words of memory out of 5000000
+ 17556 multiletter control sequences out of 15000+600000
  540039 words of font info for 40 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 30i,4n,32p,321b,162s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,6n,33p,582b,218s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/daniele/.texlive2019/te
 xmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/daniele/.texlive2019
 /texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/daniele/.texlive2
 019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/daniele/.texli
 ve2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/daniele/.te
 xlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk>
-Output written on portfolio.pdf (6 pages, 6802805 bytes).
+Output written on portfolio.pdf (6 pages, 9075571 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
+ 177 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
