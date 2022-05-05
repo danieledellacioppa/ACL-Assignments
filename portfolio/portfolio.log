@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.5)  5 MAY 2022 16:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.5)  5 MAY 2022 17:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -267,101 +267,62 @@ File: ./current_status_g7.PNG Graphic file (type png)
 <use ./current_status_g7.PNG>
 Package pdftex.def Info: ./current_status_g7.PNG  used on input line 66.
 (pdftex.def)             Requested size: 113.81102pt x 238.98798pt.
+ [4
 
-
-Package wrapfig Warning: Collision between wrapping environments on input line 
-73.
-
-<./server_g7.PNG, id=24, 722.7pt x 1517.67pt>
+ <./current_status_g7.png>]
+<./server_g7.PNG, id=28, 722.7pt x 1517.67pt>
 File: ./server_g7.PNG Graphic file (type png)
 <use ./server_g7.PNG>
-Package pdftex.def Info: ./server_g7.PNG  used on input line 75.
+Package pdftex.def Info: ./server_g7.PNG  used on input line 77.
 (pdftex.def)             Requested size: 113.81102pt x 238.98798pt.
+ [5
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 80
-.
-
-
-Package wrapfig Warning: Collision between wrapping environments on input line 
-82.
-
-<./client_g8.PNG, id=25, 1084.05pt x 2288.55pt>
+ <./server_g7.png>]
+<./client_g8.PNG, id=33, 1084.05pt x 2288.55pt>
 File: ./client_g8.PNG Graphic file (type png)
 <use ./client_g8.PNG>
-Package pdftex.def Info: ./client_g8.PNG  used on input line 84.
+Package pdftex.def Info: ./client_g8.PNG  used on input line 87.
 (pdftex.def)             Requested size: 113.81102pt x 240.25246pt.
+
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
 92.
 
-<./current_status_g8.PNG, id=26, 1084.05pt x 2288.55pt>
+<./current_status_g8.PNG, id=34, 1084.05pt x 2288.55pt>
 File: ./current_status_g8.PNG Graphic file (type png)
 <use ./current_status_g8.PNG>
 Package pdftex.def Info: ./current_status_g8.PNG  used on input line 94.
-(pdftex.def)             Requested size: 85.35826pt x 180.18935pt.
+(pdftex.def)             Requested size: 113.81102pt x 240.25246pt.
+[6
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 99
-.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 10
-9.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 11
-1.
-
-[4
-
- <./current_status_g7.png> <./server_g7.png> <./client_g8.png>]
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 11
-4.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 11
-5.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 11
-6.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 11
-7.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 11
-8.
-
-[5 <./current_status_g8.png>]
-<./ERSchemaGen2.jpg, id=37, 8788.835pt x 9242.53pt>
+ <./client_g8.png> <./current_status_g8.png>]
+<./ERSchemaGen2.jpg, id=40, 8788.835pt x 9242.53pt>
 File: ./ERSchemaGen2.jpg Graphic file (type jpg)
 <use ./ERSchemaGen2.jpg>
-Package pdftex.def Info: ./ERSchemaGen2.jpg  used on input line 126.
+Package pdftex.def Info: ./ERSchemaGen2.jpg  used on input line 127.
 (pdftex.def)             Requested size: 398.33858pt x 418.85753pt.
 
-Overfull \hbox (8.33858pt too wide) in paragraph at lines 126--127
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 127--128
 [] 
  []
 
-[6
+[7
 
  <./ERSchemaGen2.jpg>]
-<./SecondERSchemaGen2.jpg, id=41, 1505.625pt x 548.0475pt>
+<./SecondERSchemaGen2.jpg, id=45, 1505.625pt x 548.0475pt>
 File: ./SecondERSchemaGen2.jpg Graphic file (type jpg)
 <use ./SecondERSchemaGen2.jpg>
-Package pdftex.def Info: ./SecondERSchemaGen2.jpg  used on input line 133.
+Package pdftex.def Info: ./SecondERSchemaGen2.jpg  used on input line 134.
 (pdftex.def)             Requested size: 398.33858pt x 144.99774pt.
 
-Overfull \hbox (8.33858pt too wide) in paragraph at lines 133--134
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 134--135
 [] 
  []
 
 ! Undefined control sequence.
 <argument> \imki@jobname 
                          @idxfile
-l.136 
+l.137 
       
 ? 
 
@@ -371,10 +332,10 @@ See the imakeidx package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.136 
+l.137 
       
 ? 
-[7
+[8
 
  <./SecondERSchemaGen2.jpg>] (./portfolio.aux) ) 
 Here is how much of TeX's memory you used:
@@ -384,7 +345,7 @@ Here is how much of TeX's memory you used:
  17564 multiletter control sequences out of 15000+600000
  542334 words of font info for 43 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 35i,7n,33p,398b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,7n,33p,398b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/daniele/.texlive2019/te
 xmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/daniele/.texlive2019
 /texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/daniele/.texlive2
@@ -394,10 +355,10 @@ xlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/daniele/
 .texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/danie
 le/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/da
 niele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk>
-Output written on portfolio.pdf (7 pages, 9090537 bytes).
+Output written on portfolio.pdf (8 pages, 9091181 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 241 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

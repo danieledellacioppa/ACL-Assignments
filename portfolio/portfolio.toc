@@ -2,5 +2,5 @@
 \contentsline {subsection}{\numberline {1.1}iOS \& Android development}{3}%
 \contentsline {subsubsection}{\numberline {1.1.1}targets set on the 5th May 2022}{3}%
 \contentsline {subsection}{\numberline {1.2}Stage I was at on the 5th May 2022}{4}%
-\contentsline {section}{\numberline {2}My Responsibilites}{5}%
-\contentsline {subsection}{\numberline {2.1}design}{6}%
+\contentsline {section}{\numberline {2}My Responsibilites}{6}%
+\contentsline {subsection}{\numberline {2.1}design}{7}%
