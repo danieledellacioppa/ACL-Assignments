@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.5)  5 MAY 2022 16:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.5)  5 MAY 2022 16:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -266,39 +266,30 @@ Underfull \hbox (badness 1990) in paragraph at lines 56--57
 File: ./current_status_g7.PNG Graphic file (type png)
 <use ./current_status_g7.PNG>
 Package pdftex.def Info: ./current_status_g7.PNG  used on input line 66.
-(pdftex.def)             Requested size: 227.62204pt x 477.99911pt.
-
-Overfull \hbox (85.35826pt too wide) in paragraph at lines 66--68
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--69
-\T1/cmr/m/n/12 at-tempts a con-nec-tion to the server
- []
+(pdftex.def)             Requested size: 142.26378pt x 298.75813pt.
 
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-71.
+73.
 
 <./server_g7.PNG, id=24, 722.7pt x 1517.67pt>
 File: ./server_g7.PNG Graphic file (type png)
 <use ./server_g7.PNG>
-Package pdftex.def Info: ./server_g7.PNG  used on input line 73.
+Package pdftex.def Info: ./server_g7.PNG  used on input line 75.
 (pdftex.def)             Requested size: 85.35826pt x 179.24098pt.
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-80.
+82.
 
 <./client_g8.PNG, id=25, 1084.05pt x 2288.55pt>
 File: ./client_g8.PNG Graphic file (type png)
 <use ./client_g8.PNG>
-Package pdftex.def Info: ./client_g8.PNG  used on input line 82.
+Package pdftex.def Info: ./client_g8.PNG  used on input line 84.
 (pdftex.def)             Requested size: 85.35826pt x 180.18935pt.
 <./current_status_g8.PNG, id=26, 1084.05pt x 2288.55pt>
 File: ./current_status_g8.PNG Graphic file (type png)
 <use ./current_status_g8.PNG>
-Package pdftex.def Info: ./current_status_g8.PNG  used on input line 89.
+Package pdftex.def Info: ./current_status_g8.PNG  used on input line 91.
 (pdftex.def)             Requested size: 85.35826pt x 180.18935pt.
 [4
 
@@ -307,10 +298,10 @@ s_g8.png>] [5]
 <./ERSchemaGen2.jpg, id=37, 8788.835pt x 9242.53pt>
 File: ./ERSchemaGen2.jpg Graphic file (type jpg)
 <use ./ERSchemaGen2.jpg>
-Package pdftex.def Info: ./ERSchemaGen2.jpg  used on input line 109.
+Package pdftex.def Info: ./ERSchemaGen2.jpg  used on input line 111.
 (pdftex.def)             Requested size: 398.33858pt x 418.85753pt.
 
-Overfull \hbox (8.33858pt too wide) in paragraph at lines 109--110
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 111--112
 [] 
  []
 
@@ -320,17 +311,17 @@ Overfull \hbox (8.33858pt too wide) in paragraph at lines 109--110
 <./SecondERSchemaGen2.jpg, id=41, 1505.625pt x 548.0475pt>
 File: ./SecondERSchemaGen2.jpg Graphic file (type jpg)
 <use ./SecondERSchemaGen2.jpg>
-Package pdftex.def Info: ./SecondERSchemaGen2.jpg  used on input line 116.
+Package pdftex.def Info: ./SecondERSchemaGen2.jpg  used on input line 118.
 (pdftex.def)             Requested size: 398.33858pt x 144.99774pt.
 
-Overfull \hbox (8.33858pt too wide) in paragraph at lines 116--117
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 118--119
 [] 
  []
 
 ! Undefined control sequence.
 <argument> \imki@jobname 
                          @idxfile
-l.119 
+l.121 
       
 ? 
 
@@ -340,7 +331,7 @@ See the imakeidx package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.119 
+l.121 
       
 ? 
 [7
@@ -353,7 +344,7 @@ Here is how much of TeX's memory you used:
  17563 multiletter control sequences out of 15000+600000
  542334 words of font info for 43 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 35i,7n,33p,439b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,7n,33p,439b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/daniele/.texlive2019/te
 xmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/daniele/.texlive2019
 /texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/daniele/.texlive2
@@ -363,7 +354,7 @@ xlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/daniele/
 .texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/danie
 le/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/da
 niele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk>
-Output written on portfolio.pdf (7 pages, 9090281 bytes).
+Output written on portfolio.pdf (7 pages, 9090295 bytes).
 PDF statistics:
  237 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
