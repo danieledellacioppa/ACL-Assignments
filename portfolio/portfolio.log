@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.5)  5 MAY 2022 14:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.5)  5 MAY 2022 14:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -232,15 +232,34 @@ File: ./capture-app.PNG Graphic file (type png)
 <use ./capture-app.PNG>
 Package pdftex.def Info: ./capture-app.PNG  used on input line 38.
 (pdftex.def)             Requested size: 142.26378pt x 295.36594pt.
- [3
+
+! Argument of \@caption has an extra }.
+<inserted text> 
+                \par 
+l.40 ...d in Xamarin with a button\footnotemark{}}
+                                                  \label{wrap-fig:1}
+? 
+Runaway argument?
+\@captype {\@xfootnotemark }\def \reserved@b {\stepcounter {footnote}\ETC.
+! Paragraph ended before \@caption was complete.
+<to be read again> 
+                   \par 
+l.40 ...d in Xamarin with a button\footnotemark{}}
+                                                  \label{wrap-fig:1}
+? 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 43.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 43.
+[3
 
  <./capture-app.PNG>]
-<./current_status_g7.PNG, id=20, 722.7pt x 1517.67pt>
+<./current_status_g7.PNG, id=23, 722.7pt x 1517.67pt>
 File: ./current_status_g7.PNG Graphic file (type png)
 <use ./current_status_g7.PNG>
 Package pdftex.def Info: ./current_status_g7.PNG  used on input line 53.
 (pdftex.def)             Requested size: 85.35826pt x 179.24098pt.
-<./server_g7.PNG, id=21, 722.7pt x 1517.67pt>
+<./server_g7.PNG, id=24, 722.7pt x 1517.67pt>
 File: ./server_g7.PNG Graphic file (type png)
 <use ./server_g7.PNG>
 Package pdftex.def Info: ./server_g7.PNG  used on input line 54.
@@ -250,12 +269,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--56
 [][]
  []
 
-<./current_status_g8.PNG, id=22, 1084.05pt x 2288.55pt>
+<./current_status_g8.PNG, id=25, 1084.05pt x 2288.55pt>
 File: ./current_status_g8.PNG Graphic file (type png)
 <use ./current_status_g8.PNG>
 Package pdftex.def Info: ./current_status_g8.PNG  used on input line 60.
 (pdftex.def)             Requested size: 85.35826pt x 180.18935pt.
-<./client_g8.PNG, id=23, 1084.05pt x 2288.55pt>
+<./client_g8.PNG, id=26, 1084.05pt x 2288.55pt>
 File: ./client_g8.PNG Graphic file (type png)
 <use ./client_g8.PNG>
 Package pdftex.def Info: ./client_g8.PNG  used on input line 61.
@@ -264,7 +283,7 @@ Package pdftex.def Info: ./client_g8.PNG  used on input line 61.
 
  <./current_status_g7.png> <./server_g7.png> <./current_status_g8.png> <./clien
 t_g8.png>]
-<./ERSchemaGen2.jpg, id=31, 8788.835pt x 9242.53pt>
+<./ERSchemaGen2.jpg, id=34, 8788.835pt x 9242.53pt>
 File: ./ERSchemaGen2.jpg Graphic file (type jpg)
 <use ./ERSchemaGen2.jpg>
 Package pdftex.def Info: ./ERSchemaGen2.jpg  used on input line 80.
@@ -277,7 +296,7 @@ Overfull \hbox (8.33858pt too wide) in paragraph at lines 80--81
 [5
 
  <./ERSchemaGen2.jpg>]
-<./SecondERSchemaGen2.jpg, id=35, 1505.625pt x 548.0475pt>
+<./SecondERSchemaGen2.jpg, id=38, 1505.625pt x 548.0475pt>
 File: ./SecondERSchemaGen2.jpg Graphic file (type jpg)
 <use ./SecondERSchemaGen2.jpg>
 Package pdftex.def Info: ./SecondERSchemaGen2.jpg  used on input line 87.
@@ -307,23 +326,26 @@ l.90
 
  <./SecondERSchemaGen2.jpg>] (./portfolio.aux) ) 
 Here is how much of TeX's memory you used:
- 2564 strings out of 483183
- 43998 string characters out of 5966293
+ 2572 strings out of 483183
+ 44087 string characters out of 5966293
  450356 words of memory out of 5000000
- 17556 multiletter control sequences out of 15000+600000
- 540039 words of font info for 40 fonts, out of 8000000 for 9000
+ 17561 multiletter control sequences out of 15000+600000
+ 542334 words of font info for 43 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 35i,6n,33p,582b,218s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,7n,33p,582b,218s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/daniele/.texlive2019/te
-xmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/daniele/.texlive2019
-/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/daniele/.texlive2
-019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/daniele/.texli
-ve2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/daniele/.te
-xlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk>
-Output written on portfolio.pdf (6 pages, 9075796 bytes).
+xmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/daniele/.texlive2019
+/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/daniele/.texlive2
+019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/daniele/.texli
+ve2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/daniele/.te
+xlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/daniele/
+.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/danie
+le/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/da
+niele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk>
+Output written on portfolio.pdf (6 pages, 9082199 bytes).
 PDF statistics:
- 178 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 212 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
