@@ -1,11 +1,22 @@
 \documentclass[a4paper,12pt]{article}
+\usepackage{listings}
 \usepackage[T1]{fontenc}
 \usepackage{imakeidx}
 \usepackage{graphicx}
-
 %\makeindex[columns=3, title=Alphabetical Index, intoc]
+\usepackage{graphicx,wrapfig,lipsum}
 
-\usepackage{listings}
+\usepackage[hmargin=1cm, vmargin=3cm]{geometry}
+\usepackage[font=tiny, labelfont=sc]{caption}
+
+
+
+\newcommand{\wrapfill}{\par\ifnum\value{WF@wrappedlines}>0
+  \addtocounter{WF@wrappedlines}{-1}%
+  \null\vspace{\arabic{WF@wrappedlines}\baselineskip}%
+  \WFclear
+\fi}
+
 
 \begin{document}
 
@@ -17,9 +28,19 @@
 
 \section{What it is}
 
+
+\begin{wrapfigure}[21]{5cm}
+\centering
+\includegraphics[width=12cm]{./net.png}
+%\vspace{-10pt}
+\caption{devices connected in the world}\label{wrap-fig:5}
+\end{wrapfigure}
+
 A network is two or more \emph{computers} (or other electronic devices) that are \textbf{connected} together, usually by cables(guided) or Wi-Fi(unguided).
 
-\section {benefits of a network}
+
+
+\section {network benefits}
 \begin{enumerate}
 \item {sharing hardware, such as printers, computers, phones, tablets, scanners, etc...}\footnotemark{}
 \item {sharing software, allowing:}
@@ -30,13 +51,15 @@ A network is two or more \emph{computers} (or other electronic devices) that are
     \end{itemize}
 \end{enumerate}
 
-\includegraphics[width=11cm]{./net.png}
+
+
+
+
 \footnotetext{All these pieces of hardware are usually addressed as \textbf{endpoints} as long as they have the ability to communicate effectively within a network}
 
 
-Networking is crucial if you want to use your computer to communicate. Without it you couldn’t send an email, a text or an instant message and that would be so bad.
-
-We use a huge network on a daily basis and this is called the internet. Around three billion people use the internet to share data, news and resources, amongst many other things.
+\newline \noindent Networking is crucial if you want to use your computer to communicate. Without it you couldn’t send an email, a text or an instant message and that would be so bad.We use a huge network on a daily basis and this is called the internet. Around three billion people use the internet to share data, news and resources, amongst many other things.
+\clearpage
 \subsection{guided wiring}
 Is quicker than unguided, it consists in physical wires. Optic Fiber is on the top of this list but can't be twisted. You can install a optic cable for a much longer distance and you won't get the same troubles you would get with copper cables for example
 
@@ -47,14 +70,27 @@ This is Wi-Fi essentially. You can have a 2.4Ghz signal to reach longer distance
 
 LAN, which stands for local area network, and WAN, which stands for wide area network, are two types of networks that allow connection between computers. As the naming conventions suggest, LANs are for smaller, more localized networking — in a home, business, school, etc. — while WANs cover larger areas, such as cities, and even allow computers in different nations to connect. LANs are typically faster and more secure than WANs, but WANs enable more widespread connectivity
 
-\clearpage
+
 
 \section{IEEE 802.3}
 
+\begin{wrapfigure}[16]{1cm}
+\centering
+\includegraphics[width=15cm]{./ieee_802.jpg}
+\vspace{-15pt}
+\caption{IEEE hierarchy}\label{wrap-fig:5}
+\end{wrapfigure}
+
 IEEE 802.3 is a set of standards and protocols that define Ethernet-based networks. Ethernet technologies are primarily used in LANs, though they can also be used in WANs as well. IEEE 802.3 defines the physical layer and the medium access control (MAC) sub-layer of the data link layer for wired Ethernet networks.
 
-\subesction{IEEE 802.3 Popular Versions}
+
+
+
+\subsection{Popular Versions}
+
 There are a number of versions of IEEE 802.3 protocol. The most popular ones are.
+
+
 
 \begin{itemize}
 \item{IEEE 802.3: This was the original standard given for 10BASE-5. It used a thick single coaxial cable into which a connection can be tapped by drilling into the cable to the core. Here, 10 is the maximum throughput, i.e. 10 Mbps, BASE denoted use of baseband transmission, and 5 refers to the maximum segment length of 500m}
@@ -62,25 +98,33 @@ There are a number of versions of IEEE 802.3 protocol. The most popular ones are
 \item{IEEE 802.3i: This gave the standard for twisted pair (10BASE-T) that uses unshielded twisted pair (UTP) copper wires as physical layer medium. The further variations were given by IEEE 802.3u for 100BASE-TX, 100BASE-T4 and 100BASE-FX}
 \item{IEEE 802.3j: This gave the standard for Ethernet over Fiber (10BASE-F) that uses fiber optic cables as medium of transmission}
 \end{itemize}
-\includegraphics[width=15cm]{./ieee_802.jpg}
+
+\clearpage
 
 \section{Protocols}
 
 Protocols are kind of rules defined in advance to make sure two or more devices know in advance what to expect if they send a particular message and what to expect in return 
 
-\subsection{OSI standard}
+\subsection{OSI Standard}
 The Open Systems Interconnection (OSI) model describes seven layers that computer systems use to communicate over a network. It was the first standard model for network communications, adopted by all major computer and telecommunication companies in the early 1980s
 
+\begin{wrapfigure}[21]{5cm}
+\centering
 \includegraphics[width=13cm]{./OSI-7-layers.jpg}
+%\vspace{-10pt}
+\caption{OSI Layer representation}\label{wrap-fig:5}
+\end{wrapfigure}
+
 
 The modern Internet is not based on OSI, but on the simpler TCP/IP model. However, the OSI 7-layer model is still widely used, as it helps visualize and communicate how networks operate, and helps isolate and troubleshoot networking problems.
 
 OSI was introduced in 1983 by representatives of the major computer and telecom companies, and was adopted by ISO as an international standard in 1984.
 
-\subsection{good mnemonic for OSI}
+
+\subsection{A good Mnemonic}
 Every layer of the OSI model can be remembered with the mnemonic : Please Do Not Throw Sausage and Pizza Away
 
-\subsection{theory vs practice}
+\subsection{Theory vs Practice}
 Even if The Transmission Control Protocol/Internet Protocol (TCP/IP) model came before the Open Systems Interconnection (OSI) model it is what is used in practice today, and it has only five layers:
 
 \begin{itemize}
@@ -125,7 +169,12 @@ Computer 1 receives and caches the response information in its ARP table and can
 \section{Networking Hardware}
 Computers need networking hardware in order to connect to each other. \textbf{Routers}, \textbf{hubs}, \textbf{switches} and \textbf{bridges} are all pieces of networking equipment that can perform slightly different tasks. A router can often incorporate hubs, switches and wireless access within the same hardware
 
-\includegraphics[width=13cm]{./large.PNG}
+\begin{wrapfigure}[18]{5cm}
+\centering
+\includegraphics[width=16cm]{./large.PNG}
+%\vspace{-10pt}
+\caption{Router connecting devices in a LAN over the Internet}\label{wrap-fig:5}
+\end{wrapfigure}
 
 \subsection{Routers}
 A router can form a \textbf{LAN} by connecting devices within a building. It also makes it possible to connect different networks together. Homes and businesses use a router to connect to the internet. A router can often incorporate a modem within the hardware.
@@ -134,18 +183,40 @@ A router can form a \textbf{LAN} by connecting devices within a building. It als
 A \textbf{modem} enables a computer to connect to the internet over a telephone line. A modem converts \textbf{digital} signals from a computer to analogue signals that are then sent down the telephone line. A modem on the other end converts the analogue signal back to a digital signal which another computer can understand.
 
 \subsection{Hubs, bridges and switches}
-
-\includegraphics[width=13cm]{./hbs.PNG}
-
 \textbf{Hubs}, \textbf{bridges} and \textbf{switches} allow multiple devices to connect to the router and they transfer data to all devices on a network. A router is a more complex device that usually includes the capability of hubs, bridges and switches.
+
+\clearpage
+
+\begin{wrapfigure}{R}{11cm}
+\centering
+\includegraphics[width=10cm]{./hbs.PNG}
+%\vspace{-10pt}
+\caption{devices connected together}\label{wrap-fig:5}
+\end{wrapfigure}
 
 \subsubsection{Hubs}
 A hub broadcasts data to all devices on a network. This can use a lot of \textbf{bandwidth} as it results in unnecessary data being sent - not all computers might need to receive the data. A hub would be useful to link up a few games consoles for a local multiplayer game using a wired LAN.
 
-\subsubsection{Bridges}
-A \textbf{bridge} is used to connect two separate LAN networks. A computer can act as a bridge through the \textbf{operating system}. A bridge looks for the receiving device before it sends the message. This means that it will not send a message if the receiving computer is not there. It will check to see if the receiver has already had the message. This can help save unnecessary data transfers, which improves the performance of a network.
+\wrapfill
 
-\includegraphics[width=13cm]{./performance.PNG}
+
+\begin{wrapfigure}{L}{8cm}
+\centering\newcommand{\wrapfill}{\par\ifnum\value{WF@wrappedlines}>0
+  \addtocounter{WF@wrappedlines}{-1}%
+  \null\vspace{\arabic{WF@wrappedlines}\baselineskip}%
+  \WFclear
+\fi}
+\includegraphics[width=8cm]{./performance.PNG}
+\vspace{-10pt}
+\caption{Bridge saving unnecessary data transfer}\label{wrap-fig:5}
+\end{wrapfigure}
+
+
+\subsubsection{Bridges}
+A \textbf{bridge} is used to connect two separate LAN networks. A computer can act as a bridge through the \textbf{operating system}. A bridge looks for the receiving device before it sends the message. This means that it will not send a message if the receiving computer is not there. It will check to see if the receiver has already had the message. This can help save unnecessary data transfers, which improves the performance of a network.(see Figure 6)
+
+\wrapfill
+\clearpage
 
 \subsubsection{Switches}
 A \textbf{switch} performs a similar role to a hub and a bridge but is more powerful. It stores the \textbf{MAC addresses} of devices on a network and filters \textbf{data packets} to see which devices have asked for them. This makes a switch more efficient when demand is high. If, for example, a game involved lots of data being passed between machines, then a switch could reduce the amount of \textbf{latency}

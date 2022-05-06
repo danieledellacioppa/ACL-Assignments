@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.10)  5 MAY 2022 11:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.5)  6 MAY 2022 16:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -23,6 +23,35 @@ File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
 )
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\lst@mode=\count175
+\lst@gtempboxa=\box45
+\lst@token=\toks15
+\lst@length=\count176
+\lst@currlwidth=\dimen135
+\lst@column=\count177
+\lst@pos=\count178
+\lst@lostspace=\dimen136
+\lst@width=\dimen137
+\lst@newlines=\count179
+\lst@lineno=\count180
+\lst@maxwidth=\dimen138
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count181
+\lst@skipnumbers=\count182
+\lst@framebox=\box46
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 )
@@ -35,11 +64,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks14
-\XKV@tempa@toks=\toks15
-
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
-\XKV@depth=\count175
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
+)
+\XKV@depth=\count183
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
@@ -53,29 +81,27 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count176
-\mult@box=\box45
-\multicol@leftmargin=\dimen135
-\c@unbalance=\count177
-\c@collectmore=\count178
-\doublecol@number=\count179
-\multicoltolerance=\count180
-\multicolpretolerance=\count181
-\full@width=\dimen136
-\page@free=\dimen137
-\premulticols=\dimen138
-\postmulticols=\dimen139
+\c@tracingmulticols=\count184
+\mult@box=\box47
+\multicol@leftmargin=\dimen139
+\c@unbalance=\count185
+\c@collectmore=\count186
+\doublecol@number=\count187
+\multicoltolerance=\count188
+\multicolpretolerance=\count189
+\full@width=\dimen140
+\page@free=\dimen141
+\premulticols=\dimen142
+\postmulticols=\dimen143
 \multicolsep=\skip49
 \multicolbaselineskip=\skip50
-\partial@page=\box46
-\last@line=\box47
-\maxbalancingoverflow=\dimen140
-\mult@rightbox=\box48
-\mult@grightbox=\box49
-\mult@gfirstbox=\box50
-\mult@firstbox=\box51
-\@tempa=\box52
-\@tempa=\box53
+\partial@page=\box48
+\last@line=\box49
+\maxbalancingoverflow=\dimen144
+\mult@rightbox=\box50
+\mult@grightbox=\box51
+\mult@gfirstbox=\box52
+\mult@firstbox=\box53
 \@tempa=\box54
 \@tempa=\box55
 \@tempa=\box56
@@ -111,15 +137,17 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box86
 \@tempa=\box87
 \@tempa=\box88
-\c@minrows=\count182
-\c@columnbadness=\count183
-\c@finalcolumnbadness=\count184
-\last@try=\dimen141
-\multicolovershoot=\dimen142
-\multicolundershoot=\dimen143
-\mult@nat@firstbox=\box89
-\colbreak@box=\box90
-\mc@col@check@num=\count185
+\@tempa=\box89
+\@tempa=\box90
+\c@minrows=\count190
+\c@columnbadness=\count191
+\c@finalcolumnbadness=\count192
+\last@try=\dimen145
+\multicolovershoot=\dimen146
+\multicolundershoot=\dimen147
+\mult@nat@firstbox=\box91
+\colbreak@box=\box92
+\mc@col@check@num=\count193
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -138,70 +166,124 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen144
-\Gin@req@width=\dimen145
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count186
-\lst@gtempboxa=\box91
-\lst@token=\toks16
-\lst@length=\count187
-\lst@currlwidth=\dimen146
-\lst@column=\count188
-\lst@pos=\count189
-\lst@lostspace=\dimen147
-\lst@width=\dimen148
-\lst@newlines=\count190
-\lst@lineno=\count191
-\lst@maxwidth=\dimen149
-
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
-\c@lstnumber=\count192
-\lst@skipnumbers=\count193
-\lst@framebox=\box92
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen150
+\WF@size=\dimen151
+\c@WF@wrappedlines=\count194
+\WF@box=\box93
+\WF@everypar=\toks18
+Package: wrapfig 2003/01/31  v 3.6
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2019/09/10 1.8c listings configuration
-))
-Package: listings 2019/09/10 1.8c (Carsten Heinz)
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-02-14 L3 programming layer (loader) 
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count194
-\l__pdf_internal_box=\box93
+\l__kernel_color_stack_int=\count195
+\l__pdf_internal_box=\box94
+))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-02-14 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count196
+\g__xparse_grabber_int=\count197
+\l__xparse_m_args_int=\count198
+\l__xparse_v_nesting_int=\count199
 )
-(./networking.aux)
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count266
+\Gm@cntv=\count267
+\c@Gm@tempcnt=\count268
+\Gm@bindingoffset=\dimen152
+\Gm@wd@mp=\dimen153
+\Gm@odd@mp=\dimen154
+\Gm@even@mp=\dimen155
+\Gm@layoutwidth=\dimen156
+\Gm@layoutheight=\dimen157
+\Gm@layouthoffset=\dimen158
+\Gm@layoutvoffset=\dimen159
+\Gm@dimlist=\toks19
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen160
+\captionmargin@=\dimen161
+\captionwidth=\dimen162
+\caption@tempdima=\dimen163
+\caption@indent=\dimen164
+\caption@parindent=\dimen165
+\caption@hangindent=\dimen166
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count269
+\c@continuedfloat=\count270
+Package caption Info: listings package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
+(./networking.aux
+
+LaTeX Warning: Label `wrap-fig:5' multiply defined.
+
+
+LaTeX Warning: Label `wrap-fig:5' multiply defined.
+
+
+LaTeX Warning: Label `wrap-fig:5' multiply defined.
+
+
+LaTeX Warning: Label `wrap-fig:5' multiply defined.
+
+
+LaTeX Warning: Label `wrap-fig:5' multiply defined.
+
+)
 \openout1 = `networking.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+\c@lstlisting=\count271
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count195
-\scratchdimen=\dimen150
-\scratchbox=\box94
-\nofMPsegments=\count196
-\nofMParguments=\count197
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count198
-\MPscratchDim=\dimen151
-\MPnumerator=\count199
-\makeMPintoPDFobject=\count266
-\everyMPtoPDFconversion=\toks18
+\scratchcounter=\count272
+\scratchdimen=\dimen167
+\scratchbox=\box95
+\nofMPsegments=\count273
+\nofMParguments=\count274
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count275
+\MPscratchDim=\dimen168
+\MPnumerator=\count276
+\makeMPintoPDFobject=\count277
+\everyMPtoPDFconversion=\toks21
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -211,8 +293,42 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count267
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=540.60239pt
+* \textheight=674.33032pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 (./networking.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 3.
@@ -228,399 +344,575 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 [2]
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.33 \centering
+               
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.33 \centering
+               
+? 
 <./net.png, id=12, 626.34pt x 626.34pt>
 File: ./net.png Graphic file (type png)
 <use ./net.png>
-Package pdftex.def Info: ./net.png  used on input line 33.
-(pdftex.def)             Requested size: 312.9803pt x 312.98764pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 34.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 34.
- [3
+Package pdftex.def Info: ./net.png  used on input line 34.
+(pdftex.def)             Requested size: 341.43306pt x 341.43932pt.
 
- <./net.png>] [4]
-! Undefined control sequence.
-l.56 \subesction
-                {IEEE 802.3 Popular Versions}
-? 
-
-Overfull \hbox (8.85635pt too wide) in paragraph at lines 62--63
-\T1/cmr/m/n/12 medium. The fur-ther vari-a-tions were given by IEEE 802.3u for 
-100BASE-
+Underfull \hbox (badness 7722) in paragraph at lines 45--46
+[]\T1/cmr/m/n/12 sharing hard-ware, such as
  []
 
-<./ieee_802.jpg, id=27, 522.95375pt x 243.91125pt>
+
+Underfull \hbox (badness 2538) in paragraph at lines 45--46
+\T1/cmr/m/n/12 print-ers, com-put-ers, phones,
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 49--50
+\T1/cmr/m/n/12 other peo-ple can ac-cess
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 58.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 58.
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 \newline
+              \noindent Networking is crucial if you want to use your comput...
+
+? 
+[3
+
+ <./net.png>]
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.78 \centering
+               
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.78 \centering
+               
+? 
+<./ieee_802.jpg, id=25, 522.95375pt x 243.91125pt>
 File: ./ieee_802.jpg Graphic file (type jpg)
 <use ./ieee_802.jpg>
-Package pdftex.def Info: ./ieee_802.jpg  used on input line 65.
+Package pdftex.def Info: ./ieee_802.jpg  used on input line 79.
 (pdftex.def)             Requested size: 426.79134pt x 199.06317pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 65--66
-[] 
+Underfull \hbox (badness 4505) in paragraph at lines 84--85
+\T1/cmr/m/n/12 of stan-dards and
  []
 
-[5
 
- <./ieee_802.jpg>]
-<./OSI-7-layers.jpg, id=31, 562.1pt x 457.71pt>
+Underfull \hbox (badness 5985) in paragraph at lines 84--85
+\T1/cmr/m/n/12 net-works. Eth-
+ []
+
+
+Underfull \hbox (badness 7168) in paragraph at lines 84--85
+\T1/cmr/m/n/12 er-net tech-nolo-gies
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 84--85
+\T1/cmr/m/n/12 in LANs, though
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 84--85
+\T1/cmr/m/n/12 they can also be
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 84--85
+\T1/cmr/m/n/12 de-fines the phys-i-
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 84--85
+\T1/cmr/m/n/12 cal layer and the
+ []
+
+
+Underfull \hbox (badness 5985) in paragraph at lines 84--85
+\T1/cmr/m/n/12 trol (MAC) sub-
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 84--85
+\T1/cmr/m/n/12 layer of the data
+ []
+
+[4
+
+ <./ieee_802.jpg>] [5]
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.112 \centering
+                
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.112 \centering
+                
+? 
+<./OSI-7-layers.jpg, id=33, 562.1pt x 457.71pt>
 File: ./OSI-7-layers.jpg Graphic file (type jpg)
 <use ./OSI-7-layers.jpg>
-Package pdftex.def Info: ./OSI-7-layers.jpg  used on input line 74.
+Package pdftex.def Info: ./OSI-7-layers.jpg  used on input line 113.
 (pdftex.def)             Requested size: 369.88582pt x 301.1886pt.
- [6 <./OSI-7-layers.jpg>]
-Overfull \hbox (6.8045pt too wide) in paragraph at lines 84--85
-\T1/cmr/m/n/12 Even if The Trans-mis-sion Con-trol Pro-to-col/In-ter-net Pro-to
--col (TCP/IP) model
- []
 
-[7]
-Overfull \hbox (39.94873pt too wide) in paragraph at lines 108--109
-[][][][][][][][][][][][][][][][][][][][][][][][] 
+Overfull \hbox (0.14668pt too wide) in paragraph at lines 124--124
+[]\T1/cmr/bx/n/14.4 A good Mnemonic 
  []
 
 
-Overfull \hbox (11.75537pt too wide) in paragraph at lines 109--110
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
+Underfull \hbox (badness 1127) in paragraph at lines 125--126
+\T1/cmr/m/n/12 mnemonic : Please Do Not
  []
 
-[8]
-<./large.PNG, id=42, 626.34pt x 352.31625pt>
+
+Underfull \hbox (badness 1259) in paragraph at lines 127--127
+[]\T1/cmr/bx/n/14.4 Theory vs Prac-
+ []
+
+[6
+
+ <./OSI-7-layers.jpg>] [7]
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.173 \centering
+                
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.173 \centering
+                
+? 
+<./large.PNG, id=41, 626.34pt x 352.31625pt>
 File: ./large.PNG Graphic file (type png)
 <use ./large.PNG>
-Package pdftex.def Info: ./large.PNG  used on input line 128.
-(pdftex.def)             Requested size: 369.88582pt x 208.06906pt.
-<./hbs.PNG, id=43, 626.34pt x 626.34pt>
+Package pdftex.def Info: ./large.PNG  used on input line 174.
+(pdftex.def)             Requested size: 455.24408pt x 256.08128pt.
+
+Underfull \hbox (badness 1552) in paragraph at lines 180--181
+[]\T1/cmr/m/n/12 A router can
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 180--181
+\T1/cmr/m/n/12 form a \T1/cmr/bx/n/12 LAN
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 180--181
+\T1/cmr/m/n/12 also makes it
+ []
+
+
+Overfull \hbox (2.10745pt too wide) in paragraph at lines 180--181
+\T1/cmr/m/n/12 pos-si-ble to con-
+ []
+
+
+Underfull \hbox (badness 5578) in paragraph at lines 180--181
+\T1/cmr/m/n/12 nect dif-fer-ent
+ []
+
+
+Overfull \hbox (18.35771pt too wide) in paragraph at lines 180--181
+\T1/cmr/m/n/12 net-works to-gether.
+ []
+
+
+Overfull \hbox (7.9769pt too wide) in paragraph at lines 180--181
+\T1/cmr/m/n/12 Homes and busi-
+ []
+
+
+Underfull \hbox (badness 4967) in paragraph at lines 180--181
+\T1/cmr/m/n/12 nesses use a
+ []
+
+
+Overfull \hbox (6.1048pt too wide) in paragraph at lines 180--181
+\T1/cmr/m/n/12 ter-net. A router
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 180--181
+\T1/cmr/m/n/12 can of-ten in-
+ []
+
+
+Overfull \hbox (3.93484pt too wide) in paragraph at lines 180--181
+\T1/cmr/m/n/12 cor-po-rate a mo-
+ []
+
+
+Overfull \hbox (0.34546pt too wide) in paragraph at lines 180--181
+\T1/cmr/m/n/12 dem within the
+ []
+
+[8
+
+ <./large.png>]
+<./hbs.PNG, id=46, 626.34pt x 626.34pt>
 File: ./hbs.PNG Graphic file (type png)
 <use ./hbs.PNG>
-Package pdftex.def Info: ./hbs.PNG  used on input line 138.
-(pdftex.def)             Requested size: 369.88582pt x 369.90056pt.
- [9
+Package pdftex.def Info: ./hbs.PNG  used on input line 192.
+(pdftex.def)             Requested size: 284.52756pt x 284.53595pt.
 
- <./large.png>] [10 <./hbs.png>]
-<./performance.PNG, id=52, 626.34pt x 548.0475pt>
+
+! LaTeX Error: Command \wrapfill already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.208 \fi}
+          
+? 
+<./performance.PNG, id=47, 626.34pt x 548.0475pt>
 File: ./performance.PNG Graphic file (type png)
 <use ./performance.PNG>
-Package pdftex.def Info: ./performance.PNG  used on input line 148.
-(pdftex.def)             Requested size: 369.88582pt x 323.663pt.
+Package pdftex.def Info: ./performance.PNG  used on input line 209.
+(pdftex.def)             Requested size: 227.62204pt x 199.17015pt.
+[9
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
-
- []
-
-[11 <./performance.png>] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
+ <./hbs.png> <./performance.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
 
  []
 
-<./step-by-step/0.PNG, id=60, 818.19965pt x 625.04947pt>
+[10
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
+
+ []
+
+<./step-by-step/0.PNG, id=56, 818.19965pt x 625.04947pt>
 File: ./step-by-step/0.PNG Graphic file (type png)
 <use ./step-by-step/0.PNG>
-Package pdftex.def Info: ./step-by-step/0.PNG  used on input line 172.
+Package pdftex.def Info: ./step-by-step/0.PNG  used on input line 243.
+(pdftex.def)             Requested size: 369.88582pt x 282.56674pt.
+[11
+
+ <./step-by-step/0.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+
+ []
+
+<./step-by-step/1.PNG, id=62, 818.19965pt x 625.04947pt>
+File: ./step-by-step/1.PNG Graphic file (type png)
+<use ./step-by-step/1.PNG>
+Package pdftex.def Info: ./step-by-step/1.PNG  used on input line 248.
+(pdftex.def)             Requested size: 369.88582pt x 282.56674pt.
+[12
+
+ <./step-by-step/1.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+
+ []
+
+<./step-by-step/2.PNG, id=67, 818.19965pt x 625.04947pt>
+File: ./step-by-step/2.PNG Graphic file (type png)
+<use ./step-by-step/2.PNG>
+Package pdftex.def Info: ./step-by-step/2.PNG  used on input line 253.
 (pdftex.def)             Requested size: 369.88582pt x 282.56674pt.
 [13
 
- <./step-by-step/0.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
-
- []
-
-<./step-by-step/1.PNG, id=67, 818.19965pt x 625.04947pt>
-File: ./step-by-step/1.PNG Graphic file (type png)
-<use ./step-by-step/1.PNG>
-Package pdftex.def Info: ./step-by-step/1.PNG  used on input line 177.
-(pdftex.def)             Requested size: 369.88582pt x 282.56674pt.
-[14
-
- <./step-by-step/1.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
-
- []
-
-<./step-by-step/2.PNG, id=72, 818.19965pt x 625.04947pt>
-File: ./step-by-step/2.PNG Graphic file (type png)
-<use ./step-by-step/2.PNG>
-Package pdftex.def Info: ./step-by-step/2.PNG  used on input line 182.
-(pdftex.def)             Requested size: 369.88582pt x 282.56674pt.
-[15
-
  <./step-by-step/2.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
 
  []
 
-<./step-by-step/3.PNG, id=77, 603.11035pt x 582.0316pt>
+<./step-by-step/3.PNG, id=73, 603.11035pt x 582.0316pt>
 File: ./step-by-step/3.PNG Graphic file (type png)
 <use ./step-by-step/3.PNG>
-Package pdftex.def Info: ./step-by-step/3.PNG  used on input line 187.
+Package pdftex.def Info: ./step-by-step/3.PNG  used on input line 258.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
-[16
+[14
 
  <./step-by-step/3.PNG>]
 ! Undefined control sequence.
-l.190 ...dent And we move ourselves in the \textvg
+l.261 ...dent And we move ourselves in the \textvg
                                                   {Config} tab \newline
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
 
  []
 
-<./step-by-step/4.PNG, id=82, 603.11035pt x 582.0316pt>
+<./step-by-step/4.PNG, id=78, 603.11035pt x 582.0316pt>
 File: ./step-by-step/4.PNG Graphic file (type png)
 <use ./step-by-step/4.PNG>
-Package pdftex.def Info: ./step-by-step/4.PNG  used on input line 192.
+Package pdftex.def Info: ./step-by-step/4.PNG  used on input line 263.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
-[17
+[15
 
  <./step-by-step/4.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
  []
 
-<./step-by-step/5.PNG, id=87, 603.11035pt x 582.0316pt>
+<./step-by-step/5.PNG, id=83, 603.11035pt x 582.0316pt>
 File: ./step-by-step/5.PNG Graphic file (type png)
 <use ./step-by-step/5.PNG>
-Package pdftex.def Info: ./step-by-step/5.PNG  used on input line 197.
+Package pdftex.def Info: ./step-by-step/5.PNG  used on input line 268.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
-[18
+[16
 
  <./step-by-step/5.PNG>]
-<./step-by-step/6.PNG, id=92, 603.11035pt x 582.0316pt>
+<./step-by-step/6.PNG, id=88, 603.11035pt x 582.0316pt>
 File: ./step-by-step/6.PNG Graphic file (type png)
 <use ./step-by-step/6.PNG>
-Package pdftex.def Info: ./step-by-step/6.PNG  used on input line 204.
+Package pdftex.def Info: ./step-by-step/6.PNG  used on input line 275.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
- [19
+ [17
 
  <./step-by-step/6.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 
  []
 
-<./step-by-step/7.PNG, id=100, 825.94286pt x 929.18571pt>
+<./step-by-step/7.PNG, id=95, 825.94286pt x 929.18571pt>
 File: ./step-by-step/7.PNG Graphic file (type png)
 <use ./step-by-step/7.PNG>
-Package pdftex.def Info: ./step-by-step/7.PNG  used on input line 209.
+Package pdftex.def Info: ./step-by-step/7.PNG  used on input line 280.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
-[20
+[18
 
  <./step-by-step/7.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
 
  []
 
-<./step-by-step/8.PNG, id=105, 825.94286pt x 929.18571pt>
+<./step-by-step/8.PNG, id=100, 825.94286pt x 929.18571pt>
 File: ./step-by-step/8.PNG Graphic file (type png)
 <use ./step-by-step/8.PNG>
-Package pdftex.def Info: ./step-by-step/8.PNG  used on input line 215.
+Package pdftex.def Info: ./step-by-step/8.PNG  used on input line 286.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
-[21
+[19
 
  <./step-by-step/8.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
-
- []
-
-<./step-by-step/9.PNG, id=110, 825.94286pt x 929.18571pt>
-File: ./step-by-step/9.PNG Graphic file (type png)
-<use ./step-by-step/9.PNG>
-Package pdftex.def Info: ./step-by-step/9.PNG  used on input line 220.
-(pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
-[22
-
- <./step-by-step/9.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
-
- []
-
-<./step-by-step/10.PNG, id=115, 825.94286pt x 929.18571pt>
-File: ./step-by-step/10.PNG Graphic file (type png)
-<use ./step-by-step/10.PNG>
-Package pdftex.def Info: ./step-by-step/10.PNG  used on input line 225.
-(pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
-[23
-
- <./step-by-step/10.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
-
- []
-
-<./step-by-step/11.PNG, id=120, 825.94286pt x 929.18571pt>
-File: ./step-by-step/11.PNG Graphic file (type png)
-<use ./step-by-step/11.PNG>
-Package pdftex.def Info: ./step-by-step/11.PNG  used on input line 230.
-(pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
-[24
-
- <./step-by-step/11.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
-
- []
-
-<./step-by-step/12.PNG, id=125, 825.94286pt x 929.18571pt>
-File: ./step-by-step/12.PNG Graphic file (type png)
-<use ./step-by-step/12.PNG>
-Package pdftex.def Info: ./step-by-step/12.PNG  used on input line 235.
-(pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
-[25
-
- <./step-by-step/12.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
-
- []
-
-<./step-by-step/13.PNG, id=131, 603.11035pt x 582.0316pt>
-File: ./step-by-step/13.PNG Graphic file (type png)
-<use ./step-by-step/13.PNG>
-Package pdftex.def Info: ./step-by-step/13.PNG  used on input line 240.
-(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
-[26
-
- <./step-by-step/13.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
-
- []
-
-<./step-by-step/14.PNG, id=136, 603.11035pt x 582.0316pt>
-File: ./step-by-step/14.PNG Graphic file (type png)
-<use ./step-by-step/14.PNG>
-Package pdftex.def Info: ./step-by-step/14.PNG  used on input line 246.
-(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
-[27
-
- <./step-by-step/14.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
-
- []
-
-<./step-by-step/15.PNG, id=141, 825.94286pt x 929.18571pt>
-File: ./step-by-step/15.PNG Graphic file (type png)
-<use ./step-by-step/15.PNG>
-Package pdftex.def Info: ./step-by-step/15.PNG  used on input line 251.
-(pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
-[28
-
- <./step-by-step/15.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
-
- []
-
-<./step-by-step/16.PNG, id=146, 603.11035pt x 582.0316pt>
-File: ./step-by-step/16.PNG Graphic file (type png)
-<use ./step-by-step/16.PNG>
-Package pdftex.def Info: ./step-by-step/16.PNG  used on input line 257.
-(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
-[29
-
- <./step-by-step/16.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 269--271
-
- []
-
-<./step-by-step/17.PNG, id=151, 603.11035pt x 582.0316pt>
-File: ./step-by-step/17.PNG Graphic file (type png)
-<use ./step-by-step/17.PNG>
-Package pdftex.def Info: ./step-by-step/17.PNG  used on input line 272.
-(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
-[30
-
- <./step-by-step/17.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
-
- []
-
-<./step-by-step/18.PNG, id=157, 603.11035pt x 582.0316pt>
-File: ./step-by-step/18.PNG Graphic file (type png)
-<use ./step-by-step/18.PNG>
-Package pdftex.def Info: ./step-by-step/18.PNG  used on input line 278.
-(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
-[31
-
- <./step-by-step/18.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
-
- []
-
-<./step-by-step/19.PNG, id=163, 825.94286pt x 929.18571pt>
-File: ./step-by-step/19.PNG Graphic file (type png)
-<use ./step-by-step/19.PNG>
-Package pdftex.def Info: ./step-by-step/19.PNG  used on input line 284.
-(pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
-[32
-
- <./step-by-step/19.PNG>]
 Underfull \hbox (badness 10000) in paragraph at lines 289--290
 
  []
 
-<./step-by-step/20.PNG, id=168, 603.11035pt x 582.0316pt>
-File: ./step-by-step/20.PNG Graphic file (type png)
-<use ./step-by-step/20.PNG>
-Package pdftex.def Info: ./step-by-step/20.PNG  used on input line 291.
-(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
-[33
+<./step-by-step/9.PNG, id=106, 825.94286pt x 929.18571pt>
+File: ./step-by-step/9.PNG Graphic file (type png)
+<use ./step-by-step/9.PNG>
+Package pdftex.def Info: ./step-by-step/9.PNG  used on input line 291.
+(pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
+[20
 
- <./step-by-step/20.PNG>]
+ <./step-by-step/9.PNG>]
 Underfull \hbox (badness 10000) in paragraph at lines 294--295
 
  []
 
-<./step-by-step/21.PNG, id=173, 603.11035pt x 582.0316pt>
+<./step-by-step/10.PNG, id=111, 825.94286pt x 929.18571pt>
+File: ./step-by-step/10.PNG Graphic file (type png)
+<use ./step-by-step/10.PNG>
+Package pdftex.def Info: ./step-by-step/10.PNG  used on input line 296.
+(pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
+[21
+
+ <./step-by-step/10.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
+
+ []
+
+<./step-by-step/11.PNG, id=116, 825.94286pt x 929.18571pt>
+File: ./step-by-step/11.PNG Graphic file (type png)
+<use ./step-by-step/11.PNG>
+Package pdftex.def Info: ./step-by-step/11.PNG  used on input line 301.
+(pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
+[22
+
+ <./step-by-step/11.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
+
+ []
+
+<./step-by-step/12.PNG, id=121, 825.94286pt x 929.18571pt>
+File: ./step-by-step/12.PNG Graphic file (type png)
+<use ./step-by-step/12.PNG>
+Package pdftex.def Info: ./step-by-step/12.PNG  used on input line 306.
+(pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
+[23
+
+ <./step-by-step/12.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
+
+ []
+
+<./step-by-step/13.PNG, id=126, 603.11035pt x 582.0316pt>
+File: ./step-by-step/13.PNG Graphic file (type png)
+<use ./step-by-step/13.PNG>
+Package pdftex.def Info: ./step-by-step/13.PNG  used on input line 311.
+(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
+[24
+
+ <./step-by-step/13.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
+
+ []
+
+<./step-by-step/14.PNG, id=131, 603.11035pt x 582.0316pt>
+File: ./step-by-step/14.PNG Graphic file (type png)
+<use ./step-by-step/14.PNG>
+Package pdftex.def Info: ./step-by-step/14.PNG  used on input line 317.
+(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
+[25
+
+ <./step-by-step/14.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
+
+ []
+
+<./step-by-step/15.PNG, id=137, 825.94286pt x 929.18571pt>
+File: ./step-by-step/15.PNG Graphic file (type png)
+<use ./step-by-step/15.PNG>
+Package pdftex.def Info: ./step-by-step/15.PNG  used on input line 322.
+(pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
+[26
+
+ <./step-by-step/15.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+
+ []
+
+<./step-by-step/16.PNG, id=142, 603.11035pt x 582.0316pt>
+File: ./step-by-step/16.PNG Graphic file (type png)
+<use ./step-by-step/16.PNG>
+Package pdftex.def Info: ./step-by-step/16.PNG  used on input line 328.
+(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
+[27
+
+ <./step-by-step/16.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 340--342
+
+ []
+
+<./step-by-step/17.PNG, id=147, 603.11035pt x 582.0316pt>
+File: ./step-by-step/17.PNG Graphic file (type png)
+<use ./step-by-step/17.PNG>
+Package pdftex.def Info: ./step-by-step/17.PNG  used on input line 343.
+(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
+[28
+
+ <./step-by-step/17.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
+
+ []
+
+<./step-by-step/18.PNG, id=153, 603.11035pt x 582.0316pt>
+File: ./step-by-step/18.PNG Graphic file (type png)
+<use ./step-by-step/18.PNG>
+Package pdftex.def Info: ./step-by-step/18.PNG  used on input line 349.
+(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
+[29
+
+ <./step-by-step/18.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
+
+ []
+
+<./step-by-step/19.PNG, id=158, 825.94286pt x 929.18571pt>
+File: ./step-by-step/19.PNG Graphic file (type png)
+<use ./step-by-step/19.PNG>
+Package pdftex.def Info: ./step-by-step/19.PNG  used on input line 355.
+(pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
+[30
+
+ <./step-by-step/19.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
+
+ []
+
+<./step-by-step/20.PNG, id=163, 603.11035pt x 582.0316pt>
+File: ./step-by-step/20.PNG Graphic file (type png)
+<use ./step-by-step/20.PNG>
+Package pdftex.def Info: ./step-by-step/20.PNG  used on input line 362.
+(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
+[31
+
+ <./step-by-step/20.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
+
+ []
+
+<./step-by-step/21.PNG, id=169, 603.11035pt x 582.0316pt>
 File: ./step-by-step/21.PNG Graphic file (type png)
 <use ./step-by-step/21.PNG>
-Package pdftex.def Info: ./step-by-step/21.PNG  used on input line 296.
+Package pdftex.def Info: ./step-by-step/21.PNG  used on input line 367.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
-[34
+[32
 
- <./step-by-step/21.PNG>] [35
+ <./step-by-step/21.PNG>] [33
 
 ]
-<./StarNetwork.svg.PNG, id=181, 793.96625pt x 767.86874pt>
+<./StarNetwork.svg.PNG, id=177, 793.96625pt x 767.86874pt>
 File: ./StarNetwork.svg.PNG Graphic file (type png)
 <use ./StarNetwork.svg.PNG>
-Package pdftex.def Info: ./StarNetwork.svg.PNG  used on input line 320.
+Package pdftex.def Info: ./StarNetwork.svg.PNG  used on input line 391.
 (pdftex.def)             Requested size: 199.16928pt x 192.62285pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
+Underfull \hbox (badness 10000) in paragraph at lines 391--392
+
+ []
+
+[34
+
+ <./StarNetwork.svg.png>]
+<./RingNetwork.svg.PNG, id=182, 793.96625pt x 767.86874pt>
+File: ./RingNetwork.svg.PNG Graphic file (type png)
+<use ./RingNetwork.svg.PNG>
+Package pdftex.def Info: ./RingNetwork.svg.PNG  used on input line 413.
+(pdftex.def)             Requested size: 199.16928pt x 192.62285pt.
+ [35
+
+ <./RingNetwork.svg.png>]
+<./star-topology/screenshot.PNG, id=187, 547.61732pt x 536.86285pt>
+File: ./star-topology/screenshot.PNG Graphic file (type png)
+<use ./star-topology/screenshot.PNG>
+Package pdftex.def Info: ./star-topology/screenshot.PNG  used on input line 434
+.
+(pdftex.def)             Requested size: 199.16928pt x 195.2529pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--439
 
  []
 
 [36
 
- <./StarNetwork.svg.png>]
-<./RingNetwork.svg.PNG, id=186, 793.96625pt x 767.86874pt>
-File: ./RingNetwork.svg.PNG Graphic file (type png)
-<use ./RingNetwork.svg.PNG>
-Package pdftex.def Info: ./RingNetwork.svg.PNG  used on input line 342.
-(pdftex.def)             Requested size: 199.16928pt x 192.62285pt.
- [37
-
- <./RingNetwork.svg.png>]
-<./star-topology/screenshot.PNG, id=192, 547.61732pt x 536.86285pt>
-File: ./star-topology/screenshot.PNG Graphic file (type png)
-<use ./star-topology/screenshot.PNG>
-Package pdftex.def Info: ./star-topology/screenshot.PNG  used on input line 363
-.
-(pdftex.def)             Requested size: 199.16928pt x 195.2529pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 363--364
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
-
- []
-
-[38
-
- <./star-topology/screenshot.PNG>] [39] [40]
-Overfull \hbox (12.60864pt too wide) in paragraph at lines 413--414
-\T1/cmr/m/n/12 Enhanced In-te-rior Gate-way Rout-ing Pro-to-col (EIGRP) is an a
-d-vanced distance-
- []
-
+ <./star-topology/screenshot.PNG>] [37]
 
 ! Package inputenc Error: Unicode character   (U+200A)
 (inputenc)                not set up for use with LaTeX.
@@ -629,7 +921,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.421 ...and Border Gateway Protocol (BGP).[1]: 
+l.492 ...and Border Gateway Protocol (BGP).[1]: 
                                                   188–189 
 ? 
 
@@ -640,14 +932,14 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.421 ...ateway Protocol (BGP).[1]: 188–189 
+l.492 ...ateway Protocol (BGP).[1]: 188–189 
                                                   
 ? 
-[41] [42] [43] [44] [45] [46]
+[38] [39] [40] [41]
 ! Undefined control sequence.
 <argument> \imki@jobname 
                          @idxfile
-l.484 
+l.555 
       
 ? 
 
@@ -657,36 +949,42 @@ See the imakeidx package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.484 
+l.555 
       
 ? 
-(./networking.aux) ) 
+(./networking.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3698 strings out of 483183
- 51478 string characters out of 5966292
- 282119 words of memory out of 5000000
- 18666 multiletter control sequences out of 15000+600000
- 543794 words of font info for 45 fonts, out of 8000000 for 9000
+ 5896 strings out of 483183
+ 94974 string characters out of 5966293
+ 472896 words of memory out of 5000000
+ 20832 multiletter control sequences out of 15000+600000
+ 545236 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 30i,8n,37p,924b,967s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jkna
-ppen/ec/ecbx1440.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecbx1000.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfou
-r/jknappen/ec/ecrm1000.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/lj
-four/jknappen/ec/ecrm0700.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk
-/ljfour/jknappen/ec/tcrm1200.600pk> </home/daniele/.texlive2019/texmf-var/fonts
-/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/daniele/.texlive2019/texmf-var/fo
-nts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/daniele/.texlive2019/texmf-var
-/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/daniele/.texlive2019/texmf-
-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/daniele/.texlive2019/tex
-mf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb>
-Output written on networking.pdf (46 pages, 2599296 bytes).
+ 55i,8n,96p,924b,971s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.6
+00pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx100
+0.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
+1000.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/e
+crm0700.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/e
+c/tcrm1200.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ecrm0800.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jkna
+ppen/ec/ecti1200.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecrm0600.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfou
+r/jknappen/ec/eccc0600.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/lj
+four/jknappen/ec/ecrm1200.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk
+/ljfour/jknappen/ec/ecbx1728.600pk> </home/daniele/.texlive2019/texmf-var/fonts
+/pk/ljfour/jknappen/ec/ecbx1200.600pk></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb>
+Output written on networking.pdf (41 pages, 2607427 bytes).
 PDF statistics:
- 617 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
+ 651 PDF objects out of 1000 (max. 8388607)
+ 151 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  156 words of extra memory for PDF output out of 10000 (max. 10000000)
 
