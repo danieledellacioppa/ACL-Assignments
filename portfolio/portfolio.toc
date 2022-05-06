@@ -3,5 +3,5 @@
 \contentsline {subsection}{\numberline {2.1}05-May-2022 Milestone}{3}%
 \contentsline {subsubsection}{\numberline {2.1.1}Targets}{3}%
 \contentsline {subsubsection}{\numberline {2.1.2}Stage}{4}%
-\contentsline {section}{\numberline {3}My Responsibilites}{6}%
+\contentsline {section}{\numberline {3}Database development}{6}%
 \contentsline {subsection}{\numberline {3.1}design}{7}%
