@@ -8,6 +8,16 @@
 \usepackage[hmargin=3cm, vmargin=3cm]{geometry}
 \usepackage[font=tiny, labelfont=sc]{caption}
 
+
+
+\newcommand{\wrapfill}{\par\ifnum\value{WF@wrappedlines}>0
+  \addtocounter{WF@wrappedlines}{-1}%
+  \null\vspace{\arabic{WF@wrappedlines}\baselineskip}%
+  \WFclear
+\fi}
+
+
+
 \begin{document}
 
 \textbf{Daniele Della Cioppa}
@@ -94,28 +104,59 @@ for each one of these we want a different icon to be displayed. When using custo
 
 \clearpage
 
-\begin{wrapfigure}{l}{5cm}
-%\centering
+
+\begin{wrapfigure}{L}{0.5\textwidth}
+\centering
 \includegraphics[width=4.5cm]{./server_g7.PNG}
 %\vspace{-10pt}
 \caption{server activity on a Motorola g7}\label{wrap-fig:3}
+\end{wrapfigure}
+Figure .3 shows how is the server activity doing on a Motorola while the client\footnotemark{} being run on a \textbf{Motorola g8 plus} attempts a connection to the server. As you can see, at the center of the app there is a TextView used as a temporary debug Console to debug the threads.
+
+Debugging threads isn't always the easiest thing as you won't be following all of the in a single debug run so the decision has been taken to have them to print all the relevant information in a debugConsole. The problem is, when the debugConsole is full there's no way to read the past history.
+
+To sort this out a scroll method has been added to the debugConsole
+
+The little \textbf{CS} button on the top stands for Close Socket. It's a functionality is to close Socket where the messages are being sent.
+
+\footnotetext{the client is being shown on Figure 4}
+%\arabic{WF@wrappedlines}
+\wrapfill
+
+
+\begin{wrapfigure}{R}{0.40\textwidth}
+\centering\newcommand{\wrapfill}{\par\ifnum\value{WF@wrappedlines}>0
+  \addtocounter{WF@wrappedlines}{-1}%
+  \null\vspace{\arabic{WF@wrappedlines}\baselineskip}%
+  \WFclear
+\fi}
 \includegraphics[width=4.5cm]{./client_g8.PNG}
 %\vspace{-10pt}
 \caption{client activity on a Motorola g8}\label{wrap-fig:4}
 \end{wrapfigure}
-Figure .3 shows how is the server activity doing on a Motorola while the client (Figure .4) being run on a Motorola g8 attempts a connection to the server. 
 
-Figure .4 shows how does it look the client activity on the Motorola g8
+The reason why I'm forcing the closure of the socket is to try figuring out how a nice communication can be realized between client and server and because at this stage is not possible to send more than one message I've introduced this functionality. The reason is because in the early stage no message was being sent at all and closing a socket solved the problem so I thought to do it again but this time it isn't of any help
 
-\clearpage
+Figure .4 shows how does it look the client activity on the Motorola g8 plus.Here we managed to connect to the server after the insertion of the Server IP address and port number. The problem is after sending one message the server receives it but no more messages are allowed
+
+Because I was aware in advance of my ignorance and I had a so tarnished idea of how to realize all this I didn't embed the client-server communication in the app but kept it separate with buttons leading to other activities
+
+These activities will be destroyed and I'll start new activities writing a simpler code that does just the bare minimum but guarantees the functionality
+\wrapfill
 
 
-\begin{wrapfigure}{r}{5cm}
-%\centering
+\clearpage  
+
+\begin{wrapfigure}{R}{5cm}
+\centering
 \includegraphics[width=4cm]{./current_status_g8.PNG}
 %\vspace{-10pt}
 \caption{User Interface on a Motorola g8}\label{wrap-fig:5}
 \end{wrapfigure}
+
+
+
+
 
 
 And on the Figure .5 we can have a look at how the User Interface looks like on the Motorola g8
