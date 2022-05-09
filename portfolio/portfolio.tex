@@ -8,6 +8,34 @@
 \usepackage[hmargin=3cm, vmargin=3cm]{geometry}
 \usepackage[font=tiny, labelfont=sc]{caption}
 
+\usepackage{listings}
+\usepackage{color}
+\usepackage{textcomp}
+\definecolor{listinggray}{gray}{0.9}
+\definecolor{lbcolor}{rgb}{0.9,0.9,0.9}
+\lstset{
+	backgroundcolor=\color{lbcolor},
+	tabsize=4,
+	rulecolor=,
+	language=matlab,
+        basicstyle=\scriptsize,
+        upquote=true,
+        aboveskip={1.5\baselineskip},
+        columns=fixed,
+        showstringspaces=false,
+        extendedchars=true,
+        breaklines=true,
+        prebreak = \raisebox{0ex}[0ex][0ex]{\ensuremath{\hookleftarrow}},
+        frame=single,
+        showtabs=false,
+        showspaces=false,
+        showstringspaces=false,
+        identifierstyle=\ttfamily,
+        keywordstyle=\color[rgb]{0,0,1},
+        commentstyle=\color[rgb]{0.133,0.545,0.133},
+        stringstyle=\color[rgb]{0.627,0.126,0.941},
+}
+
 
 
 \newcommand{\wrapfill}{\par\ifnum\value{WF@wrappedlines}>0
@@ -16,6 +44,8 @@
   \WFclear
 \fi}
 
+
+\usepackage{ulem}
 
 
 \begin{document}
@@ -47,16 +77,16 @@ This is a quick list of what I've been covering so far during the apprenticeship
 
 In Figure .1 we can see the stage I was on the 23rd March, with the mobile development. The progress of the whole thing is being quite slow since this is being literally self taught during my office hours
 
-\begin{wrapfigure}[17]{r}{5cm}
-%\centering
-\includegraphics[width=5cm]{./capture-app.PNG}
-%\vspace{-10pt}
+\begin{wrapfigure}[19]{r}{5cm}
+\centering
+\includegraphics[width=4.8cm]{./capture-app.PNG}
+%\hspace{-20pt}
 \caption{Hello World in Xamarin with a button\footnotemark{}}\label{wrap-fig:1}
 \end{wrapfigure} 
 
 
 
-We realized Xamarin brings in some difficulties even experts are struggling with. Since I'm on an apprenticeship we agreed to make it simple and use Android Studio to make an app for Android and later on use XCode for Apple. The problem with Apple is we'll need a real physical iPhone to test the app on
+We realized Xamarin brings in some difficulties even experts are struggling with. Since I'm on an apprenticeship we agreed to make it simple and use Android Studio to make an app for Android and later on use XCode for Apple. The problem with Apple is we'll need a real physical iPhone to test the app on.
 
 After a little research I found out a tool called maptiler but it was going to be sunset soon so I've had to search more and I came up with \textbf{OSMDroid}
 
@@ -71,11 +101,15 @@ Figure .2 shows how the app looks now on a Motorola g7. Some functionalities hav
 \subsubsection{Targets}
 
 \begin{itemize}
-\item{Login activity}
-\item{nice user interface}
-\item{heavy testing against bugs}
-\item{calculation of middle position of all streetlight and having the map to start centered on that position}
-\item{iOS instance}
+ \item{Login activity}
+   \begin{description}
+   \item[Messaging test]{Test how a hard coded GeoPosition can be sent through a socket from server to client}
+   \item[Package visibility]{Make sure there is a way for the Login activity to pass informations to the MainActivity}
+   \end{description}
+ \item{nice user interface}
+ \item{heavy testing against bugs}
+ \item{calculation of middle position of all streetlight and having the map to start centered on that position}
+ \item{iOS instance}
 \end{itemize}
 
 \clearpage
@@ -147,7 +181,7 @@ These activities will be destroyed and I'll start new activities writing a simpl
 
 \clearpage  
 
-\begin{wrapfigure}[16]{R}{5cm}
+\begin{wrapfigure}[15]{R}{5cm}
 \centering
 \includegraphics[width=4cm]{./current_status_g8.PNG}
 %\vspace{-10pt}
@@ -165,6 +199,117 @@ Server button will be destroyed. The Server activity deleted. This is only to ha
 
 Client activity will become the actual Login activity where the app picks
 
+\subsection{09-May-2022 Milestone}
+
+\subsubsection{Targets}
+
+\begin{itemize}
+\item{Login activity}
+   \begin{description}
+   \item[\xout{Messaging test}]{\xout{Test how a hard coded GeoPosition can be sent through a socket from server to client}}
+   \item[Package visibility]{Make sure there is a way for the Login activity to pass informations to the MainActivity}
+   \end{description}
+\item{nice user interface}
+\item{heavy testing against bugs}
+\item{calculation of middle position of all streetlight and having the map to start centered on that position}
+\item{iOS instance}
+\end{itemize}
+
+\clearpage
+
+\subsubsection{Stage}
+
+\begin{wrapfigure}[19]{r}{4.81cm}
+%\centering
+%\captionsetup{singlelinecheck=off, margin={6.67cm, 0cm}, justification=justified, format=hang}
+\includegraphics[width=4.4cm]{./current_status_g7.PNG}
+%\vspace{-10pt}
+\caption{User Interface on a Motorola g7}\label{wrap-fig:2}
+\end{wrapfigure}
+
+In Figure .6 you can find the stage I was at on the 9th of May where we were trying to have a hardcoded GeoPoint to travel through the socket and reach the client which will then pass it to the MainActivity and have it rendered on the map. This functionality it's still incapsulated in the client but will probably stay as it is and the buton will just be renamed to \textbf{Login}.
+
+The problem is represented by chasing the information in the \emph{string} that comes out from the socket once the server has sent the information in it. Casting the String to a char[] array wouldn't work. Using the [] notation on a String doesn't work either to check all the element at once in a cycle. 
+
+
+After spending the whole day asking my friends and doing research I found this code on the internet:
+
+\begin{lstlisting}[language=java]
+for(int i=0; i<s.length();i++)
+{
+  char c = s.charAt(i);
+  System.out.println("char at "+i+"th index is: "+c);
+}
+\end{lstlisting}
+
+but the code gives the error
+
+\[ Could \ not \ resolve \ symbol: \ 's\ ' \]
+
+
+\newline The reason of this is because I have used a name, which in this example is \emph{s}, that the compiler hasn't recognized.The compiler couldn't find the class.
+
+So in other words this means that the Java compiler couldn't locate the symbol referenced in my Java code which in this case happens to be a variable named \emph{s}.
+
+After a couple of phonecalls I got it solved by changing \emph{s} to \emph{line} bringing the code to become like so:
+
+\begin{lstlisting}[language=java]
+for(int i=0; i<line.length();i++)
+{
+  char c = line.charAt(i);
+  System.out.println("char at "+i+"th index is: "+c);
+}
+\end{lstlisting}
+
+\clearpage
+
+
+\begin{wrapfigure}{L}{0.5\textwidth}
+\centering
+\includegraphics[width=4.5cm]{./9-May/server_g7.PNG}
+%\vspace{-10pt}
+\caption{server activity on a Motorola g7}\label{wrap-fig:3}
+\end{wrapfigure}
+Figure .7 shows how is the new server activity doing on a Motorola g7.
+
+You can see it is listening on the port 8080. The IP here is not being shown as the WiFi Module just display what's in the Android Status so in order to know the device IP address I can just look there and reduce code usage which reduces crash chances. Not a lot of output is being displayed but we can safely assume it receives a connection and then closes the socket
+
+The little \textbf{STOP} button on the top closes the Socket where the messages are being sent. Thus resulting in the client being unable to keep sending requests
+
+The reason why that button is there is to simulate a server outage and see how the client behaves when the server is restarting.It's there to make the app robut against external failures by simply following the Boris Johnson\footnotemark{} approach against inflation living costs in 2022.
+
+\footnotetext{making sure the system will work in the long run}
+%\arabic{WF@wrappedlines}
+\wrapfill
+
+
+\begin{wrapfigure}{R}{0.40\textwidth}
+\centering\newcommand{\wrapfill}{\par\ifnum\value{WF@wrappedlines}>0
+  \addtocounter{WF@wrappedlines}{-1}%
+  \null\vspace{\arabic{WF@wrappedlines}\baselineskip}%
+  \WFclear
+\fi}
+\includegraphics[width=4.5cm]{./9-May/client_g8.PNG}
+%\vspace{-10pt}
+\caption{client activity on a Motorola g8}\label{wrap-fig:4}
+\end{wrapfigure}
+
+As you can see in Figure .8 the server is responding and the way to make it clear to the client as well is to send a 'SERVER RESPONDING' string through the socket. Then the client picks it up and drops it down on the debug Console.The DebugConsole as the name suggests is just there to really have an idea of what the threads are doing otherwise debugging them would be a real pain but in this way we can see on the screen just the messagges we feel relevant to the purpose
+
+Then it Echoes a message 12345. This is because the client is sending 12345 to a C++ server as well which gets them in HEX format thus becoming 
+
+\[ 3132333435aa \]
+
+\noindent you can clearly see 1 becoming 31, 2 becoming 32 and so on. \textbf{aa} is probably the termination string or something but we know the C++ will always terminate its strings got via sockets with \textbf{aa}
+
+\wrapfill
+
+
+\clearpage  
+
+After that you can see the latitude and longitude being sent and received from the client which is what we wanted to obtain in the first place.
+
+One of the GOALS of the Target activity is thus accomplished
 
 
 
