@@ -33,7 +33,7 @@
 \centering
 \includegraphics[width=12cm]{./net.png}
 %\vspace{-10pt}
-\caption{devices connected in the world}\label{wrap-fig:5}
+\caption{devices connected in the world}\label{wrap-fig:1}
 \end{wrapfigure}
 
 A network is two or more \emph{computers} (or other electronic devices) that are \textbf{connected} together, usually by cables(guided) or Wi-Fi(unguided).
@@ -78,7 +78,7 @@ LAN, which stands for local area network, and WAN, which stands for wide area ne
 \centering
 \includegraphics[width=15cm]{./ieee_802.jpg}
 \vspace{-15pt}
-\caption{IEEE hierarchy}\label{wrap-fig:5}
+\caption{IEEE hierarchy}\label{wrap-fig:2}
 \end{wrapfigure}
 
 IEEE 802.3 is a set of standards and protocols that define Ethernet-based networks. Ethernet technologies are primarily used in LANs, though they can also be used in WANs as well. IEEE 802.3 defines the physical layer and the medium access control (MAC) sub-layer of the data link layer for wired Ethernet networks.
@@ -112,7 +112,7 @@ The Open Systems Interconnection (OSI) model describes seven layers that compute
 \centering
 \includegraphics[width=13cm]{./OSI-7-layers.jpg}
 %\vspace{-10pt}
-\caption{OSI Layer representation}\label{wrap-fig:5}
+\caption{OSI Layer representation}\label{wrap-fig:3}
 \end{wrapfigure}
 
 
@@ -173,7 +173,7 @@ Computers need networking hardware in order to connect to each other. \textbf{Ro
 \centering
 \includegraphics[width=16cm]{./large.PNG}
 %\vspace{-10pt}
-\caption{Router connecting devices in a LAN over the Internet}\label{wrap-fig:5}
+\caption{Router connecting devices in a LAN over the Internet}\label{wrap-fig:4}
 \end{wrapfigure}
 
 \subsection{Routers}
@@ -208,7 +208,7 @@ A hub broadcasts data to all devices on a network. This can use a lot of \textbf
 \fi}
 \includegraphics[width=8cm]{./performance.PNG}
 \vspace{-10pt}
-\caption{Bridge saving unnecessary data transfer}\label{wrap-fig:5}
+\caption{Bridge saving unnecessary data transfer}\label{wrap-fig:6}
 \end{wrapfigure}
 
 
@@ -536,11 +536,28 @@ IoT offers a number of tremendous benefits to the aviation industry and its ripp
 \item{ Beacons offer tremendous scope for IoT gateways. These can be placed across the entire airport infrastructure for triggering notifications on the passenger’s mobile as soon as he is in the beacon’s range. These notifications could be related to time, flight status or even displaying an e-boarding pass on the passenger’s mobile. This, in turn, provides the passenger with more accurate information every time. This can even help the airline crew for determining how far is the passenger from the airline in order to determine how long they need to wait before the actual take-off.}
 \end{itemize}
 
+\section{IPv6}
+
+Internet Protocol version 6 (IPv6) is the most recent version of the Internet Protocol (IP), the communications protocol that provides an identification and location system for computers on networks and routes traffic across the Internet. IPv6 was developed by the Internet Engineering Task Force (IETF) to deal with the long-anticipated problem of IPv4 address exhaustion, and is intended to replace IPv4\footnotemark{}.
+
+\begin{wrapfigure}{3cm}
+\centering
+\includegraphics[width=10cm]{./IPv6.PNG}
+%\vspace{-10pt}
+\caption{IPv6 8-bytes Format }\label{wrap-fig:7}
+\end{wrapfigure}
+
+\footnotetext{ "FAQs". New Zealand IPv6 Task Force. Archived from the original on 29 January 2019. Retrieved 26 October 2015.}
+
+\subsection{IPsec}
+Internet Protocol Security (IPsec) was originally developed for IPv6, but found widespread deployment first in IPv4, for which it was re-engineered. IPsec was a mandatory part of all IPv6 protocol implementations,\footnotemark{} and Internet Key Exchange (IKE) was recommended, but with RFC 6434 the inclusion of IPsec in IPv6 implementations was downgraded to a recommendation because it was considered impractical to require full IPsec implementation for all types of devices that may use IPv6.
+
+\footnotetext{ S. Deering; R. Hinden (December 1998), Internet Protocol, Version 6 (IPv6) Specification, Internet Engineering Task Force (IETF), RFC 2}
+
+However, as of RFC 4301 IPv6 protocol implementations that do implement IPsec need to implement IKEv2 and need to support a minimum set of cryptographic algorithms. This requirement will help to make IPsec implementations more interoperable between devices from different vendors. The IPsec Authentication Header (AH) and the Encapsulating Security Payload header (ESP) are implemented as IPv6 extension headers.\footnotemark{}
 
 
-
-
-
+\footnotetext{ Silvia Hagen (2014). IPv6 Essentials: Integrating IPv6 into Your IPv4 Network (3rd ed.). Sebastopol, CA: O'Reilly Media. p. 196. ISBN 978-1-4493-3526-7. OCLC 881832733.}
 
 \clearpage
 \printindex
