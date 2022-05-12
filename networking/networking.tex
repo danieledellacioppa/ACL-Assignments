@@ -1,4 +1,6 @@
 \documentclass[a4paper,12pt]{article}
+\usepackage{color}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
 \usepackage{listings}
 \usepackage[T1]{fontenc}
 \usepackage{imakeidx}
@@ -8,8 +10,17 @@
 
 \usepackage[hmargin=1cm, vmargin=3cm]{geometry}
 \usepackage[font=tiny, labelfont=sc]{caption}
+\usepackage{hyperref}
 
+\hypersetup{
+     colorlinks   = true,
+     citecolor    = gray
+}
 
+\usepackage{tocloft}
+
+\renewcommand{\cftsubsecfont}{\normalfont\hypersetup{linkcolor=cyan}}
+\renewcommand{\cftsubsecafterpnum}{\hypersetup{linkcolor=green}}
 
 \newcommand{\wrapfill}{\par\ifnum\value{WF@wrappedlines}>0
   \addtocounter{WF@wrappedlines}{-1}%
@@ -18,12 +29,23 @@
 \fi}
 
 
+\author{
+  Daniele, Della Cioppa\\
+  \texttt{daniele.dellacioppa@gmail.com}
+}
+\title{Usage of the \texttt{\textbackslash author} command}
+
+
+
 \begin{document}
 
-\textbf{Networking}
-
-
+\title{Networking}
+\maketitle
+\hypersetup{linkcolor=teal}
 \tableofcontents
+%\hypersetup{linkcolor=cyan}
+%\listoffigures
+\hypersetup{linkcolor=blue}
 \clearpage
 
 \section{What it is}
@@ -527,7 +549,7 @@ Biometrics are being potentially used by the aviation industry for some time now
 
 IoT offers a number of tremendous benefits to the aviation industry and its rippling effects include- reduced travel times, enhancing the comfort levels of passengers with better security levels. In order to fully realize the \textbf{IoT} opportunities, the businesses and governments need to coordinate with the same frequency for answering the political as well as business issues related to IoT.
 
-\textbf{This disruptive technology holds several benefits when it comes to the aviation industry -}
+\noindent \textbf{This disruptive technology holds several benefits when it comes to the aviation industry -}
 
 \begin{itemize}
 \item{ When sensors are embedded in connected objects, it can be used for controlling, monitoring and collecting accurate real-time data. Sensors have significantly improved over the past few years. Wireless can be a key driver behind the emergence of IoT devices that operate on Wi-Fi or a strong cellular network such as 5G. Using a low-power wide area network (LPWAN) could be used for enriching the performance of sensors that offer low bandwidth.}
@@ -550,14 +572,35 @@ Internet Protocol version 6 (IPv6) is the most recent version of the Internet Pr
 \footnotetext{ "FAQs". New Zealand IPv6 Task Force. Archived from the original on 29 January 2019. Retrieved 26 October 2015.}
 
 \subsection{IPsec}
-Internet Protocol Security (IPsec) was originally developed for IPv6, but found widespread deployment first in IPv4, for which it was re-engineered. IPsec was a mandatory part of all IPv6 protocol implementations,\footnotemark{} and Internet Key Exchange (IKE) was recommended, but with RFC 6434 the inclusion of IPsec in IPv6 implementations was downgraded to a recommendation because it was considered impractical to require full IPsec implementation for all types of devices that may use IPv6.
-
-\footnotetext{ S. Deering; R. Hinden (December 1998), Internet Protocol, Version 6 (IPv6) Specification, Internet Engineering Task Force (IETF), RFC 2}
+Internet Protocol Security (IPsec) was originally developed for IPv6, but found widespread deployment first in IPv4, for which it was re-engineered. IPsec was a mandatory part of all IPv6 protocol implementations,\footnote{\label{note1} S. Deering; R. Hinden (December 1998), Internet Protocol, Version 6 (IPv6) Specification, Internet Engineering Task Force (IETF), RFC 2} and Internet Key Exchange (IKE) was recommended, but with RFC 6434 the inclusion of IPsec in IPv6 implementations was downgraded to a recommendation because it was considered impractical to require full IPsec implementation for all types of devices that may use IPv6.
 
 However, as of RFC 4301 IPv6 protocol implementations that do implement IPsec need to implement IKEv2 and need to support a minimum set of cryptographic algorithms. This requirement will help to make IPsec implementations more interoperable between devices from different vendors. The IPsec Authentication Header (AH) and the Encapsulating Security Payload header (ESP) are implemented as IPv6 extension headers.\footnotemark{}
 
 
 \footnotetext{ Silvia Hagen (2014). IPv6 Essentials: Integrating IPv6 into Your IPv4 Network (3rd ed.). Sebastopol, CA: O'Reilly Media. p. 196. ISBN 978-1-4493-3526-7. OCLC 881832733.}
+
+\subsection{Link-local address}
+In computer networking, a \textbf{link-local} address is a network address that is valid only for communications within the network segment or the broadcast domain that the host is connected to. Link-local addresses are most often assigned automatically with a process known as \textbf{stateless address autoconfiguration} or \textbf{link-local address autoconfiguration},\footnotemark{} also known as automatic private IP addressing (APIPA) or auto-IP.
+
+\begin{wrapfigure}{3cm}
+\centering
+\includegraphics[width=10cm]{./IPv6_link_local_unicast_address_structure-en.svg.PNG}
+%\vspace{-10pt}
+\caption{IPv6 8-bytes Format }\label{wrap-fig:8}
+\end{wrapfigure}
+
+
+In the Internet Protocol Version 6 (IPv6), the address block fe80::/10 has been reserved for link-local unicast addressing.\footnotemark[\ref{note1}]  Of the 64 bits of a link-local addresses' network component, the most significant 10 bits (1111111010) correspond to the IANA-reserved "global routing prefix" for link-local addresses, while the "subnet ID" (the remaining 54 bits) is zero.[2]: 2.5.6 
+
+Unlike IPv4, IPv6 requires a link-local address on every network interface on which the IPv6 protocol is enabled, even when routable addresses are also assigned.[2]: 2.8  Consequently, IPv6 hosts usually have more than one IPv6 address assigned to each of their IPv6-enabled network interfaces. The link-local address is required for IPv6 sublayer operations of the Neighbor Discovery Protocol, as well as for some other IPv6-based protocols, such as DHCPv6.
+
+When using an IPv6 link-local address to connect to a host, a zone index must be added to the address so that the packets can be sent out on the correct interface.
+
+In IPv6, addresses may be assigned by stateless (automatic) or stateful (manual) mechanisms. Stateless address autoconfiguration is performed as a component of the Neighbor Discovery Protocol (NDP).[5] The address is formed from its routing prefix and a unique identifier for the network interface.
+
+Through NDP routing prefix advertisements, a router or server host may announce configuration information to all link-attached interfaces which causes additional IP address assignment on the receiving interfaces for local or global routing purposes. This process is sometimes also considered stateless, as the prefix server does not receive or log any individual assignments to hosts. Uniqueness is guaranteed automatically by the address selection methodology. It may be MAC-address based,[5] or randomized.[6] Automatic duplicate address detection algorithms prevent assignment errors.
+
+\footnotetext{S. Cheshire; B. Aboba; E. Guttma (May 2005). \href{https://datatracker.ietf.org/doc/html/rfc3927}{Dynamic Configuration of IPv4 Link-Local Addresses}. The Internet Society. doi:10.17487/RFC3927. RFC 3927.}
 
 \clearpage
 \printindex
