@@ -12,6 +12,8 @@
 \usepackage[font=tiny, labelfont=sc]{caption}
 \usepackage{hyperref}
 
+%\usepackage{refcount}
+
 \hypersetup{
      colorlinks   = true,
      citecolor    = gray
@@ -35,6 +37,7 @@
 }
 \title{Usage of the \texttt{\textbackslash author} command}
 
+\renewcommand{\footnotesize}{\scriptsize}
 
 
 \begin{document}
@@ -572,7 +575,7 @@ Internet Protocol version 6 (IPv6) is the most recent version of the Internet Pr
 \footnotetext{ "FAQs". New Zealand IPv6 Task Force. Archived from the original on 29 January 2019. Retrieved 26 October 2015.}
 
 \subsection{IPsec}
-Internet Protocol Security (IPsec) was originally developed for IPv6, but found widespread deployment first in IPv4, for which it was re-engineered. IPsec was a mandatory part of all IPv6 protocol implementations,\footnote{\label{note1} S. Deering; R. Hinden (December 1998), Internet Protocol, Version 6 (IPv6) Specification, Internet Engineering Task Force (IETF), RFC 2} and Internet Key Exchange (IKE) was recommended, but with RFC 6434 the inclusion of IPsec in IPv6 implementations was downgraded to a recommendation because it was considered impractical to require full IPsec implementation for all types of devices that may use IPv6.
+Internet Protocol Security (IPsec) was originally developed for IPv6, but found widespread deployment first in IPv4, for which it was re-engineered. IPsec was a mandatory part of all IPv6 protocol implementations,\footnote{\label{note1}\href{https://en.wikipedia.org/wiki/Steve_Deering}{S. Deering}; R. Hinden (December 1998), Internet Protocol, Version 6 (IPv6) Specification, \href{https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force}{Internet Engineering Task Force} (IETF), RFC 2} and Internet Key Exchange (IKE) was recommended, but with RFC 6434 the inclusion of IPsec in IPv6 implementations was downgraded to a recommendation because it was considered impractical to require full IPsec implementation for all types of devices that may use IPv6.
 
 However, as of RFC 4301 IPv6 protocol implementations that do implement IPsec need to implement IKEv2 and need to support a minimum set of cryptographic algorithms. This requirement will help to make IPsec implementations more interoperable between devices from different vendors. The IPsec Authentication Header (AH) and the Encapsulating Security Payload header (ESP) are implemented as IPv6 extension headers.\footnotemark{}
 
@@ -580,7 +583,7 @@ However, as of RFC 4301 IPv6 protocol implementations that do implement IPsec ne
 \footnotetext{ Silvia Hagen (2014). IPv6 Essentials: Integrating IPv6 into Your IPv4 Network (3rd ed.). Sebastopol, CA: O'Reilly Media. p. 196. ISBN 978-1-4493-3526-7. OCLC 881832733.}
 
 \subsection{Link-local address}
-In computer networking, a \textbf{link-local} address is a network address that is valid only for communications within the network segment or the broadcast domain that the host is connected to. Link-local addresses are most often assigned automatically with a process known as \textbf{stateless address autoconfiguration} or \textbf{link-local address autoconfiguration},\footnotemark{} also known as automatic private IP addressing (APIPA) or auto-IP.
+In computer networking, a \textbf{link-local} address is a network address that is valid only for communications within the network segment or the broadcast domain that the host is connected to. Link-local addresses are most often assigned automatically with a process known as \textbf{stateless address autoconfiguration} or \textbf{link-local address autoconfiguration},\footnote{\label{autoconfiguration}S. Cheshire; B. Aboba; E. Guttma (May 2005). \href{https://datatracker.ietf.org/doc/html/rfc3927}{Dynamic Configuration of IPv4 Link-Local Addresses}. The Internet Society. doi:10.17487/RFC3927. RFC 3927. } also known as automatic private IP addressing (APIPA) or auto-IP.
 
 \begin{wrapfigure}{3cm}
 \centering
@@ -590,9 +593,11 @@ In computer networking, a \textbf{link-local} address is a network address that 
 \end{wrapfigure}
 
 
-In the Internet Protocol Version 6 (IPv6), the address block fe80::/10 has been reserved for link-local unicast addressing.\footnotemark[\ref{note1}]  Of the 64 bits of a link-local addresses' network component, the most significant 10 bits (1111111010) correspond to the IANA-reserved "global routing prefix" for link-local addresses, while the "subnet ID" (the remaining 54 bits) is zero.[2]: 2.5.6 
+In the Internet Protocol Version 6 (IPv6), the address block fe80::/10 has been reserved for link-local unicast addressing.\footnote{\label{linklokal} R. Hinden; \href{https://en.wikipedia.org/wiki/Steve_Deering}{S. Deering} (February 2006). \href{https://datatracker.ietf.org/doc/html/rfc4291}{IP Version 6 Addressing Architecture}. IETF. doi:10.17487/RFC4291. RFC 4291. Updated by RFC 5952, RFC 6052, RFC 7136, RFC 7346, RFC 7371, RFC 8064.}}${}^{{}^{2 \cdot 4}}$ (IETF), RFC 2} Of the 64 bits of a link-local addresses' network component, the most significant 10 bits (1111111010) correspond to the IANA-reserved "global routing prefix" for link-local addresses, while the "subnet ID" (the remaining 54 bits) is zero$.^{\footnotemark[6 \ref{linklokal}^{2\cdot 5 \cdot}]}$ 
 
-Unlike IPv4, IPv6 requires a link-local address on every network interface on which the IPv6 protocol is enabled, even when routable addresses are also assigned.[2]: 2.8  Consequently, IPv6 hosts usually have more than one IPv6 address assigned to each of their IPv6-enabled network interfaces. The link-local address is required for IPv6 sublayer operations of the Neighbor Discovery Protocol, as well as for some other IPv6-based protocols, such as DHCPv6.
+Unlike IPv4, IPv6 requires a link-local address on every network interface on which the IPv6 protocol is enabled, even when routable addresses are also assigned$.^{\footnotemark[8 \ref{linklokal}^{2\cdot}]}$ 
+
+Consequently, IPv6 hosts usually have more than one IPv6 address assigned to each of their IPv6-enabled network interfaces. The link-local address is required for IPv6 sublayer operations of the Neighbor Discovery Protocol, as well as for some other IPv6-based protocols, such as DHCPv6.
 
 When using an IPv6 link-local address to connect to a host, a zone index must be added to the address so that the packets can be sent out on the correct interface.
 
@@ -600,7 +605,34 @@ In IPv6, addresses may be assigned by stateless (automatic) or stateful (manual)
 
 Through NDP routing prefix advertisements, a router or server host may announce configuration information to all link-attached interfaces which causes additional IP address assignment on the receiving interfaces for local or global routing purposes. This process is sometimes also considered stateless, as the prefix server does not receive or log any individual assignments to hosts. Uniqueness is guaranteed automatically by the address selection methodology. It may be MAC-address based,[5] or randomized.[6] Automatic duplicate address detection algorithms prevent assignment errors.
 
-\footnotetext{S. Cheshire; B. Aboba; E. Guttma (May 2005). \href{https://datatracker.ietf.org/doc/html/rfc3927}{Dynamic Configuration of IPv4 Link-Local Addresses}. The Internet Society. doi:10.17487/RFC3927. RFC 3927.}
+
+
+\section{IPv4}
+
+Internet Protocol version 4 (IPv4) is the fourth version of the Internet Protocol (IP). It is one of the core protocols of standards-based internetworking methods in the Internet and other packet-switched networks.
+
+\begin{wrapfigure}{3cm}
+\centering
+\includegraphics[width=10cm]{./IPv4_Packet-en.svg.PNG}
+%\vspace{-10pt}
+\caption{IPv6 8-bytes Format }\label{wrap-fig:9}
+\end{wrapfigure}
+
+IPv4 was the first version deployed for production on SATNET in 1982 and on the ARPANET in January 1983. It is still used to route most Internet traffic today,\footnote{\label{note2}\href{http://bgp.potaroo.net/index-bgp.html}{"BGP Analysis Reports"}. Retrieved 2013-01-09.} even with the ongoing deployment of Internet Protocol version 6 (IPv6),\footnote{\label{note3}\href{https://www.google.com/intl/en/ipv6/statistics.html}{"IPv6 – Google"}. www.google.com. Retrieved 2022-01-28.} its successor.
+
+IPv4 uses a 32-bit address space which provides 4,294,967,296 ($2^{32}$) unique addresses, but large blocks are reserved for special networking purposes.\footnote{\label{note4}\href{https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xhtml}{"IANA IPv4 Special-Purpose Address Registry"}. www.iana.org. Retrieved 2022-01-28.} \footnote{\label{note5}\href{https://datatracker.ietf.org/doc/html/rfc5735}{"RFC 5735 - Special Use IPv4 Addresses"}. datatracker.ietf.org. Retrieved 2022-01-28}
+
+
+
+
+\subsection{conversion to binary}
+
+A binary code represents text, computer processor instructions, or any other data using a two-symbol system. The two-symbol system used is often "0" and "1" from the binary number system. The binary code assigns a pattern of binary digits, also known as bits, to each character, instruction, etc. For example, a binary string of eight bits can represent any of 256 possible values and can, therefore, represent a wide variety of different items.
+
+In computing and telecommunications, binary codes are used for various methods of encoding data, such as character strings, into bit strings. Those methods may use fixed-width or variable-width strings. In a fixed-width binary code, each letter, digit, or other character is represented by a bit string of the same length; that bit string, interpreted as a binary number, is usually displayed in code tables in octal, decimal or hexadecimal notation. There are many character sets and many character encodings for them.
+
+A bit string, interpreted as a binary number, can be translated into a decimal number. For example, the lower case a, if represented by the bit string 01100001 (as it is in the standard ASCII code), can also be represented as the decimal number "97".
+
 
 \clearpage
 \printindex

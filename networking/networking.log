@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.5)  12 MAY 2022 12:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.5)  13 MAY 2022 16:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -409,7 +409,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip54
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 18.
+Package hyperref Info: Option `colorlinks' set `true' on input line 20.
 
 (/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
@@ -450,22 +450,22 @@ Package tocloft Info: The document has section divisions on input line 51.
 ) (./networking.aux)
 \openout1 = `networking.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count285
@@ -528,7 +528,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box98
-Package hyperref Info: Link coloring ON on input line 40.
+Package hyperref Info: Link coloring ON on input line 43.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -540,20 +540,20 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count292
 )
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
 
 (./networking.out) (./networking.out)
 \@outlinefile=\write3
 \openout3 = `networking.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 44.
+(Font)              <14.4> on input line 47.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 44.
+(Font)              <7> on input line 47.
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
-4.
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -575,37 +575,37 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.55 \centering
+l.58 \centering
                
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.55 \centering
+l.58 \centering
                
 ? 
-<./net.png, id=290, 626.34pt x 626.34pt>
+<./net.png, id=300, 626.34pt x 626.34pt>
 File: ./net.png Graphic file (type png)
 <use ./net.png>
-Package pdftex.def Info: ./net.png  used on input line 56.
+Package pdftex.def Info: ./net.png  used on input line 59.
 (pdftex.def)             Requested size: 341.43306pt x 341.43932pt.
 
-Underfull \hbox (badness 7722) in paragraph at lines 67--68
+Underfull \hbox (badness 7722) in paragraph at lines 70--71
 []\T1/cmr/m/n/12 sharing hard-ware, such as
  []
 
 
-Underfull \hbox (badness 2538) in paragraph at lines 67--68
+Underfull \hbox (badness 2538) in paragraph at lines 70--71
 \T1/cmr/m/n/12 print-ers, com-put-ers, phones,
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 71--72
+Underfull \hbox (badness 1365) in paragraph at lines 74--75
 \T1/cmr/m/n/12 other peo-ple can ac-cess
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 80.
+(Font)              <5> on input line 83.
 
 ! LaTeX Error: There's no line here to end.
 
@@ -613,7 +613,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83 \newline
+l.86 \newline
               \noindent Networking is crucial if you want to use your comput...
 
 ? 
@@ -623,62 +623,62 @@ l.83 \newline
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.100 \centering
+l.103 \centering
                 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.100 \centering
+l.103 \centering
                 
 ? 
-<./ieee_802.jpg, id=309, 522.95375pt x 243.91125pt>
+<./ieee_802.jpg, id=317, 522.95375pt x 243.91125pt>
 File: ./ieee_802.jpg Graphic file (type jpg)
 <use ./ieee_802.jpg>
-Package pdftex.def Info: ./ieee_802.jpg  used on input line 101.
+Package pdftex.def Info: ./ieee_802.jpg  used on input line 104.
 (pdftex.def)             Requested size: 426.79134pt x 199.06317pt.
 
-Underfull \hbox (badness 4505) in paragraph at lines 106--107
+Underfull \hbox (badness 4505) in paragraph at lines 109--110
 \T1/cmr/m/n/12 of stan-dards and
  []
 
 
-Underfull \hbox (badness 5985) in paragraph at lines 106--107
+Underfull \hbox (badness 5985) in paragraph at lines 109--110
 \T1/cmr/m/n/12 net-works. Eth-
  []
 
 
-Underfull \hbox (badness 7168) in paragraph at lines 106--107
+Underfull \hbox (badness 7168) in paragraph at lines 109--110
 \T1/cmr/m/n/12 er-net tech-nolo-gies
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 106--107
+Underfull \hbox (badness 2894) in paragraph at lines 109--110
 \T1/cmr/m/n/12 in LANs, though
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 106--107
+Underfull \hbox (badness 2126) in paragraph at lines 109--110
 \T1/cmr/m/n/12 they can also be
  []
 
 
-Underfull \hbox (badness 1845) in paragraph at lines 106--107
+Underfull \hbox (badness 1845) in paragraph at lines 109--110
 \T1/cmr/m/n/12 de-fines the phys-i-
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 106--107
+Underfull \hbox (badness 1371) in paragraph at lines 109--110
 \T1/cmr/m/n/12 cal layer and the
  []
 
 
-Underfull \hbox (badness 5985) in paragraph at lines 106--107
+Underfull \hbox (badness 5985) in paragraph at lines 109--110
 \T1/cmr/m/n/12 trol (MAC) sub-
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 106--107
+Underfull \hbox (badness 1681) in paragraph at lines 109--110
 \T1/cmr/m/n/12 layer of the data
  []
 
@@ -688,32 +688,32 @@ Underfull \hbox (badness 1681) in paragraph at lines 106--107
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.134 \centering
+l.137 \centering
                 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.134 \centering
+l.137 \centering
                 
 ? 
-<./OSI-7-layers.jpg, id=320, 562.1pt x 457.71pt>
+<./OSI-7-layers.jpg, id=328, 562.1pt x 457.71pt>
 File: ./OSI-7-layers.jpg Graphic file (type jpg)
 <use ./OSI-7-layers.jpg>
-Package pdftex.def Info: ./OSI-7-layers.jpg  used on input line 135.
+Package pdftex.def Info: ./OSI-7-layers.jpg  used on input line 138.
 (pdftex.def)             Requested size: 369.88582pt x 301.1886pt.
 
-Overfull \hbox (0.14668pt too wide) in paragraph at lines 146--146
+Overfull \hbox (0.14668pt too wide) in paragraph at lines 149--149
 []\T1/cmr/bx/n/14.4 A good Mnemonic 
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 147--148
+Underfull \hbox (badness 1127) in paragraph at lines 150--151
 \T1/cmr/m/n/12 mnemonic : Please Do Not
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 149--149
+Underfull \hbox (badness 1259) in paragraph at lines 152--152
 []\T1/cmr/bx/n/14.4 Theory vs Prac-
  []
 
@@ -723,87 +723,87 @@ Underfull \hbox (badness 1259) in paragraph at lines 149--149
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.195 \centering
+l.198 \centering
                 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.195 \centering
+l.198 \centering
                 
 ? 
-<./large.PNG, id=335, 626.34pt x 352.31625pt>
+<./large.PNG, id=343, 626.34pt x 352.31625pt>
 File: ./large.PNG Graphic file (type png)
 <use ./large.PNG>
-Package pdftex.def Info: ./large.PNG  used on input line 196.
+Package pdftex.def Info: ./large.PNG  used on input line 199.
 (pdftex.def)             Requested size: 455.24408pt x 256.08128pt.
 
-Underfull \hbox (badness 1552) in paragraph at lines 202--203
+Underfull \hbox (badness 1552) in paragraph at lines 205--206
 []\T1/cmr/m/n/12 A router can
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 202--203
+Underfull \hbox (badness 1205) in paragraph at lines 205--206
 \T1/cmr/m/n/12 form a \T1/cmr/bx/n/12 LAN
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 202--203
+Underfull \hbox (badness 1077) in paragraph at lines 205--206
 \T1/cmr/m/n/12 also makes it
  []
 
 
-Overfull \hbox (2.10745pt too wide) in paragraph at lines 202--203
+Overfull \hbox (2.10745pt too wide) in paragraph at lines 205--206
 \T1/cmr/m/n/12 pos-si-ble to con-
  []
 
 
-Underfull \hbox (badness 5578) in paragraph at lines 202--203
+Underfull \hbox (badness 5578) in paragraph at lines 205--206
 \T1/cmr/m/n/12 nect dif-fer-ent
  []
 
 
-Overfull \hbox (18.35771pt too wide) in paragraph at lines 202--203
+Overfull \hbox (18.35771pt too wide) in paragraph at lines 205--206
 \T1/cmr/m/n/12 net-works to-gether.
  []
 
 
-Overfull \hbox (7.9769pt too wide) in paragraph at lines 202--203
+Overfull \hbox (7.9769pt too wide) in paragraph at lines 205--206
 \T1/cmr/m/n/12 Homes and busi-
  []
 
 
-Underfull \hbox (badness 4967) in paragraph at lines 202--203
+Underfull \hbox (badness 4967) in paragraph at lines 205--206
 \T1/cmr/m/n/12 nesses use a
  []
 
 
-Overfull \hbox (6.1048pt too wide) in paragraph at lines 202--203
+Overfull \hbox (6.1048pt too wide) in paragraph at lines 205--206
 \T1/cmr/m/n/12 ter-net. A router
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 202--203
+Underfull \hbox (badness 1881) in paragraph at lines 205--206
 \T1/cmr/m/n/12 can of-ten in-
  []
 
 
-Overfull \hbox (3.93484pt too wide) in paragraph at lines 202--203
+Overfull \hbox (3.93484pt too wide) in paragraph at lines 205--206
 \T1/cmr/m/n/12 cor-po-rate a mo-
  []
 
 
-Overfull \hbox (0.34546pt too wide) in paragraph at lines 202--203
+Overfull \hbox (0.34546pt too wide) in paragraph at lines 205--206
 \T1/cmr/m/n/12 dem within the
  []
 
 [8
 
  <./large.png>]
-<./hbs.PNG, id=342, 626.34pt x 626.34pt>
+<./hbs.PNG, id=350, 626.34pt x 626.34pt>
 File: ./hbs.PNG Graphic file (type png)
 <use ./hbs.PNG>
-Package pdftex.def Info: ./hbs.PNG  used on input line 214.
+Package pdftex.def Info: ./hbs.PNG  used on input line 217.
 (pdftex.def)             Requested size: 284.52756pt x 284.53595pt.
 
 
@@ -814,325 +814,325 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.230 \fi}
+l.233 \fi}
           
 ? 
-<./performance.PNG, id=343, 626.34pt x 548.0475pt>
+<./performance.PNG, id=351, 626.34pt x 548.0475pt>
 File: ./performance.PNG Graphic file (type png)
 <use ./performance.PNG>
-Package pdftex.def Info: ./performance.PNG  used on input line 231.
+Package pdftex.def Info: ./performance.PNG  used on input line 234.
 (pdftex.def)             Requested size: 227.62204pt x 199.17015pt.
 [9
 
  <./hbs.png> <./performance.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
 
  []
 
 [10
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
  []
 
-<./step-by-step/0.PNG, id=358, 818.19965pt x 625.04947pt>
+<./step-by-step/0.PNG, id=366, 818.19965pt x 625.04947pt>
 File: ./step-by-step/0.PNG Graphic file (type png)
 <use ./step-by-step/0.PNG>
-Package pdftex.def Info: ./step-by-step/0.PNG  used on input line 265.
+Package pdftex.def Info: ./step-by-step/0.PNG  used on input line 268.
 (pdftex.def)             Requested size: 369.88582pt x 282.56674pt.
 [11
 
  <./step-by-step/0.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 268--269
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
 
  []
 
-<./step-by-step/1.PNG, id=365, 818.19965pt x 625.04947pt>
+<./step-by-step/1.PNG, id=373, 818.19965pt x 625.04947pt>
 File: ./step-by-step/1.PNG Graphic file (type png)
 <use ./step-by-step/1.PNG>
-Package pdftex.def Info: ./step-by-step/1.PNG  used on input line 270.
+Package pdftex.def Info: ./step-by-step/1.PNG  used on input line 273.
 (pdftex.def)             Requested size: 369.88582pt x 282.56674pt.
 [12
 
  <./step-by-step/1.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 
  []
 
-<./step-by-step/2.PNG, id=371, 818.19965pt x 625.04947pt>
+<./step-by-step/2.PNG, id=379, 818.19965pt x 625.04947pt>
 File: ./step-by-step/2.PNG Graphic file (type png)
 <use ./step-by-step/2.PNG>
-Package pdftex.def Info: ./step-by-step/2.PNG  used on input line 275.
+Package pdftex.def Info: ./step-by-step/2.PNG  used on input line 278.
 (pdftex.def)             Requested size: 369.88582pt x 282.56674pt.
 [13
 
  <./step-by-step/2.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
 
  []
 
-<./step-by-step/3.PNG, id=378, 603.11035pt x 582.0316pt>
+<./step-by-step/3.PNG, id=386, 603.11035pt x 582.0316pt>
 File: ./step-by-step/3.PNG Graphic file (type png)
 <use ./step-by-step/3.PNG>
-Package pdftex.def Info: ./step-by-step/3.PNG  used on input line 280.
+Package pdftex.def Info: ./step-by-step/3.PNG  used on input line 283.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 [14
 
  <./step-by-step/3.PNG>]
 ! Undefined control sequence.
-l.283 ...dent And we move ourselves in the \textvg
+l.286 ...dent And we move ourselves in the \textvg
                                                   {Config} tab \newline
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--284
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
-<./step-by-step/4.PNG, id=384, 603.11035pt x 582.0316pt>
+<./step-by-step/4.PNG, id=392, 603.11035pt x 582.0316pt>
 File: ./step-by-step/4.PNG Graphic file (type png)
 <use ./step-by-step/4.PNG>
-Package pdftex.def Info: ./step-by-step/4.PNG  used on input line 285.
+Package pdftex.def Info: ./step-by-step/4.PNG  used on input line 288.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 [15
 
  <./step-by-step/4.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
 
  []
 
-<./step-by-step/5.PNG, id=390, 603.11035pt x 582.0316pt>
+<./step-by-step/5.PNG, id=398, 603.11035pt x 582.0316pt>
 File: ./step-by-step/5.PNG Graphic file (type png)
 <use ./step-by-step/5.PNG>
-Package pdftex.def Info: ./step-by-step/5.PNG  used on input line 290.
+Package pdftex.def Info: ./step-by-step/5.PNG  used on input line 293.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 [16
 
  <./step-by-step/5.PNG>]
-<./step-by-step/6.PNG, id=396, 603.11035pt x 582.0316pt>
+<./step-by-step/6.PNG, id=404, 603.11035pt x 582.0316pt>
 File: ./step-by-step/6.PNG Graphic file (type png)
 <use ./step-by-step/6.PNG>
-Package pdftex.def Info: ./step-by-step/6.PNG  used on input line 297.
+Package pdftex.def Info: ./step-by-step/6.PNG  used on input line 300.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
  [17
 
  <./step-by-step/6.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
 
-<./step-by-step/7.PNG, id=404, 825.94286pt x 929.18571pt>
+<./step-by-step/7.PNG, id=412, 825.94286pt x 929.18571pt>
 File: ./step-by-step/7.PNG Graphic file (type png)
 <use ./step-by-step/7.PNG>
-Package pdftex.def Info: ./step-by-step/7.PNG  used on input line 302.
+Package pdftex.def Info: ./step-by-step/7.PNG  used on input line 305.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 [18
 
  <./step-by-step/7.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
 
  []
 
-<./step-by-step/8.PNG, id=410, 825.94286pt x 929.18571pt>
+<./step-by-step/8.PNG, id=418, 825.94286pt x 929.18571pt>
 File: ./step-by-step/8.PNG Graphic file (type png)
 <use ./step-by-step/8.PNG>
-Package pdftex.def Info: ./step-by-step/8.PNG  used on input line 308.
+Package pdftex.def Info: ./step-by-step/8.PNG  used on input line 311.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 [19
 
  <./step-by-step/8.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 311--312
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
 
  []
 
-<./step-by-step/9.PNG, id=417, 825.94286pt x 929.18571pt>
+<./step-by-step/9.PNG, id=425, 825.94286pt x 929.18571pt>
 File: ./step-by-step/9.PNG Graphic file (type png)
 <use ./step-by-step/9.PNG>
-Package pdftex.def Info: ./step-by-step/9.PNG  used on input line 313.
+Package pdftex.def Info: ./step-by-step/9.PNG  used on input line 316.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 [20
 
  <./step-by-step/9.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 316--317
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
 
  []
 
-<./step-by-step/10.PNG, id=423, 825.94286pt x 929.18571pt>
+<./step-by-step/10.PNG, id=431, 825.94286pt x 929.18571pt>
 File: ./step-by-step/10.PNG Graphic file (type png)
 <use ./step-by-step/10.PNG>
-Package pdftex.def Info: ./step-by-step/10.PNG  used on input line 318.
+Package pdftex.def Info: ./step-by-step/10.PNG  used on input line 321.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 [21
 
  <./step-by-step/10.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 321--322
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
 
  []
 
-<./step-by-step/11.PNG, id=429, 825.94286pt x 929.18571pt>
+<./step-by-step/11.PNG, id=437, 825.94286pt x 929.18571pt>
 File: ./step-by-step/11.PNG Graphic file (type png)
 <use ./step-by-step/11.PNG>
-Package pdftex.def Info: ./step-by-step/11.PNG  used on input line 323.
+Package pdftex.def Info: ./step-by-step/11.PNG  used on input line 326.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 [22
 
  <./step-by-step/11.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
 
  []
 
-<./step-by-step/12.PNG, id=435, 825.94286pt x 929.18571pt>
+<./step-by-step/12.PNG, id=443, 825.94286pt x 929.18571pt>
 File: ./step-by-step/12.PNG Graphic file (type png)
 <use ./step-by-step/12.PNG>
-Package pdftex.def Info: ./step-by-step/12.PNG  used on input line 328.
+Package pdftex.def Info: ./step-by-step/12.PNG  used on input line 331.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 [23
 
  <./step-by-step/12.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 331--332
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
 
  []
 
-<./step-by-step/13.PNG, id=441, 603.11035pt x 582.0316pt>
+<./step-by-step/13.PNG, id=449, 603.11035pt x 582.0316pt>
 File: ./step-by-step/13.PNG Graphic file (type png)
 <use ./step-by-step/13.PNG>
-Package pdftex.def Info: ./step-by-step/13.PNG  used on input line 333.
+Package pdftex.def Info: ./step-by-step/13.PNG  used on input line 336.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 [24
 
  <./step-by-step/13.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 337--338
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
-<./step-by-step/14.PNG, id=447, 603.11035pt x 582.0316pt>
+<./step-by-step/14.PNG, id=455, 603.11035pt x 582.0316pt>
 File: ./step-by-step/14.PNG Graphic file (type png)
 <use ./step-by-step/14.PNG>
-Package pdftex.def Info: ./step-by-step/14.PNG  used on input line 339.
+Package pdftex.def Info: ./step-by-step/14.PNG  used on input line 342.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 [25
 
  <./step-by-step/14.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
 
  []
 
-<./step-by-step/15.PNG, id=454, 825.94286pt x 929.18571pt>
+<./step-by-step/15.PNG, id=462, 825.94286pt x 929.18571pt>
 File: ./step-by-step/15.PNG Graphic file (type png)
 <use ./step-by-step/15.PNG>
-Package pdftex.def Info: ./step-by-step/15.PNG  used on input line 344.
+Package pdftex.def Info: ./step-by-step/15.PNG  used on input line 347.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 [26
 
  <./step-by-step/15.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 348--349
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
 
  []
 
-<./step-by-step/16.PNG, id=460, 603.11035pt x 582.0316pt>
+<./step-by-step/16.PNG, id=468, 603.11035pt x 582.0316pt>
 File: ./step-by-step/16.PNG Graphic file (type png)
 <use ./step-by-step/16.PNG>
-Package pdftex.def Info: ./step-by-step/16.PNG  used on input line 350.
+Package pdftex.def Info: ./step-by-step/16.PNG  used on input line 353.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 [27
 
  <./step-by-step/16.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 362--364
+Underfull \hbox (badness 10000) in paragraph at lines 365--367
 
  []
 
-<./step-by-step/17.PNG, id=466, 603.11035pt x 582.0316pt>
+<./step-by-step/17.PNG, id=474, 603.11035pt x 582.0316pt>
 File: ./step-by-step/17.PNG Graphic file (type png)
 <use ./step-by-step/17.PNG>
-Package pdftex.def Info: ./step-by-step/17.PNG  used on input line 365.
+Package pdftex.def Info: ./step-by-step/17.PNG  used on input line 368.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 [28
 
  <./step-by-step/17.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 369--370
+Underfull \hbox (badness 10000) in paragraph at lines 372--373
 
  []
 
-<./step-by-step/18.PNG, id=473, 603.11035pt x 582.0316pt>
+<./step-by-step/18.PNG, id=481, 603.11035pt x 582.0316pt>
 File: ./step-by-step/18.PNG Graphic file (type png)
 <use ./step-by-step/18.PNG>
-Package pdftex.def Info: ./step-by-step/18.PNG  used on input line 371.
+Package pdftex.def Info: ./step-by-step/18.PNG  used on input line 374.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 [29
 
  <./step-by-step/18.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 375--376
+Underfull \hbox (badness 10000) in paragraph at lines 378--379
 
  []
 
-<./step-by-step/19.PNG, id=479, 825.94286pt x 929.18571pt>
+<./step-by-step/19.PNG, id=487, 825.94286pt x 929.18571pt>
 File: ./step-by-step/19.PNG Graphic file (type png)
 <use ./step-by-step/19.PNG>
-Package pdftex.def Info: ./step-by-step/19.PNG  used on input line 377.
+Package pdftex.def Info: ./step-by-step/19.PNG  used on input line 380.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 [30
 
  <./step-by-step/19.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 382--383
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
 
  []
 
-<./step-by-step/20.PNG, id=485, 603.11035pt x 582.0316pt>
+<./step-by-step/20.PNG, id=493, 603.11035pt x 582.0316pt>
 File: ./step-by-step/20.PNG Graphic file (type png)
 <use ./step-by-step/20.PNG>
-Package pdftex.def Info: ./step-by-step/20.PNG  used on input line 384.
+Package pdftex.def Info: ./step-by-step/20.PNG  used on input line 387.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 [31
 
  <./step-by-step/20.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 387--388
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
 
  []
 
-<./step-by-step/21.PNG, id=492, 603.11035pt x 582.0316pt>
+<./step-by-step/21.PNG, id=501, 603.11035pt x 582.0316pt>
 File: ./step-by-step/21.PNG Graphic file (type png)
 <use ./step-by-step/21.PNG>
-Package pdftex.def Info: ./step-by-step/21.PNG  used on input line 389.
+Package pdftex.def Info: ./step-by-step/21.PNG  used on input line 392.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 [32
 
  <./step-by-step/21.PNG>] [33
 
 ]
-<./StarNetwork.svg.PNG, id=503, 793.96625pt x 767.86874pt>
+<./StarNetwork.svg.PNG, id=511, 793.96625pt x 767.86874pt>
 File: ./StarNetwork.svg.PNG Graphic file (type png)
 <use ./StarNetwork.svg.PNG>
-Package pdftex.def Info: ./StarNetwork.svg.PNG  used on input line 413.
+Package pdftex.def Info: ./StarNetwork.svg.PNG  used on input line 416.
 (pdftex.def)             Requested size: 199.16928pt x 192.62285pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--414
+Underfull \hbox (badness 10000) in paragraph at lines 416--417
 
  []
 
 [34
 
  <./StarNetwork.svg.png>]
-<./RingNetwork.svg.PNG, id=510, 793.96625pt x 767.86874pt>
+<./RingNetwork.svg.PNG, id=518, 793.96625pt x 767.86874pt>
 File: ./RingNetwork.svg.PNG Graphic file (type png)
 <use ./RingNetwork.svg.PNG>
-Package pdftex.def Info: ./RingNetwork.svg.PNG  used on input line 435.
+Package pdftex.def Info: ./RingNetwork.svg.PNG  used on input line 438.
 (pdftex.def)             Requested size: 199.16928pt x 192.62285pt.
  [35
 
  <./RingNetwork.svg.png>]
-<./star-topology/screenshot.PNG, id=517, 547.61732pt x 536.86285pt>
+<./star-topology/screenshot.PNG, id=525, 547.61732pt x 536.86285pt>
 File: ./star-topology/screenshot.PNG Graphic file (type png)
 <use ./star-topology/screenshot.PNG>
-Package pdftex.def Info: ./star-topology/screenshot.PNG  used on input line 456
+Package pdftex.def Info: ./star-topology/screenshot.PNG  used on input line 459
 .
 (pdftex.def)             Requested size: 199.16928pt x 195.2529pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 456--457
+Underfull \hbox (badness 10000) in paragraph at lines 459--460
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--461
+Underfull \hbox (badness 10000) in paragraph at lines 463--464
 
  []
 
@@ -1147,7 +1147,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.514 ...and Border Gateway Protocol (BGP).[1]: 
+l.517 ...and Border Gateway Protocol (BGP).[1]: 
                                                   188–189 
 ? 
 
@@ -1158,118 +1158,119 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.514 ...ateway Protocol (BGP).[1]: 188–189 
+l.517 ...ateway Protocol (BGP).[1]: 188–189 
                                                   
 ? 
 [38] [39] [40]
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.566 \centering
+l.569 \centering
                 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.566 \centering
+l.569 \centering
                 
 ? 
-<./IPv6.PNG, id=541, 1927.2pt x 693.59125pt>
+<./IPv6.PNG, id=549, 1927.2pt x 693.59125pt>
 File: ./IPv6.PNG Graphic file (type png)
 <use ./IPv6.PNG>
-Package pdftex.def Info: ./IPv6.PNG  used on input line 567.
+Package pdftex.def Info: ./IPv6.PNG  used on input line 570.
 (pdftex.def)             Requested size: 284.52756pt x 102.39377pt.
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.586 \centering
+l.589 \centering
                 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.586 \centering
+l.589 \centering
                 
 ? 
-<./IPv6_link_local_unicast_address_structure-en.svg.PNG, id=545, 1927.2pt x 222
+<./IPv6_link_local_unicast_address_structure-en.svg.PNG, id=556, 1927.2pt x 222
 .8325pt>
 File: ./IPv6_link_local_unicast_address_structure-en.svg.PNG Graphic file (type
  png)
 <use ./IPv6_link_local_unicast_address_structure-en.svg.PNG>
 Package pdftex.def Info: ./IPv6_link_local_unicast_address_structure-en.svg.PNG
-  used on input line 587.
+  used on input line 590.
 (pdftex.def)             Requested size: 284.52756pt x 32.89641pt.
+! Too many }'s.
+l.596 ...RFC 7136, RFC 7346, RFC 7371, RFC 8064.}}
+                                                  ${}^{{}^{2 \cdot 4}}$ (IET...
+
+? 
+! Too many }'s.
+l.596 ...64.}}${}^{{}^{2 \cdot 4}}$ (IETF), RFC 2}
+                                                   Of the 64 bits of a lin...
+
+? 
+
+! Package inputenc Error: Unicode character   (U+200A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.596 ...}}${}^{{}^{2 \cdot 4}}$ (IETF), RFC 2} 
+                                                  Of the 64 bits of a link-l...
+
+? 
+
+! Package inputenc Error: Unicode character   (U+200A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.596 ...[6 \ref{linklokal}^{2\cdot 5 \cdot}]}$ 
+                                                  
+? 
+
+! Package inputenc Error: Unicode character   (U+200A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.598 ...notemark[8 \ref{linklokal}^{2\cdot}]}$ 
+                                                  
+? 
+[41 <./IPv6.png> <./IPv6_link_local_unicast_address_structure-en.svg.png>]
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.593 ...ast addressing.\footnotemark[\ref{note1}]
-                                                    Of the 64 bits of a li...
-
+l.615 \centering
+                
 ? 
-
-! Package inputenc Error: Unicode character   (U+200A)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.593 ... addressing.\footnotemark[\ref{note1}] 
-                                                   Of the 64 bits of a link-...
-
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.615 \centering
+                
 ? 
+<./IPv4_Packet-en.svg.PNG, id=578, 1927.2pt x 879.285pt>
+File: ./IPv4_Packet-en.svg.PNG Graphic file (type png)
+<use ./IPv4_Packet-en.svg.PNG>
+Package pdftex.def Info: ./IPv4_Packet-en.svg.PNG  used on input line 616.
+(pdftex.def)             Requested size: 284.52756pt x 129.80745pt.
 
-! Package inputenc Error: Unicode character   (U+200A)
-(inputenc)                not set up for use with LaTeX.
+Underfull \hbox (badness 1776) in paragraph at lines 621--622
+[][]\T1/cmr/m/n/12 IPv4 was the first ver-sion de-ployed for
+ []
 
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.593 ..." (the remaining 54 bits) is zero.[2]: 
-                                                  2.5.6 
-? 
-
-! Package inputenc Error: Unicode character   (U+200A)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.593 ...emaining 54 bits) is zero.[2]: 2.5.6 
-                                                  
-? 
-
-! Package inputenc Error: Unicode character   (U+200A)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.595 ...table addresses are also assigned.[2]: 
-                                                  2.8  Consequently, IPv6 ...
-
-? 
-
-! Package inputenc Error: Unicode character   (U+200A)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.595 ...addresses are also assigned.[2]: 2.8 
-                                                   Consequently, IPv6 hosts ...
-
-? 
-[41 <./IPv6.png> <./IPv6_link_local_unicast_address_structure-en.svg.png>]
-[42]
+[42 <./IPv4_Packet-en.svg.png>] [43]
 ! Undefined control sequence.
 <argument> \imki@jobname 
                          @idxfile
-l.607 
+l.639 
       
 ? 
 
@@ -1279,49 +1280,49 @@ See the imakeidx package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.607 
+l.639 
       
 ? 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 608.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 608.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 640.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 640.
 (./networking.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 608.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 608.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 640.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 640.
 Package rerunfilecheck Info: File `networking.out' has not changed.
-(rerunfilecheck)             Checksum: FBD4EEAAC1633894A198C5DB4DBFC830;3467.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 608.
+(rerunfilecheck)             Checksum: 6A15282FC1C602901A9D5DD61ABA9E97;3580.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 640.
  ) 
 Here is how much of TeX's memory you used:
- 11011 strings out of 483183
- 173724 string characters out of 5966293
- 538291 words of memory out of 5000000
- 25696 multiletter control sequences out of 15000+600000
- 547234 words of font info for 52 fonts, out of 8000000 for 9000
+ 11031 strings out of 483183
+ 174048 string characters out of 5966293
+ 538504 words of memory out of 5000000
+ 25708 multiletter control sequences out of 15000+600000
+ 545703 words of font info for 50 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  55i,8n,96p,924b,984s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.6
-00pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx100
-0.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
-1000.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-crm0700.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/e
-c/tcrm1200.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecrm0800.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jkna
-ppen/ec/ecti1200.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecrm0600.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfou
-r/jknappen/ec/eccc0600.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/lj
-four/jknappen/ec/ecrm1200.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk
-/ljfour/jknappen/ec/ecbx1200.600pk> </home/daniele/.texlive2019/texmf-var/fonts
-/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/daniele/.texlive2019/texmf-var/fo
-nts/pk/ljfour/jknappen/ec/ectt1440.600pk> </home/daniele/.texlive2019/texmf-var
-/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/daniele/.texlive2019/texmf-
-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb>
-Output written on networking.pdf (42 pages, 2692585 bytes).
+00pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx080
+0.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm
+1200.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/e
+crm0800.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/e
+c/ecti1200.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ecrm0600.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jkna
+ppen/ec/eccc0600.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecrm1200.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfou
+r/jknappen/ec/ecbx1200.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/lj
+four/jknappen/ec/ecbx1728.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk
+/ljfour/jknappen/ec/ectt1440.600pk> </home/daniele/.texlive2019/texmf-var/fonts
+/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/daniele/.texlive2019/texmf-var/fo
+nts/pk/ljfour/jknappen/ec/ecrm2074.600pk></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+Output written on networking.pdf (43 pages, 2761243 bytes).
 PDF statistics:
- 1108 PDF objects out of 1200 (max. 8388607)
- 535 compressed objects within 6 object streams
- 117 named destinations out of 1000 (max. 500000)
- 598 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1146 PDF objects out of 1200 (max. 8388607)
+ 571 compressed objects within 6 object streams
+ 126 named destinations out of 1000 (max. 500000)
+ 619 words of extra memory for PDF output out of 10000 (max. 10000000)
 
