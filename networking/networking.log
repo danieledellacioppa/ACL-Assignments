@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.5)  13 MAY 2022 16:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.5)  13 MAY 2022 17:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1244,6 +1244,24 @@ l.598 ...notemark[8 \ref{linklokal}^{2\cdot}]}$ 
                                                   
 ? 
 [41 <./IPv6.png> <./IPv6_link_local_unicast_address_structure-en.svg.png>]
+Underfull \hbox (badness 1178) in paragraph at lines 604--604
+[][][][] \T1/cmr/m/n/8 S. Thom-son; T. Narten; T. Jin-mei (Septem-ber 2007). []
+[]IPv6 State-less Ad-dress Au-to-con-fig-u-ra-tion[][]. Net-work Work-ing Group
+.
+ []
+
+
+! Package inputenc Error: Unicode character   (U+200A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.606 ... based$,^{\footnotemark[1 \ref{NDP}]}$ 
+                                                   or randomized.\footnote{\...
+
+? 
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
@@ -1256,7 +1274,7 @@ l.615 \centering
 l.615 \centering
                 
 ? 
-<./IPv4_Packet-en.svg.PNG, id=578, 1927.2pt x 879.285pt>
+<./IPv4_Packet-en.svg.PNG, id=583, 1927.2pt x 879.285pt>
 File: ./IPv4_Packet-en.svg.PNG Graphic file (type png)
 <use ./IPv4_Packet-en.svg.PNG>
 Package pdftex.def Info: ./IPv4_Packet-en.svg.PNG  used on input line 616.
@@ -1293,13 +1311,13 @@ Package rerunfilecheck Info: File `networking.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 640.
  ) 
 Here is how much of TeX's memory you used:
- 11031 strings out of 483183
- 174048 string characters out of 5966293
- 538504 words of memory out of 5000000
- 25708 multiletter control sequences out of 15000+600000
+ 11035 strings out of 483183
+ 174089 string characters out of 5966293
+ 538560 words of memory out of 5000000
+ 25710 multiletter control sequences out of 15000+600000
  545703 words of font info for 50 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 55i,8n,96p,924b,984s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,8n,96p,947b,984s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.6
 00pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx080
 0.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm
@@ -1319,10 +1337,10 @@ ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on networking.pdf (43 pages, 2761243 bytes).
+Output written on networking.pdf (43 pages, 2762935 bytes).
 PDF statistics:
- 1146 PDF objects out of 1200 (max. 8388607)
- 571 compressed objects within 6 object streams
- 126 named destinations out of 1000 (max. 500000)
+ 1157 PDF objects out of 1200 (max. 8388607)
+ 580 compressed objects within 6 object streams
+ 128 named destinations out of 1000 (max. 500000)
  619 words of extra memory for PDF output out of 10000 (max. 10000000)
 
