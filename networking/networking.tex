@@ -627,11 +627,25 @@ IPv4 uses a 32-bit address space which provides 4,294,967,296 ($2^{32}$) unique 
 
 \subsection{conversion to binary}
 
-A binary code represents text, computer processor instructions, or any other data using a two-symbol system. The two-symbol system used is often "0" and "1" from the binary number system. The binary code assigns a pattern of binary digits, also known as bits, to each character, instruction, etc. For example, a binary string of eight bits can represent any of 256 possible values and can, therefore, represent a wide variety of different items.
+First a couple of words on the binary code first. A binary code is essentially text, computer processor low level instructions, or any other data using a two-symbol system. The two-symbol system used is often "0" and "1" from the \textbf{binary number system}. The binary code assigns a pattern of bits (aka binary digit), to each character, instruction, etc. For example, a binary string of eight bits can represent any of 256 possible values and can, therefore, represent a wide variety of different items.
 
-In computing and telecommunications, binary codes are used for various methods of encoding data, such as character strings, into bit strings. Those methods may use fixed-width or variable-width strings. In a fixed-width binary code, each letter, digit, or other character is represented by a bit string of the same length; that bit string, interpreted as a binary number, is usually displayed in code tables in octal, decimal or hexadecimal notation. There are many character sets and many character encodings for them.
+In computing and telecommunications, binary codes are used for various methods of encoding data, such as character strings, into bit strings. 
 
-A bit string, interpreted as a binary number, can be translated into a decimal number. For example, the lower case a, if represented by the bit string 01100001 (as it is in the standard ASCII code), can also be represented as the decimal number "97".
+Let's now convert 192.168.2.7 into binary
+
+\begin{tabular}{||l|c|r|p{5cm}||}
+    Division by 2 & Quotient & Remainder & Notes \\
+    192/2 & 96 & 0 & This will be the 8th bit \\
+    96/2 & 48 & 0 & The 7th bit \\
+    48/2 & 24 & 0 & The 6th bit \\
+    24/2 & 12 & 0 & The 5th bit \\
+    12/2 & 6 & 0 & The 4th bit \\
+    6/2 & 3 & 0 & The 3th bit \\
+    3/2 & 1 & 1 & The 2nd bit \\
+    1/2 & 0 & 1 & The 1st bit \\
+\end{tabular}
+
+
 
 
 \clearpage
