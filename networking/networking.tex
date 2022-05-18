@@ -636,10 +636,10 @@ IPv4 uses a 32-bit address space which provides 4,294,967,296 ($2^{32}$) unique 
 \subsection{conversion to binary}
 
 First a couple of words on the binary code first. A binary code is essentially text, computer processor low level instructions, or any other data using a two-symbol system. The two-symbol system used is often "0" and "1" from the \textbf{binary number system}. The binary code assigns a pattern of bits (aka binary digit), to each character, instruction, etc. For example, a binary string of eight bits can represent any of 256 possible values and can, therefore, represent a wide variety of different items.
-
 In computing and telecommunications, binary codes are used for various methods of encoding data, such as character strings, into bit strings. 
 
 Let's now convert 192.168.2.7 into binary
+\newline
 
 \begin{tabular}{||l|c|r|p{5cm}||}
     Division by 2 & Quotient & Remainder & Notes \\
@@ -653,6 +653,142 @@ Let's now convert 192.168.2.7 into binary
     1/2 & 0 & 1 & The 1st bit \\
 \end{tabular}
 
+\section{binary to Hex}
+
+The hexadecimal system uses the number 16 as its base. As a $base^{16}$ numeral system, it uses 16 symbols. These are the 10 decimal digits 
+
+\[0, 1, 2, 3, 4, 5, 6, 7, 8, 9\] and the first six letters of the English alphabet \[A, B, C, D, E, F\] which are representing the values 10, 11, 12, 13, 14 and 15.
+This is useful in mathematics and IT as a more friendly way to represent binary. Each hex digit represents four binary digits; therefore you could say hex is a language to write binary in an abbreviated form.
+Four binary digits make up half a byte. This means one byte can carry binary values from 0000 0000 to 1111 1111. In hex, these can be represented ranging from 00 to FF.
+In html programming, colors can be represented by a 6-digit hexadecimal number: FFFFFF represents white whereas 000000 represents black.
+Hex is more friendly in terms of possibility. It goes from 0 to 9 and then from A to F. It's 
+The calculator has a \textbf{programmer} mode which allows you to use hex as well
+
+\section{IP config}
+Displays all current TCP/IP network configuration values and refreshes Dynamic Host Configuration Protocol (DHCP) and Domain Name System (DNS) settings. Used without parameters, ipconfig displays Internet Protocol version 4 (IPv4) and IPv6 addresses, subnet mask, and default gateway for all adapters.
+
+\subsection{ipconfig/all}
+Displays the full TCP/IP configuration for all adapters. Adapters can represent physical interfaces, such as installed network adapters, or logical interfaces, such as dial-up connections.
+
+\subsection{ipconfig/displaydns}
+Displays the contents of the DNS client resolver cache, which includes both entries preloaded from the local Hosts file and any recently obtained resource records for name queries resolved by the computer. The DNS Client service uses this information to resolve frequently queried names quickly, before querying its configured DNS servers.
+
+The fields in the output of /displaydns correspond to the fields of an actual DNS reply.
+
+\begin{itemize}
+\item{In a DNS server's database, each piece of data is a "resource record".}
+\item{"Record name" is the name you query DNS for, and the records (addresses or something else) belong to that name.}
+\item{"Record type" is the type, displayed as a number - although more commonly they are referred to by their names, internally (in the DNS protocol) each has a number. Type 1 is "A" for "address", an IPv4 address. (IPv6 uses type 28, "AAAA", for an address four times as long.) "PTR", type 12, is a "pointer" to a hostname - most commonly used when mapping an IP address back to its name. "CNAME" is "canonical name".}
+\item{"Time To Live" is the time in seconds after which the cache entry must expire.}
+\item{"Data Length" appears to be the length in bytes - an IPv4 address is four bytes, IPv6 is sixteen bytes. For CNAME or PTR, Windows displays a static number (either 4 or 8, depending on your system) - this is actually the size of a memory address where the actual text is kept.}
+\item{The "answer" section of a DNS reply is the actual answer to the query, and "additional" contains information that will likely be needed to find the actual answer. For example, glue records.}
+\item{"<type> record" shows the actual value stored.}
+\end{itemize}
+
+
+\subsection{ipconfig/flushdns}
+Flushes and resets the contents of the DNS client resolver cache. During DNS troubleshooting, you can use this procedure to discard negative cache entries from the cache, as well as any other entries that have been added dynamically.
+
+\subsection{ipconfig/registerdns}
+Initiates manual dynamic registration for the DNS names and IP addresses that are configured at a computer. You can use this parameter to troubleshoot a failed DNS name registration or resolve a dynamic update problem between a client and the DNS server without rebooting the client computer. The DNS settings in the advanced properties of the TCP/IP protocol determine which names are registered in DNS.
+
+\subsection{ipconfig/flushdns-}
+
+By default, most operating systems will cache IP addresses and other Domain Name System (DNS) records in order to fulfill future requests more quickly.
+
+For example, when I type in https://lonezscents.com/ in my browser’s address bar for the first time, the browser has to ask DNS servers where to find the site. Once it has that information, the browser can store it in its local cache. Then, the next time I type in that website address, the browser will look for its DNS information in the local cache first and be able to find the site more quickly.
+
+The problem is that sometimes dangerous IP addresses or corrupted results can be cached and need to be removed. The DNS cache can also impact your ability to connect to the internet or cause other issues. Whatever the reason, all major operating systems allow you to force the process of clearing this cache — or “flushing DNS.”
+
+\subsubsection{what flush DNS does}
+Flushing DNS will clear any IP addresses or other DNS records from your cache. This can help resolve security, internet connectivity, and other issues.
+
+It’s important to understand that your DNS cache will clear itself out from time to time without your intervention. That’s because the DNS cache — in addition to saving all information that’s relevant to identifying and finding a website — also saves a component called TTL, or time to live. This specifies a period of time (in seconds) in which the DNS record for a site remains valid. Within this time period, any queries to the website are answered from the local cache without the help of the DNS server. Once the TTL expires, the entry will be removed from the cache.
+
+However, there are reasons you may need to force a DNS flush rather than wait for the TTL of all the entries to expire. Let’s take a look at why below.
+
+\subsubsection{why would you flush DNS}
+
+There’s a few reasons you might need to flush your DNS cache. These reasons may have to do with security, technical problems, or data privacy. Let’s briefly cover each one below.
+
+\begin{itemize}
+\item{\textbf{You want to prevent DNS spoofing}.
+DNS spoofing — also known as DNS cache poisoning — is an attack in which bad actors gain access to your DNS cache and alter the information in order to redirect you to the wrong sites. In some cases, they will redirect you to a fraudulent website that resembles its intended destination so that you enter in sensitive information, like your online banking login information.}
+
+\item{\textbf{You’re seeing a 404 error}.
+Let’s say you’ve cached the DNS information of a site that’s since moved to a new domain name or host. In that case, the DNS information on your computer may not get updated right away and you could end up seeing a 404 error or an outdated version of a site when you try to visit. Although the information will eventually get updated in your DNS cache, you don’t have to wait. You can clear DNS cache at any time.}
+
+\item{\textbf{You’re having trouble accessing a website}.
+If you’re having trouble getting a website to load, then you should try other steps first, like clearing your browser's temporary files and cookies and adjusting your browser settings to turn off pop-up blockers and allow sites to save and read cookies. But if you’ve exhausted your options, then you can flush DNS to reset your computer's connection to the internet.}
+
+\item{\textbf{You want to keep your search behavior private}.
+When you think of tracking user behavior on the internet, you probably think of cookies — but the DNS cache can reveal your search history as well. That’s because the DNS cache is designed to act like a virtual address book, storing the information of the websites you visit regularly. To keep this information away from data collectors or bad actors on the web, it’s a good idea to regularly flush your DNS cache.}
+\end{itemize}
+Now that we understand what flushing your DNS cache means and why you’d want to, let’s walk through how you can do it below.
+
+
+
+\section{DHCP}
+
+\subsection{IPCONFIG renew and release}
+The host asks the router to drop the network configuration and make a new one
+
+\subsection{BYOD}
+Bring your own device
+
+\subsection{vulnerabilities in LAN}
+Poor configuration and Poor encryption
+
+\subsubsection{Poor configuration}
+
+\subsubsection{Poor encryption}
+
+
+\subsection{Fixed IP}
+So that someone doesn't just plug a device and gets an IP-address from DHCP. A device needs to be approved in order to receive an IP
+
+\section{dns root server}
+There are 13 important DNS root servers on the internet that store a complete database of domain names and their associated public IP addresses. These top-tier DNS servers are named A through M for the first 13 letters of the alphabet.Ten of these servers are in the US, one in London, one in Stockholm, and one in Japan 
+\subsection{why 13 DNS servers}
+That's exactly how much we need with IPv4. The IP packet size is 2 bytes.
+
+\subsection{who manages}
+The Internet Assigned Numbers Authority (IANA) keeps this list of DNS root servers if you're interested. ICANN manages them as well by delegating to IANA. It stands for Internet Corporation for Assigned Names and Numbers.
+
+\section{The DNS Service}
+The DNS service is the practical implementation of the DNS System. The DNS service is what a server running DNS software offers - the ability to use and manage DNS settings. Today, the DNS service is a very popular offer, with almost every domain registrar company offering their own DNS service. The DNS service can be run on a separate server, which is effective if running a very large and popular website, and can also be run on a shared hosting server, which is sufficient in 90\% of the cases.
+
+\begin{itemize}
+\item{recursive = non-authoritative}
+\item{non-recursive = authoritative}
+\end{itemize}
+
+\section{The four DNS Servers to load a webpage}
+Once a DNS query is entered, it passes through a few different servers before resolution, without any end-user interaction.
+
+\subsection{DNS recursor}
+
+This is a server designed specifically to receive queries from client machines. It tracks down the DNS record and makes additional requests to meet the DNS queries from the client. The number of requests can be decreased with DNS caching when the requested resources are returned to the recursor early on in the lookup process.
+
+\subsection{Root name server}
+
+This server does the job of translating the human-friendly hostnames into computer-friendly IP addresses. The root server accepts the recursor’s query and sends it to the TLD nameservers in the next stage, depending on the domain name seen in the query.
+
+\subsection{dns server}
+
+Top-Level Domain (TLD) nameserver
+
+The TLD nameservers are responsible for maintaining the information about the domain names. For example, they could contain information about websites ending in “.com” or “.org” or country-level domains like “www.example.com.uk”, “www.example.com.us”, and others. The TLD nameserver will take the query from the root server and point it to the authoritative DNS nameserver associated with the query’s particular domain.
+
+\subsection{Authoritative nameserver}
+
+In the last step, the authoritative DNS nameserver will return the IP address back to the DNS recursor that can relay it to the client. This authoritative DNS nameserver is the one at the bottom of the lookup process that holds the DNS records. Think of these as the last stop or the final authoritative source of truth in the process.
+
+public dns
+
+private dns
+
+dns authentication
 
 
 
