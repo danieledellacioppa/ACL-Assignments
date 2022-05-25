@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.5.11)  18 MAY 2022 15:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.21)  25 MAY 2022 09:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **networking.tex
 (./networking.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24>
+L3 programming layer <2022-04-10>
 (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/size12.clo
@@ -230,10 +230,10 @@ Package: wrapfig 2003/01/31  v 3.6
 (/usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty
 (/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2022-02-24 L3 programming layer (loader) 
+Package: expl3 2022-04-10 L3 programming layer (loader) 
 
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count280
 \l__pdf_internal_box=\box100
 ))
@@ -627,63 +627,68 @@ l.86 \newline
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.103 \centering
+l.104 \centering
                 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.103 \centering
+l.104 \centering
                 
 ? 
 <./ieee_802.jpg, id=447, 522.95375pt x 243.91125pt>
 File: ./ieee_802.jpg Graphic file (type jpg)
 <use ./ieee_802.jpg>
-Package pdftex.def Info: ./ieee_802.jpg  used on input line 104.
+Package pdftex.def Info: ./ieee_802.jpg  used on input line 105.
 (pdftex.def)             Requested size: 426.79134pt x 199.06317pt.
 
-Underfull \hbox (badness 4505) in paragraph at lines 109--110
-\T1/cmr/m/n/12 of stan-dards and
+Overfull \hbox (8.83499pt too wide) in paragraph at lines 110--112
+[][]\T1/cmr/m/n/12 are pri-mar-ily used
  []
 
 
-Underfull \hbox (badness 5985) in paragraph at lines 109--110
-\T1/cmr/m/n/12 net-works. Eth-
- []
-
-
-Underfull \hbox (badness 7168) in paragraph at lines 109--110
-\T1/cmr/m/n/12 er-net tech-nolo-gies
- []
-
-
-Underfull \hbox (badness 2894) in paragraph at lines 109--110
+Underfull \hbox (badness 2894) in paragraph at lines 110--112
 \T1/cmr/m/n/12 in LANs, though
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 109--110
+Underfull \hbox (badness 2126) in paragraph at lines 110--112
 \T1/cmr/m/n/12 they can also be
  []
 
 
-Underfull \hbox (badness 1845) in paragraph at lines 109--110
+Underfull \hbox (badness 1845) in paragraph at lines 110--112
 \T1/cmr/m/n/12 de-fines the phys-i-
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 109--110
+Underfull \hbox (badness 1371) in paragraph at lines 110--112
 \T1/cmr/m/n/12 cal layer and the
  []
 
 
-Underfull \hbox (badness 5985) in paragraph at lines 109--110
+Underfull \hbox (badness 5985) in paragraph at lines 110--112
 \T1/cmr/m/n/12 trol (MAC) sub-
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 109--110
+Underfull \hbox (badness 1681) in paragraph at lines 110--112
 \T1/cmr/m/n/12 layer of the data
+ []
+
+
+Underfull \hbox (badness 2961) in paragraph at lines 110--112
+\T1/cmr/m/n/12 The unique iden-
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 110--112
+\T1/cmr/m/n/12 ti-fier of our com-
+ []
+
+
+Overfull \hbox (4.26256pt too wide) in paragraph at lines 110--112
+\T1/cmr/m/n/12 puter's moth-er-board
  []
 
 [5
@@ -692,32 +697,32 @@ Underfull \hbox (badness 1681) in paragraph at lines 109--110
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.137 \centering
+l.139 \centering
                 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.137 \centering
+l.139 \centering
                 
 ? 
 <./OSI-7-layers.jpg, id=458, 562.1pt x 457.71pt>
 File: ./OSI-7-layers.jpg Graphic file (type jpg)
 <use ./OSI-7-layers.jpg>
-Package pdftex.def Info: ./OSI-7-layers.jpg  used on input line 138.
+Package pdftex.def Info: ./OSI-7-layers.jpg  used on input line 140.
 (pdftex.def)             Requested size: 369.88582pt x 301.1886pt.
 
-Overfull \hbox (0.14668pt too wide) in paragraph at lines 149--149
+Overfull \hbox (0.14668pt too wide) in paragraph at lines 151--151
 []\T1/cmr/bx/n/14.4 A good Mnemonic 
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 150--151
+Underfull \hbox (badness 1127) in paragraph at lines 152--153
 \T1/cmr/m/n/12 mnemonic : Please Do Not
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 152--152
+Underfull \hbox (badness 1259) in paragraph at lines 154--154
 []\T1/cmr/bx/n/14.4 Theory vs Prac-
  []
 
@@ -727,77 +732,77 @@ Underfull \hbox (badness 1259) in paragraph at lines 152--152
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.198 \centering
+l.200 \centering
                 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.198 \centering
+l.200 \centering
                 
 ? 
 <./large.PNG, id=472, 626.34pt x 352.31625pt>
 File: ./large.PNG Graphic file (type png)
 <use ./large.PNG>
-Package pdftex.def Info: ./large.PNG  used on input line 199.
+Package pdftex.def Info: ./large.PNG  used on input line 201.
 (pdftex.def)             Requested size: 455.24408pt x 256.08128pt.
 
-Underfull \hbox (badness 1552) in paragraph at lines 205--206
+Underfull \hbox (badness 1552) in paragraph at lines 207--208
 []\T1/cmr/m/n/12 A router can
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 205--206
+Underfull \hbox (badness 1205) in paragraph at lines 207--208
 \T1/cmr/m/n/12 form a \T1/cmr/bx/n/12 LAN
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 205--206
+Underfull \hbox (badness 1077) in paragraph at lines 207--208
 \T1/cmr/m/n/12 also makes it
  []
 
 
-Overfull \hbox (2.10745pt too wide) in paragraph at lines 205--206
+Overfull \hbox (2.10745pt too wide) in paragraph at lines 207--208
 \T1/cmr/m/n/12 pos-si-ble to con-
  []
 
 
-Underfull \hbox (badness 5578) in paragraph at lines 205--206
+Underfull \hbox (badness 5578) in paragraph at lines 207--208
 \T1/cmr/m/n/12 nect dif-fer-ent
  []
 
 
-Overfull \hbox (18.35771pt too wide) in paragraph at lines 205--206
+Overfull \hbox (18.35771pt too wide) in paragraph at lines 207--208
 \T1/cmr/m/n/12 net-works to-gether.
  []
 
 
-Overfull \hbox (7.9769pt too wide) in paragraph at lines 205--206
+Overfull \hbox (7.9769pt too wide) in paragraph at lines 207--208
 \T1/cmr/m/n/12 Homes and busi-
  []
 
 
-Underfull \hbox (badness 4967) in paragraph at lines 205--206
+Underfull \hbox (badness 4967) in paragraph at lines 207--208
 \T1/cmr/m/n/12 nesses use a
  []
 
 
-Overfull \hbox (6.1048pt too wide) in paragraph at lines 205--206
+Overfull \hbox (6.1048pt too wide) in paragraph at lines 207--208
 \T1/cmr/m/n/12 ter-net. A router
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 205--206
+Underfull \hbox (badness 1881) in paragraph at lines 207--208
 \T1/cmr/m/n/12 can of-ten in-
  []
 
 
-Overfull \hbox (3.93484pt too wide) in paragraph at lines 205--206
+Overfull \hbox (3.93484pt too wide) in paragraph at lines 207--208
 \T1/cmr/m/n/12 cor-po-rate a mo-
  []
 
 
-Overfull \hbox (0.34546pt too wide) in paragraph at lines 205--206
+Overfull \hbox (0.34546pt too wide) in paragraph at lines 207--208
 \T1/cmr/m/n/12 dem within the
  []
 
@@ -807,7 +812,7 @@ Overfull \hbox (0.34546pt too wide) in paragraph at lines 205--206
 <./hbs.PNG, id=480, 626.34pt x 626.34pt>
 File: ./hbs.PNG Graphic file (type png)
 <use ./hbs.PNG>
-Package pdftex.def Info: ./hbs.PNG  used on input line 217.
+Package pdftex.def Info: ./hbs.PNG  used on input line 219.
 (pdftex.def)             Requested size: 284.52756pt x 284.53595pt.
 
 
@@ -818,18 +823,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.233 \fi}
+l.235 \fi}
           
 ? 
 <./performance.PNG, id=481, 626.34pt x 548.0475pt>
 File: ./performance.PNG Graphic file (type png)
 <use ./performance.PNG>
-Package pdftex.def Info: ./performance.PNG  used on input line 234.
+Package pdftex.def Info: ./performance.PNG  used on input line 236.
 (pdftex.def)             Requested size: 227.62204pt x 199.17015pt.
 [10
 
  <./hbs.png> <./performance.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
 
@@ -839,89 +844,89 @@ Underfull \hbox (badness 10000) in paragraph at lines 251--252
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.269 \centering
+l.271 \centering
                 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.269 \centering
+l.271 \centering
                 
 ? 
 <./step-by-step/0.PNG, id=499, 818.19965pt x 625.04947pt>
 File: ./step-by-step/0.PNG Graphic file (type png)
 <use ./step-by-step/0.PNG>
-Package pdftex.def Info: ./step-by-step/0.PNG  used on input line 270.
+Package pdftex.def Info: ./step-by-step/0.PNG  used on input line 272.
 (pdftex.def)             Requested size: 369.88582pt x 282.56674pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
 [12
 
  <./step-by-step/0.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
 
  []
 
 <./step-by-step/1.PNG, id=508, 818.19965pt x 625.04947pt>
 File: ./step-by-step/1.PNG Graphic file (type png)
 <use ./step-by-step/1.PNG>
-Package pdftex.def Info: ./step-by-step/1.PNG  used on input line 281.
+Package pdftex.def Info: ./step-by-step/1.PNG  used on input line 283.
 (pdftex.def)             Requested size: 369.88582pt x 282.56674pt.
 [13
 
  <./step-by-step/1.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
 <./step-by-step/2.PNG, id=515, 818.19965pt x 625.04947pt>
 File: ./step-by-step/2.PNG Graphic file (type png)
 <use ./step-by-step/2.PNG>
-Package pdftex.def Info: ./step-by-step/2.PNG  used on input line 286.
+Package pdftex.def Info: ./step-by-step/2.PNG  used on input line 288.
 (pdftex.def)             Requested size: 369.88582pt x 282.56674pt.
 [14
 
  <./step-by-step/2.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
 
  []
 
 <./step-by-step/3.PNG, id=521, 603.11035pt x 582.0316pt>
 File: ./step-by-step/3.PNG Graphic file (type png)
 <use ./step-by-step/3.PNG>
-Package pdftex.def Info: ./step-by-step/3.PNG  used on input line 291.
+Package pdftex.def Info: ./step-by-step/3.PNG  used on input line 293.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 [15
 
  <./step-by-step/3.PNG>]
 ! Undefined control sequence.
-l.294 ...dent And we move ourselves in the \textvg
+l.296 ...dent And we move ourselves in the \textvg
                                                   {Config} tab \newline
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
 
  []
 
 <./step-by-step/4.PNG, id=527, 603.11035pt x 582.0316pt>
 File: ./step-by-step/4.PNG Graphic file (type png)
 <use ./step-by-step/4.PNG>
-Package pdftex.def Info: ./step-by-step/4.PNG  used on input line 296.
+Package pdftex.def Info: ./step-by-step/4.PNG  used on input line 298.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 [16
 
  <./step-by-step/4.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
 
  []
 
 <./step-by-step/5.PNG, id=533, 603.11035pt x 582.0316pt>
 File: ./step-by-step/5.PNG Graphic file (type png)
 <use ./step-by-step/5.PNG>
-Package pdftex.def Info: ./step-by-step/5.PNG  used on input line 301.
+Package pdftex.def Info: ./step-by-step/5.PNG  used on input line 303.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 [17
 
@@ -929,187 +934,187 @@ Package pdftex.def Info: ./step-by-step/5.PNG  used on input line 301.
 <./step-by-step/6.PNG, id=539, 603.11035pt x 582.0316pt>
 File: ./step-by-step/6.PNG Graphic file (type png)
 <use ./step-by-step/6.PNG>
-Package pdftex.def Info: ./step-by-step/6.PNG  used on input line 308.
+Package pdftex.def Info: ./step-by-step/6.PNG  used on input line 310.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
  [18
 
  <./step-by-step/6.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 311--312
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
 
  []
 
 <./step-by-step/7.PNG, id=547, 825.94286pt x 929.18571pt>
 File: ./step-by-step/7.PNG Graphic file (type png)
 <use ./step-by-step/7.PNG>
-Package pdftex.def Info: ./step-by-step/7.PNG  used on input line 313.
+Package pdftex.def Info: ./step-by-step/7.PNG  used on input line 315.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 [19
 
  <./step-by-step/7.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 317--318
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
 
  []
 
 <./step-by-step/8.PNG, id=554, 825.94286pt x 929.18571pt>
 File: ./step-by-step/8.PNG Graphic file (type png)
 <use ./step-by-step/8.PNG>
-Package pdftex.def Info: ./step-by-step/8.PNG  used on input line 319.
+Package pdftex.def Info: ./step-by-step/8.PNG  used on input line 321.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 [20
 
  <./step-by-step/8.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
 
  []
 
 <./step-by-step/9.PNG, id=560, 825.94286pt x 929.18571pt>
 File: ./step-by-step/9.PNG Graphic file (type png)
 <use ./step-by-step/9.PNG>
-Package pdftex.def Info: ./step-by-step/9.PNG  used on input line 324.
+Package pdftex.def Info: ./step-by-step/9.PNG  used on input line 326.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 [21
 
  <./step-by-step/9.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 327--328
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
 
  []
 
 <./step-by-step/10.PNG, id=566, 825.94286pt x 929.18571pt>
 File: ./step-by-step/10.PNG Graphic file (type png)
 <use ./step-by-step/10.PNG>
-Package pdftex.def Info: ./step-by-step/10.PNG  used on input line 329.
+Package pdftex.def Info: ./step-by-step/10.PNG  used on input line 331.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 [22
 
  <./step-by-step/10.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 332--333
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
 
  []
 
 <./step-by-step/11.PNG, id=572, 825.94286pt x 929.18571pt>
 File: ./step-by-step/11.PNG Graphic file (type png)
 <use ./step-by-step/11.PNG>
-Package pdftex.def Info: ./step-by-step/11.PNG  used on input line 334.
+Package pdftex.def Info: ./step-by-step/11.PNG  used on input line 336.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 [23
 
  <./step-by-step/11.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 337--338
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
 
  []
 
 <./step-by-step/12.PNG, id=578, 825.94286pt x 929.18571pt>
 File: ./step-by-step/12.PNG Graphic file (type png)
 <use ./step-by-step/12.PNG>
-Package pdftex.def Info: ./step-by-step/12.PNG  used on input line 339.
+Package pdftex.def Info: ./step-by-step/12.PNG  used on input line 341.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 [24
 
  <./step-by-step/12.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
 
  []
 
 <./step-by-step/13.PNG, id=584, 603.11035pt x 582.0316pt>
 File: ./step-by-step/13.PNG Graphic file (type png)
 <use ./step-by-step/13.PNG>
-Package pdftex.def Info: ./step-by-step/13.PNG  used on input line 344.
+Package pdftex.def Info: ./step-by-step/13.PNG  used on input line 346.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 [25
 
  <./step-by-step/13.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 348--349
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
 
  []
 
 <./step-by-step/14.PNG, id=591, 603.11035pt x 582.0316pt>
 File: ./step-by-step/14.PNG Graphic file (type png)
 <use ./step-by-step/14.PNG>
-Package pdftex.def Info: ./step-by-step/14.PNG  used on input line 350.
+Package pdftex.def Info: ./step-by-step/14.PNG  used on input line 352.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 [26
 
  <./step-by-step/14.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 353--354
+Underfull \hbox (badness 10000) in paragraph at lines 355--356
 
  []
 
 <./step-by-step/15.PNG, id=597, 825.94286pt x 929.18571pt>
 File: ./step-by-step/15.PNG Graphic file (type png)
 <use ./step-by-step/15.PNG>
-Package pdftex.def Info: ./step-by-step/15.PNG  used on input line 355.
+Package pdftex.def Info: ./step-by-step/15.PNG  used on input line 357.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 [27
 
  <./step-by-step/15.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 359--360
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
 
  []
 
 <./step-by-step/16.PNG, id=603, 603.11035pt x 582.0316pt>
 File: ./step-by-step/16.PNG Graphic file (type png)
 <use ./step-by-step/16.PNG>
-Package pdftex.def Info: ./step-by-step/16.PNG  used on input line 361.
+Package pdftex.def Info: ./step-by-step/16.PNG  used on input line 363.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 [28
 
  <./step-by-step/16.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 373--375
+Underfull \hbox (badness 10000) in paragraph at lines 375--377
 
  []
 
 <./step-by-step/17.PNG, id=609, 603.11035pt x 582.0316pt>
 File: ./step-by-step/17.PNG Graphic file (type png)
 <use ./step-by-step/17.PNG>
-Package pdftex.def Info: ./step-by-step/17.PNG  used on input line 376.
+Package pdftex.def Info: ./step-by-step/17.PNG  used on input line 378.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 [29
 
  <./step-by-step/17.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 380--381
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
 
  []
 
 <./step-by-step/18.PNG, id=616, 603.11035pt x 582.0316pt>
 File: ./step-by-step/18.PNG Graphic file (type png)
 <use ./step-by-step/18.PNG>
-Package pdftex.def Info: ./step-by-step/18.PNG  used on input line 382.
+Package pdftex.def Info: ./step-by-step/18.PNG  used on input line 384.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 [30
 
  <./step-by-step/18.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 386--387
+Underfull \hbox (badness 10000) in paragraph at lines 388--389
 
  []
 
 <./step-by-step/19.PNG, id=622, 825.94286pt x 929.18571pt>
 File: ./step-by-step/19.PNG Graphic file (type png)
 <use ./step-by-step/19.PNG>
-Package pdftex.def Info: ./step-by-step/19.PNG  used on input line 388.
+Package pdftex.def Info: ./step-by-step/19.PNG  used on input line 390.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 [31
 
  <./step-by-step/19.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 393--394
+Underfull \hbox (badness 10000) in paragraph at lines 395--396
 
  []
 
 <./step-by-step/20.PNG, id=629, 603.11035pt x 582.0316pt>
 File: ./step-by-step/20.PNG Graphic file (type png)
 <use ./step-by-step/20.PNG>
-Package pdftex.def Info: ./step-by-step/20.PNG  used on input line 395.
+Package pdftex.def Info: ./step-by-step/20.PNG  used on input line 397.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 [32
 
  <./step-by-step/20.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 398--399
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
 
  []
 
 <./step-by-step/21.PNG, id=635, 603.11035pt x 582.0316pt>
 File: ./step-by-step/21.PNG Graphic file (type png)
 <use ./step-by-step/21.PNG>
-Package pdftex.def Info: ./step-by-step/21.PNG  used on input line 400.
+Package pdftex.def Info: ./step-by-step/21.PNG  used on input line 402.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 [33
 
@@ -1119,10 +1124,10 @@ Package pdftex.def Info: ./step-by-step/21.PNG  used on input line 400.
 <./StarNetwork.svg.PNG, id=645, 793.96625pt x 767.86874pt>
 File: ./StarNetwork.svg.PNG Graphic file (type png)
 <use ./StarNetwork.svg.PNG>
-Package pdftex.def Info: ./StarNetwork.svg.PNG  used on input line 424.
+Package pdftex.def Info: ./StarNetwork.svg.PNG  used on input line 426.
 (pdftex.def)             Requested size: 199.16928pt x 192.62285pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+Underfull \hbox (badness 10000) in paragraph at lines 426--427
 
  []
 
@@ -1132,7 +1137,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 424--425
 <./RingNetwork.svg.PNG, id=653, 793.96625pt x 767.86874pt>
 File: ./RingNetwork.svg.PNG Graphic file (type png)
 <use ./RingNetwork.svg.PNG>
-Package pdftex.def Info: ./RingNetwork.svg.PNG  used on input line 446.
+Package pdftex.def Info: ./RingNetwork.svg.PNG  used on input line 448.
 (pdftex.def)             Requested size: 199.16928pt x 192.62285pt.
  [36
 
@@ -1140,16 +1145,16 @@ Package pdftex.def Info: ./RingNetwork.svg.PNG  used on input line 446.
 <./star-topology/screenshot.PNG, id=660, 547.61732pt x 536.86285pt>
 File: ./star-topology/screenshot.PNG Graphic file (type png)
 <use ./star-topology/screenshot.PNG>
-Package pdftex.def Info: ./star-topology/screenshot.PNG  used on input line 467
+Package pdftex.def Info: ./star-topology/screenshot.PNG  used on input line 469
 .
 (pdftex.def)             Requested size: 199.16928pt x 195.2529pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 467--468
+Underfull \hbox (badness 10000) in paragraph at lines 469--470
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 471--472
+Underfull \hbox (badness 10000) in paragraph at lines 473--474
 
  []
 
@@ -1164,7 +1169,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.525 ...ül University.}${}^{{}^{7 \cdot 5}}$: 
+l.527 ...ül University.}${}^{{}^{7 \cdot 5}}$: 
                                                    
 ? 
 
@@ -1175,37 +1180,37 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.525 ... University.}${}^{{}^{7 \cdot 5}}$:  
+l.527 ... University.}${}^{{}^{7 \cdot 5}}$:  
                                                   
 ? 
 [39] [40] [41]
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.577 \centering
+l.579 \centering
                 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.577 \centering
+l.579 \centering
                 
 ? 
 <./IPv6.PNG, id=689, 1927.2pt x 693.59125pt>
 File: ./IPv6.PNG Graphic file (type png)
 <use ./IPv6.PNG>
-Package pdftex.def Info: ./IPv6.PNG  used on input line 578.
+Package pdftex.def Info: ./IPv6.PNG  used on input line 580.
 (pdftex.def)             Requested size: 284.52756pt x 102.39377pt.
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.597 \centering
+l.599 \centering
                 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.597 \centering
+l.599 \centering
                 
 ? 
 <./IPv6_link_local_unicast_address_structure-en.svg.PNG, id=696, 1927.2pt x 222
@@ -1214,16 +1219,16 @@ File: ./IPv6_link_local_unicast_address_structure-en.svg.PNG Graphic file (type
  png)
 <use ./IPv6_link_local_unicast_address_structure-en.svg.PNG>
 Package pdftex.def Info: ./IPv6_link_local_unicast_address_structure-en.svg.PNG
-  used on input line 598.
+  used on input line 600.
 (pdftex.def)             Requested size: 284.52756pt x 32.89641pt.
 [42 <./IPv6.png>]
 ! Too many }'s.
-l.604 ...RFC 7136, RFC 7346, RFC 7371, RFC 8064.}}
+l.606 ...RFC 7136, RFC 7346, RFC 7371, RFC 8064.}}
                                                   ${}^{{}^{2 \cdot 4}}$ (IET...
 
 ? 
 ! Too many }'s.
-l.604 ...64.}}${}^{{}^{2 \cdot 4}}$ (IETF), RFC 2}
+l.606 ...64.}}${}^{{}^{2 \cdot 4}}$ (IETF), RFC 2}
                                                    Of the 64 bits of a lin...
 
 ? 
@@ -1235,7 +1240,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.604 ...}}${}^{{}^{2 \cdot 4}}$ (IETF), RFC 2} 
+l.606 ...}}${}^{{}^{2 \cdot 4}}$ (IETF), RFC 2} 
                                                   Of the 64 bits of a link-l...
 
 ? 
@@ -1247,7 +1252,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.604 ...[6 \ref{linklokal}^{2\cdot 5 \cdot}]}$ 
+l.606 ...[6 \ref{linklokal}^{2\cdot 5 \cdot}]}$ 
                                                   
 ? 
 
@@ -1258,11 +1263,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.606 ...notemark[8 \ref{linklokal}^{2\cdot}]}$ 
+l.608 ...notemark[8 \ref{linklokal}^{2\cdot}]}$ 
                                                   
 ? 
 
-Underfull \hbox (badness 1178) in paragraph at lines 612--612
+Underfull \hbox (badness 1178) in paragraph at lines 614--614
 [][][][] \T1/cmr/m/n/8 S. Thom-son; T. Narten; T. Jin-mei (Septem-ber 2007). []
 []IPv6 State-less Ad-dress Au-to-con-fig-u-ra-tion[][]. Net-work Work-ing Group
 .
@@ -1276,29 +1281,29 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.614 ... based$,^{\footnotemark[1 \ref{NDP}]}$ 
+l.616 ... based$,^{\footnotemark[1 \ref{NDP}]}$ 
                                                    or randomized.\footnote{\...
 
 ? 
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.623 \centering
+l.625 \centering
                 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.623 \centering
+l.625 \centering
                 
 ? 
 <./IPv4_Packet-en.svg.PNG, id=717, 1927.2pt x 879.285pt>
 File: ./IPv4_Packet-en.svg.PNG Graphic file (type png)
 <use ./IPv4_Packet-en.svg.PNG>
-Package pdftex.def Info: ./IPv4_Packet-en.svg.PNG  used on input line 624.
+Package pdftex.def Info: ./IPv4_Packet-en.svg.PNG  used on input line 626.
 (pdftex.def)             Requested size: 284.52756pt x 129.80745pt.
 [43 <./IPv6_link_local_unicast_address_structure-en.svg.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 641--643
+Underfull \hbox (badness 10000) in paragraph at lines 643--645
 
  []
 
@@ -1310,7 +1315,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.660 ...x letters of the English alphabet \[A, 
+l.662 ...x letters of the English alphabet \[A, 
                                                   B, C, D, E, F\] wh...
 
 ? 
@@ -1322,7 +1327,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.660 ...ters of the English alphabet \[A, B, 
+l.662 ...ters of the English alphabet \[A, B, 
                                                   C, D, E, F\] which a...
 
 ? 
@@ -1334,7 +1339,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.660 ...of the English alphabet \[A, B, C, 
+l.662 ...of the English alphabet \[A, B, C, 
                                                   D, E, F\] which are re...
 
 ? 
@@ -1346,7 +1351,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.660 ...e English alphabet \[A, B, C, D, 
+l.662 ...e English alphabet \[A, B, C, D, 
                                                   E, F\] which are represe...
 
 ? 
@@ -1358,7 +1363,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.660 ...lish alphabet \[A, B, C, D, E, 
+l.662 ...lish alphabet \[A, B, C, D, E, 
                                                   F\] which are representing...
 
 ? 
@@ -1366,7 +1371,7 @@ l.660 ...lish alphabet \[A, B, C, D, E, 
 ! Undefined control sequence.
 <argument> \imki@jobname 
                          @idxfile
-l.797 
+l.799 
       
 ? 
 
@@ -1376,7 +1381,7 @@ See the imakeidx package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.797 
+l.799 
       
 ? 
 (./networking.aux)
@@ -1384,13 +1389,13 @@ Package rerunfilecheck Info: File `networking.out' has not changed.
 (rerunfilecheck)             Checksum: CA64B3B7E5791DC839133C0A5DDEA762;11166.
  ) 
 Here is how much of TeX's memory you used:
- 14367 strings out of 478276
- 230079 string characters out of 5853013
- 623210 words of memory out of 5000000
- 32195 multiletter control sequences out of 15000+600000
+ 14389 strings out of 478238
+ 230800 string characters out of 5850456
+ 624229 words of memory out of 5000000
+ 32248 multiletter control sequences out of 15000+600000
  482624 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,9n,117p,950b,988s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,9n,117p,950b,988s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/t
 exmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public
@@ -1408,7 +1413,7 @@ r/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
 mf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf-dist/fonts/t
 ype1/public/cm-super/sfti1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-
 super/sftt1440.pfb>
-Output written on networking.pdf (49 pages, 2930012 bytes).
+Output written on networking.pdf (49 pages, 2929931 bytes).
 PDF statistics:
  888 PDF objects out of 1000 (max. 8388607)
  726 compressed objects within 8 object streams
