@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.21)  25 MAY 2022 09:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.21)  25 MAY 2022 14:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -571,7 +571,26 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 1.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2])
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+! Misplaced alignment tab character &.
+<argument> ...}{\numberline {33.1}Class A Public &
+                                                   Private IP Address Range}...
+l.94 ...ate IP Address Range}{52}{subsection.33.1}
+                                                  %
+? 
+! Misplaced alignment tab character &.
+<argument> ...}{\numberline {33.2}Class B Public &
+                                                   Private IP Address Range}...
+l.95 ...ate IP Address Range}{53}{subsection.33.2}
+                                                  %
+? 
+! Misplaced alignment tab character &.
+<argument> ...}{\numberline {33.3}Class C Public &
+                                                   Private IP Address Range}...
+l.96 ...ate IP Address Range}{53}{subsection.33.3}
+                                                  %
+? 
+)
 \tf@toc=\write4
 \openout4 = `networking.toc'.
 
@@ -588,7 +607,7 @@ l.58 \centering
 l.58 \centering
                
 ? 
-<./net.png, id=430, 626.34pt x 626.34pt>
+<./net.png, id=516, 626.34pt x 626.34pt>
 File: ./net.png Graphic file (type png)
 <use ./net.png>
 Package pdftex.def Info: ./net.png  used on input line 59.
@@ -636,7 +655,7 @@ l.104 \centering
 l.104 \centering
                 
 ? 
-<./ieee_802.jpg, id=447, 522.95375pt x 243.91125pt>
+<./ieee_802.jpg, id=533, 522.95375pt x 243.91125pt>
 File: ./ieee_802.jpg Graphic file (type jpg)
 <use ./ieee_802.jpg>
 Package pdftex.def Info: ./ieee_802.jpg  used on input line 105.
@@ -706,7 +725,7 @@ l.139 \centering
 l.139 \centering
                 
 ? 
-<./OSI-7-layers.jpg, id=458, 562.1pt x 457.71pt>
+<./OSI-7-layers.jpg, id=544, 562.1pt x 457.71pt>
 File: ./OSI-7-layers.jpg Graphic file (type jpg)
 <use ./OSI-7-layers.jpg>
 Package pdftex.def Info: ./OSI-7-layers.jpg  used on input line 140.
@@ -741,7 +760,7 @@ l.200 \centering
 l.200 \centering
                 
 ? 
-<./large.PNG, id=472, 626.34pt x 352.31625pt>
+<./large.PNG, id=558, 626.34pt x 352.31625pt>
 File: ./large.PNG Graphic file (type png)
 <use ./large.PNG>
 Package pdftex.def Info: ./large.PNG  used on input line 201.
@@ -809,7 +828,7 @@ Overfull \hbox (0.34546pt too wide) in paragraph at lines 207--208
 [9
 
  <./large.png>]
-<./hbs.PNG, id=480, 626.34pt x 626.34pt>
+<./hbs.PNG, id=565, 626.34pt x 626.34pt>
 File: ./hbs.PNG Graphic file (type png)
 <use ./hbs.PNG>
 Package pdftex.def Info: ./hbs.PNG  used on input line 219.
@@ -826,7 +845,7 @@ Type  H <return>  for immediate help.
 l.235 \fi}
           
 ? 
-<./performance.PNG, id=481, 626.34pt x 548.0475pt>
+<./performance.PNG, id=566, 626.34pt x 548.0475pt>
 File: ./performance.PNG Graphic file (type png)
 <use ./performance.PNG>
 Package pdftex.def Info: ./performance.PNG  used on input line 236.
@@ -853,7 +872,7 @@ l.271 \centering
 l.271 \centering
                 
 ? 
-<./step-by-step/0.PNG, id=499, 818.19965pt x 625.04947pt>
+<./step-by-step/0.PNG, id=584, 818.19965pt x 625.04947pt>
 File: ./step-by-step/0.PNG Graphic file (type png)
 <use ./step-by-step/0.PNG>
 Package pdftex.def Info: ./step-by-step/0.PNG  used on input line 272.
@@ -870,7 +889,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 281--282
 
  []
 
-<./step-by-step/1.PNG, id=508, 818.19965pt x 625.04947pt>
+<./step-by-step/1.PNG, id=593, 818.19965pt x 625.04947pt>
 File: ./step-by-step/1.PNG Graphic file (type png)
 <use ./step-by-step/1.PNG>
 Package pdftex.def Info: ./step-by-step/1.PNG  used on input line 283.
@@ -882,7 +901,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
-<./step-by-step/2.PNG, id=515, 818.19965pt x 625.04947pt>
+<./step-by-step/2.PNG, id=600, 818.19965pt x 625.04947pt>
 File: ./step-by-step/2.PNG Graphic file (type png)
 <use ./step-by-step/2.PNG>
 Package pdftex.def Info: ./step-by-step/2.PNG  used on input line 288.
@@ -894,7 +913,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 291--292
 
  []
 
-<./step-by-step/3.PNG, id=521, 603.11035pt x 582.0316pt>
+<./step-by-step/3.PNG, id=606, 603.11035pt x 582.0316pt>
 File: ./step-by-step/3.PNG Graphic file (type png)
 <use ./step-by-step/3.PNG>
 Package pdftex.def Info: ./step-by-step/3.PNG  used on input line 293.
@@ -911,7 +930,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 296--297
 
  []
 
-<./step-by-step/4.PNG, id=527, 603.11035pt x 582.0316pt>
+<./step-by-step/4.PNG, id=612, 603.11035pt x 582.0316pt>
 File: ./step-by-step/4.PNG Graphic file (type png)
 <use ./step-by-step/4.PNG>
 Package pdftex.def Info: ./step-by-step/4.PNG  used on input line 298.
@@ -923,7 +942,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 301--302
 
  []
 
-<./step-by-step/5.PNG, id=533, 603.11035pt x 582.0316pt>
+<./step-by-step/5.PNG, id=618, 603.11035pt x 582.0316pt>
 File: ./step-by-step/5.PNG Graphic file (type png)
 <use ./step-by-step/5.PNG>
 Package pdftex.def Info: ./step-by-step/5.PNG  used on input line 303.
@@ -931,7 +950,7 @@ Package pdftex.def Info: ./step-by-step/5.PNG  used on input line 303.
 [17
 
  <./step-by-step/5.PNG>]
-<./step-by-step/6.PNG, id=539, 603.11035pt x 582.0316pt>
+<./step-by-step/6.PNG, id=624, 603.11035pt x 582.0316pt>
 File: ./step-by-step/6.PNG Graphic file (type png)
 <use ./step-by-step/6.PNG>
 Package pdftex.def Info: ./step-by-step/6.PNG  used on input line 310.
@@ -943,7 +962,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 313--314
 
  []
 
-<./step-by-step/7.PNG, id=547, 825.94286pt x 929.18571pt>
+<./step-by-step/7.PNG, id=632, 825.94286pt x 929.18571pt>
 File: ./step-by-step/7.PNG Graphic file (type png)
 <use ./step-by-step/7.PNG>
 Package pdftex.def Info: ./step-by-step/7.PNG  used on input line 315.
@@ -955,7 +974,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 319--320
 
  []
 
-<./step-by-step/8.PNG, id=554, 825.94286pt x 929.18571pt>
+<./step-by-step/8.PNG, id=639, 825.94286pt x 929.18571pt>
 File: ./step-by-step/8.PNG Graphic file (type png)
 <use ./step-by-step/8.PNG>
 Package pdftex.def Info: ./step-by-step/8.PNG  used on input line 321.
@@ -967,7 +986,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 324--325
 
  []
 
-<./step-by-step/9.PNG, id=560, 825.94286pt x 929.18571pt>
+<./step-by-step/9.PNG, id=646, 825.94286pt x 929.18571pt>
 File: ./step-by-step/9.PNG Graphic file (type png)
 <use ./step-by-step/9.PNG>
 Package pdftex.def Info: ./step-by-step/9.PNG  used on input line 326.
@@ -979,7 +998,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 329--330
 
  []
 
-<./step-by-step/10.PNG, id=566, 825.94286pt x 929.18571pt>
+<./step-by-step/10.PNG, id=652, 825.94286pt x 929.18571pt>
 File: ./step-by-step/10.PNG Graphic file (type png)
 <use ./step-by-step/10.PNG>
 Package pdftex.def Info: ./step-by-step/10.PNG  used on input line 331.
@@ -991,7 +1010,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 334--335
 
  []
 
-<./step-by-step/11.PNG, id=572, 825.94286pt x 929.18571pt>
+<./step-by-step/11.PNG, id=658, 825.94286pt x 929.18571pt>
 File: ./step-by-step/11.PNG Graphic file (type png)
 <use ./step-by-step/11.PNG>
 Package pdftex.def Info: ./step-by-step/11.PNG  used on input line 336.
@@ -1003,7 +1022,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 339--340
 
  []
 
-<./step-by-step/12.PNG, id=578, 825.94286pt x 929.18571pt>
+<./step-by-step/12.PNG, id=664, 825.94286pt x 929.18571pt>
 File: ./step-by-step/12.PNG Graphic file (type png)
 <use ./step-by-step/12.PNG>
 Package pdftex.def Info: ./step-by-step/12.PNG  used on input line 341.
@@ -1015,7 +1034,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 344--345
 
  []
 
-<./step-by-step/13.PNG, id=584, 603.11035pt x 582.0316pt>
+<./step-by-step/13.PNG, id=670, 603.11035pt x 582.0316pt>
 File: ./step-by-step/13.PNG Graphic file (type png)
 <use ./step-by-step/13.PNG>
 Package pdftex.def Info: ./step-by-step/13.PNG  used on input line 346.
@@ -1027,7 +1046,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 350--351
 
  []
 
-<./step-by-step/14.PNG, id=591, 603.11035pt x 582.0316pt>
+<./step-by-step/14.PNG, id=677, 603.11035pt x 582.0316pt>
 File: ./step-by-step/14.PNG Graphic file (type png)
 <use ./step-by-step/14.PNG>
 Package pdftex.def Info: ./step-by-step/14.PNG  used on input line 352.
@@ -1039,7 +1058,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 355--356
 
  []
 
-<./step-by-step/15.PNG, id=597, 825.94286pt x 929.18571pt>
+<./step-by-step/15.PNG, id=683, 825.94286pt x 929.18571pt>
 File: ./step-by-step/15.PNG Graphic file (type png)
 <use ./step-by-step/15.PNG>
 Package pdftex.def Info: ./step-by-step/15.PNG  used on input line 357.
@@ -1051,7 +1070,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 361--362
 
  []
 
-<./step-by-step/16.PNG, id=603, 603.11035pt x 582.0316pt>
+<./step-by-step/16.PNG, id=689, 603.11035pt x 582.0316pt>
 File: ./step-by-step/16.PNG Graphic file (type png)
 <use ./step-by-step/16.PNG>
 Package pdftex.def Info: ./step-by-step/16.PNG  used on input line 363.
@@ -1063,7 +1082,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 375--377
 
  []
 
-<./step-by-step/17.PNG, id=609, 603.11035pt x 582.0316pt>
+<./step-by-step/17.PNG, id=695, 603.11035pt x 582.0316pt>
 File: ./step-by-step/17.PNG Graphic file (type png)
 <use ./step-by-step/17.PNG>
 Package pdftex.def Info: ./step-by-step/17.PNG  used on input line 378.
@@ -1075,7 +1094,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 382--383
 
  []
 
-<./step-by-step/18.PNG, id=616, 603.11035pt x 582.0316pt>
+<./step-by-step/18.PNG, id=702, 603.11035pt x 582.0316pt>
 File: ./step-by-step/18.PNG Graphic file (type png)
 <use ./step-by-step/18.PNG>
 Package pdftex.def Info: ./step-by-step/18.PNG  used on input line 384.
@@ -1087,7 +1106,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 388--389
 
  []
 
-<./step-by-step/19.PNG, id=622, 825.94286pt x 929.18571pt>
+<./step-by-step/19.PNG, id=708, 825.94286pt x 929.18571pt>
 File: ./step-by-step/19.PNG Graphic file (type png)
 <use ./step-by-step/19.PNG>
 Package pdftex.def Info: ./step-by-step/19.PNG  used on input line 390.
@@ -1099,7 +1118,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 395--396
 
  []
 
-<./step-by-step/20.PNG, id=629, 603.11035pt x 582.0316pt>
+<./step-by-step/20.PNG, id=715, 603.11035pt x 582.0316pt>
 File: ./step-by-step/20.PNG Graphic file (type png)
 <use ./step-by-step/20.PNG>
 Package pdftex.def Info: ./step-by-step/20.PNG  used on input line 397.
@@ -1111,7 +1130,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 400--401
 
  []
 
-<./step-by-step/21.PNG, id=635, 603.11035pt x 582.0316pt>
+<./step-by-step/21.PNG, id=721, 603.11035pt x 582.0316pt>
 File: ./step-by-step/21.PNG Graphic file (type png)
 <use ./step-by-step/21.PNG>
 Package pdftex.def Info: ./step-by-step/21.PNG  used on input line 402.
@@ -1121,7 +1140,7 @@ Package pdftex.def Info: ./step-by-step/21.PNG  used on input line 402.
  <./step-by-step/21.PNG>] [34
 
 ]
-<./StarNetwork.svg.PNG, id=645, 793.96625pt x 767.86874pt>
+<./StarNetwork.svg.PNG, id=731, 793.96625pt x 767.86874pt>
 File: ./StarNetwork.svg.PNG Graphic file (type png)
 <use ./StarNetwork.svg.PNG>
 Package pdftex.def Info: ./StarNetwork.svg.PNG  used on input line 426.
@@ -1134,7 +1153,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 426--427
 [35
 
  <./StarNetwork.svg.png>]
-<./RingNetwork.svg.PNG, id=653, 793.96625pt x 767.86874pt>
+<./RingNetwork.svg.PNG, id=738, 793.96625pt x 767.86874pt>
 File: ./RingNetwork.svg.PNG Graphic file (type png)
 <use ./RingNetwork.svg.PNG>
 Package pdftex.def Info: ./RingNetwork.svg.PNG  used on input line 448.
@@ -1142,7 +1161,7 @@ Package pdftex.def Info: ./RingNetwork.svg.PNG  used on input line 448.
  [36
 
  <./RingNetwork.svg.png>]
-<./star-topology/screenshot.PNG, id=660, 547.61732pt x 536.86285pt>
+<./star-topology/screenshot.PNG, id=745, 547.61732pt x 536.86285pt>
 File: ./star-topology/screenshot.PNG Graphic file (type png)
 <use ./star-topology/screenshot.PNG>
 Package pdftex.def Info: ./star-topology/screenshot.PNG  used on input line 469
@@ -1196,7 +1215,7 @@ l.579 \centering
 l.579 \centering
                 
 ? 
-<./IPv6.PNG, id=689, 1927.2pt x 693.59125pt>
+<./IPv6.PNG, id=774, 1927.2pt x 693.59125pt>
 File: ./IPv6.PNG Graphic file (type png)
 <use ./IPv6.PNG>
 Package pdftex.def Info: ./IPv6.PNG  used on input line 580.
@@ -1213,7 +1232,7 @@ l.599 \centering
 l.599 \centering
                 
 ? 
-<./IPv6_link_local_unicast_address_structure-en.svg.PNG, id=696, 1927.2pt x 222
+<./IPv6_link_local_unicast_address_structure-en.svg.PNG, id=781, 1927.2pt x 222
 .8325pt>
 File: ./IPv6_link_local_unicast_address_structure-en.svg.PNG Graphic file (type
  png)
@@ -1297,7 +1316,7 @@ l.625 \centering
 l.625 \centering
                 
 ? 
-<./IPv4_Packet-en.svg.PNG, id=717, 1927.2pt x 879.285pt>
+<./IPv4_Packet-en.svg.PNG, id=803, 1927.2pt x 879.285pt>
 File: ./IPv4_Packet-en.svg.PNG Graphic file (type png)
 <use ./IPv4_Packet-en.svg.PNG>
 Package pdftex.def Info: ./IPv4_Packet-en.svg.PNG  used on input line 626.
@@ -1368,10 +1387,83 @@ l.662 ...lish alphabet \[A, B, C, D, E, 
 
 ? 
 [44 <./IPv4_Packet-en.svg.png>] [45] [46] [47] [48] [49]
+
+! LaTeX Error: Unicode character   (U+200A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.813 ...ical subdivision of an IP network.[1]: 
+                                                  1, 16  The practice of...
+
+? 
+
+! LaTeX Error: Unicode character   (U+200A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.813 ...subdivision of an IP network.[1]: 1, 
+                                                  16  The practice of divi...
+
+? 
+
+! LaTeX Error: Unicode character   (U+200A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.813 ...vision of an IP network.[1]: 1, 16 
+                                                   The practice of dividing ...
+
+? 
+[50] [51]
+! Misplaced alignment tab character &.
+<argument> Class A Public &
+                            Private IP Address Range
+l.861 ...lass A Public & Private IP Address Range}
+                                                  
+? 
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `alignment tab' on input line 861.
+
+[52]
+! Misplaced alignment tab character &.
+<argument> Class B Public &
+                            Private IP Address Range
+l.873 ...lass B Public & Private IP Address Range}
+                                                  
+? 
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `alignment tab' on input line 873.
+
+! Misplaced alignment tab character &.
+<argument> Class C Public &
+                            Private IP Address Range
+l.885 ...lass C Public & Private IP Address Range}
+                                                  
+? 
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `alignment tab' on input line 885.
+
+[53
+
+] [54
+
+]
 ! Undefined control sequence.
 <argument> \imki@jobname 
                          @idxfile
-l.799 
+l.921 
       
 ? 
 
@@ -1381,21 +1473,21 @@ See the imakeidx package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.799 
+l.921 
       
 ? 
 (./networking.aux)
 Package rerunfilecheck Info: File `networking.out' has not changed.
-(rerunfilecheck)             Checksum: CA64B3B7E5791DC839133C0A5DDEA762;11166.
+(rerunfilecheck)             Checksum: CF4645A3B7ACAA92BB1B1842DBCA5F00;13690.
  ) 
 Here is how much of TeX's memory you used:
- 14389 strings out of 478238
- 230800 string characters out of 5850456
- 624229 words of memory out of 5000000
- 32248 multiletter control sequences out of 15000+600000
+ 14430 strings out of 478238
+ 231300 string characters out of 5850456
+ 624257 words of memory out of 5000000
+ 32266 multiletter control sequences out of 15000+600000
  482624 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,9n,117p,950b,988s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,9n,117p,981b,988s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/t
 exmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public
@@ -1413,10 +1505,10 @@ r/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
 mf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf-dist/fonts/t
 ype1/public/cm-super/sfti1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-
 super/sftt1440.pfb>
-Output written on networking.pdf (49 pages, 2929931 bytes).
+Output written on networking.pdf (54 pages, 2944335 bytes).
 PDF statistics:
- 888 PDF objects out of 1000 (max. 8388607)
- 726 compressed objects within 8 object streams
- 162 named destinations out of 1000 (max. 500000)
- 819 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1002 PDF objects out of 1200 (max. 8388607)
+ 834 compressed objects within 9 object streams
+ 185 named destinations out of 1000 (max. 500000)
+ 955 words of extra memory for PDF output out of 10000 (max. 10000000)
 
