@@ -786,13 +786,135 @@ The TLD nameservers are responsible for maintaining the information about the do
 
 In the last step, the authoritative DNS nameserver will return the IP address back to the DNS recursor that can relay it to the client. This authoritative DNS nameserver is the one at the bottom of the lookup process that holds the DNS records. Think of these as the last stop or the final authoritative source of truth in the process.
 
+\section{public dns}
 public dns
-
+\section{private dns}
 private dns
-
+\section{dns authentication}
 dns authentication
 
+\section{PING}
+Ping is a computer network administration software utility used to test the reachability of a host on an Internet Protocol (IP) network. It is available for virtually all operating systems that have networking capability, including most embedded network administration software
 
+Ping measures the round-trip time for messages sent from the originating host to a destination computer that are echoed back to the source. The name comes from active sonar terminology that sends a pulse of sound and listens for the echo to detect objects under water.[1]
+
+Ping operates by means of Internet Control Message Protocol (ICMP) packets. Pinging involves sending an ICMP echo request to the target host and waiting for an ICMP echo reply. The program reports errors, packet loss, and a statistical summary of the results, typically including the minimum, maximum, the mean round-trip times, and standard deviation of the mean.
+
+The command-line options of the ping utility and its output vary between the numerous implementations. Options may include the size of the payload, count of tests, limits for the number of network hops (TTL) that probes traverse, interval between the requests and time to wait for a response. Many systems provide a companion utility ping6, for testing on Internet Protocol version 6 (IPv6) networks, which implement ICMPv6.
+
+\section{loopback}
+Loopback (also written loop-back) is the routing of electronic signals or digital data streams back to their source without intentional processing or modification. It is primarily a means of testing the communications infrastructure.
+
+There are many example applications. It may be a communication channel with only one communication endpoint. Any message transmitted by such a channel is immediately and only received by that same channel. In telecommunications, loopback devices perform transmission tests of access lines from the serving switching center, which usually does not require the assistance of personnel at the served terminal. Loop around is a method of testing between stations that are not necessarily adjacent, wherein two lines are used, with the test being done at one station and the two lines are interconnected at the distant station. A patch cable may also function as loopback, when applied manually or automatically, remotely or locally, facilitating a loop-back test.
+
+Where a system (such as a modem) involves round-trip analog-to-digital processing, a distinction is made between analog loopback, where the analog signal is looped back directly, and digital loopback, where the signal is processed in the digital domain before being re-converted to an analog signal and returned to the source.
+
+\section{subnet}
+A subnetwork or subnet is a logical subdivision of an IP network.[1]: 1, 16  The practice of dividing a network into two or more networks is called subnetting.
+
+Computers that belong to the same subnet are addressed with an identical most-significant bit-group in their IP addresses. This results in the logical division of an IP address into two fields: the network number or routing prefix and the rest field or host identifier. The rest field is an identifier for a specific host or network interface.
+
+The routing prefix may be expressed in Classless Inter-Domain Routing (CIDR) notation written as the first address of a network, followed by a slash character (/), and ending with the bit-length of the prefix. For example, 198.51.100.0/24 is the prefix of the Internet Protocol version 4 network starting at the given address, having 24 bits allocated for the network prefix, and the remaining 8 bits reserved for host addressing. Addresses in the range 198.51.100.0 to 198.51.100.255 belong to this network, with 198.51.100.255 as the subnet broadcast address. The IPv6 address specification 2001:db8::/32 is a large address block with 296 addresses, having a 32-bit routing prefix.
+
+For IPv4, a network may also be characterized by its subnet mask or netmask, which is the bitmask that, when applied by a bitwise AND operation to any IP address in the network, yields the routing prefix. Subnet masks are also expressed in dot-decimal notation like an IP address. For example, the prefix 198.51.100.0/24 would have the subnet mask 255.255.255.0.
+
+Traffic is exchanged between subnetworks through routers when the routing prefixes of the source address and the destination address differ. A router serves as a logical or physical boundary between the subnets.
+
+The benefits of subnetting an existing network vary with each deployment scenario. In the address allocation architecture of the Internet using CIDR and in large organizations, it is necessary to allocate address space efficiently. Subnetting may also enhance routing efficiency, or have advantages in network management when subnetworks are administratively controlled by different entities in a larger organization. Subnets may be arranged logically in a hierarchical architecture, partitioning an organization's network address space into a tree-like routing structure, or other structures such as meshes.
+
+\section{Broadcast address}
+A broadcast address is a network address used to transmit to all devices connected to a multiple-access communications network. A message sent to a broadcast address may be received by all network-attached hosts.
+
+In contrast, a multicast address is used to address a specific group of devices, and a unicast address is used to address a single device.
+
+For network layer communications, a broadcast address may be a specific IP address. At the data link layer on Ethernet networks, it is a specific MAC address
+\subsection{single Broadcast address}
+this is a consequence of having only one subnet, creating unnecessary traffic.
+
+A task left is to create 2 subnets in the same local network
+\subsection{vlans}
+to make sure every subnet is isolated
+
+\section{Multicast}
+In computer networking, multicast is group communication[1] where data transmission is addressed to a group of destination computers simultaneously. Multicast can be one-to-many or many-to-many distribution.[2] Multicast should not be confused with physical layer point-to-multipoint communication.
+
+Group communication may either be application layer multicast[1] or network-assisted multicast, where the latter makes it possible for the source to efficiently send to the group in a single transmission. Copies are automatically created in other network elements, such as routers, switches and cellular network base stations, but only to network segments that currently contain members of the group. Network assisted multicast may be implemented at the data link layer using one-to-many addressing and switching such as Ethernet multicast addressing, Asynchronous Transfer Mode (ATM), point-to-multipoint virtual circuits (P2MP)[3] or InfiniBand multicast. Network-assisted multicast may also be implemented at the Internet layer using IP multicast. In IP multicast the implementation of the multicast concept occurs at the IP routing level, where routers create optimal distribution paths for datagrams sent to a multicast destination address.
+
+Multicast is often employed in Internet Protocol (IP) applications of streaming media, such as IPTV and multipoint videoconferencing.
+
+\textbf{IGMP}
+
+\section{Unicast}
+In computer networking, unicast is a one-to-one transmission from one point in the network to another point; that is, one sender and one receiver, each identified by a network address.\footnote{\label{unicast}Godred Fairhurst \href{https://www.erg.abdn.ac.uk/users/gorry/course/intro-pages/uni-b-mcast.html}{"Unicast, Broadcast, and Multicast"}.}
+
+Unicast is in contrast to multicast and broadcast which are one-to-many transmissions.
+
+Internet Protocol unicast delivery methods such as Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) are typically used.
+
+\section{The Five IPv4 Classes}
+In the IPv4 IP address space, there are five classes: A, B, C, D and E. Each class has a specific range of IP addresses (and ultimately dictates the number of devices you can have on your network). Primarily, class A, B, and C are used by the majority of devices on the Internet. Class D and class E are for special uses.
+
+The list below shows the five available IP classes, along with the number of networks each can support and the maximum number of hosts (devices) that can be on each of those networks. The four octets that make up an IP address are conventionally represented by a.b.c.d - such as 127.10.20.30.
+
+Additionally, information is also provided on private addresses and loop address (used for network troubleshooting).
+
+\subsection{Class A Public & Private IP Address Range}
+Class A addresses are for networks with large number of total hosts. Class A allows for 126 networks by using the first octet for the network ID. The first bit in this octet, is always zero. The remaining seven bits in this octet complete the network ID. The 24 bits in the remaining three octets represent the hosts ID and allows for approximately 17 million hosts per network. Class A network number values begin at 1 and end at 127.
+
+\begin{itemize}
+\item{Public IP Range: 1.0.0.0 to 127.0.0.0}
+\item{First octet value range from 1 to 127}
+\item{Private IP Range: 10.0.0.0 to 10.255.255.255}
+\item{Subnet Mask: 255.0.0.0 (8 bits)}
+\item{Number of Networks: 126}
+\item{Number of Hosts per Network: 16,777,214}
+\end{itemize}
+ \clearpage
+\subsection{Class B Public & Private IP Address Range}
+Class B addresses are for medium to large sized networks. Class B allows for 16,384 networks by using the first two octets for the network ID. The first two bits in the first octet are always 1 0. The remaining six bits, together with the second octet, complete the network ID. The 16 bits in the third and fourth octet represent host ID and allows for approximately 65,000 hosts per network. Class B network number values begin at 128 and end at 191.
+
+\begin{itemize}
+\item{Public IP Range: 128.0.0.0 to 191.255.0.0}
+\item{First octet value range from 128 to 191}
+\item{Private IP Range: 172.16.0.0 to 172.31.255.255}
+\item{Subnet Mask: 255.255.0.0 (16 bits)}
+\item{Number of Networks: 16,382}
+\item{Number of Hosts per Network: 65,534}
+\end{itemize}
+
+\subsection{Class C Public & Private IP Address Range}
+Class C addresses are used in small local area networks (LANs). Class C allows for approximately 2 million networks by using the first three octets for the network ID. In a class C IP address, the first three bits of the first octet are always 1 1 0. And the remaining 21 bits of first three octets complete the network ID. The last octet (8 bits) represent the host ID and allows for 254 hosts per network. Class C network number values begins at 192 and end at 223.
+
+\begin{itemize}
+\item{Public IP Range: 192.0.0.0 to 223.255.255.0}
+\item{First octet value range from 192 to 223}
+\item{Private IP Range: 192.168.0.0 to 192.168.255.255}
+\item{Special IP Range: 127.0.0.1 to 127.255.255.255}
+\item{Subnet Mask: 255.255.255.0 (24 bits)}
+\item{Number of Networks: 2,097,150}
+\item{Number of Hosts per Network: 254}
+\end{itemize}
+\clearpage
+\subsection{Class D IP Address Range}
+Class D IP addresses are not allocated to hosts and are used for multicasting. Multicasting allows a single host to send a single stream of data to thousands of hosts across the Internet at the same time. It is often used for audio and video streaming, such as IP-based cable TV networks. Another example is the delivery of real-time stock market data from one source to many brokerage companies.
+
+\begin{itemize}
+\item{Range: 224.0.0.0 to 239.255.255.255}
+\item{First octet value range from 224 to 239}
+\item{Number of Networks: N/A}
+\item{Number of Hosts per Network: Multicasting}
+\end{itemize}
+
+
+\subsection{Class E IP Address Class}
+Class E IP addresses are not allocated to hosts and are not available for general use. These are reserved for research purposes.
+
+\begin{itemize}
+\item{Range: 240.0.0.0 to 255.255.255.255}
+\item{First octet value range from 240 to 255}
+\item{Number of Networks: N/A}
+\item{Number of Hosts per Network: Research/Reserved/Experimental}
+\end{itemize}
 
 \clearpage
 \printindex
