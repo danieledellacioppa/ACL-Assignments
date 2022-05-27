@@ -3,8 +3,8 @@
 \contentsline {subsection}{\numberline {2.1}guided wiring}{5}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}unguided wiring}{5}{subsection.2.2}%
 \contentsline {section}{\numberline {3}LAN vs WAN}{5}{section.3}%
-\contentsline {section}{\numberline {4}IEEE 802.3}{5}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Popular Versions}{5}{subsection.4.1}%
+\contentsline {section}{\numberline {4}IEEE 802.3}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Popular Versions}{6}{subsection.4.1}%
 \contentsline {section}{\numberline {5}Protocols}{7}{section.5}%
 \contentsline {subsection}{\numberline {5.1}OSI Standard}{7}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}A good Mnemonic}{7}{subsection.5.2}%
