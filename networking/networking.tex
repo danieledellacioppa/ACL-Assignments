@@ -14,6 +14,8 @@
 
 %\usepackage{refcount}
 
+
+%hyperlinks, coloured menu, submenu with different colors, clickable references
 \hypersetup{
      colorlinks   = true,
      citecolor    = gray
@@ -40,6 +42,21 @@
 \renewcommand{\footnotesize}{\scriptsize}
 
 
+%for chinese characters - not working yet
+\usepackage{CJKutf8}
+\usepackage[utf8]{inputenc} % optional
+\usepackage[T1]{fontenc}
+
+
+% for underlining
+\usepackage{ulem}
+
+
+%\usepackage{fontspec}
+
+%\newfontfamily{\cfont}{Microsoft YaHei}
+
+
 \begin{document}
 
 \title{Networking}
@@ -61,7 +78,7 @@
 \caption{devices connected in the world}\label{wrap-fig:1}
 \end{wrapfigure}
 
-A network is two or more \emph{computers} (or other electronic devices) that are \textbf{connected} together, usually by cables(guided) or Wi-Fi(unguided).
+A network is two or more \emph{computers} (or other electronic devices) \textbf{connected} together, usually by cables(\textbf{guided}) or Wi-Fi(\textbf{unguided}).
 
 
 
@@ -83,17 +100,82 @@ A network is two or more \emph{computers} (or other electronic devices) that are
 \footnotetext{All these pieces of hardware are usually addressed as \textbf{endpoints} as long as they have the ability to communicate effectively within a network}
 
 
-\newline \noindent Networking is crucial if you want to use your computer to communicate. Without it you couldn’t send an email, a text or an instant message and that would be so bad.We use a huge network on a daily basis and this is called the internet. Around three billion people use the internet to share data, news and resources, amongst many other things.
+\newline \noindent Networking is crucial if you want to use your computer to communicate. Without it you couldn’t send an email, a text or an instant message and that would be so weird in 2022 isn't it?
+
+\noindent We use a huge network on a daily basis and this is called the internet. Around three billion people use the internet to share data, news and resources, amongst many other things.
 \clearpage
 \subsection{guided wiring}
-Is quicker than unguided, it consists in physical wires. Optic Fiber is on the top of this list but can't be twisted. You can install a optic cable for a much longer distance and you won't get the same troubles you would get with copper cables for example
+Is quicker than unguided, it consists in physical wires. Optic Fiber is on the top of this list but can't be twisted or the light will bounce back. You can install an optic cable for a much longer distance and you won't get the same troubles you would get with copper cables for example. But no twisting or it'll bounce back!
 
 \subsection{unguided wiring}
-This is Wi-Fi essentially. You can have a 2.4Ghz signal to reach longer distance but won't be nicely matched with a 5Ghz device
+The term \emph{wiring} can be deceiving here as there are literally no wires involved to realize the connection. In Cantonese is probably much clearer (Figure 2).
+
+
+\begin{wrapfigure}{R}{11cm}
+\centering
+\includegraphics[width=5cm]{WiFi-HK.PNG}
+%\vspace{-10pt}
+\caption{Definition of WiFi in Historical Chinese commonly spoken in Hong Kong}\label{wrap-fig:5}
+\end{wrapfigure}
+
+
+Unguided wiring simply means Wi-Fi really. You can have a 2.4Ghz signal to reach longer distance but won't be nicely matched with a 5Ghz device. A 5Ghz device won't reach the same distance as a 2.4Ghz.Take a look how it's worded in Cantonese and you'll see a different etymological meaning from the English one\footnote{\label{wifialliance}stands for Wireless Fidelity.It kept this name for a short time after the brand name was created by the \href{https://en.wikipedia.org/wiki/Wi-Fi_Alliance}{Wi-Fi Alliance}.} but still both words suggest the idea that no wires are involved.
+
+
+\wrapfill
+
+
+\begin{wrapfigure}{L}{8cm}
+\centering\newcommand{\wrapfill}{\par\ifnum\value{WF@wrappedlines}>0
+  \addtocounter{WF@wrappedlines}{-1}%
+  \null\vspace{\arabic{WF@wrappedlines}\baselineskip}%
+  \WFclear
+\fi}
+\includegraphics[width=8cm]{./WiFi-HK-details.PNG}
+\vspace{-10pt}
+\caption{Cantonese characters in the WiFi word}\label{wrap-fig:6}
+\end{wrapfigure}
+
+
+\noindent The first character represents the concept of \textbf{not} having ($mou^4$). The second one ($sin^3$) is literally thread or line so that's why \emph{wiring} to me is sort of misleading. 
+If you ask a person :
+
+\[Can\ you\ tell\ me\ what\ unguided\ wiring\ means?\]
+
+\noindent Because of the word \emph{wiring} one could start thinking about a particular kind of special fancy wire. But wires are the last thing you'll ever see in the case of \textbf{unguided wiring}
+
+
+
+%\begin{CJK}{UTF8}{gbsn}
+
+%Without \texttt{CJKutf8} package, the result will be wrong.
+
+%Café: 咖啡厅
+
+%Gödel: 哥德尔
+
+%© 版权所有
+
+%無線網絡
+
+%\end{CJK}
 
 \section{LAN vs WAN}
 
-LAN, which stands for local area network, and WAN, which stands for wide area network, are two types of networks and as the naming conventions suggest, LANs are for smaller, more localized networking — in a home, business, school, etc. — while WANs cover larger areas, such as cities, and even allow computers in different nations to connect. LANs are typically faster and more secure than WANs, but WANs enable more widespread connectivity
+LAN, which stands for \textbf{local area network}, and WAN, which stands for \textbf{wide area network}, are two types of networks and \texttt{\textit{as the naming conventions suggest}}, LANs are for more localized networking\footnote{\label{LAN}in a home,business,school,etc.}
+\begin{wrapfigure}{R}{7cm}
+\centering
+\includegraphics[width=5cm]{lan-wan.JPG}
+%\vspace{-10pt}
+\caption{difference between WAN and LAN}\label{wrap-fig:5}
+\end{wrapfigure}
+
+\noindent while WANs cover larger areas, such as cities, and even allow computers in different nations to connect.
+LANs are typically faster and more secure than WANs, but WANs enable more widespread connectivity. Of course there are sort of exceptions like the NHS having a huge Local Area Network spread all over the country with local IP addresses starting in the first octet with \oldstylenums{10} instead of \oldstylenums{192}, thus using a Class A Address rather than a Class C (more on this topic in Chapter 33) 
+
+
+
+\clearpage
 
 
 
@@ -102,27 +184,28 @@ LAN, which stands for local area network, and WAN, which stands for wide area ne
 IEEE 802.3 is a set of standards and protocols that define Ethernet-based networks. Ethernet technologies
 \begin{wrapfigure}[16]{1cm}
 \centering
-\includegraphics[width=15cm]{./ieee_802.jpg}
+\includegraphics[width=13cm]{./ieee_802.jpg}
 \vspace{-15pt}
-\caption{IEEE hierarchy}\label{wrap-fig:2}
+\caption{IEEE cable hierarchy}\label{wrap-fig:2}
 \end{wrapfigure}
 
-are primarily used in LANs, though they can also be used in WANs as well.
+\noindent are primarily used in LANs, though they can also be used in WANs as well.
+
 IEEE 802.3 defines the physical layer and the medium access control (MAC) sub-layer of the data link layer for wired Ethernet networks. The unique identifier of our computer's motherboard is actually adhering to a standard defined by IEEE 802.3.
+The psysical layer is the lowest layer identified in the TCP/IP protocol or the ISO/OSI protocol. The packets on the network before they finally go to destination they need to know which MAC address corresponds to the IP they hold already in the headers. In the next paragraph we'll explain the different cables in Figure 5.
 
 
 
 
 \subsection{Popular Versions}
 
-There are a number of versions of IEEE 802.3 protocol. The most popular ones are.
+There are a number of versions of IEEE 802.3 protocol. The most popular ones are:
 
 
 
 \begin{itemize}
-\item{IEEE 802.3: This was the original standard given for 10BASE-5. It used a thick single coaxial cable into which a connection can be tapped by drilling into the cable to the core. Here, 10 is the maximum throughput, i.e. 10 Mbps, BASE denoted use of baseband transmission, and 5 refers to the maximum segment length of 500m}
-\item{IEEE 802.3a: This gave the standard for thin coax (10BASE-2), which is a thinner variety where the segments of coaxial cables are connected by BNC connectors. The 2 refers to the maximum segment length of about 200m (185m to be precise)}
-\item{IEEE 802.3i: This gave the standard for twisted pair (10BASE-T) that uses unshielded twisted pair (UTP) copper wires as physical layer medium. The further variations were given by IEEE 802.3u for 100BASE-TX, 100BASE-T4 and 100BASE-FX}
+\item{IEEE 802.3: This was the original standard given for coaxial (10BASE-5). Here, 10 is the maximum throughput which means 10 Mbps and 5 refers to the maximum segment length of 500m. If it goes longer than 500m there's no guarantee it'll work}
+\item{IEEE 802.3a: This gave the standard for thin coax (10BASE-2), which is a thinner variety of coaxial cable. The 2 refers to the maximum segment length of about 200m (185m to be precise)}
 \item{IEEE 802.3j: This gave the standard for Ethernet over Fiber (10BASE-F) that uses fiber optic cables as medium of transmission}
 \end{itemize}
 
@@ -137,7 +220,7 @@ The Open Systems Interconnection (OSI) model describes seven layers that compute
 
 \begin{wrapfigure}[21]{5cm}
 \centering
-\includegraphics[width=13cm]{./OSI-7-layers.jpg}
+\includegraphics[width=12cm]{./OSI-7-layers.jpg}
 %\vspace{-10pt}
 \caption{OSI Layer representation}\label{wrap-fig:3}
 \end{wrapfigure}
@@ -145,11 +228,16 @@ The Open Systems Interconnection (OSI) model describes seven layers that compute
 
 The modern Internet is not based on OSI, but on the simpler TCP/IP model. However, the OSI 7-layer model is still widely used, as it helps visualize and communicate how networks operate, and helps isolate and troubleshoot networking problems.
 
-OSI was introduced in 1983 by representatives of the major computer and telecom companies, and was adopted by ISO as an international standard in 1984.
-
 
 \subsection{A good Mnemonic}
-Every layer of the OSI model can be remembered with the mnemonic : Please Do Not Throw Sausage and Pizza Away
+One way to remember the OSI Layer is, as always, by using funny and silly stories but this time we won't be talking of italian clichés, mentioning videogames monsters or referencing Boris Johnson jumping from an airplane holding the British Flag (yes he did that as well) but we'll use this mnemonic insetead: 
+
+\medskip
+\noindent
+\textsc{\textbf{P}lease \textbf{D}o \textbf{N}ot \textbf{T}hrow \textbf{S}ausage and \textbf{P}izza Away}}
+\medskip
+
+\noindent It's obtained by looking at the $1^{st}$ letter of each layer from the bottom
 
 \subsection{Theory vs Practice}
 Even if The Transmission Control Protocol/Internet Protocol (TCP/IP) model came before the Open Systems Interconnection (OSI) model it is what is used in practice today, and it has only five layers:
@@ -162,7 +250,7 @@ Even if The Transmission Control Protocol/Internet Protocol (TCP/IP) model came 
 \item {Hardware layer}
 \end{itemize}
 
-This may look drastically different from the OSI model, primarily because some functions are encompassed in a single layer: the application layer. In TCP/IP, this provides users with the physical standards, transport functions, network interface, and internetworking functions that correspond with the first three layers of the OSI model. In other words, in the TCP/IP model, these services are all done in the application layer.
+\noindent This may look drastically different from the OSI model, primarily because some functions are encompassed in a single layer: the application layer. In TCP/IP, this provides users with the physical standards, transport functions, network interface, and internetworking functions that correspond with the first three layers of the OSI model. In other words, in the TCP/IP model, these services are all done in the application layer.
 
 TCP/IP is connection and connectionless
 
