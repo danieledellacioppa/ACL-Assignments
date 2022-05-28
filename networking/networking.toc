@@ -19,82 +19,82 @@
 \contentsline {subsection}{\numberline {1.6.1}Routers}{14}{subsection.1.6.1}%
 \contentsline {subsection}{\numberline {1.6.2}Modems}{14}{subsection.1.6.2}%
 \contentsline {subsection}{\numberline {1.6.3}Hubs, bridges and switches}{14}{subsection.1.6.3}%
-\contentsline {subsubsection}{Hubs}{15}{section*.9}%
+\contentsline {subsubsection}{Hubs}{15}{section*.8}%
 \contentsline {subsubsection}{Bridges}{15}{section*.11}%
-\contentsline {subsubsection}{Switches}{17}{section*.12}%
-\contentsline {section}{\numberline {1.7}Cisco Packet Tracer}{17}{section.1.7}%
-\contentsline {subsection}{\numberline {1.7.1}The step-by-step guide}{18}{subsection.1.7.1}%
-\contentsline {subsubsection}{expanding the network}{38}{section*.14}%
-\contentsline {section}{\numberline {1.8}Power over Ethernet}{40}{section.1.8}%
-\contentsline {section}{\numberline {1.9}Network Topology}{40}{section.1.9}%
-\contentsline {subsection}{\numberline {1.9.1}Star Topology}{41}{subsection.1.9.1}%
-\contentsline {subsubsection}{PROs}{41}{section*.15}%
-\contentsline {subsubsection}{CONs}{41}{section*.16}%
-\contentsline {subsection}{\numberline {1.9.2}Ring Topology}{42}{subsection.1.9.2}%
-\contentsline {subsubsection}{PROs}{42}{section*.17}%
-\contentsline {subsubsection}{CONs}{42}{section*.18}%
-\contentsline {subsection}{\numberline {1.9.3}Ring Topology on Cisco Packet Tracer}{43}{subsection.1.9.3}%
-\contentsline {section}{\numberline {1.10}Routing Protocols}{43}{section.1.10}%
-\contentsline {section}{\numberline {1.11}Interior gateway protocols}{43}{section.1.11}%
-\contentsline {subsection}{\numberline {1.11.1}link state routing protocols}{44}{subsection.1.11.1}%
-\contentsline {subsubsection}{OSPF}{44}{section*.19}%
-\contentsline {subsection}{\numberline {1.11.2}distance vector routing protocols}{44}{subsection.1.11.2}%
-\contentsline {subsubsection}{RIP}{45}{section*.20}%
-\contentsline {subsubsection}{EIGRP}{45}{section*.21}%
-\contentsline {section}{\numberline {1.12}Exterior gateway protocols}{45}{section.1.12}%
-\contentsline {subsection}{\numberline {1.12.1}BGP}{46}{subsection.1.12.1}%
-\contentsline {section}{\numberline {1.13}IoT}{46}{section.1.13}%
-\contentsline {section}{\numberline {1.14}IoT in Aviation}{46}{section.1.14}%
-\contentsline {subsection}{\numberline {1.14.1}Existing Technologies in Aviation Industry}{46}{subsection.1.14.1}%
-\contentsline {subsubsection}{Digitized Security}{46}{section*.22}%
-\contentsline {subsubsection}{VR for Last-Minute Changes}{46}{section*.23}%
-\contentsline {subsubsection}{Biometrics}{47}{section*.24}%
-\contentsline {subsection}{\numberline {1.14.2}IoT Adoption Challenges}{47}{subsection.1.14.2}%
-\contentsline {subsection}{\numberline {1.14.3}Opportunities for IoT in Aviation}{47}{subsection.1.14.3}%
-\contentsline {section}{\numberline {1.15}IPv6}{48}{section.1.15}%
-\contentsline {subsection}{\numberline {1.15.1}IPsec}{48}{subsection.1.15.1}%
-\contentsline {subsection}{\numberline {1.15.2}Link-local address}{48}{subsection.1.15.2}%
-\contentsline {section}{\numberline {1.16}IPv4}{49}{section.1.16}%
-\contentsline {subsection}{\numberline {1.16.1}conversion to binary}{49}{subsection.1.16.1}%
-\contentsline {section}{\numberline {1.17}binary to Hex}{50}{section.1.17}%
-\contentsline {section}{\numberline {1.18}IP config}{51}{section.1.18}%
-\contentsline {subsection}{\numberline {1.18.1}ipconfig/all}{51}{subsection.1.18.1}%
-\contentsline {subsection}{\numberline {1.18.2}ipconfig/displaydns}{51}{subsection.1.18.2}%
-\contentsline {subsection}{\numberline {1.18.3}ipconfig/flushdns}{51}{subsection.1.18.3}%
-\contentsline {subsection}{\numberline {1.18.4}ipconfig/registerdns}{52}{subsection.1.18.4}%
-\contentsline {subsection}{\numberline {1.18.5}ipconfig/flushdns-}{52}{subsection.1.18.5}%
-\contentsline {subsubsection}{what flush DNS does}{52}{section*.28}%
-\contentsline {subsubsection}{why would you flush DNS}{52}{section*.29}%
-\contentsline {section}{\numberline {1.19}DHCP}{53}{section.1.19}%
-\contentsline {subsection}{\numberline {1.19.1}IPCONFIG renew and release}{53}{subsection.1.19.1}%
-\contentsline {subsection}{\numberline {1.19.2}BYOD}{53}{subsection.1.19.2}%
-\contentsline {subsection}{\numberline {1.19.3}vulnerabilities in LAN}{53}{subsection.1.19.3}%
-\contentsline {subsubsection}{Poor configuration}{53}{section*.30}%
-\contentsline {subsubsection}{Poor encryption}{53}{section*.31}%
-\contentsline {subsection}{\numberline {1.19.4}Fixed IP}{53}{subsection.1.19.4}%
-\contentsline {section}{\numberline {1.20}dns root server}{53}{section.1.20}%
-\contentsline {subsection}{\numberline {1.20.1}why 13 DNS servers}{54}{subsection.1.20.1}%
-\contentsline {subsection}{\numberline {1.20.2}who manages}{54}{subsection.1.20.2}%
-\contentsline {section}{\numberline {1.21}The DNS Service}{54}{section.1.21}%
-\contentsline {section}{\numberline {1.22}The four DNS Servers to load a webpage}{54}{section.1.22}%
-\contentsline {subsection}{\numberline {1.22.1}DNS recursor}{54}{subsection.1.22.1}%
-\contentsline {subsection}{\numberline {1.22.2}Root name server}{54}{subsection.1.22.2}%
-\contentsline {subsection}{\numberline {1.22.3}dns server}{54}{subsection.1.22.3}%
-\contentsline {subsection}{\numberline {1.22.4}Authoritative nameserver}{55}{subsection.1.22.4}%
-\contentsline {section}{\numberline {1.23}public dns}{55}{section.1.23}%
-\contentsline {section}{\numberline {1.24}private dns}{55}{section.1.24}%
-\contentsline {section}{\numberline {1.25}dns authentication}{55}{section.1.25}%
-\contentsline {section}{\numberline {1.26}PING}{55}{section.1.26}%
-\contentsline {section}{\numberline {1.27}loopback}{55}{section.1.27}%
-\contentsline {section}{\numberline {1.28}subnet}{56}{section.1.28}%
-\contentsline {section}{\numberline {1.29}Broadcast address}{57}{section.1.29}%
-\contentsline {subsection}{\numberline {1.29.1}single Broadcast address}{57}{subsection.1.29.1}%
-\contentsline {subsection}{\numberline {1.29.2}vlans}{57}{subsection.1.29.2}%
-\contentsline {section}{\numberline {1.30}Multicast}{57}{section.1.30}%
-\contentsline {section}{\numberline {1.31}Unicast}{57}{section.1.31}%
-\contentsline {section}{\numberline {1.32}The Five IPv4 Classes}{58}{section.1.32}%
-\contentsline {subsection}{\numberline {1.32.1}Class A Public & Private IP Address Range}{58}{subsection.1.32.1}%
-\contentsline {subsection}{\numberline {1.32.2}Class B Public & Private IP Address Range}{59}{subsection.1.32.2}%
-\contentsline {subsection}{\numberline {1.32.3}Class C Public & Private IP Address Range}{59}{subsection.1.32.3}%
-\contentsline {subsection}{\numberline {1.32.4}Class D IP Address Range}{60}{subsection.1.32.4}%
-\contentsline {subsection}{\numberline {1.32.5}Class E IP Address Class}{60}{subsection.1.32.5}%
+\contentsline {subsubsection}{Switches}{16}{section*.12}%
+\contentsline {section}{\numberline {1.7}Cisco Packet Tracer}{16}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}The step-by-step guide}{17}{subsection.1.7.1}%
+\contentsline {subsubsection}{expanding the network}{37}{section*.14}%
+\contentsline {section}{\numberline {1.8}Power over Ethernet}{39}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Network Topology}{39}{section.1.9}%
+\contentsline {subsection}{\numberline {1.9.1}Star Topology}{40}{subsection.1.9.1}%
+\contentsline {subsubsection}{PROs}{40}{section*.15}%
+\contentsline {subsubsection}{CONs}{40}{section*.16}%
+\contentsline {subsection}{\numberline {1.9.2}Ring Topology}{41}{subsection.1.9.2}%
+\contentsline {subsubsection}{PROs}{41}{section*.17}%
+\contentsline {subsubsection}{CONs}{41}{section*.18}%
+\contentsline {subsection}{\numberline {1.9.3}Ring Topology on Cisco Packet Tracer}{42}{subsection.1.9.3}%
+\contentsline {section}{\numberline {1.10}Routing Protocols}{42}{section.1.10}%
+\contentsline {section}{\numberline {1.11}Interior gateway protocols}{42}{section.1.11}%
+\contentsline {subsection}{\numberline {1.11.1}link state routing protocols}{43}{subsection.1.11.1}%
+\contentsline {subsubsection}{OSPF}{43}{section*.19}%
+\contentsline {subsection}{\numberline {1.11.2}distance vector routing protocols}{43}{subsection.1.11.2}%
+\contentsline {subsubsection}{RIP}{44}{section*.20}%
+\contentsline {subsubsection}{EIGRP}{44}{section*.21}%
+\contentsline {section}{\numberline {1.12}Exterior gateway protocols}{44}{section.1.12}%
+\contentsline {subsection}{\numberline {1.12.1}BGP}{45}{subsection.1.12.1}%
+\contentsline {section}{\numberline {1.13}IoT}{45}{section.1.13}%
+\contentsline {section}{\numberline {1.14}IoT in Aviation}{45}{section.1.14}%
+\contentsline {subsection}{\numberline {1.14.1}Existing Technologies in Aviation Industry}{45}{subsection.1.14.1}%
+\contentsline {subsubsection}{Digitized Security}{45}{section*.22}%
+\contentsline {subsubsection}{VR for Last-Minute Changes}{45}{section*.23}%
+\contentsline {subsubsection}{Biometrics}{46}{section*.24}%
+\contentsline {subsection}{\numberline {1.14.2}IoT Adoption Challenges}{46}{subsection.1.14.2}%
+\contentsline {subsection}{\numberline {1.14.3}Opportunities for IoT in Aviation}{46}{subsection.1.14.3}%
+\contentsline {section}{\numberline {1.15}IPv6}{47}{section.1.15}%
+\contentsline {subsection}{\numberline {1.15.1}IPsec}{47}{subsection.1.15.1}%
+\contentsline {subsection}{\numberline {1.15.2}Link-local address}{47}{subsection.1.15.2}%
+\contentsline {section}{\numberline {1.16}IPv4}{48}{section.1.16}%
+\contentsline {subsection}{\numberline {1.16.1}conversion to binary}{48}{subsection.1.16.1}%
+\contentsline {section}{\numberline {1.17}binary to Hex}{49}{section.1.17}%
+\contentsline {section}{\numberline {1.18}IP config}{50}{section.1.18}%
+\contentsline {subsection}{\numberline {1.18.1}ipconfig/all}{50}{subsection.1.18.1}%
+\contentsline {subsection}{\numberline {1.18.2}ipconfig/displaydns}{50}{subsection.1.18.2}%
+\contentsline {subsection}{\numberline {1.18.3}ipconfig/flushdns}{50}{subsection.1.18.3}%
+\contentsline {subsection}{\numberline {1.18.4}ipconfig/registerdns}{51}{subsection.1.18.4}%
+\contentsline {subsection}{\numberline {1.18.5}ipconfig/flushdns-}{51}{subsection.1.18.5}%
+\contentsline {subsubsection}{what flush DNS does}{51}{section*.28}%
+\contentsline {subsubsection}{why would you flush DNS}{51}{section*.29}%
+\contentsline {section}{\numberline {1.19}DHCP}{52}{section.1.19}%
+\contentsline {subsection}{\numberline {1.19.1}IPCONFIG renew and release}{52}{subsection.1.19.1}%
+\contentsline {subsection}{\numberline {1.19.2}BYOD}{52}{subsection.1.19.2}%
+\contentsline {subsection}{\numberline {1.19.3}vulnerabilities in LAN}{52}{subsection.1.19.3}%
+\contentsline {subsubsection}{Poor configuration}{52}{section*.30}%
+\contentsline {subsubsection}{Poor encryption}{52}{section*.31}%
+\contentsline {subsection}{\numberline {1.19.4}Fixed IP}{52}{subsection.1.19.4}%
+\contentsline {section}{\numberline {1.20}dns root server}{52}{section.1.20}%
+\contentsline {subsection}{\numberline {1.20.1}why 13 DNS servers}{53}{subsection.1.20.1}%
+\contentsline {subsection}{\numberline {1.20.2}who manages}{53}{subsection.1.20.2}%
+\contentsline {section}{\numberline {1.21}The DNS Service}{53}{section.1.21}%
+\contentsline {section}{\numberline {1.22}The four DNS Servers to load a webpage}{53}{section.1.22}%
+\contentsline {subsection}{\numberline {1.22.1}DNS recursor}{53}{subsection.1.22.1}%
+\contentsline {subsection}{\numberline {1.22.2}Root name server}{53}{subsection.1.22.2}%
+\contentsline {subsection}{\numberline {1.22.3}dns server}{53}{subsection.1.22.3}%
+\contentsline {subsection}{\numberline {1.22.4}Authoritative nameserver}{54}{subsection.1.22.4}%
+\contentsline {section}{\numberline {1.23}public dns}{54}{section.1.23}%
+\contentsline {section}{\numberline {1.24}private dns}{54}{section.1.24}%
+\contentsline {section}{\numberline {1.25}dns authentication}{54}{section.1.25}%
+\contentsline {section}{\numberline {1.26}PING}{54}{section.1.26}%
+\contentsline {section}{\numberline {1.27}loopback}{54}{section.1.27}%
+\contentsline {section}{\numberline {1.28}subnet}{55}{section.1.28}%
+\contentsline {section}{\numberline {1.29}Broadcast address}{56}{section.1.29}%
+\contentsline {subsection}{\numberline {1.29.1}single Broadcast address}{56}{subsection.1.29.1}%
+\contentsline {subsection}{\numberline {1.29.2}vlans}{56}{subsection.1.29.2}%
+\contentsline {section}{\numberline {1.30}Multicast}{56}{section.1.30}%
+\contentsline {section}{\numberline {1.31}Unicast}{56}{section.1.31}%
+\contentsline {section}{\numberline {1.32}The Five IPv4 Classes}{57}{section.1.32}%
+\contentsline {subsection}{\numberline {1.32.1}Class A Public & Private IP Address Range}{57}{subsection.1.32.1}%
+\contentsline {subsection}{\numberline {1.32.2}Class B Public & Private IP Address Range}{58}{subsection.1.32.2}%
+\contentsline {subsection}{\numberline {1.32.3}Class C Public & Private IP Address Range}{58}{subsection.1.32.3}%
+\contentsline {subsection}{\numberline {1.32.4}Class D IP Address Range}{59}{subsection.1.32.4}%
+\contentsline {subsection}{\numberline {1.32.5}Class E IP Address Class}{59}{subsection.1.32.5}%
