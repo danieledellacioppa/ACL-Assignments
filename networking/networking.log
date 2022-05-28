@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.21)  28 MAY 2022 20:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.21)  29 MAY 2022 00:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -595,6 +595,19 @@ Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
 \ESO@tempdima=\dimen182
 \ESO@tempdimb=\dimen183
+)
+(/usr/share/texmf-dist/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
 ) (./networking.aux
 
 LaTeX Warning: Label `wrap-fig:5' multiply defined.
@@ -608,88 +621,88 @@ LaTeX Warning: Label `wrap-fig:6' multiply defined.
 )
 \openout1 = `networking.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count305
@@ -705,16 +718,8 @@ LaTeX Font Info:    ... okay on input line 76.
 \everyMPtoPDFconversion=\toks28
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(/usr/share/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -759,7 +764,7 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 76.
+Package hyperref Info: Link coloring ON on input line 85.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -771,20 +776,20 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count312
 )
-LaTeX Info: Redefining \ref on input line 76.
-LaTeX Info: Redefining \pageref on input line 76.
-LaTeX Info: Redefining \nameref on input line 76.
+LaTeX Info: Redefining \ref on input line 85.
+LaTeX Info: Redefining \pageref on input line 85.
+LaTeX Info: Redefining \nameref on input line 85.
 
 (./networking.out) (./networking.out)
 \@outlinefile=\write3
 \openout3 = `networking.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 80.
+(Font)              <14.4> on input line 92.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 80.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 8
-0.
+(Font)              <7> on input line 92.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 9
+2.
 
 (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -800,21 +805,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
  [2]
 ! Misplaced alignment tab character &.
-<argument> ...\numberline {1.32.1}Class A Public &
+<argument> ...\numberline {2.30.1}Class A Public &
                                                    Private IP Address Range}...
-l.96 ...e IP Address Range}{58}{subsection.1.32.1}
+l.99 ...e IP Address Range}{59}{subsection.2.30.1}
                                                   %
 ? 
 ! Misplaced alignment tab character &.
-<argument> ...\numberline {1.32.2}Class B Public &
+<argument> ...\numberline {2.30.2}Class B Public &
                                                    Private IP Address Range}...
-l.97 ...e IP Address Range}{59}{subsection.1.32.2}
+l.100 ... IP Address Range}{60}{subsection.2.30.2}
                                                   %
 ? 
 ! Misplaced alignment tab character &.
-<argument> ...\numberline {1.32.3}Class C Public &
+<argument> ...\numberline {2.30.3}Class C Public &
                                                    Private IP Address Range}...
-l.98 ...e IP Address Range}{59}{subsection.1.32.3}
+l.101 ... IP Address Range}{60}{subsection.2.30.3}
                                                   %
 ? 
 )
@@ -843,15 +848,70 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ] [5] [6]
+Chapter 1.
+<118.jpg, id=450, 195.8517pt x 277.035pt>
+File: 118.jpg Graphic file (type jpg)
+<use 118.jpg>
+Package pdftex.def Info: 118.jpg  used on input line 106.
+(pdftex.def)             Requested size: 597.62471pt x 845.14996pt.
+[7
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+ <./118.jpg>]
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.108 \centering
+                
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.108 \centering
+                
+? 
+<./net.png, id=456, 626.34pt x 626.34pt>
+File: ./net.png Graphic file (type png)
+<use ./net.png>
+Package pdftex.def Info: ./net.png  used on input line 109.
+(pdftex.def)             Requested size: 341.43306pt x 341.43932pt.
 
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+Underfull \hbox (badness 1057) in paragraph at lines 116--117
+\T1/cmr/m/n/12 (or other elec-tronic de-vices) \T1/cmr/bx/n/12 con-
+ []
 
-[7]
+
+Underfull \hbox (badness 2894) in paragraph at lines 116--117
+\T1/cmr/bx/n/12 nected \T1/cmr/m/n/12 to-gether, usu-ally by ca-
+ []
+
+
+Underfull \hbox (badness 7722) in paragraph at lines 122--123
+[]\T1/cmr/m/n/12 sharing hard-ware, such as
+ []
+
+
+Underfull \hbox (badness 2538) in paragraph at lines 122--123
+\T1/cmr/m/n/12 print-ers, com-put-ers, phones,
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 126--127
+\T1/cmr/m/n/12 other peo-ple can ac-cess
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 135.
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.138 \newline
+               \noindent Networking is crucial if you want to use your compu...
+
+? 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -862,73 +922,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [8
 
-]
-Chapter 1.
-! Missing number, treated as zero.
-<to be read again> 
-                   \protect 
-l.95 \centering
-               
-? 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \protect 
-l.95 \centering
-               
-? 
-<./net.png, id=452, 626.34pt x 626.34pt>
-File: ./net.png Graphic file (type png)
-<use ./net.png>
-Package pdftex.def Info: ./net.png  used on input line 96.
-(pdftex.def)             Requested size: 341.43306pt x 341.43932pt.
-
-Underfull \hbox (badness 1057) in paragraph at lines 101--102
-\T1/cmr/m/n/12 (or other elec-tronic de-vices) \T1/cmr/bx/n/12 con-
- []
-
-
-Underfull \hbox (badness 2894) in paragraph at lines 101--102
-\T1/cmr/bx/n/12 nected \T1/cmr/m/n/12 to-gether, usu-ally by ca-
- []
-
-
-Underfull \hbox (badness 7722) in paragraph at lines 107--108
-[]\T1/cmr/m/n/12 sharing hard-ware, such as
- []
-
-
-Underfull \hbox (badness 2538) in paragraph at lines 107--108
-\T1/cmr/m/n/12 print-ers, com-put-ers, phones,
- []
-
-
-Underfull \hbox (badness 1365) in paragraph at lines 111--112
-\T1/cmr/m/n/12 other peo-ple can ac-cess
- []
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 120.
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.123 \newline
-               \noindent Networking is crucial if you want to use your compu...
-
-? 
-<118.jpg, id=454, 195.8517pt x 277.035pt>
-File: 118.jpg Graphic file (type jpg)
-<use 118.jpg>
-Package pdftex.def Info: 118.jpg  used on input line 126.
-(pdftex.def)             Requested size: 597.62471pt x 845.14996pt.
-[9 <./118.jpg> <./net.png>]
-<WiFi-HK.PNG, id=470, 365.365pt x 136.51pt>
+ <./net.png>]
+<WiFi-HK.PNG, id=476, 365.365pt x 136.51pt>
 File: WiFi-HK.PNG Graphic file (type png)
 <use WiFi-HK.PNG>
-Package pdftex.def Info: WiFi-HK.PNG  used on input line 136.
+Package pdftex.def Info: WiFi-HK.PNG  used on input line 151.
 (pdftex.def)             Requested size: 142.26378pt x 53.15327pt.
 
 
@@ -939,19 +937,30 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.153 \fi}
+l.168 \fi}
           
 ? 
-<./WiFi-HK-details.PNG, id=473, 299.1175pt x 140.525pt>
+<./WiFi-HK-details.PNG, id=479, 299.1175pt x 140.525pt>
 File: ./WiFi-HK-details.PNG Graphic file (type png)
 <use ./WiFi-HK-details.PNG>
-Package pdftex.def Info: ./WiFi-HK-details.PNG  used on input line 154.
+Package pdftex.def Info: ./WiFi-HK-details.PNG  used on input line 169.
 (pdftex.def)             Requested size: 227.62204pt x 106.93732pt.
-<lan-wan.JPG, id=475, 451.6875pt x 240.9pt>
+<lan-wan.JPG, id=481, 451.6875pt x 240.9pt>
 File: lan-wan.JPG Graphic file (type jpg)
 <use lan-wan.JPG>
-Package pdftex.def Info: lan-wan.JPG  used on input line 188.
+Package pdftex.def Info: lan-wan.JPG  used on input line 203.
 (pdftex.def)             Requested size: 142.26378pt x 75.87286pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9
+
+ <./WiFi-HK.png> <./WiFi-HK-details.png> <./lan-wan.jpg>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -962,36 +971,42 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [10
 
- <./WiFi-HK.png> <./WiFi-HK-details.png> <./lan-wan.jpg>]
+]
+Chapter 2.
+File: 118.jpg Graphic file (type jpg)
+<use 118.jpg>
+Package pdftex.def Info: 118.jpg  used on input line 215.
+(pdftex.def)             Requested size: 597.62471pt x 845.14996pt.
+[11]
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.206 \centering
+l.221 \centering
                 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.206 \centering
+l.221 \centering
                 
 ? 
-<./ieee_802.jpg, id=489, 522.95375pt x 243.91125pt>
+<./ieee_802.jpg, id=504, 522.95375pt x 243.91125pt>
 File: ./ieee_802.jpg Graphic file (type jpg)
 <use ./ieee_802.jpg>
-Package pdftex.def Info: ./ieee_802.jpg  used on input line 207.
+Package pdftex.def Info: ./ieee_802.jpg  used on input line 222.
 (pdftex.def)             Requested size: 369.88582pt x 172.52315pt.
 
-Underfull \hbox (badness 4886) in paragraph at lines 214--216
+Underfull \hbox (badness 4886) in paragraph at lines 229--231
 []\T1/cmr/m/n/12 IEEE 802.3 de-fines the
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 214--216
+Underfull \hbox (badness 4072) in paragraph at lines 229--231
 \T1/cmr/m/n/12 ac-cess con-trol (MAC) sub-
  []
 
 
-Underfull \hbox (badness 2050) in paragraph at lines 214--216
+Underfull \hbox (badness 2050) in paragraph at lines 229--231
 \T1/cmr/m/n/12 psys-i-cal layer is the low-est
  []
 
@@ -1003,34 +1018,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11
+[12
 
  <./ieee_802.jpg>]
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.242 \centering
+l.255 \centering
                 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.242 \centering
+l.255 \centering
                 
 ? 
-<./OSI-7-layers.jpg, id=495, 562.1pt x 457.71pt>
+<./OSI-7-layers.jpg, id=510, 562.1pt x 457.71pt>
 File: ./OSI-7-layers.jpg Graphic file (type jpg)
 <use ./OSI-7-layers.jpg>
-Package pdftex.def Info: ./OSI-7-layers.jpg  used on input line 243.
+Package pdftex.def Info: ./OSI-7-layers.jpg  used on input line 256.
 (pdftex.def)             Requested size: 341.43306pt x 278.02238pt.
 ! Too many }'s.
 <recently read> }
                  
-l.257 ...textbf{S}ausage and \textbf{P}izza Away}}
+l.270 ...textbf{S}ausage and \textbf{P}izza Away}}
                                                   
 ? 
 
-Overfull \hbox (2.06932pt too wide) in paragraph at lines 256--259
+Overfull \hbox (2.06932pt too wide) in paragraph at lines 269--272
 \T1/cmr/bx/sc/12 P\T1/cmr/m/sc/12 lease \T1/cmr/bx/sc/12 D\T1/cmr/m/sc/12 o \T1
 /cmr/bx/sc/12 N\T1/cmr/m/sc/12 ot \T1/cmr/bx/sc/12 T\T1/cmr/m/sc/12 hrow \T1/cm
 r/bx/sc/12 S\T1/cmr/m/sc/12 ausage
@@ -1044,9 +1059,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12
+[13
 
  <./OSI-7-layers.jpg>]
+! Undefined control sequence.
+l.290 ...to each other, they first need to \textbg
+                                                  {handshake} and establish ...
+
+? 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1055,81 +1075,90 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13]
+[14]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15]
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.308 \centering
+l.327 \centering
                 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.308 \centering
+l.327 \centering
                 
 ? 
-<./large.PNG, id=513, 626.34pt x 352.31625pt>
+<./large.PNG, id=531, 626.34pt x 352.31625pt>
 File: ./large.PNG Graphic file (type png)
 <use ./large.PNG>
-Package pdftex.def Info: ./large.PNG  used on input line 309.
+Package pdftex.def Info: ./large.PNG  used on input line 328.
 (pdftex.def)             Requested size: 455.24408pt x 256.08128pt.
 
-Underfull \hbox (badness 1552) in paragraph at lines 315--316
+Underfull \hbox (badness 1552) in paragraph at lines 334--335
 []\T1/cmr/m/n/12 A router can
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 315--316
+Underfull \hbox (badness 1205) in paragraph at lines 334--335
 \T1/cmr/m/n/12 form a \T1/cmr/bx/n/12 LAN
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 315--316
+Underfull \hbox (badness 1077) in paragraph at lines 334--335
 \T1/cmr/m/n/12 also makes it
  []
 
 
-Overfull \hbox (2.10745pt too wide) in paragraph at lines 315--316
+Overfull \hbox (2.10745pt too wide) in paragraph at lines 334--335
 \T1/cmr/m/n/12 pos-si-ble to con-
  []
 
 
-Underfull \hbox (badness 5578) in paragraph at lines 315--316
+Underfull \hbox (badness 5578) in paragraph at lines 334--335
 \T1/cmr/m/n/12 nect dif-fer-ent
  []
 
 
-Overfull \hbox (18.35771pt too wide) in paragraph at lines 315--316
+Overfull \hbox (18.35771pt too wide) in paragraph at lines 334--335
 \T1/cmr/m/n/12 net-works to-gether.
  []
 
 
-Overfull \hbox (7.9769pt too wide) in paragraph at lines 315--316
+Overfull \hbox (7.9769pt too wide) in paragraph at lines 334--335
 \T1/cmr/m/n/12 Homes and busi-
  []
 
 
-Underfull \hbox (badness 4967) in paragraph at lines 315--316
+Underfull \hbox (badness 4967) in paragraph at lines 334--335
 \T1/cmr/m/n/12 nesses use a
  []
 
 
-Overfull \hbox (6.1048pt too wide) in paragraph at lines 315--316
+Overfull \hbox (6.1048pt too wide) in paragraph at lines 334--335
 \T1/cmr/m/n/12 ter-net. A router
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 315--316
+Underfull \hbox (badness 1881) in paragraph at lines 334--335
 \T1/cmr/m/n/12 can of-ten in-
  []
 
 
-Overfull \hbox (3.93484pt too wide) in paragraph at lines 315--316
+Overfull \hbox (3.93484pt too wide) in paragraph at lines 334--335
 \T1/cmr/m/n/12 cor-po-rate a mo-
  []
 
 
-Overfull \hbox (0.34546pt too wide) in paragraph at lines 315--316
+Overfull \hbox (0.34546pt too wide) in paragraph at lines 334--335
 \T1/cmr/m/n/12 dem within the
  []
 
@@ -1141,13 +1170,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14
+[16
 
  <./large.png>]
-<./hbs.PNG, id=520, 626.34pt x 626.34pt>
+<./hbs.PNG, id=538, 626.34pt x 626.34pt>
 File: ./hbs.PNG Graphic file (type png)
 <use ./hbs.PNG>
-Package pdftex.def Info: ./hbs.PNG  used on input line 329.
+Package pdftex.def Info: ./hbs.PNG  used on input line 348.
 (pdftex.def)             Requested size: 284.52756pt x 284.53595pt.
 
 
@@ -1158,13 +1187,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.344 \fi}
+l.363 \fi}
           
 ? 
-<./performance.PNG, id=521, 626.34pt x 548.0475pt>
+<./performance.PNG, id=539, 626.34pt x 548.0475pt>
 File: ./performance.PNG Graphic file (type png)
 <use ./performance.PNG>
-Package pdftex.def Info: ./performance.PNG  used on input line 345.
+Package pdftex.def Info: ./performance.PNG  used on input line 364.
 (pdftex.def)             Requested size: 227.62204pt x 199.17015pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1178,66 +1207,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[15
-
- <./hbs.png> <./performance.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 362--363
-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[16
-
-]
-! Missing number, treated as zero.
-<to be read again> 
-                   \protect 
-l.380 \centering
-                
-? 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \protect 
-l.380 \centering
-                
-? 
-<./step-by-step/0.PNG, id=542, 818.19965pt x 625.04947pt>
-File: ./step-by-step/0.PNG Graphic file (type png)
-<use ./step-by-step/0.PNG>
-Package pdftex.def Info: ./step-by-step/0.PNG  used on input line 381.
-(pdftex.def)             Requested size: 369.88582pt x 282.56674pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--387
-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
 [17
 
- <./step-by-step/0.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 390--391
+ <./hbs.png> <./performance.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 381--382
 
  []
 
-<./step-by-step/1.PNG, id=551, 818.19965pt x 625.04947pt>
-File: ./step-by-step/1.PNG Graphic file (type png)
-<use ./step-by-step/1.PNG>
-Package pdftex.def Info: ./step-by-step/1.PNG  used on input line 392.
-(pdftex.def)             Requested size: 369.88582pt x 282.56674pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1248,16 +1224,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [18
 
- <./step-by-step/1.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 395--396
+]
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.399 \centering
+                
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.399 \centering
+                
+? 
+<./step-by-step/0.PNG, id=560, 818.19965pt x 625.04947pt>
+File: ./step-by-step/0.PNG Graphic file (type png)
+<use ./step-by-step/0.PNG>
+Package pdftex.def Info: ./step-by-step/0.PNG  used on input line 400.
+(pdftex.def)             Requested size: 369.88582pt x 282.56674pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
 
  []
 
-<./step-by-step/2.PNG, id=557, 818.19965pt x 625.04947pt>
-File: ./step-by-step/2.PNG Graphic file (type png)
-<use ./step-by-step/2.PNG>
-Package pdftex.def Info: ./step-by-step/2.PNG  used on input line 397.
-(pdftex.def)             Requested size: 369.88582pt x 282.56674pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1268,16 +1257,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [19
 
- <./step-by-step/2.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
+ <./step-by-step/0.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
 
  []
 
-<./step-by-step/3.PNG, id=564, 603.11035pt x 582.0316pt>
-File: ./step-by-step/3.PNG Graphic file (type png)
-<use ./step-by-step/3.PNG>
-Package pdftex.def Info: ./step-by-step/3.PNG  used on input line 402.
-(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
+<./step-by-step/1.PNG, id=570, 818.19965pt x 625.04947pt>
+File: ./step-by-step/1.PNG Graphic file (type png)
+<use ./step-by-step/1.PNG>
+Package pdftex.def Info: ./step-by-step/1.PNG  used on input line 411.
+(pdftex.def)             Requested size: 369.88582pt x 282.56674pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1288,21 +1277,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [20
 
- <./step-by-step/3.PNG>]
-! Undefined control sequence.
-l.405 ...dent And we move ourselves in the \textvg
-                                                  {Config} tab \newline
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 405--406
+ <./step-by-step/1.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
 
  []
 
-<./step-by-step/4.PNG, id=570, 603.11035pt x 582.0316pt>
-File: ./step-by-step/4.PNG Graphic file (type png)
-<use ./step-by-step/4.PNG>
-Package pdftex.def Info: ./step-by-step/4.PNG  used on input line 407.
-(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
+<./step-by-step/2.PNG, id=576, 818.19965pt x 625.04947pt>
+File: ./step-by-step/2.PNG Graphic file (type png)
+<use ./step-by-step/2.PNG>
+Package pdftex.def Info: ./step-by-step/2.PNG  used on input line 416.
+(pdftex.def)             Requested size: 369.88582pt x 282.56674pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1313,15 +1297,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [21
 
- <./step-by-step/4.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 410--411
+ <./step-by-step/2.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 419--420
 
  []
 
-<./step-by-step/5.PNG, id=576, 603.11035pt x 582.0316pt>
-File: ./step-by-step/5.PNG Graphic file (type png)
-<use ./step-by-step/5.PNG>
-Package pdftex.def Info: ./step-by-step/5.PNG  used on input line 412.
+<./step-by-step/3.PNG, id=582, 603.11035pt x 582.0316pt>
+File: ./step-by-step/3.PNG Graphic file (type png)
+<use ./step-by-step/3.PNG>
+Package pdftex.def Info: ./step-by-step/3.PNG  used on input line 421.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1333,13 +1317,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [22
 
- <./step-by-step/5.PNG>]
-<./step-by-step/6.PNG, id=582, 603.11035pt x 582.0316pt>
-File: ./step-by-step/6.PNG Graphic file (type png)
-<use ./step-by-step/6.PNG>
-Package pdftex.def Info: ./step-by-step/6.PNG  used on input line 419.
-(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
+ <./step-by-step/3.PNG>]
+! Undefined control sequence.
+l.424 ...dent And we move ourselves in the \textvg
+                                                  {Config} tab \newline
+? 
 
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
+
+ []
+
+<./step-by-step/4.PNG, id=588, 603.11035pt x 582.0316pt>
+File: ./step-by-step/4.PNG Graphic file (type png)
+<use ./step-by-step/4.PNG>
+Package pdftex.def Info: ./step-by-step/4.PNG  used on input line 426.
+(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1350,16 +1342,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [23
 
- <./step-by-step/6.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 422--423
+ <./step-by-step/4.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
 
  []
 
-<./step-by-step/7.PNG, id=588, 825.94286pt x 929.18571pt>
-File: ./step-by-step/7.PNG Graphic file (type png)
-<use ./step-by-step/7.PNG>
-Package pdftex.def Info: ./step-by-step/7.PNG  used on input line 424.
-(pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
+<./step-by-step/5.PNG, id=594, 603.11035pt x 582.0316pt>
+File: ./step-by-step/5.PNG Graphic file (type png)
+<use ./step-by-step/5.PNG>
+Package pdftex.def Info: ./step-by-step/5.PNG  used on input line 431.
+(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1370,16 +1362,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [24
 
- <./step-by-step/7.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 428--429
+ <./step-by-step/5.PNG>]
+<./step-by-step/6.PNG, id=600, 603.11035pt x 582.0316pt>
+File: ./step-by-step/6.PNG Graphic file (type png)
+<use ./step-by-step/6.PNG>
+Package pdftex.def Info: ./step-by-step/6.PNG  used on input line 438.
+(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 
- []
-
-<./step-by-step/8.PNG, id=594, 825.94286pt x 929.18571pt>
-File: ./step-by-step/8.PNG Graphic file (type png)
-<use ./step-by-step/8.PNG>
-Package pdftex.def Info: ./step-by-step/8.PNG  used on input line 430.
-(pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1390,15 +1379,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [25
 
- <./step-by-step/8.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 433--434
+ <./step-by-step/6.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 441--442
 
  []
 
-<./step-by-step/9.PNG, id=601, 825.94286pt x 929.18571pt>
-File: ./step-by-step/9.PNG Graphic file (type png)
-<use ./step-by-step/9.PNG>
-Package pdftex.def Info: ./step-by-step/9.PNG  used on input line 435.
+<./step-by-step/7.PNG, id=607, 825.94286pt x 929.18571pt>
+File: ./step-by-step/7.PNG Graphic file (type png)
+<use ./step-by-step/7.PNG>
+Package pdftex.def Info: ./step-by-step/7.PNG  used on input line 443.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1410,15 +1399,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [26
 
- <./step-by-step/9.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 438--439
+ <./step-by-step/7.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 447--448
 
  []
 
-<./step-by-step/10.PNG, id=607, 825.94286pt x 929.18571pt>
-File: ./step-by-step/10.PNG Graphic file (type png)
-<use ./step-by-step/10.PNG>
-Package pdftex.def Info: ./step-by-step/10.PNG  used on input line 440.
+<./step-by-step/8.PNG, id=613, 825.94286pt x 929.18571pt>
+File: ./step-by-step/8.PNG Graphic file (type png)
+<use ./step-by-step/8.PNG>
+Package pdftex.def Info: ./step-by-step/8.PNG  used on input line 449.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1430,15 +1419,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [27
 
- <./step-by-step/10.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 443--444
+ <./step-by-step/8.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
 
  []
 
-<./step-by-step/11.PNG, id=613, 825.94286pt x 929.18571pt>
-File: ./step-by-step/11.PNG Graphic file (type png)
-<use ./step-by-step/11.PNG>
-Package pdftex.def Info: ./step-by-step/11.PNG  used on input line 445.
+<./step-by-step/9.PNG, id=619, 825.94286pt x 929.18571pt>
+File: ./step-by-step/9.PNG Graphic file (type png)
+<use ./step-by-step/9.PNG>
+Package pdftex.def Info: ./step-by-step/9.PNG  used on input line 454.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1450,15 +1439,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [28
 
- <./step-by-step/11.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 448--449
+ <./step-by-step/9.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 457--458
 
  []
 
-<./step-by-step/12.PNG, id=619, 825.94286pt x 929.18571pt>
-File: ./step-by-step/12.PNG Graphic file (type png)
-<use ./step-by-step/12.PNG>
-Package pdftex.def Info: ./step-by-step/12.PNG  used on input line 450.
+<./step-by-step/10.PNG, id=625, 825.94286pt x 929.18571pt>
+File: ./step-by-step/10.PNG Graphic file (type png)
+<use ./step-by-step/10.PNG>
+Package pdftex.def Info: ./step-by-step/10.PNG  used on input line 459.
 (pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1470,16 +1459,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [29
 
- <./step-by-step/12.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 453--454
+ <./step-by-step/10.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 462--463
 
  []
 
-<./step-by-step/13.PNG, id=625, 603.11035pt x 582.0316pt>
-File: ./step-by-step/13.PNG Graphic file (type png)
-<use ./step-by-step/13.PNG>
-Package pdftex.def Info: ./step-by-step/13.PNG  used on input line 455.
-(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
+<./step-by-step/11.PNG, id=631, 825.94286pt x 929.18571pt>
+File: ./step-by-step/11.PNG Graphic file (type png)
+<use ./step-by-step/11.PNG>
+Package pdftex.def Info: ./step-by-step/11.PNG  used on input line 464.
+(pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1490,16 +1479,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [30
 
- <./step-by-step/13.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 459--460
+ <./step-by-step/11.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 467--468
 
  []
 
-<./step-by-step/14.PNG, id=631, 603.11035pt x 582.0316pt>
-File: ./step-by-step/14.PNG Graphic file (type png)
-<use ./step-by-step/14.PNG>
-Package pdftex.def Info: ./step-by-step/14.PNG  used on input line 461.
-(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
+<./step-by-step/12.PNG, id=637, 825.94286pt x 929.18571pt>
+File: ./step-by-step/12.PNG Graphic file (type png)
+<use ./step-by-step/12.PNG>
+Package pdftex.def Info: ./step-by-step/12.PNG  used on input line 469.
+(pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1510,16 +1499,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [31
 
- <./step-by-step/14.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 464--465
+ <./step-by-step/12.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 472--473
 
  []
 
-<./step-by-step/15.PNG, id=638, 825.94286pt x 929.18571pt>
-File: ./step-by-step/15.PNG Graphic file (type png)
-<use ./step-by-step/15.PNG>
-Package pdftex.def Info: ./step-by-step/15.PNG  used on input line 466.
-(pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
+<./step-by-step/13.PNG, id=644, 603.11035pt x 582.0316pt>
+File: ./step-by-step/13.PNG Graphic file (type png)
+<use ./step-by-step/13.PNG>
+Package pdftex.def Info: ./step-by-step/13.PNG  used on input line 474.
+(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1530,15 +1519,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [32
 
- <./step-by-step/15.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 470--471
+ <./step-by-step/13.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 478--479
 
  []
 
-<./step-by-step/16.PNG, id=644, 603.11035pt x 582.0316pt>
-File: ./step-by-step/16.PNG Graphic file (type png)
-<use ./step-by-step/16.PNG>
-Package pdftex.def Info: ./step-by-step/16.PNG  used on input line 472.
+<./step-by-step/14.PNG, id=651, 603.11035pt x 582.0316pt>
+File: ./step-by-step/14.PNG Graphic file (type png)
+<use ./step-by-step/14.PNG>
+Package pdftex.def Info: ./step-by-step/14.PNG  used on input line 480.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1550,16 +1539,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [33
 
- <./step-by-step/16.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 484--486
+ <./step-by-step/14.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 483--484
 
  []
 
-<./step-by-step/17.PNG, id=650, 603.11035pt x 582.0316pt>
-File: ./step-by-step/17.PNG Graphic file (type png)
-<use ./step-by-step/17.PNG>
-Package pdftex.def Info: ./step-by-step/17.PNG  used on input line 487.
-(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
+<./step-by-step/15.PNG, id=657, 825.94286pt x 929.18571pt>
+File: ./step-by-step/15.PNG Graphic file (type png)
+<use ./step-by-step/15.PNG>
+Package pdftex.def Info: ./step-by-step/15.PNG  used on input line 485.
+(pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1570,15 +1559,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [34
 
- <./step-by-step/17.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 491--492
+ <./step-by-step/15.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
 
  []
 
-<./step-by-step/18.PNG, id=658, 603.11035pt x 582.0316pt>
-File: ./step-by-step/18.PNG Graphic file (type png)
-<use ./step-by-step/18.PNG>
-Package pdftex.def Info: ./step-by-step/18.PNG  used on input line 493.
+<./step-by-step/16.PNG, id=663, 603.11035pt x 582.0316pt>
+File: ./step-by-step/16.PNG Graphic file (type png)
+<use ./step-by-step/16.PNG>
+Package pdftex.def Info: ./step-by-step/16.PNG  used on input line 491.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1590,16 +1579,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [35
 
- <./step-by-step/18.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 497--498
+ <./step-by-step/16.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 503--505
 
  []
 
-<./step-by-step/19.PNG, id=664, 825.94286pt x 929.18571pt>
-File: ./step-by-step/19.PNG Graphic file (type png)
-<use ./step-by-step/19.PNG>
-Package pdftex.def Info: ./step-by-step/19.PNG  used on input line 499.
-(pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
+<./step-by-step/17.PNG, id=669, 603.11035pt x 582.0316pt>
+File: ./step-by-step/17.PNG Graphic file (type png)
+<use ./step-by-step/17.PNG>
+Package pdftex.def Info: ./step-by-step/17.PNG  used on input line 506.
+(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1610,15 +1599,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [36
 
- <./step-by-step/19.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 504--505
+ <./step-by-step/17.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 510--511
 
  []
 
-<./step-by-step/20.PNG, id=670, 603.11035pt x 582.0316pt>
-File: ./step-by-step/20.PNG Graphic file (type png)
-<use ./step-by-step/20.PNG>
-Package pdftex.def Info: ./step-by-step/20.PNG  used on input line 506.
+<./step-by-step/18.PNG, id=676, 603.11035pt x 582.0316pt>
+File: ./step-by-step/18.PNG Graphic file (type png)
+<use ./step-by-step/18.PNG>
+Package pdftex.def Info: ./step-by-step/18.PNG  used on input line 512.
 (pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1630,16 +1619,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [37
 
- <./step-by-step/20.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 509--510
+ <./step-by-step/18.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 516--517
 
  []
 
-<./step-by-step/21.PNG, id=678, 603.11035pt x 582.0316pt>
-File: ./step-by-step/21.PNG Graphic file (type png)
-<use ./step-by-step/21.PNG>
-Package pdftex.def Info: ./step-by-step/21.PNG  used on input line 511.
-(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
+<./step-by-step/19.PNG, id=683, 825.94286pt x 929.18571pt>
+File: ./step-by-step/19.PNG Graphic file (type png)
+<use ./step-by-step/19.PNG>
+Package pdftex.def Info: ./step-by-step/19.PNG  used on input line 518.
+(pdftex.def)             Requested size: 369.88582pt x 416.1164pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1650,7 +1639,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [38
 
- <./step-by-step/21.PNG>]
+ <./step-by-step/19.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 523--524
+
+ []
+
+<./step-by-step/20.PNG, id=689, 603.11035pt x 582.0316pt>
+File: ./step-by-step/20.PNG Graphic file (type png)
+<use ./step-by-step/20.PNG>
+Package pdftex.def Info: ./step-by-step/20.PNG  used on input line 525.
+(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1661,17 +1659,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [39
 
-]
-<./StarNetwork.svg.PNG, id=688, 793.96625pt x 767.86874pt>
-File: ./StarNetwork.svg.PNG Graphic file (type png)
-<use ./StarNetwork.svg.PNG>
-Package pdftex.def Info: ./StarNetwork.svg.PNG  used on input line 535.
-(pdftex.def)             Requested size: 199.16928pt x 192.62285pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--536
+ <./step-by-step/20.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 528--529
 
  []
 
+<./step-by-step/21.PNG, id=696, 603.11035pt x 582.0316pt>
+File: ./step-by-step/21.PNG Graphic file (type png)
+<use ./step-by-step/21.PNG>
+Package pdftex.def Info: ./step-by-step/21.PNG  used on input line 530.
+(pdftex.def)             Requested size: 369.88582pt x 356.96596pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1682,13 +1679,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [40
 
- <./StarNetwork.svg.png>]
-<./RingNetwork.svg.PNG, id=697, 793.96625pt x 767.86874pt>
-File: ./RingNetwork.svg.PNG Graphic file (type png)
-<use ./RingNetwork.svg.PNG>
-Package pdftex.def Info: ./RingNetwork.svg.PNG  used on input line 557.
-(pdftex.def)             Requested size: 199.16928pt x 192.62285pt.
-
+ <./step-by-step/21.PNG>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1699,20 +1690,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [41
 
- <./RingNetwork.svg.png>]
-<./star-topology/screenshot.PNG, id=706, 547.61732pt x 536.86285pt>
-File: ./star-topology/screenshot.PNG Graphic file (type png)
-<use ./star-topology/screenshot.PNG>
-Package pdftex.def Info: ./star-topology/screenshot.PNG  used on input line 578
-.
-(pdftex.def)             Requested size: 199.16928pt x 195.2529pt.
+]
+<./StarNetwork.svg.PNG, id=706, 793.96625pt x 767.86874pt>
+File: ./StarNetwork.svg.PNG Graphic file (type png)
+<use ./StarNetwork.svg.PNG>
+Package pdftex.def Info: ./StarNetwork.svg.PNG  used on input line 554.
+(pdftex.def)             Requested size: 199.16928pt x 192.62285pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--579
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 582--583
+Underfull \hbox (badness 10000) in paragraph at lines 554--555
 
  []
 
@@ -1726,47 +1711,51 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [42
 
+ <./StarNetwork.svg.png>]
+<./RingNetwork.svg.PNG, id=715, 793.96625pt x 767.86874pt>
+File: ./RingNetwork.svg.PNG Graphic file (type png)
+<use ./RingNetwork.svg.PNG>
+Package pdftex.def Info: ./RingNetwork.svg.PNG  used on input line 576.
+(pdftex.def)             Requested size: 199.16928pt x 192.62285pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[43
+
+ <./RingNetwork.svg.png>]
+<./star-topology/screenshot.PNG, id=725, 547.61732pt x 536.86285pt>
+File: ./star-topology/screenshot.PNG Graphic file (type png)
+<use ./star-topology/screenshot.PNG>
+Package pdftex.def Info: ./star-topology/screenshot.PNG  used on input line 597
+.
+(pdftex.def)             Requested size: 199.16928pt x 195.2529pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--602
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[44
+
  <./star-topology/screenshot.PNG>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[43]
-
-! LaTeX Error: Unicode character   (U+200A)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.636 ...ül University.}${}^{{}^{7 \cdot 5}}$: 
-                                                   
-? 
-
-! LaTeX Error: Unicode character   (U+200A)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.636 ... University.}${}^{{}^{7 \cdot 5}}$:  
-                                                  
-? 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[44]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1777,6 +1766,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [45]
 
+! LaTeX Error: Unicode character   (U+200A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.655 ...ül University.}${}^{{}^{7 \cdot 5}}$: 
+                                                   
+? 
+
+! LaTeX Error: Unicode character   (U+200A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.655 ... University.}${}^{{}^{7 \cdot 5}}$:  
+                                                  
+? 
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -1785,42 +1796,60 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [46]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[47]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[48]
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.688 \centering
+l.707 \centering
                 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.688 \centering
+l.707 \centering
                 
 ? 
-<./IPv6.PNG, id=741, 1927.2pt x 693.59125pt>
+<./IPv6.PNG, id=759, 1927.2pt x 693.59125pt>
 File: ./IPv6.PNG Graphic file (type png)
 <use ./IPv6.PNG>
-Package pdftex.def Info: ./IPv6.PNG  used on input line 689.
+Package pdftex.def Info: ./IPv6.PNG  used on input line 708.
 (pdftex.def)             Requested size: 284.52756pt x 102.39377pt.
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.708 \centering
+l.727 \centering
                 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.708 \centering
+l.727 \centering
                 
 ? 
-<./IPv6_link_local_unicast_address_structure-en.svg.PNG, id=748, 1927.2pt x 222
+<./IPv6_link_local_unicast_address_structure-en.svg.PNG, id=766, 1927.2pt x 222
 .8325pt>
 File: ./IPv6_link_local_unicast_address_structure-en.svg.PNG Graphic file (type
  png)
 <use ./IPv6_link_local_unicast_address_structure-en.svg.PNG>
 Package pdftex.def Info: ./IPv6_link_local_unicast_address_structure-en.svg.PNG
-  used on input line 709.
+  used on input line 728.
 (pdftex.def)             Requested size: 284.52756pt x 32.89641pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1830,14 +1859,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[47 <./IPv6.png>]
+[49 <./IPv6.png>]
 ! Too many }'s.
-l.715 ...RFC 7136, RFC 7346, RFC 7371, RFC 8064.}}
+l.734 ...RFC 7136, RFC 7346, RFC 7371, RFC 8064.}}
                                                   ${}^{{}^{2 \cdot 4}}$ (IET...
 
 ? 
 ! Too many }'s.
-l.715 ...64.}}${}^{{}^{2 \cdot 4}}$ (IETF), RFC 2}
+l.734 ...64.}}${}^{{}^{2 \cdot 4}}$ (IETF), RFC 2}
                                                    Of the 64 bits of a lin...
 
 ? 
@@ -1849,7 +1878,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.715 ...}}${}^{{}^{2 \cdot 4}}$ (IETF), RFC 2} 
+l.734 ...}}${}^{{}^{2 \cdot 4}}$ (IETF), RFC 2} 
                                                   Of the 64 bits of a link-l...
 
 ? 
@@ -1861,7 +1890,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.715 ...[6 \ref{linklokal}^{2\cdot 5 \cdot}]}$ 
+l.734 ...[6 \ref{linklokal}^{2\cdot 5 \cdot}]}$ 
                                                   
 ? 
 
@@ -1872,11 +1901,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.717 ...notemark[8 \ref{linklokal}^{2\cdot}]}$ 
+l.736 ...notemark[8 \ref{linklokal}^{2\cdot}]}$ 
                                                   
 ? 
 
-Underfull \hbox (badness 1178) in paragraph at lines 723--723
+Underfull \hbox (badness 1178) in paragraph at lines 742--742
 [][][][] \T1/cmr/m/n/8 S. Thom-son; T. Narten; T. Jin-mei (Septem-ber 2007). []
 []IPv6 State-less Ad-dress Au-to-con-fig-u-ra-tion[][]. Net-work Work-ing Group
 .
@@ -1890,26 +1919,26 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.725 ... based$,^{\footnotemark[1 \ref{NDP}]}$ 
+l.744 ... based$,^{\footnotemark[1 \ref{NDP}]}$ 
                                                    or randomized.\footnote{\...
 
 ? 
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.734 \centering
+l.753 \centering
                 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.734 \centering
+l.753 \centering
                 
 ? 
-<./IPv4_Packet-en.svg.PNG, id=769, 1927.2pt x 879.285pt>
+<./IPv4_Packet-en.svg.PNG, id=788, 1927.2pt x 879.285pt>
 File: ./IPv4_Packet-en.svg.PNG Graphic file (type png)
 <use ./IPv4_Packet-en.svg.PNG>
-Package pdftex.def Info: ./IPv4_Packet-en.svg.PNG  used on input line 735.
+Package pdftex.def Info: ./IPv4_Packet-en.svg.PNG  used on input line 754.
 (pdftex.def)             Requested size: 284.52756pt x 129.80745pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1919,8 +1948,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[48 <./IPv6_link_local_unicast_address_structure-en.svg.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 752--754
+[50 <./IPv6_link_local_unicast_address_structure-en.svg.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 771--773
 
  []
 
@@ -1932,7 +1961,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.771 ...x letters of the English alphabet \[A, 
+l.790 ...x letters of the English alphabet \[A, 
                                                   B, C, D, E, F\] wh...
 
 ? 
@@ -1944,7 +1973,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.771 ...ters of the English alphabet \[A, B, 
+l.790 ...ters of the English alphabet \[A, B, 
                                                   C, D, E, F\] which a...
 
 ? 
@@ -1956,7 +1985,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.771 ...of the English alphabet \[A, B, C, 
+l.790 ...of the English alphabet \[A, B, C, 
                                                   D, E, F\] which are re...
 
 ? 
@@ -1968,7 +1997,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.771 ...e English alphabet \[A, B, C, D, 
+l.790 ...e English alphabet \[A, B, C, D, 
                                                   E, F\] which are represe...
 
 ? 
@@ -1980,7 +2009,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.771 ...lish alphabet \[A, B, C, D, E, 
+l.790 ...lish alphabet \[A, B, C, D, E, 
                                                   F\] which are representing...
 
 ? 
@@ -1992,25 +2021,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[49 <./IPv4_Packet-en.svg.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[50]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[51]
+[51 <./IPv4_Packet-en.svg.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2039,46 +2050,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [54]
 
-! LaTeX Error: Unicode character   (U+200A)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.922 ...ical subdivision of an IP network.[1]: 
-                                                  1, 16  The practice of...
-
-? 
-
-! LaTeX Error: Unicode character   (U+200A)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.922 ...subdivision of an IP network.[1]: 1, 
-                                                  16  The practice of divi...
-
-? 
-
-! LaTeX Error: Unicode character   (U+200A)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.922 ...vision of an IP network.[1]: 1, 16 
-                                                   The practice of dividing ...
-
-? 
-
-Underfull \vbox (badness 5954) has occurred while \output is active []
-
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -2096,16 +2067,42 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [56]
-! Misplaced alignment tab character &.
-<argument> Class A Public &
-                            Private IP Address Range
-l.970 ...lass A Public & Private IP Address Range}
+
+! LaTeX Error: Unicode character   (U+200A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
+l.941 ...ical subdivision of an IP network.[1]: 
+                                                  1, 16  The practice of...
+
 ? 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `alignment tab' on input line 970.
+! LaTeX Error: Unicode character   (U+200A)
+               not set up for use with LaTeX.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.941 ...subdivision of an IP network.[1]: 1, 
+                                                  16  The practice of divi...
+
+? 
+
+! LaTeX Error: Unicode character   (U+200A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.941 ...vision of an IP network.[1]: 1, 16 
+                                                   The practice of dividing ...
+
+? 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2115,25 +2112,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [57]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[58]
 ! Misplaced alignment tab character &.
-<argument> Class B Public &
+<argument> Class A Public &
                             Private IP Address Range
-l.982 ...lass B Public & Private IP Address Range}
+l.989 ...lass A Public & Private IP Address Range}
                                                   
 ? 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `alignment tab' on input line 982.
-
-! Misplaced alignment tab character &.
-<argument> Class C Public &
-                            Private IP Address Range
-l.994 ...lass C Public & Private IP Address Range}
-                                                  
-? 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `alignment tab' on input line 994.
+(hyperref)                removing `alignment tab' on input line 989.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2143,7 +2139,36 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[58
+[59]
+! Misplaced alignment tab character &.
+<argument> Class B Public &
+                            Private IP Address Range
+l.1001 ...ass B Public & Private IP Address Range}
+                                                  
+? 
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `alignment tab' on input line 1001.
+
+! Misplaced alignment tab character &.
+<argument> Class C Public &
+                            Private IP Address Range
+l.1013 ...ass C Public & Private IP Address Range}
+                                                  
+? 
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `alignment tab' on input line 1013.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[60
 
 ]
 
@@ -2154,13 +2179,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[59
+[61
 
 ]
 ! Undefined control sequence.
 <argument> \imki@jobname 
                          @idxfile
-l.1030 
+l.1049 
        
 ? 
 
@@ -2170,7 +2195,7 @@ See the imakeidx package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1030 
+l.1049 
        
 ? 
 (./networking.aux)
@@ -2178,14 +2203,14 @@ l.1030
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `networking.out' has not changed.
-(rerunfilecheck)             Checksum: 80B55730FC4B359BB47F841478A50714;12125.
+(rerunfilecheck)             Checksum: 4C74399E20619D152EF88C23DE06D3AB;12215.
  ) 
 Here is how much of TeX's memory you used:
- 16917 strings out of 478238
- 268256 string characters out of 5850456
- 683007 words of memory out of 5000000
- 34645 multiletter control sequences out of 15000+600000
- 485585 words of font info for 60 fonts, out of 8000000 for 9000
+ 16998 strings out of 478238
+ 269228 string characters out of 5850456
+ 686202 words of memory out of 5000000
+ 34718 multiletter control sequences out of 15000+600000
+ 487734 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,12n,117p,981b,988s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/t
@@ -2204,14 +2229,16 @@ r/sfcc0600.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb>
 </usr/share/texmf-dist/fonts/type1/public/cm-super/sfit1200.pfb></usr/share/tex
 mf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf-dist/fonts/t
 ype1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-
-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.
-pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share
-/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb></usr/share/texmf-dist/fon
-ts/type1/public/cm-super/sfxc1200.pfb>
-Output written on networking.pdf (59 pages, 3136760 bytes).
+super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.
+pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share
+/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf-dist/fon
+ts/type1/public/cm-super/sftt1440.pfb></usr/share/texmf-dist/fonts/type1/public
+/cm-super/sfxc1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfxc1
+440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfxc1728.pfb>
+Output written on networking.pdf (61 pages, 3180052 bytes).
 PDF statistics:
- 990 PDF objects out of 1000 (max. 8388607)
- 805 compressed objects within 9 object streams
- 196 named destinations out of 1000 (max. 500000)
- 839 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1022 PDF objects out of 1200 (max. 8388607)
+ 829 compressed objects within 9 object streams
+ 201 named destinations out of 1000 (max. 500000)
+ 847 words of extra memory for PDF output out of 10000 (max. 10000000)
 

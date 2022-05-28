@@ -64,7 +64,7 @@
 \fancyhf{}
 \fancyhead[RO,LE]{\textbf{\thepage}}
 \fancyhead[LO]{\nouppercase{\textbf{\color{teal}\leftmark}}}
-\fancyhead[RE]{\nouppercase{\textbf{\rightmark}}}
+\fancyhead[RE]{\nouppercase{\textbf{\color{cyan}\rightmark}}}
 
 %possibility to add chapters
 
@@ -73,9 +73,21 @@
 %background image to parts
 \usepackage{eso-pic}
 
+\usepackage{sectsty}    %package to define colors
+\definecolor{Bluetto}{rgb}{0.2,0.4,1} %defining color
+\definecolor{Bluettino}{rgb}{0.1,0.5,0.8} %defining color
+\definecolor{Bluettetto}{rgb}{0.1,0.4,0.4} %defining color
+
+\chapterfont{\color{Bluetto}}   %using the defined color for chapter fonts
+\sectionfont{\color{Bluettetto}}  %defining section color
+\subsectionfont{\color{Bluettino}} %defining subsection color
+\subsubsectionfont{\color{teal}} %defining subsection color
 \begin{document}
 
-\title{Networking}
+\title{%
+Level 3 I.T Solutions\\
+\large  A Top Down Approach\\
+\small ACL Brentwood}
 \maketitle
 \hypersetup{linkcolor=teal}
 \tableofcontents
@@ -84,13 +96,14 @@
 \hypersetup{linkcolor=blue}
 \clearpage
 
-\part{Introduction}
-In this article we spend some words to introduce the reader to the world of networking trying to cover all the most important aspects to the best of my knowledge. In the first chapter
+\part{Networking}
+
 
 \chapter{The basics of Networks}
 \AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{118.jpg}}
 
-
+In this article we spend some words to introduce the reader to the world of networking trying to cover all the most important aspects to the best of my knowledge. In the first chapter
+\clearpage
 \begin{wrapfigure}[21]{5cm}
 \centering
 \includegraphics[width=12cm]{./net.png}
@@ -98,11 +111,13 @@ In this article we spend some words to introduce the reader to the world of netw
 \caption{devices connected in the world}\label{wrap-fig:1}
 \end{wrapfigure}
 
+\section{\textsc{What is a network?}}
+
 A network is two or more \emph{computers} (or other electronic devices) \textbf{connected} together, usually by cables(\textbf{guided}) or Wi-Fi(\textbf{unguided}).
 
 
 
-\section{network benefits}
+\subsection{\textsc{Network benefits}}
 \begin{enumerate}
 \item {sharing hardware, such as printers, computers, phones, tablets, scanners, etc...}\footnotemark{}
 \item {sharing software, allowing:}
@@ -124,10 +139,10 @@ A network is two or more \emph{computers} (or other electronic devices) \textbf{
 
 \noindent We use a huge network on a daily basis and this is called the internet. Around three billion people use the internet to share data, news and resources, amongst many other things.
 \clearpage
-\subsection{guided wiring}
+\subsection{\textsc{guided wiring}}
 Is quicker than unguided, it consists in physical wires. Optic Fiber is on the top of this list but can't be twisted or the light will bounce back. You can install an optic cable for a much longer distance and you won't get the same troubles you would get with copper cables for example. But no twisting or it'll bounce back!
 
-\subsection{unguided wiring}
+\subsection{\textsc{unguided wiring}}
 The term \emph{wiring} can be deceiving here as there are literally no wires involved to realize the connection. In Cantonese is probably much clearer (Figure 2).
 
 
@@ -180,7 +195,7 @@ If you ask a person :
 
 %\end{CJK}
 
-\section{LAN vs WAN}
+\section{\textsc{LAN vs WAN}}
 
 LAN, which stands for \textbf{local area network}, and WAN, which stands for \textbf{wide area network}, are two types of networks and \texttt{\textit{as the naming conventions suggest}}, LANs are for more localized networking\footnote{\label{LAN}in a home,business,school,etc.}
 \begin{wrapfigure}{R}{7cm}
@@ -191,13 +206,13 @@ LAN, which stands for \textbf{local area network}, and WAN, which stands for \te
 \end{wrapfigure}
 
 \noindent while WANs cover larger areas, such as cities, and even allow computers in different nations to connect.
-LANs are typically faster and more secure than WANs, but WANs enable more widespread connectivity. Of course there are sort of exceptions like the NHS having a huge Local Area Network spread all over the country with local IP addresses starting in the first octet with \oldstylenums{10} instead of \oldstylenums{192}, thus using a Class A Address rather than a Class C (more on this topic in Chapter 33) 
+LANs are typically faster and more secure than WANs, but WANs enable more widespread connectivity. Of course there are sort of exceptions like the NHS having a huge Local Area Network spread all over the country with local IP addresses starting in the first octet with \oldstylenums{10} instead of \oldstylenums{192}, thus using a Class A Address rather than a Class C (more on this topic in the Section called \textbf{The Five IPv4 Classes}) 
 
 
-
+\chapter{Standards and Protocols}
+\AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{118.jpg}}
+Here we will discuss about protocols and standards
 \clearpage
-
-
 
 \section{IEEE 802.3}
 
@@ -217,11 +232,9 @@ The psysical layer is the lowest layer identified in the TCP/IP protocol or the 
 
 
 
-\subsection{Popular Versions}
+\subsection{\textsc{Popular Versions}}
 
 There are a number of versions of IEEE 802.3 protocol. The most popular ones are:
-
-
 
 \begin{itemize}
 \item{IEEE 802.3: This was the original standard given for coaxial (10BASE-5). Here, 10 is the maximum throughput which means 10 Mbps and 5 refers to the maximum segment length of 500m. If it goes longer than 500m there's no guarantee it'll work}
@@ -231,11 +244,11 @@ There are a number of versions of IEEE 802.3 protocol. The most popular ones are
 
 \clearpage
 
-\section{Protocols}
+\section{\textsc{Protocols}}
 
 Protocols are kind of rules defined in advance to make sure two or more devices know in advance what to expect if they send a particular message and what to expect in return 
 
-\subsection{OSI Standard}
+\subsection{\textsc{OSI Standard}}
 The Open Systems Interconnection (OSI) model describes seven layers that computer systems use to communicate over a network. It was the first standard model for network communications, adopted by all major computer and telecommunication companies in the early 1980s
 
 \begin{wrapfigure}[21]{5cm}
@@ -249,7 +262,7 @@ The Open Systems Interconnection (OSI) model describes seven layers that compute
 The modern Internet is not based on OSI, but on the simpler TCP/IP model. However, the OSI 7-layer model is still widely used, as it helps visualize and communicate how networks operate, and helps isolate and troubleshoot networking problems.
 
 
-\subsection{A good Mnemonic}
+\subsection{\textsc{A good Mnemonic}}
 One way to remember the OSI Layer is, as always, by using funny and silly stories but this time we won't be talking of italian clichés, mentioning videogames monsters or referencing Boris Johnson jumping from an airplane holding the British Flag (yes he did that as well) but we'll use this mnemonic insetead: 
 
 \medskip
@@ -259,7 +272,7 @@ One way to remember the OSI Layer is, as always, by using funny and silly storie
 
 \noindent It's obtained by looking at the $1^{st}$ letter of each layer from the bottom
 
-\subsection{Theory vs Practice}
+\subsection{\textsc{Theory vs Practice}}
 Even if The Transmission Control Protocol/Internet Protocol (TCP/IP) model came before the Open Systems Interconnection (OSI) model it is what is used in practice today, and it has only five layers:
 
 \begin{itemize}
@@ -270,11 +283,17 @@ Even if The Transmission Control Protocol/Internet Protocol (TCP/IP) model came 
 \item {Hardware layer}
 \end{itemize}
 
-\noindent This may look drastically different from the OSI model, primarily because some functions are encompassed in a single layer: the application layer. In TCP/IP, this provides users with the physical standards, transport functions, network interface, and internetworking functions that correspond with the first three layers of the OSI model. In other words, in the TCP/IP model, these services are all done in the application layer.
+\noindent It may look different from the OSI model, but some functions are just encompassed in a single layer which is  \textbf{the application layer} corresponding to $Application^{OSI}$,$Presentation^{OSI}$ and $Session^{OSI}$.
 
-TCP/IP is connection and connectionless
+\subsubsection{\textsc{connection-oriented protocols}}
 
-\subsection{horizontal vs vertical approach}
+TCP/IP is a \textbf{connection-oriented} protocol. This means that before the client and server can start to send data to each other, they first need to \textbg{handshake} and establish a TCP connection. One end of the TCP connection is attached to the client socket and the other end is attached to a server socket. When creating the TCP connection, we associate it with the client socket address(IP address and port number). With the TCP connection established, when one side wants to send data to the other side, it just drops the data into the TCP connection via its socket. This is different from UDP, for which the server must attach a destination address to the packet before dropping it into the socket.
+
+Now let's take a closer look at the interaction of client and server programs in TCP.
+
+
+
+\subsubsection{\textsc{horizontal vs vertical approach}}
 There's a debate on which one is vertical and which is horizontal so that point won't be discussed in this document for the time being.
 
 \section{ARP/RARP/DHCP}
