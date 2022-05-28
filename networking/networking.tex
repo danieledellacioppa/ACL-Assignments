@@ -1,4 +1,4 @@
-\documentclass[a4paper,12pt]{article}
+\documentclass[a4paper,12pt]{book}
 \usepackage{color}
 \usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
 \usepackage{listings}
@@ -57,6 +57,22 @@
 %\newfontfamily{\cfont}{Microsoft YaHei}
 
 
+%nome del capitolo ad ogni pagina 
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\fancyhf{}
+\fancyhead[RO,LE]{\textbf{\thepage}}
+\fancyhead[LO]{\nouppercase{\textbf{\color{teal}\leftmark}}}
+\fancyhead[RE]{\nouppercase{\textbf{\rightmark}}}
+
+%possibility to add chapters
+
+\usepackage[english]{babel}
+
+%background image to parts
+\usepackage{eso-pic}
+
 \begin{document}
 
 \title{Networking}
@@ -68,7 +84,11 @@
 \hypersetup{linkcolor=blue}
 \clearpage
 
-\part{The basics of Networks}
+\part{Introduction}
+In this article we spend some words to introduce the reader to the world of networking trying to cover all the most important aspects to the best of my knowledge. In the first chapter
+
+\chapter{The basics of Networks}
+\AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{118.jpg}}
 
 
 \begin{wrapfigure}[21]{5cm}
@@ -82,7 +102,7 @@ A network is two or more \emph{computers} (or other electronic devices) \textbf{
 
 
 
-\section {network benefits}
+\section{network benefits}
 \begin{enumerate}
 \item {sharing hardware, such as printers, computers, phones, tablets, scanners, etc...}\footnotemark{}
 \item {sharing software, allowing:}
