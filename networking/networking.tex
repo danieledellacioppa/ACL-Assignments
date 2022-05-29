@@ -143,7 +143,7 @@ A network is two or more \emph{computers} (or other electronic devices) \textbf{
 Is quicker than unguided, it consists in physical wires. Optic Fiber is on the top of this list but can't be twisted or the light will bounce back. You can install an optic cable for a much longer distance and you won't get the same troubles you would get with copper cables for example. But no twisting or it'll bounce back!
 
 \subsection{\textsc{unguided wiring}}
-The term \emph{wiring} can be deceiving here as there are literally no wires involved to realize the connection. In Cantonese is probably much clearer (Figure 2).
+The term \emph{wiring} can be deceiving here as there are literally no wires involved to realize the connection. In Cantonese is probably much clearer (Figure 1.2).
 
 
 \begin{wrapfigure}{R}{11cm}
@@ -154,7 +154,7 @@ The term \emph{wiring} can be deceiving here as there are literally no wires inv
 \end{wrapfigure}
 
 
-Unguided wiring simply means Wi-Fi really. You can have a 2.4Ghz signal to reach longer distance but won't be nicely matched with a 5Ghz device. A 5Ghz device won't reach the same distance as a 2.4Ghz.Take a look how it's worded in Cantonese and you'll see a different etymological meaning from the English one\footnote{\label{wifialliance}stands for Wireless Fidelity.It kept this name for a short time after the brand name was created by the \href{https://en.wikipedia.org/wiki/Wi-Fi_Alliance}{Wi-Fi Alliance}.} but still both words suggest the idea that no wires are involved.
+Unguided wiring simply means Wi-Fi really. You can have a 2.4Ghz signal to reach longer distance but won't be nicely matched with a 5Ghz device. A 5Ghz device won't reach the same distance as a 2.4Ghz. Take a look how it's worded in Cantonese and you'll see a different etymological meaning from the English one\footnote{\label{wifialliance}stands for Wireless Fidelity.It kept this name for a short time after the brand name was created by the \href{https://en.wikipedia.org/wiki/Wi-Fi_Alliance}{Wi-Fi Alliance}.} but still both words suggest the idea that no wires are involved.
 
 
 \wrapfill
@@ -227,7 +227,7 @@ IEEE 802.3 is a set of standards and protocols that define Ethernet-based networ
 \noindent are primarily used in LANs, though they can also be used in WANs as well.
 
 IEEE 802.3 defines the physical layer and the medium access control (MAC) sub-layer of the data link layer for wired Ethernet networks. The unique identifier of our computer's motherboard is actually adhering to a standard defined by IEEE 802.3.
-The psysical layer is the lowest layer identified in the TCP/IP protocol or the ISO/OSI protocol. The packets on the network before they finally go to destination they need to know which MAC address corresponds to the IP they hold already in the headers. In the next paragraph we'll explain the different cables in Figure 5.
+The psysical layer is the lowest layer identified in the TCP/IP protocol or the ISO/OSI protocol. The packets on the network before they finally go to destination they need to know which MAC address corresponds to the IP they hold already in the headers. In the next paragraph we'll explain the different cables in Figure 2.1.
 
 
 
@@ -286,15 +286,50 @@ Even if The Transmission Control Protocol/Internet Protocol (TCP/IP) model came 
 \noindent It may look different from the OSI model, but some functions are just encompassed in a single layer which is  \textbf{the application layer} corresponding to $Application^{OSI}$,$Presentation^{OSI}$ and $Session^{OSI}$.
 
 \subsubsection{\textsc{connection-oriented protocols}}
+Unlike UDP, TCP/IP is a \textbf{connection-oriented} protocol\footnote{\label{tcpsocket}James F. Kurose and Keith W. Ross \href{https://gaia.cs.umass.edu/kurose_ross/online_lectures.htm}{Computer Networking A Top-Down Approach}.}}. This means that before the client and server can start to send data to each other, they first need to \textbg{handshake} and establish a TCP connection. One end of the TCP connection is attached to the client socket and the other end is attached to a server socket. When creating the TCP connection, we associate it with the client socket address(IP address and port number). With the TCP connection established, when one side wants to send data to the other side, it just drops the data into the TCP connection via its socket. This is different from UDP, for which the server must attach a destination address to the packet before dropping it into the socket.
 
-TCP/IP is a \textbf{connection-oriented} protocol. This means that before the client and server can start to send data to each other, they first need to \textbg{handshake} and establish a TCP connection. One end of the TCP connection is attached to the client socket and the other end is attached to a server socket. When creating the TCP connection, we associate it with the client socket address(IP address and port number). With the TCP connection established, when one side wants to send data to the other side, it just drops the data into the TCP connection via its socket. This is different from UDP, for which the server must attach a destination address to the packet before dropping it into the socket.
+Now let’s take a closer look at the interaction of client and server programs in TCP. The client has the job of initiating contact with the server. In order for the server to be able to react to the client’s initial contact, the server has to be ready. This implies two things. First, as in the case of UDP, the TCP server must be running as a process before the client attempts to initiate contact. Second, the server program must have a special door, more precisely a special socket, that welcomes some initial contact from a client process running on an arbitrary host. Using our \textbf{house/door} analogy for a \textbf{process/socket}, we will sometimes refer to the client’s initial contact as “knocking on the welcoming door.”
 
-Now let's take a closer look at the interaction of client and server programs in TCP.
+With the server process running, the client process can initiate a TCP connection to the server. This is done in the client program by creating a TCP socket. When the client creates its TCP socket, it specifies the address of the welcoming socket in the server, namely, the IP address of the server host and the port number of the socket. After creating its socket, the client initiates a \textbf{three-way handshake} and establishes a
+TCP connection with the server. The three-way handshake, which takes place within the transport layer, is completely invisible to the client and server programs.
 
+\begin{wrapfigure}{4cm}
+\centering
+\includegraphics[width=7.4cm]{./tcp-socket.PNG}
+%\vspace{-10pt}
+\caption{The TCPServer process has two sockets}\label{tcpsocket}
+\end{wrapfigure}
+
+During the three-way handshake, the client process knocks on the welcoming door of the server process. When the server “hears” the knocking, it creates a new door, more precisely, a new socket that is dedicated to that particular client. In our example below, the welcoming door is a TCP socket object that we call serverSocket; the newly created socket dedicated to the client making the connection is called connectionSocket. People encountering TCP sockets for the first time sometimes confuse the welcoming socket (which is the initial
+point of contact for all clients wanting to communicate with the server), and each newly created server-side connection socket that is subsequently created for communicating with each client.
+
+From the application’s perspective, the client’s socket and the server’s connection socket are directly connected by a pipe. As shown in Figure 2.3, the client process can send arbitrary bytes into its socket, and TCP guarantees that the server process will receive (through the connection socket) each byte in the order sent. TCP thus provides a reliable service between the client and server processes.
+Furthermore, just as people can go in and out the same door, the client process not only sends bytes into but also receives bytes from its socket; similarly, the server process not only receives bytes from but also sends bytes into its connection socket.
+
+\subsubsection{\textsc{connectionless protocols}}
+
+UDP is a no-frills, lightweight transport protocol, providing minimal services. UDP is connectionless, so there is no handshaking before the two processes start to communicate. UDP provides an unreliable data transfer service, which means, when a process sends a message into a UDP socket, UDP provides no guarantee that the message will ever reach the receiving process. Furthermore, messages that do arrive at the
+receiving process may arrive out of order.
+
+UDP does not include a congestion-control mechanism, so the sending side of UDP can pump data into the layer below (the network layer) at any rate it pleases. (Note, however, that the actual end-to-end throughput may be less than this rate due to the limited transmission capacity of intervening links or due to congestion).
 
 
 \subsubsection{\textsc{horizontal vs vertical approach}}
-There's a debate on which one is vertical and which is horizontal so that point won't be discussed in this document for the time being.
+
+There's a debate on which one is vertical and which is horizontal so that point won't be discussed in depth in this document for the time being but for the sake of quoting quora.com:
+
+\medskip
+
+\textbf{In the OSI model, there are no intermediate nodes between transport layer or above layers, hence these layers communicate directly with each other, hence horizontal approch.}
+
+\medskip
+
+\textbf{While in TCP/IP, each layer is traversed starting from application layer to transport layer then internet layer then goes to the host and then the network layer, and then msg is sent. Meaning data travels each layer, accessing their functionality, only then it is sent, hence vertical approch.}
+
+\medskip
+
+But to me it doesn't really make sense the whole matter. I mean what's the point? If a question like this comes out in the exam I'll just have a random guess
+
 
 \section{ARP/RARP/DHCP}
 Address Resolution Protocol translates MAC addresses into IPs so that from the network layer we can communicate over the internet with IPs while RARP demands another computer (usually a server) to assign the demanding one with an IP which is essentially what DHCP is doing that's why RARP got obsolete
