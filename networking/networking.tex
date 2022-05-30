@@ -137,7 +137,7 @@ A network is two or more \emph{computers} (or other electronic devices) \textbf{
 
 \newline \noindent Networking is crucial if you want to use your computer to communicate. Without it you couldn’t send an email, a text or an instant message and that would be so weird in 2022 isn't it?
 
-\noindent We use a huge network on a daily basis and this is called the internet. Around three billion people use the internet to share data, news and resources, amongst many other things.
+\noindent We use a huge network on a daily basis and this is called the internet. Around 5 billion\footnote{\label{peopleOnInternet}\href{https://www.oberlo.com/statistics/how-many-people-use-internet}{Oberlo statistic}.} people use the internet to share data, news and resources, amongst many other things.
 \clearpage
 \subsection{\textsc{guided wiring}}
 Is quicker than unguided, it consists in physical wires. Optic Fiber is on the top of this list but can't be twisted or the light will bounce back. You can install an optic cable for a much longer distance and you won't get the same troubles you would get with copper cables for example. But no twisting or it'll bounce back!
@@ -329,6 +329,26 @@ There's a debate on which one is vertical and which is horizontal so that point 
 \medskip
 
 But to me it doesn't really make sense the whole matter. I mean what's the point? If a question like this comes out in the exam I'll just have a random guess
+
+\section{Switched Local Area Networks}
+
+\begin{wrapfigure}{R}{11cm}
+\centering
+\includegraphics[width=10cm]{./switched-lan.PNG}
+%\vspace{-10pt}
+\caption{An institutional network connected together by four switches}\label{wrap-fig:5}
+\end{wrapfigure}
+
+
+Let's do now talk about Switched local networks. Figure 2.4 shows a switched local network connecting two servers, three departments and a router using four switches. Because these switches operate at the link layer (layer-2 if you recall Figure 2.2), they switch link-layer frames (rather than network-layer datagrams), hence don’t recognize network-layer addresses, thus don’t use routing algorithms like for example OSPF to determine paths through the network of layer-2 switches. Rather than using IP addresses, we will soon see that they use link-layer addresses to forward link-layer frames through the network of switches. We shall begin our study of switched LANs by first covering linklayer addressing (Section 6.4.1). We then take a close look to the famous Ethernet protocol (Section 6.4.2). Once we've seen the link-layer addressing and Ethernet, we’ll look at how link-layer switches operate (Section 6.4.3), and then see (Section 6.4.4) how these switches are often used to build large-scale LANs.
+
+\subsection{Link-layer addressing and ARP}
+
+Hosts and routers have link-layer addresses. Now you might find this surprising, recalling from Chapter 4 that hosts and routers have network-layer addresses as well. You might be asking, why in the world do we need to have addresses at both the network and link layers? In addition to describing the syntax and function of the link-layer addresses, in this section we hope to shed some light on why the two layers of addresses are useful and, in fact, indispensable. We’ll also cover the Address Resolution Protocol (ARP), which provides a mechanism to translate IP addresses to link-layer addresses.
+
+\subsubsection{MAC Addresses}
+In truth, it is not hosts and routers that have link-layer addresses but rather their adapters (that is, network interfaces) that have link-layer addresses. A host or router with multiple network interfaces will thus have multiple link-layer addresses associated with it, just as it would also have multiple IP addresses associated with it. It’s important to note, however, that link-layer switches do not have link-layer addresses associated with their interfaces that connect to hosts and routers. This is because the job of the link-layer switch is to carry datagrams between hosts and routers; a switch does this job transparently, that is, without the host or router having to explicitly address the frame to the intervening switch. This is illustrated in Figure 6.16. A linklayer address is variously called a LAN address, a physical address, or a MAC address. Because MAC address seems to be the most popular term, we’ll henceforth refer to link-layer addresses as MAC addresses. For most LANs (including Ethernet and 802.11 wireless LANs), the MAC address is 6 bytes long, giving 248 possible MAC addresses. As shown in Figure 6.16, these 6-byte addresses are typically expressed in hexadecimal notation, with each byte of the address expressed as a pair of hexadecimal numbers. Although MAC addresses were designed to be permanent, it is now possible to change an adapter’s MAC address via software. For the rest of this section, however, we’ll assume that an adapter’s MAC address is fixed. One interesting property of MAC addresses is that no two adapters have the same address. This might seem surprising given that adapters are manufactured in
+many countries by many companies. How does a company manufacturing adapters in Taiwan make sure that it is using different addresses from a company manufacturing 
 
 
 \section{ARP/RARP/DHCP}
