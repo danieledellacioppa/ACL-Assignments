@@ -82,6 +82,47 @@
 \sectionfont{\color{Bluettetto}}  %defining section color
 \subsectionfont{\color{Bluettino}} %defining subsection color
 \subsubsectionfont{\color{teal}} %defining subsection color
+\paragraphfont{\color{OliveGreen}} %defining paragraph color
+\subparagraphfont{\color{LimeGreen}} %defining subparagraph color
+
+
+%coding blocks
+\definecolor{listinggray}{gray}{0.9}
+\definecolor{lbcolor}{rgb}{0.9,0.9,0.9}
+\lstset{
+	backgroundcolor=\color{lbcolor},
+	tabsize=4,
+	rulecolor=,
+	language=matlab,
+        basicstyle=\scriptsize,
+        upquote=true,
+        aboveskip={1.5\baselineskip},
+        columns=fixed,
+        showstringspaces=false,
+        extendedchars=true,
+        breaklines=true,
+        prebreak = \raisebox{0ex}[0ex][0ex]{\ensuremath{\hookleftarrow}},
+        frame=single,
+        showtabs=false,
+        showspaces=false,
+        showstringspaces=false,
+        identifierstyle=\ttfamily,
+        keywordstyle=\color[rgb]{0,0,1},
+        commentstyle=\color[rgb]{0.133,0.545,0.133},
+        stringstyle=\color[rgb]{0.627,0.126,0.941},
+}
+
+
+%quoting
+\usepackage{csquotes}
+
+%epigraph
+\usepackage{epigraph} 
+
+%fonts
+%\usepackage[T1]{fontenc}
+%\usepackage{accanthis}
+
 \begin{document}
 
 \title{%
@@ -143,14 +184,14 @@ A network is two or more \emph{computers} (or other electronic devices) \textbf{
 Is quicker than unguided, it consists in physical wires. Optic Fiber is on the top of this list but can't be twisted or the light will bounce back. You can install an optic cable for a much longer distance and you won't get the same troubles you would get with copper cables for example. But no twisting or it'll bounce back!
 
 \subsection{\textsc{unguided wiring}}
-The term \emph{wiring} can be deceiving here as there are literally no wires involved to realize the connection. In Cantonese is probably much clearer (Figure 1.2).
+The term \emph{wiring} can be deceiving here as there are literally no wires involved to realize the connection. In Cantonese is probably much clearer (Figure \ref{fig:wifihk}).
 
 
 \begin{wrapfigure}{R}{11cm}
 \centering
 \includegraphics[width=5cm]{WiFi-HK.PNG}
 %\vspace{-10pt}
-\caption{Definition of WiFi in Historical Chinese commonly spoken in Hong Kong}\label{wrap-fig:5}
+\caption{Definition of WiFi in Historical Chinese commonly spoken in Hong Kong}\label{fig:wifihk}
 \end{wrapfigure}
 
 
@@ -221,13 +262,13 @@ IEEE 802.3 is a set of standards and protocols that define Ethernet-based networ
 \centering
 \includegraphics[width=13cm]{./ieee_802.jpg}
 \vspace{-15pt}
-\caption{IEEE cable hierarchy}\label{wrap-fig:2}
+\caption{IEEE cable hierarchy}\label{fig:ieee802}
 \end{wrapfigure}
 
 \noindent are primarily used in LANs, though they can also be used in WANs as well.
 
 IEEE 802.3 defines the physical layer and the medium access control (MAC) sub-layer of the data link layer for wired Ethernet networks. The unique identifier of our computer's motherboard is actually adhering to a standard defined by IEEE 802.3.
-The psysical layer is the lowest layer identified in the TCP/IP protocol or the ISO/OSI protocol. The packets on the network before they finally go to destination they need to know which MAC address corresponds to the IP they hold already in the headers. In the next paragraph we'll explain the different cables in Figure 2.1.
+The psysical layer is the lowest layer identified in the TCP/IP protocol or the ISO/OSI protocol. The packets on the network before they finally go to destination they need to know which MAC address corresponds to the IP they hold already in the headers. In the next paragraph we'll explain the different cables in Figure \ref{fig:ieee802}.
 
 
 
@@ -255,7 +296,7 @@ The Open Systems Interconnection (OSI) model describes seven layers that compute
 \centering
 \includegraphics[width=12cm]{./OSI-7-layers.jpg}
 %\vspace{-10pt}
-\caption{OSI Layer representation}\label{wrap-fig:3}
+\caption{OSI Layer representation}\label{fig:osilayers}
 \end{wrapfigure}
 
 
@@ -297,13 +338,13 @@ TCP connection with the server. The three-way handshake, which takes place withi
 \centering
 \includegraphics[width=7.4cm]{./tcp-socket.PNG}
 %\vspace{-10pt}
-\caption{The TCPServer process has two sockets}\label{tcpsocket}
+\caption{The TCPServer process has two sockets}\label{fig:tcpsocket}
 \end{wrapfigure}
 
 During the three-way handshake, the client process knocks on the welcoming door of the server process. When the server “hears” the knocking, it creates a new door, more precisely, a new socket that is dedicated to that particular client. In our example below, the welcoming door is a TCP socket object that we call serverSocket; the newly created socket dedicated to the client making the connection is called connectionSocket. People encountering TCP sockets for the first time sometimes confuse the welcoming socket (which is the initial
 point of contact for all clients wanting to communicate with the server), and each newly created server-side connection socket that is subsequently created for communicating with each client.
 
-From the application’s perspective, the client’s socket and the server’s connection socket are directly connected by a pipe. As shown in Figure 2.3, the client process can send arbitrary bytes into its socket, and TCP guarantees that the server process will receive (through the connection socket) each byte in the order sent. TCP thus provides a reliable service between the client and server processes.
+From the application’s perspective, the client’s socket and the server’s connection socket are directly connected by a pipe. As shown in Figure \ref{fig:tcpsocket}, the client process can send arbitrary bytes into its socket, and TCP guarantees that the server process will receive (through the connection socket) each byte in the order sent. TCP thus provides a reliable service between the client and server processes.
 Furthermore, just as people can go in and out the same door, the client process not only sends bytes into but also receives bytes from its socket; similarly, the server process not only receives bytes from but also sends bytes into its connection socket.
 
 \subsubsection{\textsc{connectionless protocols}}
@@ -316,71 +357,129 @@ UDP does not include a congestion-control mechanism, so the sending side of UDP 
 
 \subsubsection{\textsc{horizontal vs vertical approach}}
 
-There's a debate on which one is vertical and which is horizontal so that point won't be discussed in depth in this document for the time being but for the sake of quoting quora.com:
+\epigraph{In the OSI model,the layers communicate directly with each other, hence horizontal approch.
 
-\medskip
+While in TCP/IP, each layer is traversed meaning data travels each layer, only then it is sent, hence vertical approch.}{\textit{horizontal and vertical approaches \\Quora.com}}
 
-\textbf{In the OSI model, there are no intermediate nodes between transport layer or above layers, hence these layers communicate directly with each other, hence horizontal approch.}
+\noindent If someone can explain to me how to interpret the message Quora.com is trying to convey or in general which protocol is horizontal and which is vertical and most importantly what's horizontal and vertical definition, then I'd be all ears and ready to learn but until then it'll be a mistery that someone one day will solve \textbf{but that day is not today and it won't be me}. If a question like this comes out in the exam I'll just have a random guess
 
-\medskip
+%\medskip
+%\begin{displayquote}
+%In the OSI model, there are no intermediate nodes between transport layer or above layers, hence these layers communicate directly with each other, hence horizontal approch.
+%While in TCP/IP, each layer is traversed starting from application layer to transport layer then internet layer then goes to the host and then the network layer, and then msg is sent. Meaning data travels each layer, accessing their functionality, only then it is sent, hence vertical approch.
+%\end{displayquote}
+%\medskip
 
-\textbf{While in TCP/IP, each layer is traversed starting from application layer to transport layer then internet layer then goes to the host and then the network layer, and then msg is sent. Meaning data travels each layer, accessing their functionality, only then it is sent, hence vertical approch.}
-
-\medskip
-
-But to me it doesn't really make sense the whole matter. I mean what's the point? If a question like this comes out in the exam I'll just have a random guess
+\clearpage
 
 \section{Switched Local Area Networks}
 
-\begin{wrapfigure}{R}{11cm}
+\begin{wrapfigure}[15]{R}{9cm}
 \centering
-\includegraphics[width=10cm]{./switched-lan.PNG}
+\includegraphics[width=9.5cm]{./switched-lan.PNG}
 %\vspace{-10pt}
-\caption{An institutional network connected together by four switches}\label{wrap-fig:5}
+\caption{An institutional network connected together by four switches}\label{fig:switched-lan}
 \end{wrapfigure}
 
 
-Let's do now talk about Switched local networks. Figure 2.4 shows a switched local network connecting two servers, three departments and a router using four switches. Because these switches operate at the link layer (layer-2 if you recall Figure 2.2), they switch link-layer frames (rather than network-layer datagrams), hence don’t recognize network-layer addresses, thus don’t use routing algorithms like for example OSPF to determine paths through the network of layer-2 switches. Rather than using IP addresses, we will soon see that they use link-layer addresses to forward link-layer frames through the network of switches. We shall begin our study of switched LANs by first covering linklayer addressing (Section 6.4.1). We then take a close look to the famous Ethernet protocol (Section 6.4.2). Once we've seen the link-layer addressing and Ethernet, we’ll look at how link-layer switches operate (Section 6.4.3), and then see (Section 6.4.4) how these switches are often used to build large-scale LANs.
+Let's do now talk about Switched local networks.
+
+Figure \ref{fig:switched-lan} shows a switched local network connecting two servers, three departments and a router using four switches. Since these switches operate at the link layer (layer-2 if you recall Figure \ref{fig:osilayers}), they switch link-layer frames (instead of network-layer datagrams\footnote{\label{datagram}basic transfer unit associated with a packet-switched network structured in header and payload providing connectionless communication service}), hence don’t recognize network-layer addresses, thus don’t use routing algorithms like for example OSPF to determine paths through the network of layer-2 switches. Rather than using IP addresses, we will soon see that they use link-layer addresses to forward link-layer frames through the network of switches. We shall approach switched LANs by first covering linklayer addressing (Section \ref{section:link-layer}). We then take a close look to the famous Ethernet protocol (Section -.-.-). Once we've seen the link-layer addressing and Ethernet, we’ll look at how link-layer switches operate (Section -.-.-), and then see (Section -.-.-) how these switches are often used to build large-scale LANs.
+
 
 \subsection{Link-layer addressing and ARP}
+\label{section:link-layer}
 
-Hosts and routers have link-layer addresses. Now you might find this surprising, recalling from Chapter 4 that hosts and routers have network-layer addresses as well. You might be asking, why in the world do we need to have addresses at both the network and link layers? In addition to describing the syntax and function of the link-layer addresses, in this section we hope to shed some light on why the two layers of addresses are useful and, in fact, indispensable. We’ll also cover the Address Resolution Protocol (ARP), which provides a mechanism to translate IP addresses to link-layer addresses.
+Hosts and routers have link-layer addresses. You might be asking, why in the world do we need to have addresses at both the network and link layers? In addition to describing the syntax and function of the link-layer addresses, in this section we hope to shed some light on why the two layers of addresses are useful and, in fact, indispensable. We’ll also cover the Address Resolution Protocol (ARP), which provides a mechanism to translate IP addresses to link-layer addresses.
 
 \subsubsection{MAC Addresses}
-In truth, it is not hosts and routers that have link-layer addresses but rather their adapters (that is, network interfaces) that have link-layer addresses. A host or router with multiple network interfaces will thus have multiple link-layer addresses associated with it, just as it would also have multiple IP addresses associated with it. It’s important to note, however, that link-layer switches do not have link-layer addresses associated with their interfaces that connect to hosts and routers. This is because the job of the link-layer switch is to carry datagrams between hosts and routers; a switch does this job transparently, that is, without the host or router having to explicitly address the frame to the intervening switch. This is illustrated in Figure 6.16. A linklayer address is variously called a LAN address, a physical address, or a MAC address. Because MAC address seems to be the most popular term, we’ll henceforth refer to link-layer addresses as MAC addresses. For most LANs (including Ethernet and 802.11 wireless LANs), the MAC address is 6 bytes long, giving 248 possible MAC addresses. As shown in Figure 6.16, these 6-byte addresses are typically expressed in hexadecimal notation, with each byte of the address expressed as a pair of hexadecimal numbers. Although MAC addresses were designed to be permanent, it is now possible to change an adapter’s MAC address via software. For the rest of this section, however, we’ll assume that an adapter’s MAC address is fixed. One interesting property of MAC addresses is that no two adapters have the same address. This might seem surprising given that adapters are manufactured in
-many countries by many companies. How does a company manufacturing adapters in Taiwan make sure that it is using different addresses from a company manufacturing 
+The truth is, hosts and routers don't have link-layer addresses but their adapters (their network interfaces) do instead. A host or router with multiple network interfaces will thus have multiple link-layer addresses associated with it, just as it would also have multiple IP addresses associated with it.
+
+\wrapfill
+\begin{wrapfigure}{L}{8cm}
+\centering\newcommand{\wrapfill}{\par\ifnum\value{WF@wrappedlines}>0
+  \addtocounter{WF@wrappedlines}{-1}%
+  \null\vspace{\arabic{WF@wrappedlines}\baselineskip}%
+  \WFclear
+\fi}
+\includegraphics[width=4cm]{./addressless-switch.PNG}
+\vspace{-10pt}
+\caption{Each interface connected to a LAN has a unique MAC address}\label{fig:addressless-switch}
+\end{wrapfigure}
 
 
-\section{ARP/RARP/DHCP}
-Address Resolution Protocol translates MAC addresses into IPs so that from the network layer we can communicate over the internet with IPs while RARP demands another computer (usually a server) to assign the demanding one with an IP which is essentially what DHCP is doing that's why RARP got obsolete
-\subsection{ARP Tables}
-These are used from every component in a network to know which MAC address the packet needs to point at 
-On this machine for example all it needs to know is which is the MAC address of the gateway, and the TV who's connected in the same WiFi
+\noindent It’s important to note, however, that link-layer switches do not have link-layer addresses associated with their interfaces that connect to hosts and routers.This is because the job of the link-layer switch is to carry datagrams between hosts and routers; a switch does this job transparently, that is, without the host or router having to explicitly address the frame to the intervening switch. This is illustrated in Figure \ref{fig:addressless-switch}. A linklayer address is variously called a \textbf{LAN address}, a \textbf{physical address}, or a \textbf{MAC address}. Because MAC address seems to be the most popular term, we’ll henceforth refer to link-layer addresses as MAC addresses. For most LANs (including Ethernet and 802.11 wireless LANs), the MAC address is 6 bytes long, giving $2^{48}$ possible MAC addresses. As shown in Figure \ref{fig:addressless-switch}, these 6-byte addresses are typically expressed in HEX notation. Although MAC addresses were designed to be permanent, it is now possible to change an adapter’s MAC address via software. For the rest of this section, however, we’ll assume that an adapter’s MAC address is fixed.
+
+One MAC address is unique in the world altough adapters are manufactured in many countries by many companies. How does a company manufacturing adapters in Liechtenstein make sure that it is using different addresses from a company manufacturing adapters in Singapore? IEEE manages the MAC address space. In particular, when a company wants to manufacture adapters, it purchases a chunk of the address space consisting of $2^{24}$ addresses for a nominal fee. IEEE allocates the chunk of $2^{24}$ addresses by fixing the first 24 bits of a MAC address and letting the company create unique combinations of the last 24 bits for each adapter.
+
+An adapter’s MAC address has a flat structure (as opposed to a hierarchical structure) and doesn’t change no matter where the adapter goes. A laptop with an Ethernet interface always has the same MAC address, no matter where the computer goes. A smartphone with an 802.11 interface always has the same MAC address, no matter where the smartphone goes. Recall that, in contrast, IP addresses have a hierarchical structure (that is, a network part and a host part), and a host’s IP addresse needs to be changed when the host moves,for example the host is attached to another network. An adapter’s MAC address is analogous to a person’s National Insurance Number, which also has a flat addressing structure and which doesn’t change no matter
+where the person goes. An IP address is analogous to a person’s postal address, which is hierarchical and which must be changed whenever a person moves. Just as a person may find it useful to have both a postal address and a NIN, it is useful for a host and router interfaces to have both a network-layer address (IP) and
+a MAC address.
+
+When an adapter wants to send a frame to some destination adapter, the sending adapter inserts the destination adapter’s MAC address into the frame and then sends the frame into the LAN. As we will soon see (TO-DO), a switch occasionally broadcasts an incoming frame onto all of its interfaces. We’ll see in Chapter - that 802.11 also broadcasts frames. Thus, an adapter may receive a frame that isn’t addressed to it. Thus, when
+an adapter receives a frame, it will check to see whether the destination MAC address in the frame matches its own MAC address. If there is a match, the adapter extracts the enclosed datagram and passes the datagram up the protocol stack. If there isn’t a match, the adapter discards the frame, without passing the network-layer datagram up. Thus, only the destination adapter will be interrupted when the frame is received.
+
+However, sometimes a sending adapter \emph{does} want all the other adapters on the LAN to receive and process the frame it is about to send. In this case, the sending adapter inserts a special MAC \textbf{broadcast address} into the destination address field of the frame. For LANs that use 6-byte addresses (such as Ethernet and 802.11), the broadcast address is a string of 48 consecutive 1s (that is, FF-FF-FF-FF-FF-FF in hexadecimal notation).
+
+
+\subsubsection{Address Resolution Protocol (ARP)}
+
+Because there are both network-layer addresses (for example, Internet IP addresses) and link-layer addresses (that is, MAC addresses), there is a need to translate between them. For the Internet, this is the job of the Address Resolution Protocol (ARP). To understand the need for a protocol such as ARP, consider the network shown in Figure \ref{fig:ARP}. In this simple example, each host and router has a single IP address and single MAC address. As usual, IP addresses are shown in dotted-decimal
+
+\begin{wrapfigure}{R}{9cm}
+\centering
+\includegraphics[width=9.5cm]{./ARP.PNG}
+%\vspace{-10pt}
+\caption{Each interface on a LAN has an IP address and a MAC address}\label{fig:ARP}
+\end{wrapfigure}
+
+notation and MAC addresses are shown in hexadecimal notation. For the purposes of this discussion, we will assume in this section that the switch broadcasts all frames, which means, whenever a switch receives a frame on \emph{one interface}, it forwards the frame on all of its \emph{other interfaces}. In the next section(?), we will provide a more accurate explanation of how switches operate.
+
+Now suppose that the host with IP address 222.222.222.220 wants to send an IP datagram to host 222.222.222.222. In this example, both the source and destination are in the same subnet. To send a datagram, the source must give its adapter not only the IP datagram but also the MAC address for destination 222.222.222.222. The sending adapter will then construct a link-layer frame containing the destination’s MAC address and send the frame into the LAN.
+
+The important question addressed in this section is, How does the sending host determine the MAC address for the destination host with IP address 222.222.222.222? It uses ARP. An ARP module in the sending host takes any IP address on the same LAN as input, and returns the corresponding MAC address. In the example at hand, sending host 222.222.222.220 provides its ARP module the IP address 222.222.222.222, and the ARP module returns the corresponding MAC address 49-BD-D2-C7-56-2A. So we see that ARP resolves an IP address to a MAC address. In many ways it is analogous to DNS, which resolves host names to IP addresses. However, one important difference between the two resolvers is that DNS resolves host names for hosts anywhere in the Internet, whereas ARP resolves IP addresses only for hosts and router interfaces on the same subnet. If a node in California were to try to use ARP to resolve the IP address for a node in Mississippi, ARP would return with an error.
+
+Now that we have explained what ARP does, let’s look at how it works. Each host and router has an ARP table in its memory, which contains mappings of IP addresses to MAC addresses.
+
+Figure \ref{fig:ARP-table} shows what an ARP table in host 222.222.222.220 might look like.
+
+\begin{wrapfigure}{R}{9cm}
+\centering
+\includegraphics[width=9.5cm]{./ARP-table.PNG}
+%\vspace{-10pt}
+\caption{A possible ARP table in 222.222.222.220}\label{fig:ARP-table}
+\end{wrapfigure}
+
+The ARP table also contains a time-to-live (TTL) value, which indicates when each mapping will be deleted from the table. Note that a table does not necessarily contain an entry for every host and router on the subnet; some may have never been entered into the table, and others may have expired. A typical expiration time for an entry is 20 minutes from when an entry is placed in an ARP table.
+
+Now suppose that host 222.222.222.220 wants to send a datagram that is IP-addressed to another host or router on that subnet. The sending host needs to obtain the MAC address of the destination given the IP address. This task is easy if the sender’s ARP table has an entry for the destination node. But what if the ARP table doesn’t cur-
+rently have an entry for the destination? In particular, suppose 222.222.222.220 wants to send a datagram to 222.222.222.222. In this case, the sender uses the ARP protocol to resolve the address. First, the sender constructs a special packet called an ARP packet. An ARP packet has several fields, including the sending and receiving IP and MAC addresses. Both ARP query and response packets have the same format. The pur-
+pose of the ARP query packet is to query all the other hosts and routers on the subnet
+to determine the MAC address corresponding to the IP address that is being resolved.
+
+Returning to our example, 222.222.222.220 passes an ARP query packet to the adapter along with an indication that the adapter should send the packet to the MAC broadcast address, namely, FF-FF-FF-FF-FF-FF. The adapter encapsulates the ARP packet in a link-layer frame, uses the broadcast address for the frame’s destination address, and transmits the frame into the subnet. Recalling our NIN/postal address analogy, an ARP query is equivalent to a person shouting out with a loudhailer in a small street in Walthamstow Central “What is the NIN of the person whose postal address is \textbf{35, Folkestone road E17 9SD}?” The frame containing the ARP query is received by all the other adapters on the subnet, and (because of the broadcast address) each adapter
+passes the ARP packet within the frame up to its ARP module. Each of these ARP modules checks to see if its IP address matches the destination IP address in the ARP packet. The one with a match sends back to the querying host a response ARP packet with the desired mapping. The querying host 222.222.222.220 can then update its
+ARP table and send its IP datagram, encapsulated in a link-layer frame whose destination MAC is that of the host or router responding to the earlier ARP query.
+
+\paragraph{[arp -a] output on my linux shell}
+On my machine for example the ARP table contains just two entries, one for the gateway, and one for the TV who's connected in the same WiFi. The LAN is obviously larger than that but my computer never had the need to send other machines a packet.
 
 \begin{lstlisting}
 _gateway (192.168.0.1) at 24:a7:dc:31:5b:d1 [ether] on wlp3s0
 TV (192.168.0.129) at cc:d3:c1:64:f9:f3 [ether] on wlp3s0
 \end{lstlisting}
 
-\subsection{Three-way-handshake}
-This is when the client sends the ARP request to the server. The server does an aknowledgment and answers with an ARP reply saying both its MAC and its IP. It all happens like this :
-
-When Computer 1 wants to talk to  Computer 2 in a local area network by Ethernet cables and network switches, with no intervening gateways or routers. Computer 1 has a packet to send to Computer 2. Through DNS, it determines that Computer 2 has the IP address 192.168.0.55.
-
-To send the message, it also requires Computer 2's MAC address. First, Computer 1 uses a cached ARP table to look up 192.168.0.55 for any existing records of Computer 2's MAC address (00:EB:24:B2:05:AC). If the MAC address is found, it sends an Ethernet frame containing the IP packet onto the link with the destination address 00:EB:24:B2:05:AC. If the cache did not produce a result for 192.168.0.55, Computer 1 has to send a broadcast ARP request message (destination FF:FF:FF:FF:FF:FF MAC address), which is accepted by all computers on the local network, requesting an answer for 192.168.0.55.
-
-Computer 2 responds with an ARP response message containing its MAC and IP addresses. As part of fielding the request, Computer 2 may insert an entry for Computer 1 into its ARP table for future use.
-
-Computer 1 receives and caches the response information in its ARP table and can now send the packet
+\subsubsection{RARP and DHCP}
+RARP demands another computer (usually a server in the same LAN) to assign the demanding one with an IP which is essentially what DHCP is doing that's why RARP got obsolete
 
 \clearpage
 
 \section{Networking Hardware}
 Computers need networking hardware in order to connect to each other. \textbf{Routers}, \textbf{hubs}, \textbf{switches} and \textbf{bridges} are all pieces of networking equipment that can perform slightly different tasks. A router can often incorporate hubs, switches and wireless access within the same hardware
 
-\begin{wrapfigure}[18]{5cm}
+\begin{wrapfigure}[18]{3cm}
 \centering
-\includegraphics[width=16cm]{./large.PNG}
+\includegraphics[width=14cm]{./large.PNG}
 %\vspace{-10pt}
 \caption{Router connecting devices in a LAN over the Internet}\label{wrap-fig:4}
 \end{wrapfigure}
@@ -398,7 +497,7 @@ A \textbf{modem} enables a computer to connect to the internet over a telephone 
 
 \subsubsection{Hubs}
 
-\begin{wrapfigure}{R}{11cm}
+\begin{wrapfigure}[21]{R}{11cm}
 \centering
 \includegraphics[width=10cm]{./hbs.PNG}
 %\vspace{-10pt}
@@ -406,6 +505,10 @@ A \textbf{modem} enables a computer to connect to the internet over a telephone 
 \end{wrapfigure}
 
 A hub broadcasts data to all devices on a network. This can use a lot of \textbf{bandwidth} as it results in unnecessary data being sent - not all computers might need to receive the data. A hub would be useful to link up a few games consoles for a local multiplayer game using a wired LAN.
+A hub is a physical-layer device that acts on individual bits rather than frames.When a bit, representing a zero or a one, arrives from one interface, the hub simply re-creates the bit, boosts its energy strength, and transmits the bit onto all the other interfaces. Thus, Ethernet with a hub-based star topology is also a broadcast LAN.
+
+Whenever a hub receives a bit from one of its interfaces, it sends a copy out on all of its other interfaces. In particular, if a hub receives frames from two different interfaces at the same time, a collision occurs and the nodes that created the frames must retransmit.At some point many hubs got replaced with switches which are “collision-less” but unlike routers, which operate up through layer 3, switches operates only up through layer 2.
+
 
 \wrapfill
 
@@ -418,12 +521,12 @@ A hub broadcasts data to all devices on a network. This can use a lot of \textbf
 \fi}
 \includegraphics[width=8cm]{./performance.PNG}
 \vspace{-10pt}
-\caption{Bridge saving unnecessary data transfer}\label{wrap-fig:6}
+\caption{Bridge saving unnecessary data transfer}\label{fig:bridge}
 \end{wrapfigure}
 
 
 \subsubsection{Bridges}
-A \textbf{bridge} is used to connect two separate LAN networks. A computer can act as a bridge through the \textbf{operating system}. A bridge looks for the receiving device before it sends the message. This means that it will not send a message if the receiving computer is not there. It will check to see if the receiver has already had the message. This can help save unnecessary data transfers, which improves the performance of a network.(see Figure 6)
+A \textbf{bridge} is used to connect two separate LAN networks. A computer can act as a bridge through the \textbf{operating system}. A bridge looks for the receiving device before it sends the message. This means that it will not send a message if the receiving computer is not there. It will check to see if the receiver has already had the message. This can help save unnecessary data transfers, which improves the performance of a network.(see Figure \ref{fig:bridge})
 
 \wrapfill
 \clearpage
