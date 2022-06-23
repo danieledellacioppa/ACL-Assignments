@@ -1202,23 +1202,62 @@ Class E IP addresses are not allocated to hosts and are not available for genera
 \item{Number of Hosts per Network: Research/Reserved/Experimental}
 \end{itemize}
 
-\section{How to Crimp Cat 5}
-Category-5 cable (or Cat-5 cable) is the most common type of cord used for wiring computers together in a network. While Cat-5 cables are readily available in various finished lengths, cutting and crimping your own is a far more cost-effective method for wiring together large networks. Learning how to cut and crimp Cat-5 cable is a simple process requiring only a few items.
+\begin{wrapfigure}[10]{R}{6cm}
+\centering
+\includegraphics[width= 6cm]{./meter.JPG}
+%\vspace{-10pt}
+\caption{tools to measure the cable}\label{fig:meter}
+\end{wrapfigure}
 
-\subsection{Determine the amount of Cat-5 cable you will need}
-If you only need a few lengths of cord to wire a home network or other small network, consider buying cables in finished lengths from a computer supply store. If your needs are larger, come up with a rough estimate of the total length of cable you need.
+\section{How to Crimp Cat 5}
+Category-5 cable (or Cat-5 cable) is probably one of the most common cable tipe used in networking.
+If you're thinking to build a large network, maybe cutting and crimping by yourself can be much more cost effective. The followings are the steps needed to cut and crimp your own.
+
+\subsection{Decide how much Cat-5 cable you need}
+If you only need just the cable to wire a home network or other small network, consider buying cables in finished lengths from a computer supply store. If your needs are larger, come up with a rough estimate of the total length of cable you need. See fig \ref{fig:meter} for an example of tool to take measures with
+
+\clearpage
+
+\begin{wrapfigure}[10]{R}{6cm}
+\centering
+\includegraphics[width= 6cm]{./step2.JPG}
+%\vspace{-10pt}
+\caption{step 2}\label{fig:step2}
+\end{wrapfigure}
 
 \subsection{Purchase the items you will need to build the cables}
-You will need to buy 3 things: a length of Cat-5 cable, as many RJ-45 heads as you need, and a wire crimping tool. Cat-5 cable is best purchased from small computer supply stores; larger chain stores are less likely to carry bulk spools of cable. The plastic ends of the cables are called RJ-45 heads, and can also be purchased from computer supply stores. Each cable needs 2 heads, so buy twice as many as the number of cables you want to make. When buying a Cat-5 crimping tool, look for a model that includes a wire snipping tool. To be conservative, buy more cable and heads than you think you need.
+You will need to buy 3 things: a length of Cat-5 cable, as many RJ-45 heads as you need, and a wire crimping tool. Cat-5 cable is best purchased from small computer supply stores; larger chain stores are less likely to carry bulk spools of cable. The plastic ends of the cables are called RJ-45 heads, and can also be purchased from computer supply stores. Each cable needs 2 heads, so buy twice as many as the number of cables you want to make. When buying a Cat-5 crimping tool, look for a model that includes a wire snipping tool. To be conservative, buy more cable and heads than you think you need. look fig \ref{fig:step2}
+
+\begin{wrapfigure}[10]{R}{6cm}
+\centering
+\includegraphics[width= 6cm]{./step3.JPG}
+%\vspace{-10pt}
+\caption{step 3}\label{fig:step3}
+\end{wrapfigure}
 
 \subsection{Cut the cable to lenght}
-Determine the length needed for your cable and use the wire cutting tool on the crimping tool to cut the cable to this length.
+Determine the length needed for your cable and use the wire cutting tool on the crimping tool to cut the cable to this length. See pic \ref{fig:step3}
+
+\begin{wrapfigure}[10]{L}{6cm}
+\centering
+\includegraphics[width= 13cm]{./step4.JPG}
+%\vspace{-10pt}
+\caption{step 4}\label{fig:step4}
+\end{wrapfigure}
 
 \subsection{Prepare the ends of the cable for crimping}
-Use the wire cutting tool to strip away about half an inch (12.5 mm) of the outer coating on each end of the cable. You will see 8 small colored wires twisted into 4 pairs. Carefully untwist each pair so that each of the 8 wires is separate. Now arrange the wires in the proper order. From left to right, put the wires in this order: green and white, green, orange and white, blue, blue and white, orange, brown and white, brown.
+Use the wire cutting tool to strip away about half an inch (12.5 mm) of the outer coating on each end of the cable. You will see 8 small colored wires twisted into 4 pairs. Carefully untwist each pair so that each of the 8 wires is separate. Now arrange the wires in the proper order. From left to right, put the wires in this order: green and white, green, orange and white, blue, blue and white, orange, brown and white, brown. See pic \ref{fig:step4}
+\clearpage 
+
+\begin{wrapfigure}[11]{R}{12cm}
+\centering
+\includegraphics[width= 10cm]{./step5.JPG}
+%\vspace{-10pt}
+\caption{step 5}\label{fig:step5}
+\end{wrapfigure}
 
 \subsection{Place the Cat-5 cable ends into the RJ-45 heads}
-See pic.
+See pic \ref{fig:step5}
 
 \subsection{Determine the orientation of the wires}
 See pic.
@@ -1250,6 +1289,124 @@ A good security product must include several security layers that protect you ag
 \item{\textbf{Network attacks} - when hackers try to take control of your devices remotely, they can do that through a "break" approach. That is when you need a firewall to stop network attacks. A good firewall must be able to deflect attacks from the outside but also tell you about suspicious traffic that is initiated from your computer to the outside world.}
 \item{\textbf{Web threats} - your web browser should be the first in the line of defense against malware. That is why a good security solution has to include a web protection module that can stop you from visiting websites with malicious content. It is better to deal with malware in your browser than to have to do that when it reaches your computer.}
 \end{itemize}
+
+\clearpage
+
+\section{VoIP}
+Voice over Internet Protocol (VoIP), is a method and group of technologies for the delivery of voice/video communications over the Internet rather than via the public switched telephone network (PSTN)
+
+\subsection{Overview}
+The steps and principles involved in originating VoIP telephone calls are similar to traditional digital telephony and involve signaling, channel setup, digitization of the analog voice signals, and encoding. Instead of being transmitted over a circuit-switched network, the digital information is packetized and transmission occurs as IP packets over a packet-switched network. They transport media streams using special media delivery protocols that encode audio and video with audio codecs and video codecs. Various codecs exist that optimize the media stream based on application requirements and network bandwidth; some implementations rely on narrowband and compressed speech, while others support high-fidelity stereo codecs.
+
+%The most widely used speech coding standards in VoIP are based on the linear predictive coding (LPC) and modified discrete cosine transform (MDCT) compression methods. Popular codecs include the MDCT-based AAC-LD (used in FaceTime), the LPC/MDCT-based Opus (used in WhatsApp), the LPC-based SILK (used in Skype), μ-law and A-law versions of G.711, G.722, and an open source voice codec known as iLBC, a codec that uses only 8 kbit/s each way called G.729.
+
+%Early providers of voice-over-IP services used business models and offered technical solutions that mirrored the architecture of the legacy telephone network. Second-generation providers, such as Skype, built closed networks for private user bases, offering the benefit of free calls and convenience while potentially charging for access to other communication networks, such as the PSTN. This limited the freedom of users to mix-and-match third-party hardware and software. Third-generation providers, such as Google Talk, adopted the concept of federated VoIP.[1] These solutions typically allow dynamic interconnection between users in any two domains of the Internet, when a user wishes to place a call.
+
+%In addition to VoIP phones, VoIP is also available on many personal computers and other Internet access devices. Calls and SMS text messages may be sent via Wi-Fi or the carrier's mobile data network.[2] VoIP provides a framework for consolidation of all modern communications technologies using a single unified communications system.
+
+%pulses - digital
+VoIP phones use \textbf{digital tones} rather than \textbf{pulses} which phased out long time ago. Pulse dialing uses a number of signal pulses to indicate the phone number that was entered whereas tone dialing uses specific tones to indicate the number. It takes a longer time to dial a number on a rotary phone with pulse dialing than it takes on a tone dialing phone with a numeric keypad.
+
+
+\section{Common Port Numbers and Protocols}
+
+\subsection{Protocols}
+Voice over IP has been implemented with both proprietary and open protocols.A variety of functions are needed to implement VoIP communication. Some protocols perform multiple functions, while others perform only a few. These functions include:
+
+\begin{itemize}
+\item{Network and transport – Creating reliable transmission involving acknowledging receipt of data and retransmitting data that wasn't received.}
+\item{Session management – Creating and managing a session (a "call"), which is a connection between two or more peers that provides a context for further communication.}
+\item{Signaling – Performing registration (advertising one's presence and contact information) and discovery (locating someone and obtaining their contact information), and call control (such as hold, mute, transfer/forwarding, dialing DTMF keys during a call to interact with an automated attendant}
+\item{Media description – Determining what type of media to send (audio, video, etc.), how to encode/decode it, and how to send/receive it (IP addresses, ports, etc.).}
+\item{Media – Transferring the actual media in the call, such as audio, video, text messages, files, etc.}
+\item{Quality of service – Providing feedback about the media such as synchronization, statistics, etc.}
+\item{Security – Implementing access control, verifying the identity of other participants (computers or people), and encrypting data to protect the privacy and integrity of the media contents and/or the control messages.}
+\end{itemize}
+
+\subsubsection{what VoIP protocols include}
+\begin{itemize}
+\item{Session Initiation Protocol (SIP), connection management protocol developed by the \href{https://www.ietf.org/}{IETF}}
+%\item{H.323, one of the first VoIP call signaling and control protocols that found widespread implementation.[5] Since the development of newer, less complex protocols such as MGCP and SIP, H.323 deployments are increasingly limited to carrying existing long-haul network traffic.}
+%\item{Media Gateway Control Protocol (MGCP), connection management for media gateways}
+%\item{H.248, control protocol for media gateways across a converged internetwork consisting of the traditional PSTN and modern packet networks}
+\item{Real-time Transport Protocol (RTP), transport protocol for real-time audio and video data. It runs over UDP}
+\item{Real-time Transport Control Protocol (RTCP), used in conjunction with RTP providing stream statistics and status information}
+\item{Secure Real-time Transport Protocol (SRTP), encrypted version of RTP}
+%\item{Session Description Protocol (SDP), a syntax for session initiation and announcement for multi-media communications and WebSocket transports.}
+\item{Inter-Asterisk eXchange (IAX), protocol used between Asterisk instances}
+%\item{Extensible Messaging and Presence Protocol (XMPP), instant messaging, presence information, and contact list maintenance}
+%\item{Jingle, for peer-to-peer session control in XMPP}
+\item{Skype protocol, proprietary Internet telephony protocol suite based on peer-to-peer architecture}
+\end{itemize}
+
+\subsubsection{Asterisk }%(PBX)
+Asterisk is a software used to establish and control telephone calls between endpoints, such as destinations on the public switched telephone network, and devices on VoIP networks. Its name comes from the asterisk (*) key present on every phone.
+
+Originally designed for Linux, now runs on a variety of operating systems, including FreeBSD and macOS
+
+\subsubsection{Session Initiation Protocol}
+The Session Initiation Protocol (SIP) is a signaling protocol used for initiating, maintaining, and terminating real-time sessions that include voice, video and messaging applications. SIP is used for signaling and controlling multimedia communication sessions in applications of Internet telephony.
+
+The protocol defines the specific format of messages exchanged and the sequence of communications of the participants. SIP is a text-based protocol, incorporating many elements of HTTP and SMTP protocol. A call established with SIP may consist of multiple media streams, but no separate streams are required for applications, such as text messaging, that exchange data as payload in the SIP message.SIP is designed to be independent of the underlying transport layer protocol and can be used with the User Datagram Protocol (UDP), the Transmission Control Protocol (TCP), and the Stream Control Transmission Protocol (SCTP).
+ 
+%SIP works in conjunction with several other protocols that specify and carry the session media. Most commonly, media type and parameter negotiation and media setup are performed with the Session Description Protocol (SDP), which is carried as payload in SIP messages. For secure transmissions of SIP messages over insecure network links, the protocol may be encrypted with Transport Layer Security (TLS). For the transmission of media streams (voice, video) the SDP payload carried in SIP messages typically employs the Real-time Transport Protocol (RTP) or the Secure Real-time Transport Protocol (SRTP).
+
+\subsubsection{Quality of service}
+VoIP feels less reliable than  public telephone network because it does not provide a mechanism to ensure that data packets are not lost, and are delivered in sequential order. It is a best-effort network without fundamental quality of service (QoS) guarantees. Voice, and all other data, travels in packets over IP networks with fixed maximum capacity. This system may be more prone to data loss in the presence of congestion than traditional landlines. If there's insufficient capacity then a landline will refuse new connections while carrying the remainder without impairment, while the quality of VoIP degrades dramatically facing problems with latency, packet loss, and jitter.
+
+Network routers handle traffic on a first-come, first-served basis. Latency can be minimized by marking voice packets as being delay-sensitive.
+
+Network routers on high volume traffic links may introduce latency that exceeds permissible thresholds for VoIP leading to congestion and packet loss. Here the router will ask the senders to reduce their transmission rate to alleviate the congestion. But VoIP usually uses UDP not TCP because recovering from congestion through retransmission usually entails too much latency. So QoS mechanisms can avoid the undesirable loss of VoIP packets by immediately transmitting them ahead of any queued traffic on the same link.
+
+%VoIP endpoints usually have to wait for the completion of transmission of previous packets before new data may be sent. Although it is possible to preempt (abort) a less important packet in mid-transmission, this is not commonly done, especially on high-speed links where transmission times are short even for maximum-sized packets. An alternative to preemption on slower links, such as dialup and digital subscriber line (DSL), is to reduce the maximum transmission time by reducing the maximum transmission unit. But since every packet must contain protocol headers, this increases relative header overhead on every link traversed.
+
+The receiver must resequence IP packets that arrive out of order and recover gracefully when packets arrive too late or not at all. Recovering gracefully means ignore the missing packets having a little audio interruption which is not a big deal
+
+%Packet delay variation results from changes in queuing delay along a given network path due to competition from other users for the same transmission links. VoIP receivers accommodate this variation by storing incoming packets briefly in a playout buffer, deliberately increasing latency to improve the chance that each packet will be on hand when it is time for the voice engine to play it. The added delay is thus a compromise between excessive latency and excessive dropout, i.e. momentary audio interruptions.
+
+Jitter is the variance in latency. It's a random variable obviously and it is the sum of all the individual queuing delays of all the routers along the Internet path in question.In practice, the jitter of many Internet paths is dominated by a small number (often one) of relatively slow and congested bottleneck links. It keeps changing so it's an estimation
+
+%A number of protocols have been defined to support the reporting of quality of service (QoS) and quality of experience (QoE) for VoIP calls. These include RTP Control Protocol (RTCP) extended reports,[20] SIP RTCP summary reports, H.460.9 Annex B (for H.323), H.248.30 and MGCP extensions.
+
+%The RTCP extended report VoIP metrics block specified by RFC 3611 is generated by an IP phone or gateway during a live call and contains information on packet loss rate, packet discard rate (because of jitter), packet loss/discard burst metrics (burst length/density, gap length/density), network delay, end system delay, signal/noise/echo level, mean opinion scores (MOS) and R factors and configuration information related to the jitter buffer. VoIP metrics reports are exchanged between IP endpoints on an occasional basis during a call, and an end of call message sent via SIP RTCP summary report or one of the other signaling protocol extensions. VoIP metrics reports are intended to support real-time feedback related to QoS problems, the exchange of information between the endpoints for improved call quality calculation and a variety of other applications.
+
+\subsection{use VoIP with satellite internet}
+You can use most VoIP plans with satellite internet, but it will eat up your internet data. 
+
+%Most satellite internet customers in the US can get VoIP service with their Viasat or HughesNet plan, which is what we recommend.
+\noindent Popular internet phone providers like Skype use a lot of internet data with each call.  A Skype phone call can use up to 4 GB an hour. For satellite internet customers with low data caps, this can lead to huge fees. Using Skype for just two hours per week could use up 32 GB of data in a month.
+
+\subsubsection{Benefits of using VoIP over satellite broadband}
+\begin{itemize}
+\item{Saves money when compared to mobile or landline phone}
+\item{Delivers good service in areas without mobile coverage}
+%\item{Offers unlimited local and long-distance service}
+%\item{Connects remote workers to offices, call centers, and other workplaces seamlessly}
+\end{itemize}
+
+\subsubsection{CONs of VoIP}
+\begin{itemize}
+\item{you can't geo-localize an emergency VoIP phonecall}
+\end{itemize}
+
+\section{Port Numbers}
+
+\begin{tabular}{||l|c|{5cm}||}
+    protocol & port \\
+    DHCP & 67  \\
+    DNS & 53 \\
+    FTP & 21 \\
+    HTTP & 80 \\
+    HTTPS & 443\\
+    IMAP & 143  \\
+    POP3 & 110\\
+    RDP & 3389 \\
+    SMTP & 25 \\
+    SSH & 22\\
+    TELNET & 23\\
+\end{tabular}
+
+
 \clearpage
 \printindex
 

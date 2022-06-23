@@ -106,14 +106,26 @@
 \contentsline {subsection}{\numberline {2.30.4}Class D IP Address Range}{65}{subsection.2.30.4}%
 \contentsline {subsection}{\numberline {2.30.5}Class E IP Address Class}{65}{subsection.2.30.5}%
 \contentsline {section}{\numberline {2.31}How to Crimp Cat 5}{65}{section.2.31}%
-\contentsline {subsection}{\numberline {2.31.1}Determine the amount of Cat-5 cable you will need}{65}{subsection.2.31.1}%
-\contentsline {subsection}{\numberline {2.31.2}Purchase the items you will need to build the cables}{65}{subsection.2.31.2}%
+\contentsline {subsection}{\numberline {2.31.1}Decide how much Cat-5 cable you need}{65}{subsection.2.31.1}%
+\contentsline {subsection}{\numberline {2.31.2}Purchase the items you will need to build the cables}{66}{subsection.2.31.2}%
 \contentsline {subsection}{\numberline {2.31.3}Cut the cable to lenght}{66}{subsection.2.31.3}%
 \contentsline {subsection}{\numberline {2.31.4}Prepare the ends of the cable for crimping}{66}{subsection.2.31.4}%
-\contentsline {subsection}{\numberline {2.31.5}Place the Cat-5 cable ends into the RJ-45 heads}{66}{subsection.2.31.5}%
-\contentsline {subsection}{\numberline {2.31.6}Determine the orientation of the wires}{66}{subsection.2.31.6}%
-\contentsline {subsection}{\numberline {2.31.7}Line the 8 wires up neatly so that they will fit into the plastic head}{66}{subsection.2.31.7}%
-\contentsline {subsection}{\numberline {2.31.8}Crimp the head onto the cable}{66}{subsection.2.31.8}%
-\contentsline {subsection}{\numberline {2.31.9}Test your cable if desired}{66}{subsection.2.31.9}%
-\contentsline {section}{\numberline {2.32}Choose the Antivirus}{66}{section.2.32}%
-\contentsline {subsection}{\numberline {2.32.1}Look for all-inclusive protection}{66}{subsection.2.32.1}%
+\contentsline {subsection}{\numberline {2.31.5}Place the Cat-5 cable ends into the RJ-45 heads}{67}{subsection.2.31.5}%
+\contentsline {subsection}{\numberline {2.31.6}Determine the orientation of the wires}{67}{subsection.2.31.6}%
+\contentsline {subsection}{\numberline {2.31.7}Line the 8 wires up neatly so that they will fit into the plastic head}{67}{subsection.2.31.7}%
+\contentsline {subsection}{\numberline {2.31.8}Crimp the head onto the cable}{67}{subsection.2.31.8}%
+\contentsline {subsection}{\numberline {2.31.9}Test your cable if desired}{67}{subsection.2.31.9}%
+\contentsline {section}{\numberline {2.32}Choose the Antivirus}{67}{section.2.32}%
+\contentsline {subsection}{\numberline {2.32.1}Look for all-inclusive protection}{67}{subsection.2.32.1}%
+\contentsline {section}{\numberline {2.33}VoIP}{69}{section.2.33}%
+\contentsline {subsection}{\numberline {2.33.1}Overview}{69}{subsection.2.33.1}%
+\contentsline {section}{\numberline {2.34}Common Port Numbers and Protocols}{69}{section.2.34}%
+\contentsline {subsection}{\numberline {2.34.1}Protocols}{69}{subsection.2.34.1}%
+\contentsline {subsubsection}{what VoIP protocols include}{70}{section*.49}%
+\contentsline {subsubsection}{Asterisk }{70}{section*.50}%
+\contentsline {subsubsection}{Session Initiation Protocol}{70}{section*.51}%
+\contentsline {subsubsection}{Quality of service}{70}{section*.52}%
+\contentsline {subsection}{\numberline {2.34.2}use VoIP with satellite internet}{71}{subsection.2.34.2}%
+\contentsline {subsubsection}{Benefits of using VoIP over satellite broadband}{71}{section*.53}%
+\contentsline {subsubsection}{CONs of VoIP}{71}{section*.54}%
+\contentsline {section}{\numberline {2.35}Port Numbers}{71}{section.2.35}%

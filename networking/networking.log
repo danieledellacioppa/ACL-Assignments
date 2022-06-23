@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.21)  5 JUN 2022 21:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.21)  23 JUN 2022 15:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -884,7 +884,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ] [6]
 Chapter 1.
-<118.jpg, id=505, 195.8517pt x 277.035pt>
+<118.jpg, id=536, 195.8517pt x 277.035pt>
 File: 118.jpg Graphic file (type jpg)
 <use 118.jpg>
 Package pdftex.def Info: 118.jpg  used on input line 147.
@@ -904,7 +904,7 @@ l.149 \centering
 l.149 \centering
                 
 ? 
-<./net.png, id=512, 626.34pt x 626.34pt>
+<./net.png, id=542, 626.34pt x 626.34pt>
 File: ./net.png Graphic file (type png)
 <use ./net.png>
 Package pdftex.def Info: ./net.png  used on input line 150.
@@ -958,7 +958,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [8
 
  <./net.png>]
-<WiFi-HK.PNG, id=536, 365.365pt x 136.51pt>
+<WiFi-HK.PNG, id=566, 365.365pt x 136.51pt>
 File: WiFi-HK.PNG Graphic file (type png)
 <use WiFi-HK.PNG>
 Package pdftex.def Info: WiFi-HK.PNG  used on input line 192.
@@ -975,12 +975,12 @@ Type  H <return>  for immediate help.
 l.209 \fi}
           
 ? 
-<./WiFi-HK-details.PNG, id=539, 299.1175pt x 140.525pt>
+<./WiFi-HK-details.PNG, id=569, 299.1175pt x 140.525pt>
 File: ./WiFi-HK-details.PNG Graphic file (type png)
 <use ./WiFi-HK-details.PNG>
 Package pdftex.def Info: ./WiFi-HK-details.PNG  used on input line 210.
 (pdftex.def)             Requested size: 227.62204pt x 106.93732pt.
-<lan-wan.JPG, id=541, 451.6875pt x 240.9pt>
+<lan-wan.JPG, id=571, 451.6875pt x 240.9pt>
 File: lan-wan.JPG Graphic file (type jpg)
 <use lan-wan.JPG>
 Package pdftex.def Info: lan-wan.JPG  used on input line 244.
@@ -1025,7 +1025,7 @@ l.262 \centering
 l.262 \centering
                 
 ? 
-<./ieee_802.jpg, id=563, 522.95375pt x 243.91125pt>
+<./ieee_802.jpg, id=593, 522.95375pt x 243.91125pt>
 File: ./ieee_802.jpg Graphic file (type jpg)
 <use ./ieee_802.jpg>
 Package pdftex.def Info: ./ieee_802.jpg  used on input line 263.
@@ -1068,7 +1068,7 @@ l.296 \centering
 l.296 \centering
                 
 ? 
-<./OSI-7-layers.jpg, id=570, 562.1pt x 457.71pt>
+<./OSI-7-layers.jpg, id=600, 562.1pt x 457.71pt>
 File: ./OSI-7-layers.jpg Graphic file (type jpg)
 <use ./OSI-7-layers.jpg>
 Package pdftex.def Info: ./OSI-7-layers.jpg  used on input line 297.
@@ -1119,7 +1119,7 @@ l.338 \centering
 l.338 \centering
                 
 ? 
-<./tcp-socket.PNG, id=580, 477.785pt x 417.56pt>
+<./tcp-socket.PNG, id=610, 477.785pt x 417.56pt>
 File: ./tcp-socket.PNG Graphic file (type png)
 <use ./tcp-socket.PNG>
 Package pdftex.def Info: ./tcp-socket.PNG  used on input line 339.
@@ -1145,7 +1145,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15]
-<./switched-lan.PNG, id=596, 996.72375pt x 613.29124pt>
+<./switched-lan.PNG, id=626, 996.72375pt x 613.29124pt>
 File: ./switched-lan.PNG Graphic file (type png)
 <use ./switched-lan.PNG>
 Package pdftex.def Info: ./switched-lan.PNG  used on input line 379.
@@ -1166,7 +1166,7 @@ Type  H <return>  for immediate help.
 l.404 \fi}
           
 ? 
-<./addressless-switch.PNG, id=601, 640.3925pt x 573.14125pt>
+<./addressless-switch.PNG, id=631, 640.3925pt x 573.14125pt>
 File: ./addressless-switch.PNG Graphic file (type png)
 <use ./addressless-switch.PNG>
 Package pdftex.def Info: ./addressless-switch.PNG  used on input line 405.
@@ -1182,7 +1182,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [16
 
  <./switched-lan.png> <./addressless-switch.png>]
-<./ARP.PNG, id=613, 937.5025pt x 569.12625pt>
+<./ARP.PNG, id=643, 937.5025pt x 569.12625pt>
 File: ./ARP.PNG Graphic file (type png)
 <use ./ARP.PNG>
 Package pdftex.def Info: ./ARP.PNG  used on input line 431.
@@ -1205,7 +1205,7 @@ Underfull \hbox (badness 1509) in paragraph at lines 438--439
 [][]\T1/cmr/m/n/12 Now sup-pose that the host with IP ad-dress
  []
 
-<./ARP-table.PNG, id=621, 1162.3425pt x 223.83624pt>
+<./ARP-table.PNG, id=652, 1162.3425pt x 223.83624pt>
 File: ./ARP-table.PNG Graphic file (type png)
 <use ./ARP-table.PNG>
 Package pdftex.def Info: ./ARP-table.PNG  used on input line 448.
@@ -1245,7 +1245,7 @@ l.481 \centering
 l.481 \centering
                 
 ? 
-<./large.PNG, id=639, 626.34pt x 352.31625pt>
+<./large.PNG, id=669, 626.34pt x 352.31625pt>
 File: ./large.PNG Graphic file (type png)
 <use ./large.PNG>
 Package pdftex.def Info: ./large.PNG  used on input line 482.
@@ -1276,7 +1276,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [20
 
  <./large.png>]
-<./hbs.PNG, id=646, 626.34pt x 626.34pt>
+<./hbs.PNG, id=676, 626.34pt x 626.34pt>
 File: ./hbs.PNG Graphic file (type png)
 <use ./hbs.PNG>
 Package pdftex.def Info: ./hbs.PNG  used on input line 502.
@@ -1293,7 +1293,7 @@ Type  H <return>  for immediate help.
 l.521 \fi}
           
 ? 
-<./performance.PNG, id=647, 626.34pt x 548.0475pt>
+<./performance.PNG, id=677, 626.34pt x 548.0475pt>
 File: ./performance.PNG Graphic file (type png)
 <use ./performance.PNG>
 Package pdftex.def Info: ./performance.PNG  used on input line 522.
@@ -1340,7 +1340,7 @@ l.557 \centering
 l.557 \centering
                 
 ? 
-<./step-by-step/0.PNG, id=669, 818.19965pt x 625.04947pt>
+<./step-by-step/0.PNG, id=699, 818.19965pt x 625.04947pt>
 File: ./step-by-step/0.PNG Graphic file (type png)
 <use ./step-by-step/0.PNG>
 Package pdftex.def Info: ./step-by-step/0.PNG  used on input line 558.
@@ -1365,7 +1365,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 567--568
 
  []
 
-<./step-by-step/1.PNG, id=678, 818.19965pt x 625.04947pt>
+<./step-by-step/1.PNG, id=708, 818.19965pt x 625.04947pt>
 File: ./step-by-step/1.PNG Graphic file (type png)
 <use ./step-by-step/1.PNG>
 Package pdftex.def Info: ./step-by-step/1.PNG  used on input line 569.
@@ -1385,7 +1385,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 572--573
 
  []
 
-<./step-by-step/2.PNG, id=684, 818.19965pt x 625.04947pt>
+<./step-by-step/2.PNG, id=714, 818.19965pt x 625.04947pt>
 File: ./step-by-step/2.PNG Graphic file (type png)
 <use ./step-by-step/2.PNG>
 Package pdftex.def Info: ./step-by-step/2.PNG  used on input line 574.
@@ -1405,7 +1405,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 577--578
 
  []
 
-<./step-by-step/3.PNG, id=691, 603.11035pt x 582.0316pt>
+<./step-by-step/3.PNG, id=721, 603.11035pt x 582.0316pt>
 File: ./step-by-step/3.PNG Graphic file (type png)
 <use ./step-by-step/3.PNG>
 Package pdftex.def Info: ./step-by-step/3.PNG  used on input line 579.
@@ -1430,7 +1430,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 582--583
 
  []
 
-<./step-by-step/4.PNG, id=697, 603.11035pt x 582.0316pt>
+<./step-by-step/4.PNG, id=727, 603.11035pt x 582.0316pt>
 File: ./step-by-step/4.PNG Graphic file (type png)
 <use ./step-by-step/4.PNG>
 Package pdftex.def Info: ./step-by-step/4.PNG  used on input line 584.
@@ -1450,7 +1450,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 587--588
 
  []
 
-<./step-by-step/5.PNG, id=703, 603.11035pt x 582.0316pt>
+<./step-by-step/5.PNG, id=733, 603.11035pt x 582.0316pt>
 File: ./step-by-step/5.PNG Graphic file (type png)
 <use ./step-by-step/5.PNG>
 Package pdftex.def Info: ./step-by-step/5.PNG  used on input line 589.
@@ -1466,7 +1466,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [28
 
  <./step-by-step/5.PNG>]
-<./step-by-step/6.PNG, id=709, 603.11035pt x 582.0316pt>
+<./step-by-step/6.PNG, id=739, 603.11035pt x 582.0316pt>
 File: ./step-by-step/6.PNG Graphic file (type png)
 <use ./step-by-step/6.PNG>
 Package pdftex.def Info: ./step-by-step/6.PNG  used on input line 596.
@@ -1487,7 +1487,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 599--600
 
  []
 
-<./step-by-step/7.PNG, id=715, 825.94286pt x 929.18571pt>
+<./step-by-step/7.PNG, id=745, 825.94286pt x 929.18571pt>
 File: ./step-by-step/7.PNG Graphic file (type png)
 <use ./step-by-step/7.PNG>
 Package pdftex.def Info: ./step-by-step/7.PNG  used on input line 601.
@@ -1507,7 +1507,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 605--606
 
  []
 
-<./step-by-step/8.PNG, id=721, 825.94286pt x 929.18571pt>
+<./step-by-step/8.PNG, id=751, 825.94286pt x 929.18571pt>
 File: ./step-by-step/8.PNG Graphic file (type png)
 <use ./step-by-step/8.PNG>
 Package pdftex.def Info: ./step-by-step/8.PNG  used on input line 607.
@@ -1527,7 +1527,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 610--611
 
  []
 
-<./step-by-step/9.PNG, id=728, 825.94286pt x 929.18571pt>
+<./step-by-step/9.PNG, id=758, 825.94286pt x 929.18571pt>
 File: ./step-by-step/9.PNG Graphic file (type png)
 <use ./step-by-step/9.PNG>
 Package pdftex.def Info: ./step-by-step/9.PNG  used on input line 612.
@@ -1547,7 +1547,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 615--616
 
  []
 
-<./step-by-step/10.PNG, id=734, 825.94286pt x 929.18571pt>
+<./step-by-step/10.PNG, id=764, 825.94286pt x 929.18571pt>
 File: ./step-by-step/10.PNG Graphic file (type png)
 <use ./step-by-step/10.PNG>
 Package pdftex.def Info: ./step-by-step/10.PNG  used on input line 617.
@@ -1567,7 +1567,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 620--621
 
  []
 
-<./step-by-step/11.PNG, id=740, 825.94286pt x 929.18571pt>
+<./step-by-step/11.PNG, id=770, 825.94286pt x 929.18571pt>
 File: ./step-by-step/11.PNG Graphic file (type png)
 <use ./step-by-step/11.PNG>
 Package pdftex.def Info: ./step-by-step/11.PNG  used on input line 622.
@@ -1587,7 +1587,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 625--626
 
  []
 
-<./step-by-step/12.PNG, id=746, 825.94286pt x 929.18571pt>
+<./step-by-step/12.PNG, id=776, 825.94286pt x 929.18571pt>
 File: ./step-by-step/12.PNG Graphic file (type png)
 <use ./step-by-step/12.PNG>
 Package pdftex.def Info: ./step-by-step/12.PNG  used on input line 627.
@@ -1607,7 +1607,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 630--631
 
  []
 
-<./step-by-step/13.PNG, id=752, 603.11035pt x 582.0316pt>
+<./step-by-step/13.PNG, id=782, 603.11035pt x 582.0316pt>
 File: ./step-by-step/13.PNG Graphic file (type png)
 <use ./step-by-step/13.PNG>
 Package pdftex.def Info: ./step-by-step/13.PNG  used on input line 632.
@@ -1627,7 +1627,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 636--637
 
  []
 
-<./step-by-step/14.PNG, id=758, 603.11035pt x 582.0316pt>
+<./step-by-step/14.PNG, id=788, 603.11035pt x 582.0316pt>
 File: ./step-by-step/14.PNG Graphic file (type png)
 <use ./step-by-step/14.PNG>
 Package pdftex.def Info: ./step-by-step/14.PNG  used on input line 638.
@@ -1647,7 +1647,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 641--642
 
  []
 
-<./step-by-step/15.PNG, id=765, 825.94286pt x 929.18571pt>
+<./step-by-step/15.PNG, id=795, 825.94286pt x 929.18571pt>
 File: ./step-by-step/15.PNG Graphic file (type png)
 <use ./step-by-step/15.PNG>
 Package pdftex.def Info: ./step-by-step/15.PNG  used on input line 643.
@@ -1667,7 +1667,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 647--648
 
  []
 
-<./step-by-step/16.PNG, id=771, 603.11035pt x 582.0316pt>
+<./step-by-step/16.PNG, id=801, 603.11035pt x 582.0316pt>
 File: ./step-by-step/16.PNG Graphic file (type png)
 <use ./step-by-step/16.PNG>
 Package pdftex.def Info: ./step-by-step/16.PNG  used on input line 649.
@@ -1687,7 +1687,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 661--663
 
  []
 
-<./step-by-step/17.PNG, id=777, 603.11035pt x 582.0316pt>
+<./step-by-step/17.PNG, id=808, 603.11035pt x 582.0316pt>
 File: ./step-by-step/17.PNG Graphic file (type png)
 <use ./step-by-step/17.PNG>
 Package pdftex.def Info: ./step-by-step/17.PNG  used on input line 664.
@@ -1707,7 +1707,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 668--669
 
  []
 
-<./step-by-step/18.PNG, id=784, 603.11035pt x 582.0316pt>
+<./step-by-step/18.PNG, id=815, 603.11035pt x 582.0316pt>
 File: ./step-by-step/18.PNG Graphic file (type png)
 <use ./step-by-step/18.PNG>
 Package pdftex.def Info: ./step-by-step/18.PNG  used on input line 670.
@@ -1727,7 +1727,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 674--675
 
  []
 
-<./step-by-step/19.PNG, id=790, 825.94286pt x 929.18571pt>
+<./step-by-step/19.PNG, id=821, 825.94286pt x 929.18571pt>
 File: ./step-by-step/19.PNG Graphic file (type png)
 <use ./step-by-step/19.PNG>
 Package pdftex.def Info: ./step-by-step/19.PNG  used on input line 676.
@@ -1747,7 +1747,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 681--682
 
  []
 
-<./step-by-step/20.PNG, id=796, 603.11035pt x 582.0316pt>
+<./step-by-step/20.PNG, id=827, 603.11035pt x 582.0316pt>
 File: ./step-by-step/20.PNG Graphic file (type png)
 <use ./step-by-step/20.PNG>
 Package pdftex.def Info: ./step-by-step/20.PNG  used on input line 683.
@@ -1767,7 +1767,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 686--687
 
  []
 
-<./step-by-step/21.PNG, id=804, 603.11035pt x 582.0316pt>
+<./step-by-step/21.PNG, id=835, 603.11035pt x 582.0316pt>
 File: ./step-by-step/21.PNG Graphic file (type png)
 <use ./step-by-step/21.PNG>
 Package pdftex.def Info: ./step-by-step/21.PNG  used on input line 688.
@@ -1794,7 +1794,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [45
 
 ]
-<./StarNetwork.svg.PNG, id=815, 793.96625pt x 767.86874pt>
+<./StarNetwork.svg.PNG, id=845, 793.96625pt x 767.86874pt>
 File: ./StarNetwork.svg.PNG Graphic file (type png)
 <use ./StarNetwork.svg.PNG>
 Package pdftex.def Info: ./StarNetwork.svg.PNG  used on input line 712.
@@ -1815,7 +1815,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [46
 
  <./StarNetwork.svg.png>]
-<./RingNetwork.svg.PNG, id=824, 793.96625pt x 767.86874pt>
+<./RingNetwork.svg.PNG, id=854, 793.96625pt x 767.86874pt>
 File: ./RingNetwork.svg.PNG Graphic file (type png)
 <use ./RingNetwork.svg.PNG>
 Package pdftex.def Info: ./RingNetwork.svg.PNG  used on input line 734.
@@ -1832,7 +1832,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [47
 
  <./RingNetwork.svg.png>]
-<./star-topology/screenshot.PNG, id=833, 547.61732pt x 536.86285pt>
+<./star-topology/screenshot.PNG, id=863, 547.61732pt x 536.86285pt>
 File: ./star-topology/screenshot.PNG Graphic file (type png)
 <use ./star-topology/screenshot.PNG>
 Package pdftex.def Info: ./star-topology/screenshot.PNG  used on input line 755
@@ -1929,7 +1929,7 @@ l.865 \centering
 l.865 \centering
                 
 ? 
-<./IPv6.PNG, id=868, 1927.2pt x 693.59125pt>
+<./IPv6.PNG, id=898, 1927.2pt x 693.59125pt>
 File: ./IPv6.PNG Graphic file (type png)
 <use ./IPv6.PNG>
 Package pdftex.def Info: ./IPv6.PNG  used on input line 866.
@@ -1946,7 +1946,7 @@ l.885 \centering
 l.885 \centering
                 
 ? 
-<./IPv6_link_local_unicast_address_structure-en.svg.PNG, id=875, 1927.2pt x 222
+<./IPv6_link_local_unicast_address_structure-en.svg.PNG, id=905, 1927.2pt x 222
 .8325pt>
 File: ./IPv6_link_local_unicast_address_structure-en.svg.PNG Graphic file (type
  png)
@@ -2038,7 +2038,7 @@ l.911 \centering
 l.911 \centering
                 
 ? 
-<./IPv4_Packet-en.svg.PNG, id=896, 1927.2pt x 879.285pt>
+<./IPv4_Packet-en.svg.PNG, id=926, 1927.2pt x 879.285pt>
 File: ./IPv4_Packet-en.svg.PNG Graphic file (type png)
 <use ./IPv4_Packet-en.svg.PNG>
 Package pdftex.def Info: ./IPv4_Packet-en.svg.PNG  used on input line 912.
@@ -2274,6 +2274,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [64
 
 ]
+<./meter.JPG, id=1001, 730.73pt x 548.0475pt>
+File: ./meter.JPG Graphic file (type jpg)
+<use ./meter.JPG>
+Package pdftex.def Info: ./meter.JPG  used on input line 1207.
+(pdftex.def)             Requested size: 170.71652pt x 128.03854pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2284,6 +2290,74 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [65
 
+ <./meter.jpg>]
+<./step2.JPG, id=1009, 730.73pt x 548.0475pt>
+File: ./step2.JPG Graphic file (type jpg)
+<use ./step2.JPG>
+Package pdftex.def Info: ./step2.JPG  used on input line 1223.
+(pdftex.def)             Requested size: 170.71652pt x 128.03854pt.
+<./step3.JPG, id=1011, 730.73pt x 548.0475pt>
+File: ./step3.JPG Graphic file (type jpg)
+<use ./step3.JPG>
+Package pdftex.def Info: ./step3.JPG  used on input line 1233.
+(pdftex.def)             Requested size: 170.71652pt x 128.03854pt.
+<./step4.JPG, id=1013, 730.73pt x 548.0475pt>
+File: ./step4.JPG Graphic file (type jpg)
+<use ./step4.JPG>
+Package pdftex.def Info: ./step4.JPG  used on input line 1243.
+(pdftex.def)             Requested size: 369.88582pt x 277.4099pt.
+
+Overfull \hbox (199.1693pt too wide) in paragraph at lines 1243--1245
+ [][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[66
+
+ <./step2.jpg> <./step3.jpg> <./step4.jpg>]
+<./step5.JPG, id=1022, 730.73pt x 548.0475pt>
+File: ./step5.JPG Graphic file (type jpg)
+<use ./step5.JPG>
+Package pdftex.def Info: ./step5.JPG  used on input line 1254.
+(pdftex.def)             Requested size: 284.52756pt x 213.39479pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[67
+
+ <./step5.jpg>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[68]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[69
+
 ]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2293,7 +2367,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[66]
+[70]
+
+! Package array Error:  Illegal pream-token (5cm): `c' used.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1394 \begin{tabular}{||l|c|{5cm}||}
+                                     
+? 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2302,11 +2386,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[67]
+[71]
 ! Undefined control sequence.
 <argument> \imki@jobname 
                          @idxfile
-l.1255 
+l.1412 
        
 ? 
 
@@ -2316,7 +2400,7 @@ See the imakeidx package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1255 
+l.1412 
        
 ? 
 (./networking.aux)
@@ -2324,13 +2408,13 @@ l.1255
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `networking.out' has not changed.
-(rerunfilecheck)             Checksum: 51E3026510AADDA878E0D2BD288411EA;15449.
+(rerunfilecheck)             Checksum: 579C328B3FFE936FF43617EB5691042F;16255.
  ) 
 Here is how much of TeX's memory you used:
- 18683 strings out of 478238
- 293341 string characters out of 5850456
+ 18750 strings out of 478238
+ 294291 string characters out of 5850456
  895108 words of memory out of 5000000
- 36342 multiletter control sequences out of 15000+600000
+ 36383 multiletter control sequences out of 15000+600000
  489652 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,12n,117p,1221b,1659s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2358,10 +2442,10 @@ ts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf-dist/fonts/type1/public
 440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfxc1200.pfb></usr/s
 hare/texmf-dist/fonts/type1/public/cm-super/sfxc1440.pfb></usr/share/texmf-dist
 /fonts/type1/public/cm-super/sfxc1728.pfb>
-Output written on networking.pdf (67 pages, 3561668 bytes).
+Output written on networking.pdf (71 pages, 3796365 bytes).
 PDF statistics:
- 1155 PDF objects out of 1200 (max. 8388607)
- 946 compressed objects within 10 object streams
- 231 named destinations out of 1000 (max. 500000)
- 960 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1227 PDF objects out of 1440 (max. 8388607)
+ 1008 compressed objects within 11 object streams
+ 252 named destinations out of 1000 (max. 500000)
+ 1033 words of extra memory for PDF output out of 10000 (max. 10000000)
 
