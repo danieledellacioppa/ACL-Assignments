@@ -881,15 +881,23 @@ However, as of RFC 4301 IPv6 protocol implementations that do implement IPsec ne
 \subsection{Link-local address}
 In computer networking, a \textbf{link-local} address is a network address that is valid only for communications within the network segment or the broadcast domain that the host is connected to. Link-local addresses are most often assigned automatically with a process known as \textbf{stateless address autoconfiguration} or \textbf{link-local address autoconfiguration},\footnote{\label{autoconfiguration}S. Cheshire; B. Aboba; E. Guttma (May 2005). \href{https://datatracker.ietf.org/doc/html/rfc3927}{Dynamic Configuration of IPv4 Link-Local Addresses}. The Internet Society. doi:10.17487/RFC3927. RFC 3927. } also known as automatic private IP addressing (APIPA) or auto-IP.
 
+\subsubsection{APIPA}
+APIPA is a feature or characteristic in operating systems (eg. Windows) which enables computers to self-configure an IP address and subnet mask automatically when their DHCP(Dynamic Host Configuration Protocol) server isn’t reachable like in the case above.
+
+\paragraph{Which range does APIPA cover?}
+The IP address range for APIPA is 169.254.0.1-169.254.255.254, with the subnet mask of 255.255.0.0.​
+
+\medskip
+
 \begin{wrapfigure}{3cm}
 \centering
 \includegraphics[width=10cm]{./IPv6_link_local_unicast_address_structure-en.svg.PNG}
 %\vspace{-10pt}
-\caption{IPv6 8-bytes Format }\label{wrap-fig:8}
+\caption{IPv6 8-bytes Format }\label{fig:ipv6-8bytes}
 \end{wrapfigure}
 
 
-In the Internet Protocol Version 6 (IPv6), the address block fe80::/10 has been reserved for link-local unicast addressing.\footnote{\label{linklokal} R. Hinden; \href{https://en.wikipedia.org/wiki/Steve_Deering}{S. Deering} (February 2006). \href{https://datatracker.ietf.org/doc/html/rfc4291}{IP Version 6 Addressing Architecture}. IETF. doi:10.17487/RFC4291. RFC 4291. Updated by RFC 5952, RFC 6052, RFC 7136, RFC 7346, RFC 7371, RFC 8064.}}${}^{{}^{2 \cdot 4}}$ (IETF), RFC 2} Of the 64 bits of a link-local addresses' network component, the most significant 10 bits (1111111010) correspond to the IANA-reserved "global routing prefix" for link-local addresses, while the "subnet ID" (the remaining 54 bits) is zero$.^{\footnotemark[6 \ref{linklokal}^{2\cdot 5 \cdot}]}$ 
+In the Internet Protocol Version 6 (IPv6), the address block fe80::/10 has been reserved for link-local unicast addressing.\footnote{\label{linklokal} R. Hinden; \href{https://en.wikipedia.org/wiki/Steve_Deering}{S. Deering} (February 2006). \href{https://datatracker.ietf.org/doc/html/rfc4291}{IP Version 6 Addressing Architecture}. IETF. doi:10.17487/RFC4291. RFC 4291. Updated by RFC 5952, RFC 6052, RFC 7136, RFC 7346, RFC 7371, RFC 8064.}}${}^{{}^{2 \cdot 4}}$ (IETF), RFC 2} Of the 64 bits of a link-local addresses' network component, the most significant 10 bits (1111111010) (Fig. \ref{fig:ipv6-8bytes}) correspond to the IANA-reserved "global routing prefix" for link-local addresses, while the "subnet ID" (the remaining 54 bits) is zero$.^{\footnotemark[6 \ref{linklokal}^{2\cdot 5 \cdot}]}$ 
 
 Unlike IPv4, IPv6 requires a link-local address on every network interface on which the IPv6 protocol is enabled, even when routable addresses are also assigned$.^{\footnotemark[8 \ref{linklokal}^{2\cdot}]}$ 
 
@@ -1062,73 +1070,72 @@ This is a server designed specifically to receive queries from client machines. 
 
 This server does the job of translating the human-friendly hostnames into computer-friendly IP addresses. The root server accepts the recursor’s query and sends it to the TLD nameservers in the next stage, depending on the domain name seen in the query.
 
-\subsection{dns server}
+\subsection{DNS server}
 
-Top-Level Domain (TLD) nameserver
+Top-Level Domain (TLD) nameserver DNS servers are usually public. But you can have a \textbf{private DNS} too if you want to keep information private or prefer a particular way to perform server management/administration.
 
 The TLD nameservers are responsible for maintaining the information about the domain names. For example, they could contain information about websites ending in “.com” or “.org” or country-level domains like “www.example.com.uk”, “www.example.com.us”, and others. The TLD nameserver will take the query from the root server and point it to the authoritative DNS nameserver associated with the query’s particular domain.
+
+
+
 
 \subsection{Authoritative nameserver}
 
 In the last step, the authoritative DNS nameserver will return the IP address back to the DNS recursor that can relay it to the client. This authoritative DNS nameserver is the one at the bottom of the lookup process that holds the DNS records. Think of these as the last stop or the final authoritative source of truth in the process.
 
-\section{public dns}
-public dns
-\section{private dns}
-private dns
-\section{dns authentication}
-dns authentication
+The DNS Security Extensions (\textbf{DNSSEC}) is a set of specifications that extend the DNS protocol by adding cryptographic \textbf{dns authentication} for responses received from authoritative DNS servers. Its goal is to defend against techniques that hackers use to direct you somewhere else. You can safely assume you really got the answer from that DNS server and not by someone trying to act like a DNS server. 
 
 \section{PING}
-Ping is a computer network administration software utility used to test the reachability of a host on an Internet Protocol (IP) network. It is available for virtually all operating systems that have networking capability, including most embedded network administration software
+Ping is a tool to test the reachability of a host on an IP network. It measures the round-trip time for messages sent from the originating host to a destination computer that are echoed back to the source.
 
-Ping measures the round-trip time for messages sent from the originating host to a destination computer that are echoed back to the source. The name comes from active sonar terminology that sends a pulse of sound and listens for the echo to detect objects under water.[1]
+Ping operates by means of Internet Control Message Protocol (\textbf{ICMP}) packets. Pinging involves sending an ICMP echo request to the target host and waiting for an ICMP echo reply. The program reports errors, packet loss, and a statistical summary of the results like round-trip time.
 
-Ping operates by means of Internet Control Message Protocol (ICMP) packets. Pinging involves sending an ICMP echo request to the target host and waiting for an ICMP echo reply. The program reports errors, packet loss, and a statistical summary of the results, typically including the minimum, maximum, the mean round-trip times, and standard deviation of the mean.
+\section{Loopback}
+Loopback (also written loop-back) is the routing of signals back to their source to test the communications infrastructure. The address is 127.0.0.1. We were planning to use it for our app on Android before the server went actually online
 
-The command-line options of the ping utility and its output vary between the numerous implementations. Options may include the size of the payload, count of tests, limits for the number of network hops (TTL) that probes traverse, interval between the requests and time to wait for a response. Many systems provide a companion utility ping6, for testing on Internet Protocol version 6 (IPv6) networks, which implement ICMPv6.
-
-\section{loopback}
-Loopback (also written loop-back) is the routing of electronic signals or digital data streams back to their source without intentional processing or modification. It is primarily a means of testing the communications infrastructure.
-
-There are many example applications. It may be a communication channel with only one communication endpoint. Any message transmitted by such a channel is immediately and only received by that same channel. In telecommunications, loopback devices perform transmission tests of access lines from the serving switching center, which usually does not require the assistance of personnel at the served terminal. Loop around is a method of testing between stations that are not necessarily adjacent, wherein two lines are used, with the test being done at one station and the two lines are interconnected at the distant station. A patch cable may also function as loopback, when applied manually or automatically, remotely or locally, facilitating a loop-back test.
-
-Where a system (such as a modem) involves round-trip analog-to-digital processing, a distinction is made between analog loopback, where the analog signal is looped back directly, and digital loopback, where the signal is processed in the digital domain before being re-converted to an analog signal and returned to the source.
-
-\section{subnet}
-A subnetwork or subnet is a logical subdivision of an IP network.[1]: 1, 16  The practice of dividing a network into two or more networks is called subnetting.
+\section{Subnet}
+A subnetwork or subnet is a logical subdivision of an IP network. The practice of dividing a network into two or more networks is called subnetting.
 
 Computers that belong to the same subnet are addressed with an identical most-significant bit-group in their IP addresses. This results in the logical division of an IP address into two fields: the network number or routing prefix and the rest field or host identifier. The rest field is an identifier for a specific host or network interface.
 
-The routing prefix may be expressed in Classless Inter-Domain Routing (CIDR) notation written as the first address of a network, followed by a slash character (/), and ending with the bit-length of the prefix. For example, 198.51.100.0/24 is the prefix of the Internet Protocol version 4 network starting at the given address, having 24 bits allocated for the network prefix, and the remaining 8 bits reserved for host addressing. Addresses in the range 198.51.100.0 to 198.51.100.255 belong to this network, with 198.51.100.255 as the subnet broadcast address. The IPv6 address specification 2001:db8::/32 is a large address block with 296 addresses, having a 32-bit routing prefix.
+\paragraph{Routing prefix expressed in Classless Inter-Domain Routing (CIDR).} All we need to do to write it in this notation is to write address of a network, followed by a slash character (/), and ending with the bit-length of the prefix. For example, 198.51.100.0/24 is the prefix of the Internet Protocol version 4 network starting at the given address, having 24 bits allocated for the network prefix, and the remaining 8 bits reserved for host addressing. Addresses in the range 198.51.100.0 to 198.51.100.255 belong to this network, with 198.51.100.255 as the subnet broadcast address. The IPv6 address specification 2001:db8::/32 is a large address block with 296 addresses, having a 32-bit routing prefix.
 
-For IPv4, a network may also be characterized by its subnet mask or netmask, which is the bitmask that, when applied by a bitwise AND operation to any IP address in the network, yields the routing prefix. Subnet masks are also expressed in dot-decimal notation like an IP address. For example, the prefix 198.51.100.0/24 would have the subnet mask 255.255.255.0.
+For example, 198.51.100.0/24 is the prefix of the network starting at the given address, having 24 bits allocated for the network prefix, and the remaining 8 bits reserved for host addressing. Addresses in the range 198.51.100.0 to 198.51.100.255 belong to this network, with 198.51.100.255 as the subnet broadcast address.The prefix 198.51.100.0/24 would have the subnet mask 255.255.255.0.A router serves as a logical or physical boundary between the subnets.
 
-Traffic is exchanged between subnetworks through routers when the routing prefixes of the source address and the destination address differ. A router serves as a logical or physical boundary between the subnets.
-
-The benefits of subnetting an existing network vary with each deployment scenario. In the address allocation architecture of the Internet using CIDR and in large organizations, it is necessary to allocate address space efficiently. Subnetting may also enhance routing efficiency, or have advantages in network management when subnetworks are administratively controlled by different entities in a larger organization. Subnets may be arranged logically in a hierarchical architecture, partitioning an organization's network address space into a tree-like routing structure, or other structures such as meshes.
+\subparagraph{the different CIDR classes}
+\begin{itemize}
+\item{Class A: 255.0.0.0 (16.777.216 addresses)​}
+\item{Class B: 255.255.0.0 (65.536 addresses)​}
+\item{Class C: 255.255.255.0 (256 addresses)​}
+\end{itemize}
 
 \section{Broadcast address}
-A broadcast address is a network address used to transmit to all devices connected to a multiple-access communications network. A message sent to a broadcast address may be received by all network-attached hosts.
+A broadcast address is a network address used to transmit to all devices connected to a multiple-access communications network. A message sent to a broadcast address may be received by all network-attached hosts.In contrast, a multicast address is used to address a specific group of devices, and a unicast address is used to address a single device. 
 
-In contrast, a multicast address is used to address a specific group of devices, and a unicast address is used to address a single device.
+\begin{itemize}
+\item{At \textbf{network layer}, a broadcast address may be a specific IP address.}
+\item{At \textbf{data link layer} on Ethernet networks, it is a specific MAC address}
+\end{itemize}
 
-For network layer communications, a broadcast address may be a specific IP address. At the data link layer on Ethernet networks, it is a specific MAC address
 \subsection{single Broadcast address}
-this is a consequence of having only one subnet, creating unnecessary traffic.
+This is a condition which is consequence of having only one subnet, creating unnecessary traffic if the network is too big and people are getting packets they're not interested to. One solution is to subnet the network creating a subnet that only contains the subscribers to the broadcast and leave all the others in peace
 
-A task left is to create 2 subnets in the same local network
-\subsection{vlans}
-to make sure every subnet is isolated
+%A task left is to create 2 subnets in the same local network
+
+\subsection{VLAN}
+This is to make sure every subnet is isolated.A VLAN is a logical subnetwork that groups a collection of devices from different physical LANs. It's used to re-partition a network for improved traffic management
+
+
 
 \section{Multicast}
-In computer networking, multicast is group communication[1] where data transmission is addressed to a group of destination computers simultaneously. Multicast can be one-to-many or many-to-many distribution.[2] Multicast should not be confused with physical layer point-to-multipoint communication.
+In computer networking, multicast is group communication where data transmission is addressed to a group of destination computers simultaneously. Multicast can be one-to-many or many-to-many.
 
-Group communication may either be application layer multicast[1] or network-assisted multicast, where the latter makes it possible for the source to efficiently send to the group in a single transmission. Copies are automatically created in other network elements, such as routers, switches and cellular network base stations, but only to network segments that currently contain members of the group. Network assisted multicast may be implemented at the data link layer using one-to-many addressing and switching such as Ethernet multicast addressing, Asynchronous Transfer Mode (ATM), point-to-multipoint virtual circuits (P2MP)[3] or InfiniBand multicast. Network-assisted multicast may also be implemented at the Internet layer using IP multicast. In IP multicast the implementation of the multicast concept occurs at the IP routing level, where routers create optimal distribution paths for datagrams sent to a multicast destination address.
+Group communication may either be application layer multicast or network-assisted multicast where the application layer sends the packet to the multicast address and then copies are automatically created in other network elements, such as routers, switches etc, to all network segments that currently contain members of the group. 
+Multicast is often employed in streaming media or videoconferencing.
 
-Multicast is often employed in Internet Protocol (IP) applications of streaming media, such as IPTV and multipoint videoconferencing.
+The Internet Group Management Protocol (\textbf{IGMP}) is the protocol that allows devices to share one IP address, allowing them to join a multicasting group so they can all receive the same data. 
 
-\textbf{IGMP}
+
 
 \section{Unicast}
 In computer networking, unicast is a one-to-one transmission from one point in the network to another point; that is, one sender and one receiver, each identified by a network address.\footnote{\label{unicast}Godred Fairhurst \href{https://www.erg.abdn.ac.uk/users/gorry/course/intro-pages/uni-b-mcast.html}{"Unicast, Broadcast, and Multicast"}.}
@@ -1138,14 +1145,13 @@ Unicast is in contrast to multicast and broadcast which are one-to-many transmis
 Internet Protocol unicast delivery methods such as Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) are typically used.
 
 \section{The Five IPv4 Classes}
-In the IPv4 IP address space, there are five classes: A, B, C, D and E. Each class has a specific range of IP addresses (and ultimately dictates the number of devices you can have on your network). Primarily, class A, B, and C are used by the majority of devices on the Internet. Class D and class E are for special uses.
+In the IPv4 IP address space, there are five classes: A, B, C, D and E. Each class has a specific range of IP addresses (and determines the number of devices you can have per network). Primarily, class A, B, and C are used by the majority of devices on the Internet. Class D and class E are for special uses.
 
-The list below shows the five available IP classes, along with the number of networks each can support and the maximum number of hosts (devices) that can be on each of those networks. The four octets that make up an IP address are conventionally represented by a.b.c.d - such as 127.10.20.30.
-
-Additionally, information is also provided on private addresses and loop address (used for network troubleshooting).
+\medskip
+\noindent Here we go with the list:
 
 \subsection{Class A Public & Private IP Address Range}
-Class A addresses are for networks with large number of total hosts. Class A allows for 126 networks by using the first octet for the network ID. The first bit in this octet, is always zero. The remaining seven bits in this octet complete the network ID. The 24 bits in the remaining three octets represent the hosts ID and allows for approximately 17 million hosts per network. Class A network number values begin at 1 and end at 127.
+Class A addresses are for networks with large number of total hosts. Class A allows for 126 networks by using the first octet for the network ID. \textbf{The first bit in this octet, is always zero}. The remaining seven bits in this octet complete the network ID. The 24 bits in the remaining three octets represent the hosts ID and allows for approximately 17 million hosts per network. Class A network number values begin at 1 and end at 127.
 
 \begin{itemize}
 \item{Public IP Range: 1.0.0.0 to 127.0.0.0}
@@ -1157,7 +1163,7 @@ Class A addresses are for networks with large number of total hosts. Class A all
 \end{itemize}
  \clearpage
 \subsection{Class B Public & Private IP Address Range}
-Class B addresses are for medium to large sized networks. Class B allows for 16,384 networks by using the first two octets for the network ID. The first two bits in the first octet are always 1 0. The remaining six bits, together with the second octet, complete the network ID. The 16 bits in the third and fourth octet represent host ID and allows for approximately 65,000 hosts per network. Class B network number values begin at 128 and end at 191.
+Class B addresses are for medium to large sized networks. Class B allows for 16,384 networks by using the first two octets for the network ID. Here the \textbf{mnemonic} is that \emph{The first two bits in the first octet are always \textbf{1 0}}. The remaining six bits, together with the second octet, complete the network ID. The 16 bits in the third and fourth octet represent host ID and allows for approximately 65,000 hosts per network. Class B network number values begin at 128 and end at 191.
 
 \begin{itemize}
 \item{Public IP Range: 128.0.0.0 to 191.255.0.0}
@@ -1169,7 +1175,7 @@ Class B addresses are for medium to large sized networks. Class B allows for 16,
 \end{itemize}
 
 \subsection{Class C Public & Private IP Address Range}
-Class C addresses are used in small local area networks (LANs). Class C allows for approximately 2 million networks by using the first three octets for the network ID. In a class C IP address, the first three bits of the first octet are always 1 1 0. And the remaining 21 bits of first three octets complete the network ID. The last octet (8 bits) represent the host ID and allows for 254 hosts per network. Class C network number values begins at 192 and end at 223.
+Class C addresses are used in small local area networks (LANs). Class C allows for approximately 2 million networks by using the first three octets for the network ID. \textbf{A good mnemonic} for a class C IP address is that, \emph{the first three bits of the first octet are always \textbf{1 1 0}}. And the remaining 21 bits of first three octets complete the network ID. The last octet (8 bits) represent the host ID and allows for 254 hosts per network. Class C network number values begins at 192 and end at 223.
 
 \begin{itemize}
 \item{Public IP Range: 192.0.0.0 to 223.255.255.0}
@@ -1193,7 +1199,7 @@ Class D IP addresses are not allocated to hosts and are used for multicasting. M
 
 
 \subsection{Class E IP Address Class}
-Class E IP addresses are not allocated to hosts and are not available for general use. These are reserved for research purposes.
+Class E IP addresses are the weird ones. They're not allocated to hosts and are not available for general use. These are reserved for research purposes.
 
 \begin{itemize}
 \item{Range: 240.0.0.0 to 255.255.255.255}
@@ -1405,6 +1411,55 @@ You can use most VoIP plans with satellite internet, but it will eat up your int
     SSH & 22\\
     TELNET & 23\\
 \end{tabular}
+
+\chapter{Emerging Technologies}
+\AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{118.jpg}}
+
+(AI), and automation - and the ​
+
+potential implications for digital activities. ​
+
+\clearpage
+\section{Wireless Emerging Technologies}
+
+\subsection{Fifth generation mobile}​
+
+5G (which stands for fifth generation) is the next step in mobile technology, following on from 4G before it and 3G before that, and like the jump from 3G to 4G, you’ll be getting far higher speeds than on any of the technologies that came before.
+
+\subsubsection{How does it work?}
+Works like 4G but the frequencies used by 5G are higher which means shorter range than the ones used for 4G and 3G though. Meaning more repetitors are required to cover the whole UK in 5G. That's probably why someone was moaning about health related issues
+
+\subsection{NFC}
+
+Near Field Communication (NFC) technology allows you to make payments, exchange media, and connect devices by hovering the first device in a few inches range from the other one.This is what contactless cards are actually using.
+
+\subsection{RFID}
+Radio-frequency identification (RFID) uses electromagnetic fields to automatically identify and track tags attached to objects. An RFID system consists of a tiny radio transponder, a radio receiver and transmitter. When triggered by an electromagnetic interrogation pulse from a nearby RFID reader device, the tag transmits digital data, usually an identifying inventory number, back to the reader. This number can be used to track inventory goods. It's what is used against shoplifting
+
+\subsection{ANT}
+ANT is a technology to provides personal area networks (PANs) enabling hardware to communicate by establishing conversation protocols, rules to represent data and to send signals. It's like Bluetooth, works on low energy, but Bluetooth works one-to-one while ANT can be one-to-many. The most recent is \textbf{ANT+}, introduced in 2004 and called "the first ultra low power wireless standard".
+
+
+\subsection{ZigBee}
+ZigBee is like wifi but consumes less power thus improving battery life but supports less number of users.
+Another difference is that ZigBee can only copy and forward a message from one device to another. 
+Whether you should go with Z-wave and ZigBee or Wi-Fi depends on what’s more important to you when it comes to your smarthome experience. If you want everything to work with Google or Alexa and don’t want to add smart hub complications, then Wi-Fi devices are the best option. But if you want local, cloudless control and a smarthome you can fine-tune to the most advanced specifications then ZigBee and Z-Wave win.
+
+\section{potential implications of AI technologies on digital activities}
+
+\subsection{what's an AI first}
+It's a set of algorithms meant to outperform humans, performing functions like thinking, judging and solving problems. These algorithms can learn meaning they could replace software developers in the future. The real need for software developer will be just to work on the AI itself.
+
+\subsection{virtual agents}
+
+An AI-powered virtual agent can do many things that a live agent can do. Using conversational AI, virtual agents automate the routine and repetitive call types handled by live agents today. This same experience can be scaled to chat and text as a unified application. Virtual agents are powered by a centralized cloud-based AI “brain” that connects to your customer data via APIs. With all the tools to mimic live agent behavior, virtual agents extend far beyond the capabilities of touchtone IVR, directed dialog, and simple chatbots for customer service.
+
+\subsection{speech recognition}
+It is also known as automatic speech recognition (ASR), computer speech recognition, or speech-to-text, and it is a capability which uses natural language processing (NLP) to process human speech into a written format. Many mobile devices incorporate speech recognition into their systems already.
+ 
+%\subsection{machine learning platforms}
+
+%\subsection{multi-factor authentication (MFA)}
 
 
 \clearpage

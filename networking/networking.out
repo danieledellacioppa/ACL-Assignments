@@ -60,40 +60,48 @@
 \BOOKMARK [1][-]{section.2.20}{The four DNS Servers to load a webpage}{chapter.2}% 60
 \BOOKMARK [2][-]{subsection.2.20.1}{DNS recursor}{section.2.20}% 61
 \BOOKMARK [2][-]{subsection.2.20.2}{Root name server}{section.2.20}% 62
-\BOOKMARK [2][-]{subsection.2.20.3}{dns server}{section.2.20}% 63
+\BOOKMARK [2][-]{subsection.2.20.3}{DNS server}{section.2.20}% 63
 \BOOKMARK [2][-]{subsection.2.20.4}{Authoritative nameserver}{section.2.20}% 64
-\BOOKMARK [1][-]{section.2.21}{public dns}{chapter.2}% 65
-\BOOKMARK [1][-]{section.2.22}{private dns}{chapter.2}% 66
-\BOOKMARK [1][-]{section.2.23}{dns authentication}{chapter.2}% 67
-\BOOKMARK [1][-]{section.2.24}{PING}{chapter.2}% 68
-\BOOKMARK [1][-]{section.2.25}{loopback}{chapter.2}% 69
-\BOOKMARK [1][-]{section.2.26}{subnet}{chapter.2}% 70
-\BOOKMARK [1][-]{section.2.27}{Broadcast address}{chapter.2}% 71
-\BOOKMARK [2][-]{subsection.2.27.1}{single Broadcast address}{section.2.27}% 72
-\BOOKMARK [2][-]{subsection.2.27.2}{vlans}{section.2.27}% 73
-\BOOKMARK [1][-]{section.2.28}{Multicast}{chapter.2}% 74
-\BOOKMARK [1][-]{section.2.29}{Unicast}{chapter.2}% 75
-\BOOKMARK [1][-]{section.2.30}{The Five IPv4 Classes}{chapter.2}% 76
-\BOOKMARK [2][-]{subsection.2.30.1}{Class A Public \040Private IP Address Range}{section.2.30}% 77
-\BOOKMARK [2][-]{subsection.2.30.2}{Class B Public \040Private IP Address Range}{section.2.30}% 78
-\BOOKMARK [2][-]{subsection.2.30.3}{Class C Public \040Private IP Address Range}{section.2.30}% 79
-\BOOKMARK [2][-]{subsection.2.30.4}{Class D IP Address Range}{section.2.30}% 80
-\BOOKMARK [2][-]{subsection.2.30.5}{Class E IP Address Class}{section.2.30}% 81
-\BOOKMARK [1][-]{section.2.31}{How to Crimp Cat 5}{chapter.2}% 82
-\BOOKMARK [2][-]{subsection.2.31.1}{Decide how much Cat-5 cable you need}{section.2.31}% 83
-\BOOKMARK [2][-]{subsection.2.31.2}{Purchase the items you will need to build the cables}{section.2.31}% 84
-\BOOKMARK [2][-]{subsection.2.31.3}{Cut the cable to lenght}{section.2.31}% 85
-\BOOKMARK [2][-]{subsection.2.31.4}{Prepare the ends of the cable for crimping}{section.2.31}% 86
-\BOOKMARK [2][-]{subsection.2.31.5}{Place the Cat-5 cable ends into the RJ-45 heads}{section.2.31}% 87
-\BOOKMARK [2][-]{subsection.2.31.6}{Determine the orientation of the wires}{section.2.31}% 88
-\BOOKMARK [2][-]{subsection.2.31.7}{Line the 8 wires up neatly so that they will fit into the plastic head}{section.2.31}% 89
-\BOOKMARK [2][-]{subsection.2.31.8}{Crimp the head onto the cable}{section.2.31}% 90
-\BOOKMARK [2][-]{subsection.2.31.9}{Test your cable if desired}{section.2.31}% 91
-\BOOKMARK [1][-]{section.2.32}{Choose the Antivirus}{chapter.2}% 92
-\BOOKMARK [2][-]{subsection.2.32.1}{Look for all-inclusive protection}{section.2.32}% 93
-\BOOKMARK [1][-]{section.2.33}{VoIP}{chapter.2}% 94
-\BOOKMARK [2][-]{subsection.2.33.1}{Overview}{section.2.33}% 95
-\BOOKMARK [1][-]{section.2.34}{Common Port Numbers and Protocols}{chapter.2}% 96
-\BOOKMARK [2][-]{subsection.2.34.1}{Protocols}{section.2.34}% 97
-\BOOKMARK [2][-]{subsection.2.34.2}{use VoIP with satellite internet}{section.2.34}% 98
-\BOOKMARK [1][-]{section.2.35}{Port Numbers}{chapter.2}% 99
+\BOOKMARK [1][-]{section.2.21}{PING}{chapter.2}% 65
+\BOOKMARK [1][-]{section.2.22}{Loopback}{chapter.2}% 66
+\BOOKMARK [1][-]{section.2.23}{Subnet}{chapter.2}% 67
+\BOOKMARK [1][-]{section.2.24}{Broadcast address}{chapter.2}% 68
+\BOOKMARK [2][-]{subsection.2.24.1}{single Broadcast address}{section.2.24}% 69
+\BOOKMARK [2][-]{subsection.2.24.2}{VLAN}{section.2.24}% 70
+\BOOKMARK [1][-]{section.2.25}{Multicast}{chapter.2}% 71
+\BOOKMARK [1][-]{section.2.26}{Unicast}{chapter.2}% 72
+\BOOKMARK [1][-]{section.2.27}{The Five IPv4 Classes}{chapter.2}% 73
+\BOOKMARK [2][-]{subsection.2.27.1}{Class A Public \040Private IP Address Range}{section.2.27}% 74
+\BOOKMARK [2][-]{subsection.2.27.2}{Class B Public \040Private IP Address Range}{section.2.27}% 75
+\BOOKMARK [2][-]{subsection.2.27.3}{Class C Public \040Private IP Address Range}{section.2.27}% 76
+\BOOKMARK [2][-]{subsection.2.27.4}{Class D IP Address Range}{section.2.27}% 77
+\BOOKMARK [2][-]{subsection.2.27.5}{Class E IP Address Class}{section.2.27}% 78
+\BOOKMARK [1][-]{section.2.28}{How to Crimp Cat 5}{chapter.2}% 79
+\BOOKMARK [2][-]{subsection.2.28.1}{Decide how much Cat-5 cable you need}{section.2.28}% 80
+\BOOKMARK [2][-]{subsection.2.28.2}{Purchase the items you will need to build the cables}{section.2.28}% 81
+\BOOKMARK [2][-]{subsection.2.28.3}{Cut the cable to lenght}{section.2.28}% 82
+\BOOKMARK [2][-]{subsection.2.28.4}{Prepare the ends of the cable for crimping}{section.2.28}% 83
+\BOOKMARK [2][-]{subsection.2.28.5}{Place the Cat-5 cable ends into the RJ-45 heads}{section.2.28}% 84
+\BOOKMARK [2][-]{subsection.2.28.6}{Determine the orientation of the wires}{section.2.28}% 85
+\BOOKMARK [2][-]{subsection.2.28.7}{Line the 8 wires up neatly so that they will fit into the plastic head}{section.2.28}% 86
+\BOOKMARK [2][-]{subsection.2.28.8}{Crimp the head onto the cable}{section.2.28}% 87
+\BOOKMARK [2][-]{subsection.2.28.9}{Test your cable if desired}{section.2.28}% 88
+\BOOKMARK [1][-]{section.2.29}{Choose the Antivirus}{chapter.2}% 89
+\BOOKMARK [2][-]{subsection.2.29.1}{Look for all-inclusive protection}{section.2.29}% 90
+\BOOKMARK [1][-]{section.2.30}{VoIP}{chapter.2}% 91
+\BOOKMARK [2][-]{subsection.2.30.1}{Overview}{section.2.30}% 92
+\BOOKMARK [1][-]{section.2.31}{Common Port Numbers and Protocols}{chapter.2}% 93
+\BOOKMARK [2][-]{subsection.2.31.1}{Protocols}{section.2.31}% 94
+\BOOKMARK [2][-]{subsection.2.31.2}{use VoIP with satellite internet}{section.2.31}% 95
+\BOOKMARK [1][-]{section.2.32}{Port Numbers}{chapter.2}% 96
+\BOOKMARK [0][-]{chapter.3}{Emerging Technologies}{part.1}% 97
+\BOOKMARK [1][-]{section.3.1}{Wireless Emerging Technologies}{chapter.3}% 98
+\BOOKMARK [2][-]{subsection.3.1.1}{Fifth generation mobile}{section.3.1}% 99
+\BOOKMARK [2][-]{subsection.3.1.2}{NFC}{section.3.1}% 100
+\BOOKMARK [2][-]{subsection.3.1.3}{RFID}{section.3.1}% 101
+\BOOKMARK [2][-]{subsection.3.1.4}{ANT}{section.3.1}% 102
+\BOOKMARK [2][-]{subsection.3.1.5}{ZigBee}{section.3.1}% 103
+\BOOKMARK [1][-]{section.3.2}{potential implications of AI technologies on digital activities}{chapter.3}% 104
+\BOOKMARK [2][-]{subsection.3.2.1}{what's an AI first}{section.3.2}% 105
+\BOOKMARK [2][-]{subsection.3.2.2}{virtual agents}{section.3.2}% 106
+\BOOKMARK [2][-]{subsection.3.2.3}{speech recognition}{section.3.2}% 107
