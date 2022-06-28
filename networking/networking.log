@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.27)  28 JUN 2022 17:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.27)  28 JUN 2022 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -849,19 +849,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ! Misplaced alignment tab character &.
 <argument> ...\numberline {2.27.1}Class A Public &
                                                    Private IP Address Range}...
-l.105 ... IP Address Range}{62}{subsection.2.27.1}
+l.105 ... IP Address Range}{63}{subsection.2.27.1}
                                                   %
 ? 
 ! Misplaced alignment tab character &.
 <argument> ...\numberline {2.27.2}Class B Public &
                                                    Private IP Address Range}...
-l.106 ... IP Address Range}{63}{subsection.2.27.2}
+l.106 ... IP Address Range}{64}{subsection.2.27.2}
                                                   %
 ? 
 ! Misplaced alignment tab character &.
 <argument> ...\numberline {2.27.3}Class C Public &
                                                    Private IP Address Range}...
-l.107 ... IP Address Range}{63}{subsection.2.27.3}
+l.107 ... IP Address Range}{64}{subsection.2.27.3}
                                                   %
 ? 
 
@@ -1549,25 +1549,24 @@ Type  H <return>  for immediate help.
 l.812 ... University.}${}^{{}^{7 \cdot 5}}$:  
                                                   
 ? 
-[50] [51]
+[50] [51] [52]
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.864 \centering
+l.866 \centering
                 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.864 \centering
+l.866 \centering
                 
 ? 
-<./IPv6.PNG, id=937, 1927.2pt x 693.59125pt>
+<./IPv6.PNG, id=943, 1927.2pt x 693.59125pt>
 File: ./IPv6.PNG Graphic file (type png)
 <use ./IPv6.PNG>
-Package pdftex.def Info: ./IPv6.PNG  used on input line 865.
+Package pdftex.def Info: ./IPv6.PNG  used on input line 867.
 (pdftex.def)             Requested size: 284.52756pt x 102.39377pt.
-[52]
 
 ! Package inputenc Error: Unicode character ​ (U+200B)
 (inputenc)                not set up for use with LaTeX.
@@ -1576,19 +1575,19 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.895 ..., with the subnet mask of 255.255.0.0.​
+l.897 ..., with the subnet mask of 255.255.0.0.​
                                                   
 ? 
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.901 \centering
+l.903 \centering
                 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.901 \centering
+l.903 \centering
                 
 ? 
 <./IPv6_link_local_unicast_address_structure-en.svg.PNG, id=946, 1927.2pt x 222
@@ -1597,15 +1596,15 @@ File: ./IPv6_link_local_unicast_address_structure-en.svg.PNG Graphic file (type
  png)
 <use ./IPv6_link_local_unicast_address_structure-en.svg.PNG>
 Package pdftex.def Info: ./IPv6_link_local_unicast_address_structure-en.svg.PNG
-  used on input line 902.
+  used on input line 904.
 (pdftex.def)             Requested size: 284.52756pt x 32.89641pt.
 ! Too many }'s.
-l.908 ...RFC 7136, RFC 7346, RFC 7371, RFC 8064.}}
+l.910 ...RFC 7136, RFC 7346, RFC 7371, RFC 8064.}}
                                                   ${}^{{}^{2 \cdot 4}}$ (IET...
 
 ? 
 ! Too many }'s.
-l.908 ...64.}}${}^{{}^{2 \cdot 4}}$ (IETF), RFC 2}
+l.910 ...64.}}${}^{{}^{2 \cdot 4}}$ (IETF), RFC 2}
                                                    Of the 64 bits of a lin...
 
 ? 
@@ -1617,7 +1616,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.908 ...}}${}^{{}^{2 \cdot 4}}$ (IETF), RFC 2} 
+l.910 ...}}${}^{{}^{2 \cdot 4}}$ (IETF), RFC 2} 
                                                   Of the 64 bits of a link-l...
 
 ? 
@@ -1629,7 +1628,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.908 ...[6 \ref{linklokal}^{2\cdot 5 \cdot}]}$ 
+l.910 ...[6 \ref{linklokal}^{2\cdot 5 \cdot}]}$ 
                                                   
 ? 
 
@@ -1640,11 +1639,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.910 ...notemark[8 \ref{linklokal}^{2\cdot}]}$ 
+l.912 ...notemark[8 \ref{linklokal}^{2\cdot}]}$ 
                                                   
 ? 
-[53 <./IPv6.png> <./IPv6_link_local_unicast_address_structure-en.svg.png>]
-Underfull \hbox (badness 1178) in paragraph at lines 916--916
+[53
+
+ <./IPv6.png> <./IPv6_link_local_unicast_address_structure-en.svg.png>]
+Underfull \hbox (badness 1178) in paragraph at lines 918--918
 [][][][] \T1/cmr/m/n/8 S. Thom-son; T. Narten; T. Jin-mei (Septem-ber 2007). []
 []IPv6 State-less Ad-dress Au-to-con-fig-u-ra-tion[][]. Net-work Work-ing Group
 .
@@ -1658,34 +1659,34 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.918 ... based$,^{\footnotemark[1 \ref{NDP}]}$ 
+l.920 ... based$,^{\footnotemark[1 \ref{NDP}]}$ 
                                                    or randomized.\footnote{\...
 
 ? 
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.927 \centering
+l.929 \centering
                 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.927 \centering
+l.929 \centering
                 
 ? 
 <./IPv4_Packet-en.svg.PNG, id=971, 1927.2pt x 879.285pt>
 File: ./IPv4_Packet-en.svg.PNG Graphic file (type png)
 <use ./IPv4_Packet-en.svg.PNG>
-Package pdftex.def Info: ./IPv4_Packet-en.svg.PNG  used on input line 928.
+Package pdftex.def Info: ./IPv4_Packet-en.svg.PNG  used on input line 930.
 (pdftex.def)             Requested size: 284.52756pt x 129.80745pt.
 
-Underfull \hbox (badness 1776) in paragraph at lines 933--934
+Underfull \hbox (badness 1776) in paragraph at lines 935--936
 [][]\T1/cmr/m/n/12 IPv4 was the first ver-sion de-ployed for
  []
 
 [54 <./IPv4_Packet-en.svg.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 945--947
+Underfull \hbox (badness 10000) in paragraph at lines 947--949
 
  []
 
@@ -1697,7 +1698,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.964 ...x letters of the English alphabet \[A, 
+l.966 ...x letters of the English alphabet \[A, 
                                                   B, C, D, E, F\] wh...
 
 ? 
@@ -1709,7 +1710,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.964 ...ters of the English alphabet \[A, B, 
+l.966 ...ters of the English alphabet \[A, B, 
                                                   C, D, E, F\] which a...
 
 ? 
@@ -1721,7 +1722,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.964 ...of the English alphabet \[A, B, C, 
+l.966 ...of the English alphabet \[A, B, C, 
                                                   D, E, F\] which are re...
 
 ? 
@@ -1733,7 +1734,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.964 ...e English alphabet \[A, B, C, D, 
+l.966 ...e English alphabet \[A, B, C, D, 
                                                   E, F\] which are represe...
 
 ? 
@@ -1745,7 +1746,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.964 ...lish alphabet \[A, B, C, D, E, 
+l.966 ...lish alphabet \[A, B, C, D, E, 
                                                   F\] which are representing...
 
 ? 
@@ -1758,7 +1759,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1140 ...s A: 255.0.0.0 (16.777.216 addresses)​
+l.1142 ...s A: 255.0.0.0 (16.777.216 addresses)​
                                                   }
 ? 
 
@@ -1769,7 +1770,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1141 ...ass B: 255.255.0.0 (65.536 addresses)​
+l.1143 ...ass B: 255.255.0.0 (65.536 addresses)​
                                                   }
 ? 
 
@@ -1780,40 +1781,40 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1142 ...lass C: 255.255.255.0 (256 addresses)​
+l.1144 ...lass C: 255.255.255.0 (256 addresses)​
                                                   }
 ? 
 [61]
 ! Misplaced alignment tab character &.
 <argument> Class A Public &
                             Private IP Address Range
-l.1186 ...ass A Public & Private IP Address Range}
+l.1188 ...ass A Public & Private IP Address Range}
                                                   
 ? 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `alignment tab' on input line 1186.
+(hyperref)                removing `alignment tab' on input line 1188.
 
 [62]
 ! Misplaced alignment tab character &.
 <argument> Class B Public &
                             Private IP Address Range
-l.1198 ...ass B Public & Private IP Address Range}
+l.1200 ...ass B Public & Private IP Address Range}
                                                   
 ? 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `alignment tab' on input line 1198.
+(hyperref)                removing `alignment tab' on input line 1200.
 
 ! Misplaced alignment tab character &.
 <argument> Class C Public &
                             Private IP Address Range
-l.1210 ...ass C Public & Private IP Address Range}
+l.1212 ...ass C Public & Private IP Address Range}
                                                   
 ? 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `alignment tab' on input line 1210.
+(hyperref)                removing `alignment tab' on input line 1212.
 
 [63
 
@@ -1821,7 +1822,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 <./meter.JPG, id=1043, 730.73pt x 548.0475pt>
 File: ./meter.JPG Graphic file (type jpg)
 <use ./meter.JPG>
-Package pdftex.def Info: ./meter.JPG  used on input line 1246.
+Package pdftex.def Info: ./meter.JPG  used on input line 1248.
 (pdftex.def)             Requested size: 170.71652pt x 128.03854pt.
  [64
 
@@ -1829,20 +1830,20 @@ Package pdftex.def Info: ./meter.JPG  used on input line 1246.
 <./step2.JPG, id=1050, 730.73pt x 548.0475pt>
 File: ./step2.JPG Graphic file (type jpg)
 <use ./step2.JPG>
-Package pdftex.def Info: ./step2.JPG  used on input line 1262.
+Package pdftex.def Info: ./step2.JPG  used on input line 1264.
 (pdftex.def)             Requested size: 170.71652pt x 128.03854pt.
 <./step3.JPG, id=1052, 730.73pt x 548.0475pt>
 File: ./step3.JPG Graphic file (type jpg)
 <use ./step3.JPG>
-Package pdftex.def Info: ./step3.JPG  used on input line 1272.
+Package pdftex.def Info: ./step3.JPG  used on input line 1274.
 (pdftex.def)             Requested size: 170.71652pt x 128.03854pt.
 <./step4.JPG, id=1054, 730.73pt x 548.0475pt>
 File: ./step4.JPG Graphic file (type jpg)
 <use ./step4.JPG>
-Package pdftex.def Info: ./step4.JPG  used on input line 1282.
+Package pdftex.def Info: ./step4.JPG  used on input line 1284.
 (pdftex.def)             Requested size: 369.88582pt x 277.4099pt.
 
-Overfull \hbox (199.1693pt too wide) in paragraph at lines 1282--1284
+Overfull \hbox (199.1693pt too wide) in paragraph at lines 1284--1286
  [][] 
  []
 
@@ -1852,7 +1853,7 @@ Overfull \hbox (199.1693pt too wide) in paragraph at lines 1282--1284
 <./step5.JPG, id=1063, 730.73pt x 548.0475pt>
 File: ./step5.JPG Graphic file (type jpg)
 <use ./step5.JPG>
-Package pdftex.def Info: ./step5.JPG  used on input line 1293.
+Package pdftex.def Info: ./step5.JPG  used on input line 1295.
 (pdftex.def)             Requested size: 284.52756pt x 213.39479pt.
  [66
 
@@ -1867,7 +1868,7 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1433 \begin{tabular}{||l|c|{5cm}||}
+l.1435 \begin{tabular}{||l|c|{5cm}||}
                                      
 ? 
 [70]
@@ -1880,7 +1881,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1451 (AI), and automation - and the ​
+l.1453 (AI), and automation - and the ​
                                          
 ? 
 
@@ -1891,12 +1892,12 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1453 ...implications for digital activities. ​
+l.1455 ...implications for digital activities. ​
                                                   
 ? 
 File: 118.jpg Graphic file (type jpg)
 <use 118.jpg>
-Package pdftex.def Info: 118.jpg  used on input line 1455.
+Package pdftex.def Info: 118.jpg  used on input line 1457.
 (pdftex.def)             Requested size: 597.62471pt x 845.14996pt.
 [71
 
@@ -1909,7 +1910,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1458 \subsection{Fifth generation mobile}​
+l.1460 \subsection{Fifth generation mobile}​
                                               
 ? 
 [72
@@ -1918,7 +1919,7 @@ l.1458 \subsection{Fifth generation mobile}​
 ! Undefined control sequence.
 <argument> \imki@jobname 
                          @idxfile
-l.1500 
+l.1502 
        
 ? 
 
@@ -1928,14 +1929,14 @@ See the imakeidx package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1500 
+l.1502 
        
 ? 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1501.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1501.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1503.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1503.
 (./networking.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1501.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1501.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1503.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1503.
 
 Package rerunfilecheck Info: File `networking.out' has not changed.
 (rerunfilecheck)             Checksum: BDE7E8BA20CFD014C99BA835A707B48F;7683.
@@ -1943,7 +1944,7 @@ Package rerunfilecheck Info: File `networking.out' has not changed.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1501.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1503.
  ) 
 Here is how much of TeX's memory you used:
  14873 strings out of 482663
@@ -1982,7 +1983,7 @@ ts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmsy6.pfb>
-Output written on networking.pdf (73 pages, 3590824 bytes).
+Output written on networking.pdf (73 pages, 3590827 bytes).
 PDF statistics:
  1998 PDF objects out of 2073 (max. 8388607)
  1086 compressed objects within 11 object streams
