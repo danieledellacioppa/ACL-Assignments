@@ -462,7 +462,9 @@ passes the ARP packet within the frame up to its ARP module. Each of these ARP m
 ARP table and send its IP datagram, encapsulated in a link-layer frame whose destination MAC is that of the host or router responding to the earlier ARP query.
 
 \paragraph{[arp -a] output on my linux shell}
+\begin{flushleft}
 On my machine for example the ARP table contains just two entries, one for the gateway, and one for the TV who's connected in the same WiFi. The LAN is obviously larger than that but my computer never had the need to send other machines a packet.
+\end{flushleft}
 
 \begin{lstlisting}
 _gateway (192.168.0.1) at 24:a7:dc:31:5b:d1 [ether] on wlp3s0
@@ -763,7 +765,7 @@ The specific characteristics of routing protocols include the manner in which th
 Many routing protocols are defined in technical standards documents called RFCs
 
 \section{Interior gateway protocols}
-An interior gateway protocol (IGP) is a type of routing protocol used for exchanging routing table information between gateways (commonly routers) within an autonomous system (for example, a system of corporate local area networks). This routing information can then be used to route network-layer protocols like IP.
+An interior gateway protocol (IGP) is a type of routing protocol used for exchanging routing table information between gateways (commonly routers) within an \textbf{autonomous system} \footnote{\label{autonomous-system}for example, a system of corporate local area networks}. This routing information can then be used to route network-layer protocols like IP.
 
 Interior gateway protocols can be divided into two categories: \textbf{distance-vector} routing protocols and \textbf{link-state} routing protocols.
 
@@ -799,23 +801,18 @@ RIP implements the split horizon, route poisoning, and holddown mechanisms to pr
 
 In RIPv1 routers broadcast updates with their routing table every 30 seconds. In the early deployments, routing tables were small enough that the traffic was not significant. As networks grew in size, however, it became evident there could be a massive traffic burst every 30 seconds, even if the routers had been initialized at random times.
 
-In most networking environments, RIP is not the preferred choice of routing protocol, as its time to converge and scalability are poor compared to EIGRP, OSPF, or IS-IS. However, it is easy to configure, because RIP does not require any parameters, unlike other protocols.
-
-RIP uses the User Datagram Protocol (UDP) as its transport protocol, and is assigned the reserved port number 520.
-
+It is easy to configure, because RIP does not require any parameters, unlike other protocols.
+%RIP uses the UDP as its transport protocol.
+%and is assigned the reserved port number 520.
 \subsubsection{EIGRP}
-Enhanced Interior Gateway Routing Protocol (EIGRP) is an advanced distance-vector routing protocol that is used on a computer network for automating routing decisions and configuration. The protocol was designed by Cisco Systems as a proprietary protocol, available only on Cisco routers. Functionality of EIGRP was converted to an open standard in 2013 and was published with informational status as RFC 7868 in 2016.
-
-EIGRP is used on a router to share routes with other routers within the same autonomous system. Unlike other well known routing protocols, such as RIP, EIGRP only sends incremental updates, reducing the workload on the router and the amount of data that needs to be transmitted.
-
-EIGRP replaced the Interior Gateway Routing Protocol (IGRP) in 1993. One of the major reasons for this was the change to classless IPv4 addresses in the Internet Protocol, which IGRP could not support.
+Enhanced Interior Gateway Routing Protocol (EIGRP) is an advanced distance-vector routing protocol that is used on a computer network for automating routing decisions and configuration.EIGRP is used on a router to share routes with other routers within the same autonomous system. Unlike other well known routing protocols, such as RIP, EIGRP only sends incremental updates, reducing the workload on the router and the amount of data that needs to be transmitted.EIGRP replaced the Interior Gateway Routing Protocol (IGRP) because this one didn't support classless IPv4 addresses.
 
 \section{Exterior gateway protocols}
 
 An exterior gateway protocol is a routing protocol used to exchange routing information between autonomous systems. This exchange is crucial for communications across the Internet. Notable exterior gateway protocols include Exterior Gateway Protocol (EGP), now obsolete, and Border Gateway Protocol (BGP)\footnote{\label{EGP}  Hunt, Craig (2002). \href{http://web.deu.edu.tr/doc/oreily/networking/tcpip/index.htm}{TCP/IP network administration} (3 ed.). O'Reilly Media. ISBN 9781449391430. OCLC 52356435. Archived from the original on 1 July 2020. Retrieved 5 November 2021 – via Dokuz Eylül University.}${}^{{}^{7 \cdot 5}}$:  
 
 \subsection{BGP}
-Border Gateway Protocol (BGP) is a standardized exterior gateway protocol designed to exchange routing and reachability information among autonomous systems (AS) on the Internet. BGP is classified as a path-vector routing protocol, and it makes routing decisions based on paths, network policies, or rule-sets configured by a network administrator.
+Border Gateway Protocol (BGP) is a standardized exterior gateway protocol designed to exchange routing and reachability information among autonomous systems$ ^{\ref{autonomous-system}}$ on the Internet. BGP is classified as a path-vector routing protocol, and it makes routing decisions based on paths, network policies, or rule-sets configured by a network administrator.
 
 BGP used for routing within an autonomous system is called Interior Border Gateway Protocol, Internal BGP (iBGP). In contrast, the Internet application of the protocol is called Exterior Border Gateway Protocol, External BGP (eBGP).
 
@@ -873,12 +870,19 @@ Internet Protocol version 6 (IPv6) is the most recent version of the Internet Pr
 \footnotetext{ "FAQs". New Zealand IPv6 Task Force. Archived from the original on 29 January 2019. Retrieved 26 October 2015.}
 
 \subsection{IPsec}
-Internet Protocol Security (IPsec) was originally developed for IPv6, but found widespread deployment first in IPv4, for which it was re-engineered. IPsec was a mandatory part of all IPv6 protocol implementations,\footnote{\label{note1}\href{https://en.wikipedia.org/wiki/Steve_Deering}{S. Deering}; R. Hinden (December 1998), Internet Protocol, Version 6 (IPv6) Specification, \href{https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force}{Internet Engineering Task Force} (IETF), RFC 2} and Internet Key Exchange (IKE) was recommended, but with RFC 6434 the inclusion of IPsec in IPv6 implementations was downgraded to a recommendation because it was considered impractical to require full IPsec implementation for all types of devices that may use IPv6.
+Internet Protocol Security (IPsec) was originally developed for IPv6, but found widespread deployment first in IPv4, for which it was re-engineered, however, IPv4 doesn't include it automatically whereas with IPv6 it will be mandatory.
 
-However, as of RFC 4301 IPv6 protocol implementations that do implement IPsec need to implement IKEv2 and need to support a minimum set of cryptographic algorithms. This requirement will help to make IPsec implementations more interoperable between devices from different vendors. The IPsec Authentication Header (AH) and the Encapsulating Security Payload header (ESP) are implemented as IPv6 extension headers.\footnotemark{}
+\subsubsection{what it does?}
+%\begin{flushleft}
+What this protocol does is the encryption of your IP so that even if someone reads your packets they won't be able to read the IP since they don't have the key for decryption
+%\end{flushleft}
+%IPsec was a mandatory part of all IPv6 protocol implementations,\footnote{\label{note1}\href{https://en.wikipedia.org/wiki/Steve_Deering}{S. Deering}; R. Hinden (December 1998), Internet Protocol, Version 6 (IPv6) Specification, \href{https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force}{Internet Engineering Task Force} (IETF), RFC 2} and Internet Key Exchange (IKE) was recommended, but with RFC 6434 the inclusion of IPsec in IPv6 implementations was downgraded to a recommendation because it was considered impractical to require full IPsec implementation for all types of devices that may use IPv6.
 
+%However, as of RFC 4301 IPv6 protocol implementations that do implement IPsec need to implement IKEv2 and need to support a minimum set of cryptographic algorithms. This requirement will help to make IPsec implementations more interoperable between devices from different vendors. The IPsec Authentication Header (AH) and the Encapsulating Security Payload header (ESP) are implemented as IPv6 extension headers.\footnotemark{}
+%
+%
+%\footnotetext{ Silvia Hagen (2014). IPv6 Essentials: Integrating IPv6 into Your IPv4 Network (3rd ed.). Sebastopol, CA: O'Reilly Media. p. 196. ISBN 978-1-4493-3526-7. OCLC 881832733.}
 
-\footnotetext{ Silvia Hagen (2014). IPv6 Essentials: Integrating IPv6 into Your IPv4 Network (3rd ed.). Sebastopol, CA: O'Reilly Media. p. 196. ISBN 978-1-4493-3526-7. OCLC 881832733.}
 
 \subsection{Link-local address}
 In computer networking, a \textbf{link-local} address is a network address that is valid only for communications within the network segment or the broadcast domain that the host is connected to. Link-local addresses are most often assigned automatically with a process known as \textbf{stateless address autoconfiguration} or \textbf{link-local address autoconfiguration},\footnote{\label{autoconfiguration}S. Cheshire; B. Aboba; E. Guttma (May 2005). \href{https://datatracker.ietf.org/doc/html/rfc3927}{Dynamic Configuration of IPv4 Link-Local Addresses}. The Internet Society. doi:10.17487/RFC3927. RFC 3927. } also known as automatic private IP addressing (APIPA) or auto-IP.
@@ -887,7 +891,9 @@ In computer networking, a \textbf{link-local} address is a network address that 
 APIPA is a feature or characteristic in operating systems (eg. Windows) which enables computers to self-configure an IP address and subnet mask automatically when their DHCP(Dynamic Host Configuration Protocol) server isn’t reachable like in the case above.
 
 \paragraph{Which range does APIPA cover?}
+\begin{flushleft}
 The IP address range for APIPA is 169.254.0.1-169.254.255.254, with the subnet mask of 255.255.0.0.​
+\end{flushleft}
 
 \medskip
 
@@ -1067,19 +1073,24 @@ So that someone doesn't just plug a device and gets an IP-address from DHCP. A d
 
 \section{dns root server}
 There are 13 important DNS root servers on the internet that store a complete database of domain names and their associated public IP addresses. These top-tier DNS servers are named A through M for the first 13 letters of the alphabet.Ten of these servers are in the US, one in London, one in Stockholm, and one in Japan 
-\subsection{why 13 DNS servers}
+
+\paragraph{why 13 DNS servers?}
+\begin{flushleft}
 That's exactly how much we need with IPv4. The IP packet size is 2 bytes.
+\end{flushleft}
 
 \subsection{who manages}
 The Internet Assigned Numbers Authority (IANA) keeps this list of DNS root servers if you're interested. ICANN manages them as well by delegating to IANA. It stands for Internet Corporation for Assigned Names and Numbers.
 
 \section{The DNS Service}
-The DNS service is the practical implementation of the DNS System. The DNS service is what a server running DNS software offers - the ability to use and manage DNS settings. Today, the DNS service is a very popular offer, with almost every domain registrar company offering their own DNS service. The DNS service can be run on a separate server, which is effective if running a very large and popular website, and can also be run on a shared hosting server, which is sufficient in 90\% of the cases.
+The DNS service is what a server running DNS software offers. Today, the DNS service is a very popular offer. The DNS service can be run on a separate server, which is effective if running a very large and popular website, and can also be run on a \textbf{shared hosting server}\footnote{\label{sharedHostingServer}A type of service where one physical server is hosting multiple websites. The server’s resources are allocated to its many users, so there is a low cost for using this type of hosting}, which is sufficient in 90\% of the cases.
 
+Here follows a main differentiation between servers:
 \begin{itemize}
 \item{recursive = non-authoritative}
 \item{non-recursive = authoritative}
 \end{itemize}
+
 
 \section{The four DNS Servers to load a webpage}
 Once a DNS query is entered, it passes through a few different servers before resolution, without any end-user interaction.
@@ -1120,11 +1131,11 @@ A subnetwork or subnet is a logical subdivision of an IP network. The practice o
 
 Computers that belong to the same subnet are addressed with an identical most-significant bit-group in their IP addresses. This results in the logical division of an IP address into two fields: the network number or routing prefix and the rest field or host identifier. The rest field is an identifier for a specific host or network interface.
 
-\paragraph{Routing prefix expressed in Classless Inter-Domain Routing (CIDR).} All we need to do to write it in this notation is to write address of a network, followed by a slash character (/), and ending with the bit-length of the prefix. For example, 198.51.100.0/24 is the prefix of the Internet Protocol version 4 network starting at the given address, having 24 bits allocated for the network prefix, and the remaining 8 bits reserved for host addressing. Addresses in the range 198.51.100.0 to 198.51.100.255 belong to this network, with 198.51.100.255 as the subnet broadcast address. The IPv6 address specification 2001:db8::/32 is a large address block with 296 addresses, having a 32-bit routing prefix.
+\subsection{Routing prefix expressed in CIDR}
+All we need to do to write it in this notation is to write address of a network, followed by a slash character (/), and ending with the bit-length of the prefix. For example, 198.51.100.0/24 is the prefix of the Internet Protocol version 4 network starting at the given address, having 24 bits allocated for the network prefix, and the remaining 8 bits reserved for host addressing. Addresses in the range 198.51.100.0 to 198.51.100.255 belong to this network, with 198.51.100.255 as the subnet broadcast address. The IPv6 address specification 2001:db8::/32 is a large address block with 296 addresses, having a 32-bit routing prefix.For example, 198.51.100.0/24 is the prefix of the network starting at the given address, having 24 bits allocated for the network prefix, and the remaining 8 bits reserved for host addressing. Addresses in the range 198.51.100.0 to 198.51.100.255 belong to this network, with 198.51.100.255 as the subnet broadcast address.The prefix 198.51.100.0/24 would have the subnet mask 255.255.255.0.A router serves as a logical or physical boundary between the subnets.
 
-For example, 198.51.100.0/24 is the prefix of the network starting at the given address, having 24 bits allocated for the network prefix, and the remaining 8 bits reserved for host addressing. Addresses in the range 198.51.100.0 to 198.51.100.255 belong to this network, with 198.51.100.255 as the subnet broadcast address.The prefix 198.51.100.0/24 would have the subnet mask 255.255.255.0.A router serves as a logical or physical boundary between the subnets.
 
-\subparagraph{the different CIDR classes}
+\subsubsection{the different CIDR classes}
 \begin{itemize}
 \item{Class A: 255.0.0.0 (16.777.216 addresses)​}
 \item{Class B: 255.255.0.0 (65.536 addresses)​}

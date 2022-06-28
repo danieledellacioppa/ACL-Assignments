@@ -54,17 +54,17 @@
 \BOOKMARK [2][-]{subsection.2.17.4}{vulnerabilities in LAN}{section.2.17}% 54
 \BOOKMARK [2][-]{subsection.2.17.5}{Fixed IP}{section.2.17}% 55
 \BOOKMARK [1][-]{section.2.18}{dns root server}{chapter.2}% 56
-\BOOKMARK [2][-]{subsection.2.18.1}{why 13 DNS servers}{section.2.18}% 57
-\BOOKMARK [2][-]{subsection.2.18.2}{who manages}{section.2.18}% 58
-\BOOKMARK [1][-]{section.2.19}{The DNS Service}{chapter.2}% 59
-\BOOKMARK [1][-]{section.2.20}{The four DNS Servers to load a webpage}{chapter.2}% 60
-\BOOKMARK [2][-]{subsection.2.20.1}{DNS recursor}{section.2.20}% 61
-\BOOKMARK [2][-]{subsection.2.20.2}{Root name server}{section.2.20}% 62
-\BOOKMARK [2][-]{subsection.2.20.3}{DNS server}{section.2.20}% 63
-\BOOKMARK [2][-]{subsection.2.20.4}{Authoritative nameserver}{section.2.20}% 64
-\BOOKMARK [1][-]{section.2.21}{PING}{chapter.2}% 65
-\BOOKMARK [1][-]{section.2.22}{Loopback}{chapter.2}% 66
-\BOOKMARK [1][-]{section.2.23}{Subnet}{chapter.2}% 67
+\BOOKMARK [2][-]{subsection.2.18.1}{who manages}{section.2.18}% 57
+\BOOKMARK [1][-]{section.2.19}{The DNS Service}{chapter.2}% 58
+\BOOKMARK [1][-]{section.2.20}{The four DNS Servers to load a webpage}{chapter.2}% 59
+\BOOKMARK [2][-]{subsection.2.20.1}{DNS recursor}{section.2.20}% 60
+\BOOKMARK [2][-]{subsection.2.20.2}{Root name server}{section.2.20}% 61
+\BOOKMARK [2][-]{subsection.2.20.3}{DNS server}{section.2.20}% 62
+\BOOKMARK [2][-]{subsection.2.20.4}{Authoritative nameserver}{section.2.20}% 63
+\BOOKMARK [1][-]{section.2.21}{PING}{chapter.2}% 64
+\BOOKMARK [1][-]{section.2.22}{Loopback}{chapter.2}% 65
+\BOOKMARK [1][-]{section.2.23}{Subnet}{chapter.2}% 66
+\BOOKMARK [2][-]{subsection.2.23.1}{Routing prefix expressed in CIDR}{section.2.23}% 67
 \BOOKMARK [1][-]{section.2.24}{Broadcast address}{chapter.2}% 68
 \BOOKMARK [2][-]{subsection.2.24.1}{single Broadcast address}{section.2.24}% 69
 \BOOKMARK [2][-]{subsection.2.24.2}{VLAN}{section.2.24}% 70
