@@ -777,11 +777,13 @@ This contrasts with distance-vector routing protocols, which work by having each
 \subsubsection{OSPF}
 Open Shortest Path First (OSPF) is a routing protocol for Internet Protocol (IP) networks. It uses a link state routing (LSR) algorithm and falls into the group of interior gateway protocols (IGPs), operating within a single autonomous system (AS).
 
-OSPF gathers link state information from available routers and constructs a topology map of the network. The topology is presented as a routing table to the Internet Layer for routing packets by their destination IP address. OSPF supports Internet Protocol Version 4 (IPv4) and Internet Protocol Version 6 (IPv6) networks and supports the Classless Inter-Domain Routing (CIDR) addressing model.
+OSPF gathers link state information from available routers and constructs a topology map of the network. The topology is presented as a routing table to the Internet Layer for routing packets by their destination IP address. 
 
-OSPF is widely used in large enterprise networks. IS-IS, another LSR-based protocol, is more common in large service provider networks.
+%OSPF supports Internet Protocol Version 4 (IPv4) and Internet Protocol Version 6 (IPv6) networks and supports the Classless Inter-Domain Routing (CIDR) addressing model.
+%
+%OSPF is widely used in large enterprise networks. IS-IS, another LSR-based protocol, is more common in large service provider networks.
 
-Originally designed in the 1980s, OSPF is defined for IPv4 in protocol version 2 by RFC 2328 (1998).[1] The updates for IPv6 are specified as OSPF Version 3 in RFC 5340 (2008).[2] OSPF supports the Classless Inter-Domain Routing (CIDR) addressing model.
+%Originally designed in the 1980s, OSPF is defined for IPv4 in protocol version 2 by RFC 2328 (1998).[1] The updates for IPv6 are specified as OSPF Version 3 in RFC 5340 (2008).OSPF supports the Classless Inter-Domain Routing (CIDR) addressing model.
 
 \subsection{distance vector routing protocols}
 A distance-vector routing protocol in data networks determines the best route for data packets based on distance. Distance-vector routing protocols measure the distance by the number of routers a packet has to pass; one router counts as one hop. Some distance-vector protocols also take into account network latency and other factors that influence traffic on a given route. To determine the best route across a network, routers using a distance-vector protocol exchange information with one another, usually routing tables plus hop counts for destination networks and possibly other traffic information. Distance-vector routing protocols also require that a router inform its neighbours of network topology changes periodically.
@@ -982,13 +984,13 @@ The fields in the output of /displaydns correspond to the fields of an actual DN
 \end{itemize}
 
 
-\subsection{ipconfig/flushdns}
-Flushes and resets the contents of the DNS client resolver cache. During DNS troubleshooting, you can use this procedure to discard negative cache entries from the cache, as well as any other entries that have been added dynamically.
+%\subsection{ipconfig/flushdns}
+%Flushes and resets the contents of the DNS client resolver cache. During DNS troubleshooting, you can use this procedure to discard negative cache entries from the cache, as well as any other entries that have been added dynamically.
 
 \subsection{ipconfig/registerdns}
 Initiates manual dynamic registration for the DNS names and IP addresses that are configured at a computer. You can use this parameter to troubleshoot a failed DNS name registration or resolve a dynamic update problem between a client and the DNS server without rebooting the client computer. The DNS settings in the advanced properties of the TCP/IP protocol determine which names are registered in DNS.
 
-\subsection{ipconfig/flushdns-}
+\subsection{ipconfig/flushdns}
 
 By default, most operating systems will cache IP addresses and other Domain Name System (DNS) records in order to fulfill future requests more quickly.
 
@@ -1026,10 +1028,30 @@ Now that we understand what flushing your DNS cache means and why you’d want t
 
 \section{DHCP}
 
-\subsection{IPCONFIG renew and release}
-The host asks the router to drop the network configuration and make a new one
+DHCP (Dynamic Host Configuration Protocol) is a protocol that provides automatic, and centralized management for the distribution of IP addresses within a network. It's also used to configure the subnet mask, default gateway, and DNS server information on the device. It comes handy in case the BYOD trend is applied in the workplace.
 
 \subsection{BYOD}
+BYOD is the concept of employees using their personally owned device(s) for work purposes.With BYOD, an organisation has ownership of the corporate data and resources that may be accessed or stored on a device, but the device itself is the property of the user.
+
+\medskip
+
+This aims to:
+\begin{itemize}
+\item{Give end-users the ability to use IT they feel comfortable with}
+\item{Reduce overheads for the organisation in terms of procurement and provisioning of corporate devices}
+\item{Enable flexible (including remote) working}
+\item{Increase productivity}
+\item{Provide redundancy to business and organisations when workers are unable to access their main places of work}
+\end{itemize}
+
+\subsection{ipconfig /release}
+
+If you give this command in the prompt then you'll get prompted with an IP address line showing 0.0.0.0 as the IP address. This is normal because the command releases the IP address from the network adapter. During this time, your computer has no IP address and cannot access the internet.
+
+\subsection{ipconfig/ renew}
+The host asks the router to drop the network configuration and make a new one. When the command is finished, a new line appears at the bottom of the Command Prompt screen that contains an IP address.
+
+
 Bring your own device
 
 \subsection{vulnerabilities in LAN}

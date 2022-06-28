@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.27)  27 JUN 2022 15:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.27)  28 JUN 2022 12:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -849,19 +849,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ! Misplaced alignment tab character &.
 <argument> ...\numberline {2.27.1}Class A Public &
                                                    Private IP Address Range}...
-l.104 ... IP Address Range}{62}{subsection.2.27.1}
+l.105 ... IP Address Range}{63}{subsection.2.27.1}
                                                   %
 ? 
 ! Misplaced alignment tab character &.
 <argument> ...\numberline {2.27.2}Class B Public &
                                                    Private IP Address Range}...
-l.105 ... IP Address Range}{63}{subsection.2.27.2}
+l.106 ... IP Address Range}{64}{subsection.2.27.2}
                                                   %
 ? 
 ! Misplaced alignment tab character &.
 <argument> ...\numberline {2.27.3}Class C Public &
                                                    Private IP Address Range}...
-l.106 ... IP Address Range}{63}{subsection.2.27.3}
+l.107 ... IP Address Range}{64}{subsection.2.27.3}
                                                   %
 ? 
 
@@ -879,7 +879,7 @@ This may cause the page layout to be inconsistent, however.
 
 ] [6]
 Chapter 1.
-<118.jpg, id=576, 195.8517pt x 277.035pt>
+<118.jpg, id=581, 195.8517pt x 277.035pt>
 File: 118.jpg Graphic file (type jpg)
 <use 118.jpg>
 Package pdftex.def Info: 118.jpg  used on input line 147.
@@ -899,7 +899,7 @@ l.149 \centering
 l.149 \centering
                 
 ? 
-<./net.png, id=582, 626.34pt x 626.34pt>
+<./net.png, id=587, 626.34pt x 626.34pt>
 File: ./net.png Graphic file (type png)
 <use ./net.png>
 Package pdftex.def Info: ./net.png  used on input line 150.
@@ -945,7 +945,7 @@ l.179 \newline
 [8
 
  <./net.png>]
-<WiFi-HK.PNG, id=606, 365.365pt x 136.51pt>
+<WiFi-HK.PNG, id=611, 365.365pt x 136.51pt>
 File: WiFi-HK.PNG Graphic file (type png)
 <use WiFi-HK.PNG>
 Package pdftex.def Info: WiFi-HK.PNG  used on input line 192.
@@ -962,12 +962,12 @@ Type  H <return>  for immediate help.
 l.209 \fi}
           
 ? 
-<./WiFi-HK-details.PNG, id=609, 299.1175pt x 140.525pt>
+<./WiFi-HK-details.PNG, id=614, 299.1175pt x 140.525pt>
 File: ./WiFi-HK-details.PNG Graphic file (type png)
 <use ./WiFi-HK-details.PNG>
 Package pdftex.def Info: ./WiFi-HK-details.PNG  used on input line 210.
 (pdftex.def)             Requested size: 227.62204pt x 106.93732pt.
-<lan-wan.JPG, id=611, 451.6875pt x 240.9pt>
+<lan-wan.JPG, id=616, 451.6875pt x 240.9pt>
 File: lan-wan.JPG Graphic file (type jpg)
 <use lan-wan.JPG>
 Package pdftex.def Info: lan-wan.JPG  used on input line 244.
@@ -995,7 +995,7 @@ l.262 \centering
 l.262 \centering
                 
 ? 
-<./ieee_802.jpg, id=633, 522.95375pt x 243.91125pt>
+<./ieee_802.jpg, id=638, 522.95375pt x 243.91125pt>
 File: ./ieee_802.jpg Graphic file (type jpg)
 <use ./ieee_802.jpg>
 Package pdftex.def Info: ./ieee_802.jpg  used on input line 263.
@@ -1030,7 +1030,7 @@ l.296 \centering
 l.296 \centering
                 
 ? 
-<./OSI-7-layers.jpg, id=640, 562.1pt x 457.71pt>
+<./OSI-7-layers.jpg, id=645, 562.1pt x 457.71pt>
 File: ./OSI-7-layers.jpg Graphic file (type jpg)
 <use ./OSI-7-layers.jpg>
 Package pdftex.def Info: ./OSI-7-layers.jpg  used on input line 297.
@@ -1073,7 +1073,7 @@ l.338 \centering
 l.338 \centering
                 
 ? 
-<./tcp-socket.PNG, id=650, 477.785pt x 417.56pt>
+<./tcp-socket.PNG, id=655, 477.785pt x 417.56pt>
 File: ./tcp-socket.PNG Graphic file (type png)
 <use ./tcp-socket.PNG>
 Package pdftex.def Info: ./tcp-socket.PNG  used on input line 339.
@@ -1082,7 +1082,7 @@ Package pdftex.def Info: ./tcp-socket.PNG  used on input line 339.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 362.
  [15]
-<./switched-lan.PNG, id=667, 996.72375pt x 613.29124pt>
+<./switched-lan.PNG, id=672, 996.72375pt x 613.29124pt>
 File: ./switched-lan.PNG Graphic file (type png)
 <use ./switched-lan.PNG>
 Package pdftex.def Info: ./switched-lan.PNG  used on input line 379.
@@ -1103,7 +1103,7 @@ Type  H <return>  for immediate help.
 l.404 \fi}
           
 ? 
-<./addressless-switch.PNG, id=672, 640.3925pt x 573.14125pt>
+<./addressless-switch.PNG, id=677, 640.3925pt x 573.14125pt>
 File: ./addressless-switch.PNG Graphic file (type png)
 <use ./addressless-switch.PNG>
 Package pdftex.def Info: ./addressless-switch.PNG  used on input line 405.
@@ -1111,7 +1111,7 @@ Package pdftex.def Info: ./addressless-switch.PNG  used on input line 405.
 [16
 
  <./switched-lan.png> <./addressless-switch.png>]
-<./ARP.PNG, id=684, 937.5025pt x 569.12625pt>
+<./ARP.PNG, id=689, 937.5025pt x 569.12625pt>
 File: ./ARP.PNG Graphic file (type png)
 <use ./ARP.PNG>
 Package pdftex.def Info: ./ARP.PNG  used on input line 431.
@@ -1126,7 +1126,7 @@ Underfull \hbox (badness 1509) in paragraph at lines 438--439
 [][]\T1/cmr/m/n/12 Now sup-pose that the host with IP ad-dress
  []
 
-<./ARP-table.PNG, id=692, 1162.3425pt x 223.83624pt>
+<./ARP-table.PNG, id=697, 1162.3425pt x 223.83624pt>
 File: ./ARP-table.PNG Graphic file (type png)
 <use ./ARP-table.PNG>
 Package pdftex.def Info: ./ARP-table.PNG  used on input line 448.
@@ -1149,7 +1149,7 @@ l.481 \centering
 l.481 \centering
                 
 ? 
-<./large.PNG, id=709, 626.34pt x 352.31625pt>
+<./large.PNG, id=714, 626.34pt x 352.31625pt>
 File: ./large.PNG Graphic file (type png)
 <use ./large.PNG>
 Package pdftex.def Info: ./large.PNG  used on input line 482.
@@ -1172,7 +1172,7 @@ Underfull \hbox (badness 2818) in paragraph at lines 491--492
 [20
 
  <./large.png>]
-<./hbs.PNG, id=716, 626.34pt x 626.34pt>
+<./hbs.PNG, id=721, 626.34pt x 626.34pt>
 File: ./hbs.PNG Graphic file (type png)
 <use ./hbs.PNG>
 Package pdftex.def Info: ./hbs.PNG  used on input line 502.
@@ -1189,7 +1189,7 @@ Type  H <return>  for immediate help.
 l.521 \fi}
           
 ? 
-<./performance.PNG, id=717, 626.34pt x 548.0475pt>
+<./performance.PNG, id=722, 626.34pt x 548.0475pt>
 File: ./performance.PNG Graphic file (type png)
 <use ./performance.PNG>
 Package pdftex.def Info: ./performance.PNG  used on input line 522.
@@ -1219,7 +1219,7 @@ l.557 \centering
 l.557 \centering
                 
 ? 
-<./step-by-step/0.PNG, id=739, 818.19965pt x 625.04947pt>
+<./step-by-step/0.PNG, id=744, 818.19965pt x 625.04947pt>
 File: ./step-by-step/0.PNG Graphic file (type png)
 <use ./step-by-step/0.PNG>
 Package pdftex.def Info: ./step-by-step/0.PNG  used on input line 558.
@@ -1236,7 +1236,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 567--568
 
  []
 
-<./step-by-step/1.PNG, id=748, 818.19965pt x 625.04947pt>
+<./step-by-step/1.PNG, id=753, 818.19965pt x 625.04947pt>
 File: ./step-by-step/1.PNG Graphic file (type png)
 <use ./step-by-step/1.PNG>
 Package pdftex.def Info: ./step-by-step/1.PNG  used on input line 569.
@@ -1248,7 +1248,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 572--573
 
  []
 
-<./step-by-step/2.PNG, id=754, 818.19965pt x 625.04947pt>
+<./step-by-step/2.PNG, id=759, 818.19965pt x 625.04947pt>
 File: ./step-by-step/2.PNG Graphic file (type png)
 <use ./step-by-step/2.PNG>
 Package pdftex.def Info: ./step-by-step/2.PNG  used on input line 574.
@@ -1260,7 +1260,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 577--578
 
  []
 
-<./step-by-step/3.PNG, id=761, 603.11035pt x 582.0316pt>
+<./step-by-step/3.PNG, id=766, 603.11035pt x 582.0316pt>
 File: ./step-by-step/3.PNG Graphic file (type png)
 <use ./step-by-step/3.PNG>
 Package pdftex.def Info: ./step-by-step/3.PNG  used on input line 579.
@@ -1277,7 +1277,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 582--583
 
  []
 
-<./step-by-step/4.PNG, id=767, 603.11035pt x 582.0316pt>
+<./step-by-step/4.PNG, id=772, 603.11035pt x 582.0316pt>
 File: ./step-by-step/4.PNG Graphic file (type png)
 <use ./step-by-step/4.PNG>
 Package pdftex.def Info: ./step-by-step/4.PNG  used on input line 584.
@@ -1289,7 +1289,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 587--588
 
  []
 
-<./step-by-step/5.PNG, id=773, 603.11035pt x 582.0316pt>
+<./step-by-step/5.PNG, id=778, 603.11035pt x 582.0316pt>
 File: ./step-by-step/5.PNG Graphic file (type png)
 <use ./step-by-step/5.PNG>
 Package pdftex.def Info: ./step-by-step/5.PNG  used on input line 589.
@@ -1297,7 +1297,7 @@ Package pdftex.def Info: ./step-by-step/5.PNG  used on input line 589.
 [28
 
  <./step-by-step/5.PNG>]
-<./step-by-step/6.PNG, id=779, 603.11035pt x 582.0316pt>
+<./step-by-step/6.PNG, id=784, 603.11035pt x 582.0316pt>
 File: ./step-by-step/6.PNG Graphic file (type png)
 <use ./step-by-step/6.PNG>
 Package pdftex.def Info: ./step-by-step/6.PNG  used on input line 596.
@@ -1309,7 +1309,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 599--600
 
  []
 
-<./step-by-step/7.PNG, id=785, 825.94286pt x 929.18571pt>
+<./step-by-step/7.PNG, id=790, 825.94286pt x 929.18571pt>
 File: ./step-by-step/7.PNG Graphic file (type png)
 <use ./step-by-step/7.PNG>
 Package pdftex.def Info: ./step-by-step/7.PNG  used on input line 601.
@@ -1321,7 +1321,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 605--606
 
  []
 
-<./step-by-step/8.PNG, id=791, 825.94286pt x 929.18571pt>
+<./step-by-step/8.PNG, id=797, 825.94286pt x 929.18571pt>
 File: ./step-by-step/8.PNG Graphic file (type png)
 <use ./step-by-step/8.PNG>
 Package pdftex.def Info: ./step-by-step/8.PNG  used on input line 607.
@@ -1333,7 +1333,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 610--611
 
  []
 
-<./step-by-step/9.PNG, id=799, 825.94286pt x 929.18571pt>
+<./step-by-step/9.PNG, id=804, 825.94286pt x 929.18571pt>
 File: ./step-by-step/9.PNG Graphic file (type png)
 <use ./step-by-step/9.PNG>
 Package pdftex.def Info: ./step-by-step/9.PNG  used on input line 612.
@@ -1345,7 +1345,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 615--616
 
  []
 
-<./step-by-step/10.PNG, id=805, 825.94286pt x 929.18571pt>
+<./step-by-step/10.PNG, id=810, 825.94286pt x 929.18571pt>
 File: ./step-by-step/10.PNG Graphic file (type png)
 <use ./step-by-step/10.PNG>
 Package pdftex.def Info: ./step-by-step/10.PNG  used on input line 617.
@@ -1357,7 +1357,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 620--621
 
  []
 
-<./step-by-step/11.PNG, id=811, 825.94286pt x 929.18571pt>
+<./step-by-step/11.PNG, id=816, 825.94286pt x 929.18571pt>
 File: ./step-by-step/11.PNG Graphic file (type png)
 <use ./step-by-step/11.PNG>
 Package pdftex.def Info: ./step-by-step/11.PNG  used on input line 622.
@@ -1369,7 +1369,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 625--626
 
  []
 
-<./step-by-step/12.PNG, id=817, 825.94286pt x 929.18571pt>
+<./step-by-step/12.PNG, id=822, 825.94286pt x 929.18571pt>
 File: ./step-by-step/12.PNG Graphic file (type png)
 <use ./step-by-step/12.PNG>
 Package pdftex.def Info: ./step-by-step/12.PNG  used on input line 627.
@@ -1381,7 +1381,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 630--631
 
  []
 
-<./step-by-step/13.PNG, id=823, 603.11035pt x 582.0316pt>
+<./step-by-step/13.PNG, id=828, 603.11035pt x 582.0316pt>
 File: ./step-by-step/13.PNG Graphic file (type png)
 <use ./step-by-step/13.PNG>
 Package pdftex.def Info: ./step-by-step/13.PNG  used on input line 632.
@@ -1393,7 +1393,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 636--637
 
  []
 
-<./step-by-step/14.PNG, id=829, 603.11035pt x 582.0316pt>
+<./step-by-step/14.PNG, id=834, 603.11035pt x 582.0316pt>
 File: ./step-by-step/14.PNG Graphic file (type png)
 <use ./step-by-step/14.PNG>
 Package pdftex.def Info: ./step-by-step/14.PNG  used on input line 638.
@@ -1405,7 +1405,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 641--642
 
  []
 
-<./step-by-step/15.PNG, id=836, 825.94286pt x 929.18571pt>
+<./step-by-step/15.PNG, id=841, 825.94286pt x 929.18571pt>
 File: ./step-by-step/15.PNG Graphic file (type png)
 <use ./step-by-step/15.PNG>
 Package pdftex.def Info: ./step-by-step/15.PNG  used on input line 643.
@@ -1417,7 +1417,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 647--648
 
  []
 
-<./step-by-step/16.PNG, id=842, 603.11035pt x 582.0316pt>
+<./step-by-step/16.PNG, id=847, 603.11035pt x 582.0316pt>
 File: ./step-by-step/16.PNG Graphic file (type png)
 <use ./step-by-step/16.PNG>
 Package pdftex.def Info: ./step-by-step/16.PNG  used on input line 649.
@@ -1429,7 +1429,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 661--663
 
  []
 
-<./step-by-step/17.PNG, id=848, 603.11035pt x 582.0316pt>
+<./step-by-step/17.PNG, id=853, 603.11035pt x 582.0316pt>
 File: ./step-by-step/17.PNG Graphic file (type png)
 <use ./step-by-step/17.PNG>
 Package pdftex.def Info: ./step-by-step/17.PNG  used on input line 664.
@@ -1441,7 +1441,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 668--669
 
  []
 
-<./step-by-step/18.PNG, id=855, 603.11035pt x 582.0316pt>
+<./step-by-step/18.PNG, id=860, 603.11035pt x 582.0316pt>
 File: ./step-by-step/18.PNG Graphic file (type png)
 <use ./step-by-step/18.PNG>
 Package pdftex.def Info: ./step-by-step/18.PNG  used on input line 670.
@@ -1453,7 +1453,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 674--675
 
  []
 
-<./step-by-step/19.PNG, id=861, 825.94286pt x 929.18571pt>
+<./step-by-step/19.PNG, id=866, 825.94286pt x 929.18571pt>
 File: ./step-by-step/19.PNG Graphic file (type png)
 <use ./step-by-step/19.PNG>
 Package pdftex.def Info: ./step-by-step/19.PNG  used on input line 676.
@@ -1465,7 +1465,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 681--682
 
  []
 
-<./step-by-step/20.PNG, id=867, 603.11035pt x 582.0316pt>
+<./step-by-step/20.PNG, id=872, 603.11035pt x 582.0316pt>
 File: ./step-by-step/20.PNG Graphic file (type png)
 <use ./step-by-step/20.PNG>
 Package pdftex.def Info: ./step-by-step/20.PNG  used on input line 683.
@@ -1477,7 +1477,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 686--687
 
  []
 
-<./step-by-step/21.PNG, id=875, 603.11035pt x 582.0316pt>
+<./step-by-step/21.PNG, id=880, 603.11035pt x 582.0316pt>
 File: ./step-by-step/21.PNG Graphic file (type png)
 <use ./step-by-step/21.PNG>
 Package pdftex.def Info: ./step-by-step/21.PNG  used on input line 688.
@@ -1487,7 +1487,7 @@ Package pdftex.def Info: ./step-by-step/21.PNG  used on input line 688.
  <./step-by-step/21.PNG>] [45
 
 ]
-<./StarNetwork.svg.PNG, id=885, 793.96625pt x 767.86874pt>
+<./StarNetwork.svg.PNG, id=890, 793.96625pt x 767.86874pt>
 File: ./StarNetwork.svg.PNG Graphic file (type png)
 <use ./StarNetwork.svg.PNG>
 Package pdftex.def Info: ./StarNetwork.svg.PNG  used on input line 712.
@@ -1500,7 +1500,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 712--713
 [46
 
  <./StarNetwork.svg.png>]
-<./RingNetwork.svg.PNG, id=894, 793.96625pt x 767.86874pt>
+<./RingNetwork.svg.PNG, id=899, 793.96625pt x 767.86874pt>
 File: ./RingNetwork.svg.PNG Graphic file (type png)
 <use ./RingNetwork.svg.PNG>
 Package pdftex.def Info: ./RingNetwork.svg.PNG  used on input line 734.
@@ -1508,7 +1508,7 @@ Package pdftex.def Info: ./RingNetwork.svg.PNG  used on input line 734.
  [47
 
  <./RingNetwork.svg.png>]
-<./star-topology/screenshot.PNG, id=903, 547.61732pt x 536.86285pt>
+<./star-topology/screenshot.PNG, id=908, 547.61732pt x 536.86285pt>
 File: ./star-topology/screenshot.PNG Graphic file (type png)
 <use ./star-topology/screenshot.PNG>
 Package pdftex.def Info: ./star-topology/screenshot.PNG  used on input line 755
@@ -1535,7 +1535,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.813 ...ül University.}${}^{{}^{7 \cdot 5}}$: 
+l.815 ...ül University.}${}^{{}^{7 \cdot 5}}$: 
                                                    
 ? 
 
@@ -1546,28 +1546,27 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.813 ... University.}${}^{{}^{7 \cdot 5}}$:  
+l.815 ... University.}${}^{{}^{7 \cdot 5}}$:  
                                                   
 ? 
 [50] [51] [52]
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.865 \centering
+l.867 \centering
                 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.865 \centering
+l.867 \centering
                 
 ? 
-<./IPv6.PNG, id=938, 1927.2pt x 693.59125pt>
+<./IPv6.PNG, id=943, 1927.2pt x 693.59125pt>
 File: ./IPv6.PNG Graphic file (type png)
 <use ./IPv6.PNG>
-Package pdftex.def Info: ./IPv6.PNG  used on input line 866.
+Package pdftex.def Info: ./IPv6.PNG  used on input line 868.
 (pdftex.def)             Requested size: 284.52756pt x 102.39377pt.
-[53 <./IPv6.png>]
 
 ! Package inputenc Error: Unicode character ​ (U+200B)
 (inputenc)                not set up for use with LaTeX.
@@ -1576,36 +1575,37 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.888 ..., with the subnet mask of 255.255.0.0.​
+l.890 ..., with the subnet mask of 255.255.0.0.​
                                                   
 ? 
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.893 \centering
+l.895 \centering
                 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.893 \centering
+l.895 \centering
                 
 ? 
-<./IPv6_link_local_unicast_address_structure-en.svg.PNG, id=956, 1927.2pt x 222
+<./IPv6_link_local_unicast_address_structure-en.svg.PNG, id=950, 1927.2pt x 222
 .8325pt>
 File: ./IPv6_link_local_unicast_address_structure-en.svg.PNG Graphic file (type
  png)
 <use ./IPv6_link_local_unicast_address_structure-en.svg.PNG>
 Package pdftex.def Info: ./IPv6_link_local_unicast_address_structure-en.svg.PNG
-  used on input line 894.
+  used on input line 896.
 (pdftex.def)             Requested size: 284.52756pt x 32.89641pt.
+[53 <./IPv6.png>]
 ! Too many }'s.
-l.900 ...RFC 7136, RFC 7346, RFC 7371, RFC 8064.}}
+l.902 ...RFC 7136, RFC 7346, RFC 7371, RFC 8064.}}
                                                   ${}^{{}^{2 \cdot 4}}$ (IET...
 
 ? 
 ! Too many }'s.
-l.900 ...64.}}${}^{{}^{2 \cdot 4}}$ (IETF), RFC 2}
+l.902 ...64.}}${}^{{}^{2 \cdot 4}}$ (IETF), RFC 2}
                                                    Of the 64 bits of a lin...
 
 ? 
@@ -1617,7 +1617,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.900 ...}}${}^{{}^{2 \cdot 4}}$ (IETF), RFC 2} 
+l.902 ...}}${}^{{}^{2 \cdot 4}}$ (IETF), RFC 2} 
                                                   Of the 64 bits of a link-l...
 
 ? 
@@ -1629,7 +1629,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.900 ...[6 \ref{linklokal}^{2\cdot 5 \cdot}]}$ 
+l.902 ...[6 \ref{linklokal}^{2\cdot 5 \cdot}]}$ 
                                                   
 ? 
 
@@ -1640,11 +1640,11 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.902 ...notemark[8 \ref{linklokal}^{2\cdot}]}$ 
+l.904 ...notemark[8 \ref{linklokal}^{2\cdot}]}$ 
                                                   
 ? 
 
-Underfull \hbox (badness 1178) in paragraph at lines 908--908
+Underfull \hbox (badness 1178) in paragraph at lines 910--910
 [][][][] \T1/cmr/m/n/8 S. Thom-son; T. Narten; T. Jin-mei (Septem-ber 2007). []
 []IPv6 State-less Ad-dress Au-to-con-fig-u-ra-tion[][]. Net-work Work-ing Group
 .
@@ -1658,29 +1658,29 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.910 ... based$,^{\footnotemark[1 \ref{NDP}]}$ 
+l.912 ... based$,^{\footnotemark[1 \ref{NDP}]}$ 
                                                    or randomized.\footnote{\...
 
 ? 
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.919 \centering
+l.921 \centering
                 
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.919 \centering
+l.921 \centering
                 
 ? 
-<./IPv4_Packet-en.svg.PNG, id=968, 1927.2pt x 879.285pt>
+<./IPv4_Packet-en.svg.PNG, id=975, 1927.2pt x 879.285pt>
 File: ./IPv4_Packet-en.svg.PNG Graphic file (type png)
 <use ./IPv4_Packet-en.svg.PNG>
-Package pdftex.def Info: ./IPv4_Packet-en.svg.PNG  used on input line 920.
+Package pdftex.def Info: ./IPv4_Packet-en.svg.PNG  used on input line 922.
 (pdftex.def)             Requested size: 284.52756pt x 129.80745pt.
 [54 <./IPv6_link_local_unicast_address_structure-en.svg.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 937--939
+Underfull \hbox (badness 10000) in paragraph at lines 939--941
 
  []
 
@@ -1692,7 +1692,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.956 ...x letters of the English alphabet \[A, 
+l.958 ...x letters of the English alphabet \[A, 
                                                   B, C, D, E, F\] wh...
 
 ? 
@@ -1704,7 +1704,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.956 ...ters of the English alphabet \[A, B, 
+l.958 ...ters of the English alphabet \[A, B, 
                                                   C, D, E, F\] which a...
 
 ? 
@@ -1716,7 +1716,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.956 ...of the English alphabet \[A, B, C, 
+l.958 ...of the English alphabet \[A, B, C, 
                                                   D, E, F\] which are re...
 
 ? 
@@ -1728,7 +1728,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.956 ...e English alphabet \[A, B, C, D, 
+l.958 ...e English alphabet \[A, B, C, D, 
                                                   E, F\] which are represe...
 
 ? 
@@ -1740,7 +1740,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.956 ...lish alphabet \[A, B, C, D, E, 
+l.958 ...lish alphabet \[A, B, C, D, E, 
                                                   F\] which are representing...
 
 ? 
@@ -1753,7 +1753,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1107 ...s A: 255.0.0.0 (16.777.216 addresses)​
+l.1129 ...s A: 255.0.0.0 (16.777.216 addresses)​
                                                   }
 ? 
 
@@ -1764,7 +1764,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1108 ...ass B: 255.255.0.0 (65.536 addresses)​
+l.1130 ...ass B: 255.255.0.0 (65.536 addresses)​
                                                   }
 ? 
 
@@ -1775,86 +1775,86 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1109 ...lass C: 255.255.255.0 (256 addresses)​
+l.1131 ...lass C: 255.255.255.0 (256 addresses)​
                                                   }
 ? 
 [61]
 ! Misplaced alignment tab character &.
 <argument> Class A Public &
                             Private IP Address Range
-l.1153 ...ass A Public & Private IP Address Range}
+l.1175 ...ass A Public & Private IP Address Range}
                                                   
 ? 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `alignment tab' on input line 1153.
+(hyperref)                removing `alignment tab' on input line 1175.
 
-[62]
+[62] [63]
 ! Misplaced alignment tab character &.
 <argument> Class B Public &
                             Private IP Address Range
-l.1165 ...ass B Public & Private IP Address Range}
+l.1187 ...ass B Public & Private IP Address Range}
                                                   
 ? 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `alignment tab' on input line 1165.
+(hyperref)                removing `alignment tab' on input line 1187.
 
 ! Misplaced alignment tab character &.
 <argument> Class C Public &
                             Private IP Address Range
-l.1177 ...ass C Public & Private IP Address Range}
+l.1199 ...ass C Public & Private IP Address Range}
                                                   
 ? 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `alignment tab' on input line 1177.
+(hyperref)                removing `alignment tab' on input line 1199.
 
-[63
+[64
 
 ]
-<./meter.JPG, id=1043, 730.73pt x 548.0475pt>
+<./meter.JPG, id=1052, 730.73pt x 548.0475pt>
 File: ./meter.JPG Graphic file (type jpg)
 <use ./meter.JPG>
-Package pdftex.def Info: ./meter.JPG  used on input line 1213.
+Package pdftex.def Info: ./meter.JPG  used on input line 1235.
 (pdftex.def)             Requested size: 170.71652pt x 128.03854pt.
- [64
+ [65
 
  <./meter.jpg>]
-<./step2.JPG, id=1050, 730.73pt x 548.0475pt>
+<./step2.JPG, id=1059, 730.73pt x 548.0475pt>
 File: ./step2.JPG Graphic file (type jpg)
 <use ./step2.JPG>
-Package pdftex.def Info: ./step2.JPG  used on input line 1229.
+Package pdftex.def Info: ./step2.JPG  used on input line 1251.
 (pdftex.def)             Requested size: 170.71652pt x 128.03854pt.
-<./step3.JPG, id=1052, 730.73pt x 548.0475pt>
+<./step3.JPG, id=1061, 730.73pt x 548.0475pt>
 File: ./step3.JPG Graphic file (type jpg)
 <use ./step3.JPG>
-Package pdftex.def Info: ./step3.JPG  used on input line 1239.
+Package pdftex.def Info: ./step3.JPG  used on input line 1261.
 (pdftex.def)             Requested size: 170.71652pt x 128.03854pt.
-<./step4.JPG, id=1054, 730.73pt x 548.0475pt>
+<./step4.JPG, id=1063, 730.73pt x 548.0475pt>
 File: ./step4.JPG Graphic file (type jpg)
 <use ./step4.JPG>
-Package pdftex.def Info: ./step4.JPG  used on input line 1249.
+Package pdftex.def Info: ./step4.JPG  used on input line 1271.
 (pdftex.def)             Requested size: 369.88582pt x 277.4099pt.
 
-Overfull \hbox (199.1693pt too wide) in paragraph at lines 1249--1251
+Overfull \hbox (199.1693pt too wide) in paragraph at lines 1271--1273
  [][] 
  []
 
-[65
+[66
 
  <./step2.jpg> <./step3.jpg> <./step4.jpg>]
-<./step5.JPG, id=1063, 730.73pt x 548.0475pt>
+<./step5.JPG, id=1072, 730.73pt x 548.0475pt>
 File: ./step5.JPG Graphic file (type jpg)
 <use ./step5.JPG>
-Package pdftex.def Info: ./step5.JPG  used on input line 1260.
+Package pdftex.def Info: ./step5.JPG  used on input line 1282.
 (pdftex.def)             Requested size: 284.52756pt x 213.39479pt.
- [66
+ [67
 
- <./step5.jpg>] [67] [68
+ <./step5.jpg>] [68] [69
 
 ]
-[69]
+[70]
 
 ! Package array Error:  Illegal pream-token (5cm): `c' used.
 
@@ -1862,10 +1862,12 @@ See the array package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1400 \begin{tabular}{||l|c|{5cm}||}
+l.1422 \begin{tabular}{||l|c|{5cm}||}
                                      
 ? 
-[70]
+[71] [72
+
+]
 Chapter 3.
 
 ! Package inputenc Error: Unicode character ​ (U+200B)
@@ -1875,7 +1877,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1418 (AI), and automation - and the ​
+l.1440 (AI), and automation - and the ​
                                          
 ? 
 
@@ -1886,16 +1888,14 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1420 ...implications for digital activities. ​
+l.1442 ...implications for digital activities. ​
                                                   
 ? 
 File: 118.jpg Graphic file (type jpg)
 <use 118.jpg>
-Package pdftex.def Info: 118.jpg  used on input line 1422.
+Package pdftex.def Info: 118.jpg  used on input line 1444.
 (pdftex.def)             Requested size: 597.62471pt x 845.14996pt.
-[71
-
-]
+[73]
 
 ! Package inputenc Error: Unicode character ​ (U+200B)
 (inputenc)                not set up for use with LaTeX.
@@ -1904,16 +1904,16 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1425 \subsection{Fifth generation mobile}​
+l.1447 \subsection{Fifth generation mobile}​
                                               
 ? 
-[72
+[74
 
-] [73]
+] [75]
 ! Undefined control sequence.
 <argument> \imki@jobname 
                          @idxfile
-l.1467 
+l.1489 
        
 ? 
 
@@ -1923,64 +1923,73 @@ See the imakeidx package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1467 
+l.1489 
        
 ? 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1468.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1468.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1490.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1490.
 (./networking.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1468.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1468.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1490.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1490.
 
-Package rerunfilecheck Info: File `networking.out' has not changed.
-(rerunfilecheck)             Checksum: E35A44615AA19B607DF55E90E8510ABC;7681.
 
+
+Package rerunfilecheck Warning: File `networking.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `networking.out':
+(rerunfilecheck)             Before: A12930D3EA3F96DAB9196F07570A28AE;7744
+(rerunfilecheck)             After:  1DD3057862DF6660A03CD4E5CF922B7E;7669.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1468.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1490.
  ) 
 Here is how much of TeX's memory you used:
- 14871 strings out of 482663
- 223414 string characters out of 5955139
+ 14875 strings out of 482663
+ 223464 string characters out of 5955139
  793243 words of memory out of 5000000
- 29419 multiletter control sequences out of 15000+600000
+ 29420 multiletter control sequences out of 15000+600000
  552731 words of font info for 64 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
  55i,12n,96p,1218b,1654s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0800.6
-00pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti109
-5.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecit
-1200.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-cbx0800.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/e
-c/tcrm1200.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecrm0800.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jkna
-ppen/ec/ecxc1440.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecrm0600.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfou
-r/jknappen/ec/eccc0600.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/lj
-four/jknappen/ec/ecxc1728.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk
-/ljfour/jknappen/ec/ecbx1728.600pk> </home/daniele/.texlive2019/texmf-var/fonts
-/pk/ljfour/jknappen/ec/ecxc1200.600pk> </home/daniele/.texlive2019/texmf-var/fo
-nts/pk/ljfour/jknappen/ec/eccc1200.600pk> </home/daniele/.texlive2019/texmf-var
-/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/daniele/.texlive2019/texmf-
-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/daniele/.texlive2019/tex
-mf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/daniele/.texlive2019/
-texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/daniele/.texlive20
-19/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1440.600pk> </home/daniele/.texliv
-e2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/daniele/.tex
-live2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/daniele/.
-texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy6.pfb>
-Output written on networking.pdf (73 pages, 3591495 bytes).
+pdfTeX warning (dest): name{subsection.2.16.5} has been referenced but does n
+ot exist, replaced by a fixed one
+
+ </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0800.600
+pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1095.
+600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecit12
+00.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecb
+x0800.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/
+tcrm1200.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/
+ec/ecrm0800.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jknapp
+en/ec/ecxc1440.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecrm0600.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfour/
+jknappen/ec/eccc0600.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/ljfo
+ur/jknappen/ec/ecxc1728.600pk> </home/daniele/.texlive2019/texmf-var/fonts/pk/l
+jfour/jknappen/ec/ecbx1728.600pk> </home/daniele/.texlive2019/texmf-var/fonts/p
+k/ljfour/jknappen/ec/ecxc1200.600pk> </home/daniele/.texlive2019/texmf-var/font
+s/pk/ljfour/jknappen/ec/eccc1200.600pk> </home/daniele/.texlive2019/texmf-var/f
+onts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/daniele/.texlive2019/texmf-va
+r/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/daniele/.texlive2019/texmf
+-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/daniele/.texlive2019/te
+xmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/daniele/.texlive2019
+/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1440.600pk> </home/daniele/.texlive2
+019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/daniele/.texli
+ve2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/daniele/.te
+xlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy6.pfb>
+Output written on networking.pdf (75 pages, 3592349 bytes).
 PDF statistics:
- 2000 PDF objects out of 2073 (max. 8388607)
- 1086 compressed objects within 11 object streams
- 267 named destinations out of 1000 (max. 500000)
- 1097 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2011 PDF objects out of 2073 (max. 8388607)
+ 1097 compressed objects within 11 object streams
+ 270 named destinations out of 1000 (max. 500000)
+ 1105 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -49,96 +49,96 @@
 \contentsline {subsubsection}{RIP}{50}{section*.32}%
 \contentsline {subsubsection}{EIGRP}{50}{section*.33}%
 \contentsline {section}{\numberline {2.10}Exterior gateway protocols}{50}{section.2.10}%
-\contentsline {subsection}{\numberline {2.10.1}BGP}{51}{subsection.2.10.1}%
+\contentsline {subsection}{\numberline {2.10.1}BGP}{50}{subsection.2.10.1}%
 \contentsline {section}{\numberline {2.11}IoT}{51}{section.2.11}%
 \contentsline {section}{\numberline {2.12}IoT in Aviation}{51}{section.2.12}%
 \contentsline {subsection}{\numberline {2.12.1}Existing Technologies in Aviation Industry}{51}{subsection.2.12.1}%
 \contentsline {subsubsection}{Digitized Security}{51}{section*.34}%
 \contentsline {subsubsection}{VR for Last-Minute Changes}{51}{section*.35}%
-\contentsline {subsubsection}{Biometrics}{52}{section*.36}%
+\contentsline {subsubsection}{Biometrics}{51}{section*.36}%
 \contentsline {subsection}{\numberline {2.12.2}IoT Adoption Challenges}{52}{subsection.2.12.2}%
 \contentsline {subsection}{\numberline {2.12.3}Opportunities for IoT in Aviation}{52}{subsection.2.12.3}%
 \contentsline {section}{\numberline {2.13}IPv6}{53}{section.2.13}%
 \contentsline {subsection}{\numberline {2.13.1}IPsec}{53}{subsection.2.13.1}%
 \contentsline {subsection}{\numberline {2.13.2}Link-local address}{53}{subsection.2.13.2}%
-\contentsline {subsubsection}{APIPA}{54}{section*.38}%
-\contentsline {paragraph}{Which range does APIPA cover?}{54}{section*.39}%
+\contentsline {subsubsection}{APIPA}{53}{section*.38}%
+\contentsline {paragraph}{Which range does APIPA cover?}{53}{section*.39}%
 \contentsline {section}{\numberline {2.14}IPv4}{54}{section.2.14}%
-\contentsline {subsection}{\numberline {2.14.1}conversion to binary}{55}{subsection.2.14.1}%
+\contentsline {subsection}{\numberline {2.14.1}conversion to binary}{54}{subsection.2.14.1}%
 \contentsline {section}{\numberline {2.15}binary to Hex}{55}{section.2.15}%
 \contentsline {section}{\numberline {2.16}IP config}{56}{section.2.16}%
 \contentsline {subsection}{\numberline {2.16.1}ipconfig/all}{56}{subsection.2.16.1}%
 \contentsline {subsection}{\numberline {2.16.2}ipconfig/displaydns}{56}{subsection.2.16.2}%
-\contentsline {subsection}{\numberline {2.16.3}ipconfig/flushdns}{57}{subsection.2.16.3}%
-\contentsline {subsection}{\numberline {2.16.4}ipconfig/registerdns}{57}{subsection.2.16.4}%
-\contentsline {subsection}{\numberline {2.16.5}ipconfig/flushdns-}{57}{subsection.2.16.5}%
+\contentsline {subsection}{\numberline {2.16.3}ipconfig/registerdns}{56}{subsection.2.16.3}%
+\contentsline {subsection}{\numberline {2.16.4}ipconfig/flushdns}{57}{subsection.2.16.4}%
 \contentsline {subsubsection}{what flush DNS does}{57}{section*.42}%
 \contentsline {subsubsection}{why would you flush DNS}{57}{section*.43}%
 \contentsline {section}{\numberline {2.17}DHCP}{58}{section.2.17}%
-\contentsline {subsection}{\numberline {2.17.1}IPCONFIG renew and release}{58}{subsection.2.17.1}%
-\contentsline {subsection}{\numberline {2.17.2}BYOD}{58}{subsection.2.17.2}%
-\contentsline {subsection}{\numberline {2.17.3}vulnerabilities in LAN}{58}{subsection.2.17.3}%
-\contentsline {subsubsection}{Poor configuration}{58}{section*.44}%
-\contentsline {subsubsection}{Poor encryption}{58}{section*.45}%
-\contentsline {subsection}{\numberline {2.17.4}Fixed IP}{58}{subsection.2.17.4}%
+\contentsline {subsection}{\numberline {2.17.1}BYOD}{58}{subsection.2.17.1}%
+\contentsline {subsection}{\numberline {2.17.2}ipconfig /release}{58}{subsection.2.17.2}%
+\contentsline {subsection}{\numberline {2.17.3}ipconfig/ renew}{58}{subsection.2.17.3}%
+\contentsline {subsection}{\numberline {2.17.4}vulnerabilities in LAN}{59}{subsection.2.17.4}%
+\contentsline {subsubsection}{Poor configuration}{59}{section*.44}%
+\contentsline {subsubsection}{Poor encryption}{59}{section*.45}%
+\contentsline {subsection}{\numberline {2.17.5}Fixed IP}{59}{subsection.2.17.5}%
 \contentsline {section}{\numberline {2.18}dns root server}{59}{section.2.18}%
 \contentsline {subsection}{\numberline {2.18.1}why 13 DNS servers}{59}{subsection.2.18.1}%
 \contentsline {subsection}{\numberline {2.18.2}who manages}{59}{subsection.2.18.2}%
 \contentsline {section}{\numberline {2.19}The DNS Service}{59}{section.2.19}%
 \contentsline {section}{\numberline {2.20}The four DNS Servers to load a webpage}{59}{section.2.20}%
-\contentsline {subsection}{\numberline {2.20.1}DNS recursor}{59}{subsection.2.20.1}%
-\contentsline {subsection}{\numberline {2.20.2}Root name server}{59}{subsection.2.20.2}%
+\contentsline {subsection}{\numberline {2.20.1}DNS recursor}{60}{subsection.2.20.1}%
+\contentsline {subsection}{\numberline {2.20.2}Root name server}{60}{subsection.2.20.2}%
 \contentsline {subsection}{\numberline {2.20.3}DNS server}{60}{subsection.2.20.3}%
 \contentsline {subsection}{\numberline {2.20.4}Authoritative nameserver}{60}{subsection.2.20.4}%
 \contentsline {section}{\numberline {2.21}PING}{60}{section.2.21}%
-\contentsline {section}{\numberline {2.22}Loopback}{60}{section.2.22}%
-\contentsline {section}{\numberline {2.23}Subnet}{60}{section.2.23}%
+\contentsline {section}{\numberline {2.22}Loopback}{61}{section.2.22}%
+\contentsline {section}{\numberline {2.23}Subnet}{61}{section.2.23}%
 \contentsline {paragraph}{Routing prefix expressed in Classless Inter-Domain Routing (CIDR).}{61}{section*.46}%
 \contentsline {subparagraph}{the different CIDR classes}{61}{section*.47}%
 \contentsline {section}{\numberline {2.24}Broadcast address}{61}{section.2.24}%
-\contentsline {subsection}{\numberline {2.24.1}single Broadcast address}{61}{subsection.2.24.1}%
-\contentsline {subsection}{\numberline {2.24.2}VLAN}{61}{subsection.2.24.2}%
+\contentsline {subsection}{\numberline {2.24.1}single Broadcast address}{62}{subsection.2.24.1}%
+\contentsline {subsection}{\numberline {2.24.2}VLAN}{62}{subsection.2.24.2}%
 \contentsline {section}{\numberline {2.25}Multicast}{62}{section.2.25}%
 \contentsline {section}{\numberline {2.26}Unicast}{62}{section.2.26}%
 \contentsline {section}{\numberline {2.27}The Five IPv4 Classes}{62}{section.2.27}%
 \contentsline {subsection}{\numberline {2.27.1}Class A Public & Private IP Address Range}{62}{subsection.2.27.1}%
-\contentsline {subsection}{\numberline {2.27.2}Class B Public & Private IP Address Range}{63}{subsection.2.27.2}%
-\contentsline {subsection}{\numberline {2.27.3}Class C Public & Private IP Address Range}{63}{subsection.2.27.3}%
-\contentsline {subsection}{\numberline {2.27.4}Class D IP Address Range}{64}{subsection.2.27.4}%
-\contentsline {subsection}{\numberline {2.27.5}Class E IP Address Class}{64}{subsection.2.27.5}%
-\contentsline {section}{\numberline {2.28}How to Crimp Cat 5}{64}{section.2.28}%
-\contentsline {subsection}{\numberline {2.28.1}Decide how much Cat-5 cable you need}{64}{subsection.2.28.1}%
-\contentsline {subsection}{\numberline {2.28.2}Purchase the items you will need to build the cables}{65}{subsection.2.28.2}%
-\contentsline {subsection}{\numberline {2.28.3}Cut the cable to lenght}{65}{subsection.2.28.3}%
-\contentsline {subsection}{\numberline {2.28.4}Prepare the ends of the cable for crimping}{65}{subsection.2.28.4}%
-\contentsline {subsection}{\numberline {2.28.5}Place the Cat-5 cable ends into the RJ-45 heads}{66}{subsection.2.28.5}%
-\contentsline {subsection}{\numberline {2.28.6}Determine the orientation of the wires}{66}{subsection.2.28.6}%
-\contentsline {subsection}{\numberline {2.28.7}Line the 8 wires up neatly so that they will fit into the plastic head}{66}{subsection.2.28.7}%
-\contentsline {subsection}{\numberline {2.28.8}Crimp the head onto the cable}{66}{subsection.2.28.8}%
-\contentsline {subsection}{\numberline {2.28.9}Test your cable if desired}{66}{subsection.2.28.9}%
-\contentsline {section}{\numberline {2.29}Choose the Antivirus}{66}{section.2.29}%
-\contentsline {subsection}{\numberline {2.29.1}Look for all-inclusive protection}{66}{subsection.2.29.1}%
-\contentsline {section}{\numberline {2.30}VoIP}{68}{section.2.30}%
-\contentsline {subsection}{\numberline {2.30.1}Overview}{68}{subsection.2.30.1}%
-\contentsline {section}{\numberline {2.31}Common Port Numbers and Protocols}{68}{section.2.31}%
-\contentsline {subsection}{\numberline {2.31.1}Protocols}{68}{subsection.2.31.1}%
-\contentsline {subsubsection}{what VoIP protocols include}{69}{section*.53}%
-\contentsline {subsubsection}{Asterisk }{69}{section*.54}%
-\contentsline {subsubsection}{Session Initiation Protocol}{69}{section*.55}%
-\contentsline {subsubsection}{Quality of service}{69}{section*.56}%
-\contentsline {subsection}{\numberline {2.31.2}use VoIP with satellite internet}{70}{subsection.2.31.2}%
-\contentsline {subsubsection}{Benefits of using VoIP over satellite broadband}{70}{section*.57}%
-\contentsline {subsubsection}{CONs of VoIP}{70}{section*.58}%
-\contentsline {section}{\numberline {2.32}Port Numbers}{70}{section.2.32}%
-\contentsline {chapter}{\numberline {3}Emerging Technologies}{71}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Wireless Emerging Technologies}{72}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Fifth generation mobile}{72}{subsection.3.1.1}%
-\contentsline {subsubsection}{How does it work?}{72}{section*.59}%
-\contentsline {subsection}{\numberline {3.1.2}NFC}{72}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}RFID}{72}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}ANT}{72}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5}ZigBee}{72}{subsection.3.1.5}%
-\contentsline {section}{\numberline {3.2}potential implications of AI technologies on digital activities}{73}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}what's an AI first}{73}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}virtual agents}{73}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}speech recognition}{73}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {2.27.2}Class B Public & Private IP Address Range}{64}{subsection.2.27.2}%
+\contentsline {subsection}{\numberline {2.27.3}Class C Public & Private IP Address Range}{64}{subsection.2.27.3}%
+\contentsline {subsection}{\numberline {2.27.4}Class D IP Address Range}{65}{subsection.2.27.4}%
+\contentsline {subsection}{\numberline {2.27.5}Class E IP Address Class}{65}{subsection.2.27.5}%
+\contentsline {section}{\numberline {2.28}How to Crimp Cat 5}{65}{section.2.28}%
+\contentsline {subsection}{\numberline {2.28.1}Decide how much Cat-5 cable you need}{65}{subsection.2.28.1}%
+\contentsline {subsection}{\numberline {2.28.2}Purchase the items you will need to build the cables}{66}{subsection.2.28.2}%
+\contentsline {subsection}{\numberline {2.28.3}Cut the cable to lenght}{66}{subsection.2.28.3}%
+\contentsline {subsection}{\numberline {2.28.4}Prepare the ends of the cable for crimping}{66}{subsection.2.28.4}%
+\contentsline {subsection}{\numberline {2.28.5}Place the Cat-5 cable ends into the RJ-45 heads}{67}{subsection.2.28.5}%
+\contentsline {subsection}{\numberline {2.28.6}Determine the orientation of the wires}{67}{subsection.2.28.6}%
+\contentsline {subsection}{\numberline {2.28.7}Line the 8 wires up neatly so that they will fit into the plastic head}{67}{subsection.2.28.7}%
+\contentsline {subsection}{\numberline {2.28.8}Crimp the head onto the cable}{67}{subsection.2.28.8}%
+\contentsline {subsection}{\numberline {2.28.9}Test your cable if desired}{67}{subsection.2.28.9}%
+\contentsline {section}{\numberline {2.29}Choose the Antivirus}{67}{section.2.29}%
+\contentsline {subsection}{\numberline {2.29.1}Look for all-inclusive protection}{67}{subsection.2.29.1}%
+\contentsline {section}{\numberline {2.30}VoIP}{69}{section.2.30}%
+\contentsline {subsection}{\numberline {2.30.1}Overview}{69}{subsection.2.30.1}%
+\contentsline {section}{\numberline {2.31}Common Port Numbers and Protocols}{69}{section.2.31}%
+\contentsline {subsection}{\numberline {2.31.1}Protocols}{69}{subsection.2.31.1}%
+\contentsline {subsubsection}{what VoIP protocols include}{70}{section*.53}%
+\contentsline {subsubsection}{Asterisk }{70}{section*.54}%
+\contentsline {subsubsection}{Session Initiation Protocol}{70}{section*.55}%
+\contentsline {subsubsection}{Quality of service}{70}{section*.56}%
+\contentsline {subsection}{\numberline {2.31.2}use VoIP with satellite internet}{71}{subsection.2.31.2}%
+\contentsline {subsubsection}{Benefits of using VoIP over satellite broadband}{71}{section*.57}%
+\contentsline {subsubsection}{CONs of VoIP}{71}{section*.58}%
+\contentsline {section}{\numberline {2.32}Port Numbers}{71}{section.2.32}%
+\contentsline {chapter}{\numberline {3}Emerging Technologies}{73}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Wireless Emerging Technologies}{74}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Fifth generation mobile}{74}{subsection.3.1.1}%
+\contentsline {subsubsection}{How does it work?}{74}{section*.59}%
+\contentsline {subsection}{\numberline {3.1.2}NFC}{74}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}RFID}{74}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}ANT}{74}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}ZigBee}{74}{subsection.3.1.5}%
+\contentsline {section}{\numberline {3.2}potential implications of AI technologies on digital activities}{75}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}what's an AI first}{75}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}virtual agents}{75}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}speech recognition}{75}{subsection.3.2.3}%
