@@ -770,14 +770,14 @@ An interior gateway protocol (IGP) is a type of routing protocol used for exchan
 Interior gateway protocols can be divided into two categories: \textbf{distance-vector} routing protocols and \textbf{link-state} routing protocols.
 
 \subsection{link state routing protocols}
-Link-state routing protocols are one of the two main classes of routing protocols used in packet switching networks for computer communications, the other being distance-vector routing protocols. Examples of link-state routing protocols include Open Shortest Path First (OSPF) and Intermediate System to Intermediate System (IS-IS).
+\textbf{Link-state} routing protocols are one of the two main classes of routing protocols used in packet switching networks for computer communications, the other being \textbf{distance-vector} routing protocols. One example of link-state routing protocols is Open Shortest Path First (OSPF).% and Intermediate System to Intermediate System (IS-IS).
 
 The link-state protocol is performed by every switching node in the network (i.e., nodes that are prepared to forward packets; in the Internet, these are called routers). The basic concept of link-state routing is that every node constructs a map of the connectivity to the network, in the form of a graph, showing which nodes are connected to which other nodes. Each node then independently calculates the next best logical path from it to every possible destination in the network. Each collection of best paths will then form each node's routing table.
 
-This contrasts with distance-vector routing protocols, which work by having each node share its routing table with its neighbours, in a link-state protocol the only information passed between nodes is connectivity related. Link-state algorithms are sometimes characterized informally as each router, "telling the world about its neighbors."
+This contrasts with distance-vector routing protocols, which work by having each node share its routing table with its neighbours. %in a link-state protocol the only information passed between nodes is connectivity related.% Link-state algorithms are sometimes characterized informally as each router, "telling the world about its neighbors."
 
 \subsubsection{OSPF}
-Open Shortest Path First (OSPF) is a routing protocol for Internet Protocol (IP) networks. It uses a link state routing (LSR) algorithm and falls into the group of interior gateway protocols (IGPs), operating within a single autonomous system (AS).
+Open Shortest Path First (OSPF) is a routing protocol for Internet Protocol (IP) networks. It uses a link state routing (LSR) algorithm and falls into the group of interior gateway protocols (IGPs) \textsc{\textbf{meaning it is}} operating within a single autonomous system.
 
 OSPF gathers link state information from available routers and constructs a topology map of the network. The topology is presented as a routing table to the Internet Layer for routing packets by their destination IP address. 
 
