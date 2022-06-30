@@ -1,16 +1,143 @@
-\documentclass[a4paper,12pt]{article}
+%\documentclass[a4paper,12pt]{article}
+%\usepackage[T1]{fontenc}
+%\usepackage{imakeidx}
+%\usepackage{graphicx}
+%\makeindex[columns=3, title=Alphabetical Index, intoc]
+%\usepackage{graphicx,wrapfig,lipsum}
+%
+%\usepackage[hmargin=3cm, vmargin=3cm]{geometry}
+%\usepackage[font=tiny, labelfont=sc]{caption}
+%
+%\usepackage{listings}
+%\usepackage{color}
+%\usepackage{textcomp}
+%\definecolor{listinggray}{gray}{0.9}
+%\definecolor{lbcolor}{rgb}{0.9,0.9,0.9}
+%\lstset{
+%	backgroundcolor=\color{lbcolor},
+%	tabsize=4,
+%	rulecolor=,
+%	language=matlab,
+%        basicstyle=\scriptsize,
+%        upquote=true,
+%        aboveskip={1.5\baselineskip},
+%        columns=fixed,
+%        showstringspaces=false,
+%        extendedchars=true,
+%        breaklines=true,
+%        prebreak = \raisebox{0ex}[0ex][0ex]{\ensuremath{\hookleftarrow}},
+%        frame=single,
+%        showtabs=false,
+%        showspaces=false,
+%        showstringspaces=false,
+%        identifierstyle=\ttfamily,
+%        keywordstyle=\color[rgb]{0,0,1},
+%        commentstyle=\color[rgb]{0.133,0.545,0.133},
+%        stringstyle=\color[rgb]{0.627,0.126,0.941},
+%}
+%
+%
+%
+%\newcommand{\wrapfill}{\par\ifnum\value{WF@wrappedlines}>0
+%  \addtocounter{WF@wrappedlines}{-1}%
+%  \null\vspace{\arabic{WF@wrappedlines}\baselineskip}%
+%  \WFclear
+%\fi}
+%
+%
+%\usepackage{ulem}
+%
+
+\documentclass[a4paper,12pt]{book}
+\usepackage{color}
+\usepackage[x11names]{xcolor}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{listings}
 \usepackage[T1]{fontenc}
 \usepackage{imakeidx}
 \usepackage{graphicx}
 %\makeindex[columns=3, title=Alphabetical Index, intoc]
 \usepackage{graphicx,wrapfig,lipsum}
 
-\usepackage[hmargin=3cm, vmargin=3cm]{geometry}
+\usepackage[hmargin=1cm, vmargin=3cm]{geometry}
 \usepackage[font=tiny, labelfont=sc]{caption}
+\usepackage{hyperref}
 
-\usepackage{listings}
-\usepackage{color}
-\usepackage{textcomp}
+%\usepackage{refcount}
+
+
+%hyperlinks, coloured menu, submenu with different colors, clickable references
+\hypersetup{
+     colorlinks   = true,
+     citecolor    = gray
+}
+
+\usepackage{tocloft}
+
+\renewcommand{\cftsubsecfont}{\normalfont\hypersetup{linkcolor=cyan}}
+\renewcommand{\cftsubsecafterpnum}{\hypersetup{linkcolor=green}}
+
+\newcommand{\wrapfill}{\par\ifnum\value{WF@wrappedlines}>0
+  \addtocounter{WF@wrappedlines}{-1}%
+  \null\vspace{\arabic{WF@wrappedlines}\baselineskip}%
+  \WFclear
+\fi}
+
+
+\author{
+  Daniele, Della Cioppa\\
+  \texttt{daniele.dellacioppa@gmail.com}
+}
+\title{Usage of the \texttt{\textbackslash author} command}
+
+\renewcommand{\footnotesize}{\scriptsize}
+
+
+%for chinese characters - not working yet
+\usepackage{CJKutf8}
+\usepackage[utf8]{inputenc} % optional
+\usepackage[T1]{fontenc}
+
+
+% for underlining
+\usepackage{ulem}
+
+
+%\usepackage{fontspec}
+
+%\newfontfamily{\cfont}{Microsoft YaHei}
+
+
+%nome del capitolo ad ogni pagina 
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\fancyhf{}
+\fancyhead[RO,LE]{\textbf{\thepage}}
+\fancyhead[LO]{\nouppercase{\textbf{\color{teal}\leftmark}}}
+\fancyhead[RE]{\nouppercase{\textbf{\color{cyan}\rightmark}}}
+
+%possibility to add chapters
+
+\usepackage[english]{babel}
+
+%background image to parts
+\usepackage{eso-pic}
+
+\usepackage{sectsty}    %package to define colors
+\definecolor{MarroncinoMH}{rgb}{0.4,0.4,0.25} %defining color
+\definecolor{Bluettino}{rgb}{0.1,0.5,0.8} %defining color
+\definecolor{Bluettetto}{rgb}{0.1,0.4,0.4} %defining color
+
+\chapterfont{\color{MarroncinoMH}}   %using the defined color for chapter fonts
+\sectionfont{\color{Bluettetto}}  %defining section color
+\subsectionfont{\color{Bluettino}} %defining subsection color
+\subsubsectionfont{\color{teal}} %defining subsection color
+\paragraphfont{\color{OliveGreen}} %defining paragraph color
+\subparagraphfont{\color{LimeGreen}} %defining subparagraph color
+
+
+%coding blocks
 \definecolor{listinggray}{gray}{0.9}
 \definecolor{lbcolor}{rgb}{0.9,0.9,0.9}
 \lstset{
@@ -37,27 +164,75 @@
 }
 
 
+%quoting
+\usepackage{csquotes}
 
-\newcommand{\wrapfill}{\par\ifnum\value{WF@wrappedlines}>0
-  \addtocounter{WF@wrappedlines}{-1}%
-  \null\vspace{\arabic{WF@wrappedlines}\baselineskip}%
-  \WFclear
-\fi}
+%epigraph
+\usepackage{epigraph} 
+
+%fonts
+%\usepackage[T1]{fontenc}
+%\usepackage{accanthis}
 
 
-\usepackage{ulem}
+\usepackage{afterpage}
+
+\makeatletter
+% Macro \changepagecolor has the same syntax as \pagecolor or \color
+% with an optional argument and a mandatory argument.
+\newcommand*{\changepagecolor}{%
+  \@ifnextchar[\@changepagecolor@i\@changepagecolor@ii
+}
+% Case: \changepagecolor[...]{...}
+\def\@changepagecolor@i[#1]#2{%
+  \@changepagecolor@do{[{#1}]{#2}}%
+}
+% Case: \changepagecolor{...}
+\newcommand*{\@changepagecolor@ii}[1]{%
+  \@changepagecolor@do{{#1}}%
+}
+\newcommand*{\@changepagecolor@do}[1]{%
+  % Fill the remaining space with a colored rule
+  \begingroup
+    \offinterlineskip
+    \hbox to 0pt{%
+      \kern-\paperwidth
+      \vtop to 0pt{%
+        \color#1%
+        \hrule width 2\paperwidth height \paperheight
+        \vss
+      }%
+      \hss
+    }%
+  \endgroup
+  % Set page color for the next page
+  \afterpage{\pagecolor#1}%
+}
+\makeatother
+
+
 
 
 \begin{document}
 
-\textbf{Daniele Della Cioppa}
+\title{%
+Level 3 I.T Solutions\\
+\large  Software Developer\\
+\small Apprentice}
+\maketitle
+\hypersetup{linkcolor=teal}
+\tableofcontents
+%\hypersetup{linkcolor=cyan}
+%\listoffigures
+\hypersetup{linkcolor=blue}
+\clearpage
 
-\textbf{Software Developer}
+
 
 \tableofcontents
 \clearpage
 
-\section{Knowledge unit}
+\part{My Responsibilities}
 
 This is a quick list of what I've been covering so far during the apprenticeship at Akhter Computers in Harlow Town:
 
@@ -73,7 +248,7 @@ This is a quick list of what I've been covering so far during the apprenticeship
 \end{itemize}
 \clearpage
 
-\section{Mobile development}
+\part{Mobile development}
 
 In Figure .1 we can see the stage I was on the 23rd March, with the mobile development. The progress of the whole thing is being quite slow since this is being literally self taught during my office hours
 
@@ -96,10 +271,29 @@ Figure .2 shows how the app looks now on a Motorola g7. Some functionalities hav
 \footnotetext{the button invokes an event saying how many times the user clicked it}
 
 
-\subsection{05-May-2022 Milestone}
+\chapter{05-May-2022 Milestone}
+%\AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{wall.jpg}}
 
-\subsubsection{Targets}
+\AddToShipoutPictureBG*{%
+  \AtPageUpperLeft{%
+    \raisebox{-\height}{%
+      \includegraphics[width=\paperwidth]{wall.jpg}%
+    }%
+  }
+}
 
+
+
+\bigskip
+\bigskip
+\bigskip
+\medskip
+
+\section{\scalebox{2}{Targets}}
+
+%\bigskip
+%\bigskip
+%
 \begin{itemize}
  \item{Login activity}
    \begin{description}
@@ -114,7 +308,7 @@ Figure .2 shows how the app looks now on a Motorola g7. Some functionalities hav
 
 \clearpage
 
-\subsubsection{Stage}
+\section{Stage}
 
 \begin{wrapfigure}[17]{r}{5cm}
 %\centering
@@ -199,9 +393,9 @@ Server button will be destroyed. The Server activity deleted. This is only to ha
 
 Client activity will become the actual Login activity where the app picks
 
-\subsection{09-May-2022 Milestone}
+\chapter{09-May-2022 Milestone}
 
-\subsubsection{Targets}
+\section{Targets}
 
 \begin{itemize}
 \item{Login activity}
@@ -217,7 +411,7 @@ Client activity will become the actual Login activity where the app picks
 
 \clearpage
 
-\subsubsection{Stage}
+\section{Stage}
 
 \begin{wrapfigure}[19]{r}{4.81cm}
 %\centering
@@ -318,7 +512,7 @@ One of the GOALS of the Target activity is thus accomplished
 
 
 
-\section{Database development}
+\part{Database development}
 
 The followings are the tasks I'm responsible with databases. You can label it the way you want but it's pretty much the whole lifecycle management except \emph{talking to the client}, make sure we both agree on \emph{what they want}, \emph{writing the specs} of the solution that needs to be \emph{designed}.
 
@@ -334,7 +528,7 @@ Hence my list of responsibilites with the database covers:
 
 \clearpage
 
-\subsection{design}
+\chapter{design}
 This is a first idea of the database I came up with
 
 \noindent\includegraphics[width=14cm]{./ERSchemaGen2.jpg}
