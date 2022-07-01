@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2022.7.1)  1 JUL 2022 17:14
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2022.7.1)  1 JUL 2022 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1390,15 +1390,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 708.
  (./portfolio.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 708.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 708.
+Package rerunfilecheck Info: File `portfolio.out' has not changed.
+(rerunfilecheck)             Checksum: 823A0EB9FD6C36527E296F1DB4ADEAF7;1258.
 
-
-Package rerunfilecheck Warning: File `portfolio.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `portfolio.out':
-(rerunfilecheck)             Before: E3595BDF29A881FDB0264A43F0E2CC7D;1194
-(rerunfilecheck)             After:  823A0EB9FD6C36527E296F1DB4ADEAF7;1258.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
