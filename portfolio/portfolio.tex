@@ -213,6 +213,10 @@
 
 \usepackage{color, colortbl}
 
+
+\usepackage{fontspec}
+%\renewcommand{\familydefault}{\rmdefault}
+\setmainfont{Ubuntu}
 \begin{document}
 
 \title{%
@@ -232,11 +236,55 @@ Level 3 I.T Solutions\\
 \tableofcontents
 \clearpage
 
-\part{Intro}
+\part{Introduction}
+
+\chapter{Brief introduction}
+
+
+%a brief introduction/commentary by the apprentice, produced towards the end of their apprenticeship and highlighting, where appropriate, anything they would do differently;
+%
+
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\section{What this document is}
+
+This document is all about showing my way of thinking when at work, what problems I'm struggling with, what solutions I'm coming up with, documenting whether they worked or not and what \textbf{did} solve the problem in the end.
+
+You'll find a table containing the skills,behaviours and knowledge I've achieved during my academic year at ACL College. You'll then find a map showing what I'm doing at \textbf{Akhter Computers} and how does it relate to the content I came across at ACL 
+
+\AddToShipoutPictureBG*{%
+  \AtPageUpperLeft{%
+    \raisebox{-\height}{%
+      \includegraphics[width=\paperwidth]{intro.jpg}%
+    }%
+  }
+}
+
 
 \chapter{My Responsibilities}
 
-\section{map against Knowledge, Skills and Behaviours}
+
+\AddToShipoutPictureBG*{%
+  \AtPageUpperLeft{%
+    \raisebox{-\height}{%
+      \includegraphics[width=\paperwidth]{4th-fleet.png}%
+    }%
+  }
+}
+
+
+
+
+
+
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+\section{Mapping them against Knowledge, Skills and Behaviours}
 \noindent This is a list of contents and mapped against the required knowledge, skills and behaviours I've been covering so far during the apprenticeship with ACL in Brentwood and on the workplace at Akhter Computers in Harlow Town:
 %
 %\begin{itemize}
@@ -257,17 +305,17 @@ Level 3 I.T Solutions\\
     \hline
     \cellcolor{Azure2}\scalebox{1.5}{Database Development} & \cellcolor{Azure1}K1,K25 \\
     \hline
-    \cellcolor{Azure3}Android Development & \cellcolor{Azure4}K24 \\
+    \cellcolor{Azure3}\scalebox{1.5}{Android Development} & \cellcolor{Azure4}K24 \\
     \hline
-    \cellcolor{Snow1}Docker & \cellcolor{Snow2}K5,K23 \\
+    \cellcolor{Snow1}\scalebox{1.5}{Docker} & \cellcolor{Snow2}K5,K23 \\
     \hline
-    \cellcolor{Snow3}pgTAP & \cellcolor{Snow4}K5 \\
+    \cellcolor{Snow3}\scalebox{1.5}{pgTAP} & \cellcolor{Snow4}K5 \\
     \hline
-    \cellcolor{DarkSeaGreen1}Github & \cellcolor{DarkSeaGreen2}K15,K22 \\
+    \cellcolor{DarkSeaGreen1}\scalebox{1.5}{Github} & \cellcolor{DarkSeaGreen2}K15,K22 \\
     \hline
-    \cellcolor{DarkSeaGreen3}LateX & \cellcolor{DarkSeaGreen4} \\
+    \cellcolor{DarkSeaGreen3}\scalebox{1.5}{LateX} & \cellcolor{DarkSeaGreen4} \\
     \hline
-    \cellcolor{Azure3}Linux & \cellcolor{Azure4}K14 \\
+    \cellcolor{Azure3}\scalebox{1.5}{Linux} & \cellcolor{Azure4}K14 \\
     \hline
 \end{tabular}
 
@@ -275,7 +323,7 @@ Level 3 I.T Solutions\\
 
 \part{Mobile development}
 
-In Figure .1 we can see the stage I was on the 23rd March, with the mobile development. The progress of the whole thing is being quite slow since this is being literally self taught during my office hours
+In Figure \ref{fig:xamarin} we can see the stage I was on the 23rd March, with the mobile development. The progress of the whole thing is being quite slow since this is being literally self taught during my office hours
 
 \begin{wrapfigure}[19]{r}{5cm}
 \centering
@@ -290,12 +338,15 @@ We realized Xamarin brings in some difficulties even experts are struggling with
 
 After a little research I found out a tool called maptiler but it was going to be sunset soon so I've had to search more and I came up with \textbf{OSMDroid}
 
-Figure \ref{fig:xamarin} shows how the app looks now on a Motorola g7. Some functionalities have been added to test separately Client and Server functions. My app needs to interact with a C++ Server but because of the burden it takes to switch the real server on I've developed a quick server to have tests with and then once in a while see how it goes with the real server when it gets turned on.
+\bigskip
+\bigskip
+
+\scalebox{2}The next chapter shows how the app looks now on a Motorola g7(Figure \ref{fig:early}). Some functionalities have been added to test separately Client and Server functions. My app needs to interact with a C++ Server but because of the burden it takes to switch the real server on I've developed a quick server to have tests with and then once in a while see how it goes with the real server when it gets turned on.
 
 
 \footnotetext{the button invokes an event saying how many times the user clicked it}
 
-\chapter{Milestones}
+\chapter{Evidences from work}
 %\AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{wall.jpg}}
 
 \AddToShipoutPictureBG*{%
@@ -557,6 +608,72 @@ As you can see in Figure \ref{fig:client-activity-g8} the server is responding a
 %\clearpage  
 
 \noindent After that you can see the latitude and longitude being sent and received from the client which is what we wanted to obtain in the first place.One of the GOALS of the Target activity is thus accomplished.
+
+
+
+
+
+\clearpage
+. 
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\medskip
+\medskip
+\medskip
+\section{\scalebox{1.5}Crash on Login}
+
+\AddToShipoutPictureBG*{%
+  \AtPageUpperLeft{%
+    \raisebox{-\height}{%
+      \includegraphics[width=\paperwidth]{wall.jpg}%
+    }%
+  }
+}
+
+
+
+\subsection{Targets}
+
+\begin{itemize}
+\item{Login activity}
+   \begin{description}
+   \item[\xout{Package visibility}]{\xout{Make sure there is a way for the Login activity to pass informations to the MainActivity}}
+   \item[Crash on Login]{Understand what is causing the app to crash when the Login button is pressed}
+   \end{description}
+\item{nice user interface}
+\item{heavy testing against bugs}
+\item{calculation of middle position of all streetlight and having the map to start centered on that position}
+\item{iOS instance}
+\end{itemize}
+
+\clearpage
+
+\subsection{Stage}
+
+
+We managed to understand how to pass data between activities in android and this is done by serializing data and literally adding it to the \textbf{Intent} but before I go on with the development of the app there's a problem I need to solve.
+
+The app is crashing when the Login button is pressed. The crash is random and seems to be more frequent on devices with less RAM. Feels like a memory leak.
+
+\subsection{Resolution}
+
+To begin, the first I am doing is reducin the RAM available from 1.5Gb to 900Mb and as soon as I try to connect the client to the server I get another crash immediately. I have a look at the \href{run:./verbose-logcat}{logcat} which on line 276 actually moans about something wasting RAM which could cause performance issue at startup
+
+
+
 
 \part{Database development}
 
