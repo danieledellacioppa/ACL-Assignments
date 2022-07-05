@@ -672,8 +672,62 @@ The app is crashing when the Login button is pressed. The crash is random and se
 
 To begin, the first I am doing is reducin the RAM available from 1.5Gb to 900Mb and as soon as I try to connect the client to the server I get another crash immediately. I have a look at the \href{https://github.com/danieledellacioppa/ACL-Assignments/blob/main/portfolio/verbose-logcat}{logcat} which on line 276 actually moans about something wasting RAM which could cause performance issue at startup
 
+I had a look at this \href{https://github.com/danieledellacioppa/ACL-Assignments/blob/main/portfolio/2nd-verbose-logcat}{second logcat} generated as soon as I've got the same error again.
+This logcat is really similar to the first one apart from a variable appearing as "?" on the first one and the last message it terminates with. This last message at line 400 in the second logcat is saying 
+
+\[a \ resource \ failed \ to \ call \ close\]
 
 
+After some research comes out this message was actually generated programmatically by this instruction: 
+
+\begin{lstlisting}
+System.logW("A resource failed to call "
+        + (String) closerNameOrAllocationInfo + ". ");
+\end{lstlisting}
+
+The instruction just mentioned appears to be in this function named \textbf{warnIfOpen} :
+
+\begin{lstlisting}
+    public void warnIfOpen() {
+        if (closerNameOrAllocationInfo != null) {
+            if (closerNameOrAllocationInfo instanceof String) {
+                System.logW("A resource failed to call "
+                        + (String) closerNameOrAllocationInfo + ". ");
+            } else {
+                String message =
+                        "A resource was acquired at attached stack trace but never released. ";
+                message += "See java.io.Closeable for information on avoiding resource leaks.";
+                Throwable stack = (Throwable) closerNameOrAllocationInfo;
+                reporter.report(message, stack);
+            }
+        }
+    }
+\end{lstlisting}
+
+After running the app on the mobile with 1 Gb RAM the logcat shows:
+
+\begin{lstlisting}
+2022-07-05 11:36:45.183 4217-4217/? I/mdroid_app_jav: Late-enabling -Xcheck:jni
+2022-07-05 11:36:45.213 4217-4217/? E/mdroid_app_jav: Unknown bits set in runtime_flags: 0x8000
+2022-07-05 11:36:45.632 4217-4217/com.example.osmdroid_app_java I/StorageUtils: /data/user/0/com.example.osmdroid_app_java/files is writable
+2022-07-05 11:36:45.638 4217-4217/com.example.osmdroid_app_java I/StorageUtils: /storage/emulated/0/Android/data/com.example.osmdroid_app_java/files is writable
+2022-07-05 11:36:45.639 4217-4217/com.example.osmdroid_app_java I/StorageUtils: /data/user/0/com.example.osmdroid_app_java/files is writable
+2022-07-05 11:36:45.640 4217-4217/com.example.osmdroid_app_java I/StorageUtils: /storage/emulated/0/Android/data/com.example.osmdroid_app_java/files is writable
+2022-07-05 11:36:45.670 4217-4217/com.example.osmdroid_app_java I/OsmDroid: Using tile source specified in layout attributes: Mapnik
+2022-07-05 11:36:45.670 4217-4217/com.example.osmdroid_app_java I/OsmDroid: Using tile source: Mapnik
+2022-07-05 11:36:45.675 4217-4217/com.example.osmdroid_app_java I/OsmDroid: Tile cache increased from 0 to 9
+2022-07-05 11:36:45.855 4217-4251/com.example.osmdroid_app_java I/AdrenoGLES: QUALCOMM build                   : 961b24f, Ib57168459a
+    Build Date                       : 02/24/20
+    OpenGL ES Shader Compiler Version: EV031.27.05.06
+    Local Branch                     : 
+    Remote Branch                    : 
+    Remote Branch                    : 
+    Reconstruct Branch               : 
+2022-07-05 11:36:45.855 4217-4251/com.example.osmdroid_app_java I/AdrenoGLES: Build Config                     : S L 8.0.12 AArch32
+2022-07-05 11:36:45.859 4217-4251/com.example.osmdroid_app_java I/AdrenoGLES: PFP: 0x005ff113, ME: 0x005ff066
+2022-07-05 11:36:45.879 4217-4217/com.example.osmdroid_app_java I/OsmDroid: Tile cache increased from 9 to 12
+2022-07-05 11:36:45.900 4217-4251/com.example.osmdroid_app_java W/Gralloc3: mapper 3.x is not supported
+\end{lstlisting}
 
 \part{Database development}
 
