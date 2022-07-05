@@ -16,5 +16,5 @@
 \contentsline {subsection}{\numberline {3.3.1}Targets}{22}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Stage}{23}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Resolution}{23}{subsection.3.3.3}%
-\contentsline {part}{III\hspace {1em}Database development}{25}{part.3}%
-\contentsline {chapter}{\numberline {4}Database design}{29}{chapter.4}%
+\contentsline {part}{III\hspace {1em}Database development}{27}{part.3}%
+\contentsline {chapter}{\numberline {4}Database design}{31}{chapter.4}%
