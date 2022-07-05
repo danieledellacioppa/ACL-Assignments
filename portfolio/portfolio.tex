@@ -914,6 +914,34 @@ so I've handled java.lang.IndexOutOfBoundsException too. But still crashes and m
 2022-07-05 16:29:08.837 24905-24937/com.example.osmdroid_app_java W/Gralloc3: mapper 3.x is not supported
 \end{lstlisting}
 
+But the thing is, when it doesn't crash the logcat is still showing the error with a few lines more :
+
+\begin{lstlisting}
+2022-07-05 16:34:04.643 25398-25398/? I/mdroid_app_jav: Late-enabling -Xcheck:jni
+2022-07-05 16:34:04.685 25398-25398/? E/mdroid_app_jav: Unknown bits set in runtime_flags: 0x8000
+2022-07-05 16:34:05.360 25398-25398/com.example.osmdroid_app_java I/StorageUtils: /data/user/0/com.example.osmdroid_app_java/files is writable
+2022-07-05 16:34:05.367 25398-25398/com.example.osmdroid_app_java I/StorageUtils: /storage/emulated/0/Android/data/com.example.osmdroid_app_java/files is writable
+2022-07-05 16:34:05.369 25398-25398/com.example.osmdroid_app_java I/StorageUtils: /data/user/0/com.example.osmdroid_app_java/files is writable
+2022-07-05 16:34:05.370 25398-25398/com.example.osmdroid_app_java I/StorageUtils: /storage/emulated/0/Android/data/com.example.osmdroid_app_java/files is writable
+2022-07-05 16:34:05.427 25398-25398/com.example.osmdroid_app_java I/OsmDroid: Using tile source specified in layout attributes: Mapnik
+2022-07-05 16:34:05.427 25398-25398/com.example.osmdroid_app_java I/OsmDroid: Using tile source: Mapnik
+2022-07-05 16:34:05.436 25398-25398/com.example.osmdroid_app_java I/OsmDroid: Tile cache increased from 0 to 9
+2022-07-05 16:34:28.771 25398-25429/com.example.osmdroid_app_java I/AdrenoGLES: QUALCOMM build                   : 961b24f, Ib57168459a
+    Build Date                       : 02/24/20
+    OpenGL ES Shader Compiler Version: EV031.27.05.06
+    Local Branch                     : 
+    Remote Branch                    : 
+    Remote Branch                    : 
+    Reconstruct Branch               : 
+2022-07-05 16:34:28.772 25398-25429/com.example.osmdroid_app_java I/AdrenoGLES: Build Config                     : S L 8.0.12 AArch32
+2022-07-05 16:34:28.781 25398-25429/com.example.osmdroid_app_java I/AdrenoGLES: PFP: 0x005ff113, ME: 0x005ff066
+2022-07-05 16:34:28.807 25398-25398/com.example.osmdroid_app_java I/OsmDroid: Tile cache increased from 9 to 12
+2022-07-05 16:34:28.835 25398-25429/com.example.osmdroid_app_java W/Gralloc3: mapper 3.x is not supported
+2022-07-05 16:34:30.099 25398-25398/com.example.osmdroid_app_java W/ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@5d0787a
+2022-07-05 16:34:30.271 25398-25398/com.example.osmdroid_app_java W/mdroid_app_jav: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+2022-07-05 16:34:30.272 25398-25398/com.example.osmdroid_app_java W/mdroid_app_jav: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+2022-07-05 16:34:31.247 25398-25398/com.example.osmdroid_app_java I/AssistStructure: Flattened final assist data: 2108 bytes, containing 1 windows, 10 views
+\end{lstlisting}
 \part{Database development}
 
 The followings are the tasks I'm responsible with databases. You can label it the way you want but it's pretty much the whole lifecycle management except \emph{talking to the client}, make sure we both agree on \emph{what they want}, \emph{writing the specs} of the solution that needs to be \emph{designed}.
