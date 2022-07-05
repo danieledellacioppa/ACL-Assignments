@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2022.7.1)  5 JUL 2022 16:12
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2022.7.1)  5 JUL 2022 16:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1373,7 +1373,7 @@ File: ./SecondERSchemaGen2.jpg Graphic file (type bmp)
 ! Undefined control sequence.
 <argument> \imki@jobname 
                          @idxfile
-l.923 
+l.946 
       
 ? 
 
@@ -1383,24 +1383,24 @@ See the imakeidx package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.923 
+l.946 
       
 ? 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 924.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 947.
 [35
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 924.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 947.
  (./portfolio.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 924.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 924.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 947.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 947.
 Package rerunfilecheck Info: File `portfolio.out' has not changed.
 (rerunfilecheck)             Checksum: 823A0EB9FD6C36527E296F1DB4ADEAF7;1258.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 924.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 947.
  ) 
 Here is how much of TeX's memory you used:
  19309 strings out of 481370

@@ -889,7 +889,30 @@ I/Process: Sending signal. PID: 21204 SIG: 9
 Disconnected from the target VM, address: 'localhost:41797', transport: 'socket'
 \end{lstlisting} 
 
-so I've handled java.lang.IndexOutOfBoundsException too.
+so I've handled java.lang.IndexOutOfBoundsException too. But still crashes and my logcat is still this :
+
+\begin{lstlisting}
+2022-07-05 16:29:08.053 24905-24905/? I/mdroid_app_jav: Late-enabling -Xcheck:jni
+2022-07-05 16:29:08.086 24905-24905/? E/mdroid_app_jav: Unknown bits set in runtime_flags: 0x8000
+2022-07-05 16:29:08.564 24905-24905/com.example.osmdroid_app_java I/StorageUtils: /data/user/0/com.example.osmdroid_app_java/files is writable
+2022-07-05 16:29:08.571 24905-24905/com.example.osmdroid_app_java I/StorageUtils: /storage/emulated/0/Android/data/com.example.osmdroid_app_java/files is writable
+2022-07-05 16:29:08.572 24905-24905/com.example.osmdroid_app_java I/StorageUtils: /data/user/0/com.example.osmdroid_app_java/files is writable
+2022-07-05 16:29:08.573 24905-24905/com.example.osmdroid_app_java I/StorageUtils: /storage/emulated/0/Android/data/com.example.osmdroid_app_java/files is writable
+2022-07-05 16:29:08.607 24905-24905/com.example.osmdroid_app_java I/OsmDroid: Using tile source specified in layout attributes: Mapnik
+2022-07-05 16:29:08.608 24905-24905/com.example.osmdroid_app_java I/OsmDroid: Using tile source: Mapnik
+2022-07-05 16:29:08.615 24905-24905/com.example.osmdroid_app_java I/OsmDroid: Tile cache increased from 0 to 9
+2022-07-05 16:29:08.799 24905-24937/com.example.osmdroid_app_java I/AdrenoGLES: QUALCOMM build                   : 961b24f, Ib57168459a
+    Build Date                       : 02/24/20
+    OpenGL ES Shader Compiler Version: EV031.27.05.06
+    Local Branch                     : 
+    Remote Branch                    : 
+    Remote Branch                    : 
+    Reconstruct Branch               : 
+2022-07-05 16:29:08.799 24905-24937/com.example.osmdroid_app_java I/AdrenoGLES: Build Config                     : S L 8.0.12 AArch32
+2022-07-05 16:29:08.803 24905-24937/com.example.osmdroid_app_java I/AdrenoGLES: PFP: 0x005ff113, ME: 0x005ff066
+2022-07-05 16:29:08.820 24905-24905/com.example.osmdroid_app_java I/OsmDroid: Tile cache increased from 9 to 12
+2022-07-05 16:29:08.837 24905-24937/com.example.osmdroid_app_java W/Gralloc3: mapper 3.x is not supported
+\end{lstlisting}
 
 \part{Database development}
 
