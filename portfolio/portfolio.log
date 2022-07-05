@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2022.7.1)  5 JUL 2022 12:20
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2022.7.1)  5 JUL 2022 14:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1369,7 +1369,7 @@ File: ./SecondERSchemaGen2.jpg Graphic file (type bmp)
 ! Undefined control sequence.
 <argument> \imki@jobname 
                          @idxfile
-l.765 
+l.795 
       
 ? 
 
@@ -1379,32 +1379,32 @@ See the imakeidx package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.765 
+l.795 
       
 ? 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 766.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 796.
 [31
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 766.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 796.
  (./portfolio.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 766.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 766.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 796.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 796.
 Package rerunfilecheck Info: File `portfolio.out' has not changed.
 (rerunfilecheck)             Checksum: 823A0EB9FD6C36527E296F1DB4ADEAF7;1258.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 766.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 796.
  ) 
 Here is how much of TeX's memory you used:
- 19115 strings out of 481370
- 335312 string characters out of 5926568
- 1096015 words of memory out of 5000000
- 35823 multiletter control sequences out of 15000+600000
+ 19121 strings out of 481370
+ 335385 string characters out of 5926568
+ 1094067 words of memory out of 5000000
+ 35829 multiletter control sequences out of 15000+600000
  539684 words of font info for 68 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
- 55i,13n,96p,914b,1743s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,13n,96p,914b,1745s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on portfolio.pdf (31 pages).

@@ -704,7 +704,7 @@ The instruction just mentioned appears to be in this function named \textbf{warn
     }
 \end{lstlisting}
 
-After running the app on the mobile with 1 Gb RAM the logcat shows:
+After running the app on the mobile with 1 Gb RAM \footnote{\label{mobile-crash} this test is being run against the android server instead of the C++ one so the result might be different. The reason is because the Android Server is the only thing I can have on the same wifi at the moment. I don't have my laptop at the moment otherwise I'd have installed the C++ server on the laptop and logged on the same wifi} the logcat shows:
 
 \begin{lstlisting}
 2022-07-05 11:36:45.183 4217-4217/? I/mdroid_app_jav: Late-enabling -Xcheck:jni
@@ -731,7 +731,37 @@ After running the app on the mobile with 1 Gb RAM the logcat shows:
 
 \[mapper \ 3.x \ is \ not \ supported\]
 
-On \href{https://github.com/flutter/flutter/issues/50405}{this forum} they're talking about it and they're talking about a crash which is encouraging.
+On \href{https://github.com/flutter/flutter/issues/50405}{this forum} they're talking about it and they're talking about a crash which is encouraging.But running the test again now this bit gets my attention:
+
+\[Unknown \ bits \ set \ in \ runtime\_flags: \ 0x8000\]
+
+This is literally the second line of the logcat and has \textbf{E/mdroid\_app\_jav} meaning it is indeed an error \footnote{\label{error} Because it starts with E}.
+
+On \href{https://stackoverflow.com/questions/56916587/unknown-bits-set-in-runtime-flags-0x8000-warning-in-logcat-on-android-q-emula}{this forum} someone suggested to use this:
+
+\begin{lstlisting}
+
+@Override
+public void onStop() {
+    super.onStop();
+    getActivity().finish();
+}
+
+\end{lstlisting}
+
+But getActivity() is not found.After some research I've found out an Activity has no getActivity() method.Fragments have. Because getActivity() says: "return the Activity which contains me".And while Framents are contained in Activities, Activities themselves aren't. I guess I'll just use this.finish() instead. Should be fine. Meaning my code will be:
+
+\begin{lstlisting}
+
+@Override
+public void onStop() {
+    super.onStop();
+    this.finish();
+}
+
+\end{lstlisting}
+
+
 
 \part{Database development}
 
