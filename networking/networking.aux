@@ -14,10 +14,10 @@
 \fi}
 \global\let\hyper@last\relax 
 \gdef\HyperFirstAtBeginDocument#1{#1}
-\providecommand\HyField@AuxAddToFields[1]{}
-\providecommand\HyField@AuxAddToCoFields[2]{}
+\providecommand*\HyPL@Entry[1]{}
 \providecommand\babel@aux[2]{}
 \@nameuse{bbl@beforestart}
+\HyPL@Entry{0<</S/D>>}
 \babel@aux{english}{}
 \@writefile{toc}{\contentsline {part}{I\hspace  {1em}Networking}{5}{part.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}The basics of Networks}{7}{chapter.1}\protected@file@percent }
@@ -36,10 +36,10 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces Cantonese characters in the WiFi word\relax }}{9}{figure.caption.3}\protected@file@percent }
 \newlabel{wrap-fig:6}{{1.3}{9}{Cantonese characters in the WiFi word\relax }{figure.caption.3}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.2}\textsc  {LAN vs WAN}}{9}{section.1.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces difference between WAN and LAN\relax }}{9}{figure.caption.4}\protected@file@percent }
-\newlabel{wrap-fig:5}{{1.4}{9}{difference between WAN and LAN\relax }{figure.caption.4}{}}
 \newlabel{wifialliance}{{3}{9}{}{Hfootnote.3}{}}
 \newlabel{LAN}{{4}{9}{}{Hfootnote.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces difference between WAN and LAN\relax }}{10}{figure.caption.4}\protected@file@percent }
+\newlabel{wrap-fig:5}{{1.4}{10}{difference between WAN and LAN\relax }{figure.caption.4}{}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Standards and Protocols}{11}{chapter.2}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -54,9 +54,9 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}\textsc  {A good Mnemonic}}{13}{subsection.2.2.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2.3}\textsc  {Theory vs Practice}}{13}{subsection.2.2.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\textsc  {connection-oriented protocols}}{14}{section*.7}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces The TCPServer process has two sockets\relax }}{14}{figure.caption.8}\protected@file@percent }
-\newlabel{fig:tcpsocket}{{2.3}{14}{The TCPServer process has two sockets\relax }{figure.caption.8}{}}
 \newlabel{tcpsocket}{{1}{14}{}{Hfootnote.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces The TCPServer process has two sockets\relax }}{15}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:tcpsocket}{{2.3}{15}{The TCPServer process has two sockets\relax }{figure.caption.8}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\textsc  {connectionless protocols}}{15}{section*.9}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\textsc  {horizontal vs vertical approach}}{15}{section*.10}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {2.3}Switched Local Area Networks}{16}{section.2.3}\protected@file@percent }
@@ -65,174 +65,191 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Link-layer addressing and ARP}{16}{subsection.2.3.1}\protected@file@percent }
 \newlabel{section:link-layer}{{2.3.1}{16}{Link-layer addressing and ARP}{subsection.2.3.1}{}}
 \@writefile{toc}{\contentsline {subsubsection}{MAC Addresses}{16}{section*.12}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.5}{\ignorespaces Each interface connected to a LAN has a unique MAC address\relax }}{16}{figure.caption.13}\protected@file@percent }
-\newlabel{fig:addressless-switch}{{2.5}{16}{Each interface connected to a LAN has a unique MAC address\relax }{figure.caption.13}{}}
 \newlabel{datagram}{{2}{16}{}{Hfootnote.6}{}}
-\@writefile{toc}{\contentsline {subsubsection}{Address Resolution Protocol (ARP)}{17}{section*.14}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.5}{\ignorespaces Each interface connected to a LAN has a unique MAC address\relax }}{17}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:addressless-switch}{{2.5}{17}{Each interface connected to a LAN has a unique MAC address\relax }{figure.caption.13}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Address Resolution Protocol (ARP)}{18}{section*.14}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {2.6}{\ignorespaces Each interface on a LAN has an IP address and a MAC address\relax }}{18}{figure.caption.15}\protected@file@percent }
 \newlabel{fig:ARP}{{2.6}{18}{Each interface on a LAN has an IP address and a MAC address\relax }{figure.caption.15}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.7}{\ignorespaces A possible ARP table in 222.222.222.220\relax }}{18}{figure.caption.16}\protected@file@percent }
-\newlabel{fig:ARP-table}{{2.7}{18}{A possible ARP table in 222.222.222.220\relax }{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.7}{\ignorespaces A possible ARP table in 222.222.222.220\relax }}{19}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:ARP-table}{{2.7}{19}{A possible ARP table in 222.222.222.220\relax }{figure.caption.16}{}}
 \@writefile{toc}{\contentsline {paragraph}{[arp -a] output on my linux shell}{19}{section*.17}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{RARP and DHCP}{19}{section*.18}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.4}Networking Hardware}{20}{section.2.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.1}Routers}{20}{subsection.2.4.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.8}{\ignorespaces Router connecting devices in a LAN over the Internet\relax }}{20}{figure.caption.19}\protected@file@percent }
-\newlabel{wrap-fig:4}{{2.8}{20}{Router connecting devices in a LAN over the Internet\relax }{figure.caption.19}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.2}Modems}{20}{subsection.2.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.3}Hubs, bridges and switches}{20}{subsection.2.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Hubs}{21}{section*.20}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.9}{\ignorespaces devices connected together\relax }}{21}{figure.caption.21}\protected@file@percent }
-\newlabel{wrap-fig:5}{{2.9}{21}{devices connected together\relax }{figure.caption.21}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.10}{\ignorespaces Bridge saving unnecessary data transfer\relax }}{21}{figure.caption.22}\protected@file@percent }
-\newlabel{fig:bridge}{{2.10}{21}{Bridge saving unnecessary data transfer\relax }{figure.caption.22}{}}
-\@writefile{toc}{\contentsline {subsubsection}{Bridges}{21}{section*.23}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Switches}{22}{section*.24}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.5}Cisco Packet Tracer}{22}{section.2.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.1}The step-by-step guide}{23}{subsection.2.5.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.11}{\ignorespaces first screen he gets when he opens Cisco Packet Tracer\relax }}{23}{figure.caption.25}\protected@file@percent }
-\newlabel{wrap-fig:100}{{2.11}{23}{first screen he gets when he opens Cisco Packet Tracer\relax }{figure.caption.25}{}}
-\newlabel{seregios}{{4}{23}{}{Hfootnote.8}{}}
-\@writefile{toc}{\contentsline {subsubsection}{expanding the network}{43}{section*.26}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.6}Power over Ethernet}{45}{section.2.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.7}Network Topology}{45}{section.2.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.7.1}Star Topology}{46}{subsection.2.7.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{PROs}{46}{section*.27}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{CONs}{46}{section*.28}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.7.2}Ring Topology}{47}{subsection.2.7.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{PROs}{47}{section*.29}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{CONs}{47}{section*.30}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.7.3}Ring Topology on Cisco Packet Tracer}{48}{subsection.2.7.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.8}Routing Protocols}{48}{section.2.8}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.9}Interior gateway protocols}{48}{section.2.9}\protected@file@percent }
-\newlabel{autonomous-system}{{6}{48}{}{Hfootnote.10}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.9.1}link state routing protocols}{49}{subsection.2.9.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{OSPF}{49}{section*.31}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.9.2}distance vector routing protocols}{49}{subsection.2.9.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{RIP}{50}{section*.32}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{EIGRP}{50}{section*.33}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.10}Exterior gateway protocols}{50}{section.2.10}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.10.1}BGP}{50}{subsection.2.10.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.11}IoT}{50}{section.2.11}\protected@file@percent }
-\newlabel{EGP}{{7}{50}{}{Hfootnote.11}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.12}IoT in Aviation}{51}{section.2.12}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.12.1}Existing Technologies in Aviation Industry}{51}{subsection.2.12.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Digitized Security}{51}{section*.34}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{VR for Last-Minute Changes}{51}{section*.35}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Biometrics}{51}{section*.36}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.12.2}IoT Adoption Challenges}{51}{subsection.2.12.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.12.3}Opportunities for IoT in Aviation}{52}{subsection.2.12.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.13}IPv6}{52}{section.2.13}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.13.1}IPsec}{53}{subsection.2.13.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.12}{\ignorespaces IPv6 8-bytes Format \relax }}{53}{figure.caption.37}\protected@file@percent }
-\newlabel{wrap-fig:7}{{2.12}{53}{IPv6 8-bytes Format \relax }{figure.caption.37}{}}
-\@writefile{toc}{\contentsline {subsubsection}{what it does?}{53}{section*.38}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.13.2}Link-local address}{53}{subsection.2.13.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{APIPA}{53}{section*.39}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Which range does APIPA cover?}{53}{section*.40}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.13}{\ignorespaces IPv6 8-bytes Format \relax }}{53}{figure.caption.41}\protected@file@percent }
-\newlabel{fig:ipv6-8bytes}{{2.13}{53}{IPv6 8-bytes Format \relax }{figure.caption.41}{}}
-\newlabel{autoconfiguration}{{9}{53}{}{Hfootnote.13}{}}
-\newlabel{linklokal}{{10}{53}{}{Hfootnote.14}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.14}IPv4}{54}{section.2.14}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.14}{\ignorespaces IPv6 8-bytes Format \relax }}{54}{figure.caption.42}\protected@file@percent }
-\newlabel{wrap-fig:9}{{2.14}{54}{IPv6 8-bytes Format \relax }{figure.caption.42}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.14.1}conversion to binary}{54}{subsection.2.14.1}\protected@file@percent }
-\newlabel{NDP}{{11}{54}{}{Hfootnote.15}{}}
-\newlabel{randomized}{{12}{54}{}{Hfootnote.16}{}}
-\newlabel{note2}{{13}{54}{}{Hfootnote.17}{}}
-\newlabel{note3}{{14}{54}{}{Hfootnote.18}{}}
-\newlabel{note4}{{15}{54}{}{Hfootnote.19}{}}
-\newlabel{note5}{{16}{54}{}{Hfootnote.20}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.15}binary to Hex}{55}{section.2.15}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.16}IP config}{55}{section.2.16}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.16.1}ipconfig/all}{55}{subsection.2.16.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.16.2}ipconfig/displaydns}{56}{subsection.2.16.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.16.3}ipconfig/registerdns}{56}{subsection.2.16.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.16.4}ipconfig/flushdns}{56}{subsection.2.16.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{what flush DNS does}{57}{section*.43}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{why would you flush DNS}{57}{section*.44}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.17}DHCP}{57}{section.2.17}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.17.1}BYOD}{58}{subsection.2.17.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.17.2}ipconfig /release}{58}{subsection.2.17.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.17.3}ipconfig/ renew}{58}{subsection.2.17.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.17.4}vulnerabilities in LAN}{58}{subsection.2.17.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Poor configuration}{58}{section*.45}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Poor encryption}{58}{section*.46}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.17.5}Fixed IP}{58}{subsection.2.17.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.18}dns root server}{59}{section.2.18}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{why 13 DNS servers?}{59}{section*.47}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.18.1}who manages}{59}{subsection.2.18.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.19}The DNS Service}{59}{section.2.19}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.20}The four DNS Servers to load a webpage}{59}{section.2.20}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.20.1}DNS recursor}{59}{subsection.2.20.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.20.2}Root name server}{59}{subsection.2.20.2}\protected@file@percent }
-\newlabel{sharedHostingServer}{{17}{59}{}{Hfootnote.21}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.20.3}DNS server}{60}{subsection.2.20.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.20.4}Authoritative nameserver}{60}{subsection.2.20.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.21}PING}{60}{section.2.21}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.22}Loopback}{60}{section.2.22}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.23}Subnet}{60}{section.2.23}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.23.1}Routing prefix expressed in CIDR}{61}{subsection.2.23.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{the different CIDR classes}{61}{section*.48}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.24}Broadcast address}{61}{section.2.24}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.24.1}single Broadcast address}{61}{subsection.2.24.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.24.2}VLAN}{61}{subsection.2.24.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.25}Multicast}{62}{section.2.25}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.26}Unicast}{62}{section.2.26}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.27}The Five IPv4 Classes}{62}{section.2.27}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.27.1}Class A Public & Private IP Address Range}{62}{subsection.2.27.1}\protected@file@percent }
-\newlabel{unicast}{{18}{62}{}{Hfootnote.22}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.27.2}Class B Public & Private IP Address Range}{63}{subsection.2.27.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.27.3}Class C Public & Private IP Address Range}{63}{subsection.2.27.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.27.4}Class D IP Address Range}{64}{subsection.2.27.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.27.5}Class E IP Address Class}{64}{subsection.2.27.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.28}How to Crimp Cat 5}{64}{section.2.28}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.15}{\ignorespaces tools to measure the cable\relax }}{64}{figure.caption.49}\protected@file@percent }
-\newlabel{fig:meter}{{2.15}{64}{tools to measure the cable\relax }{figure.caption.49}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.28.1}Decide how much Cat-5 cable you need}{64}{subsection.2.28.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.28.2}Purchase the items you will need to build the cables}{65}{subsection.2.28.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.16}{\ignorespaces step 2\relax }}{65}{figure.caption.50}\protected@file@percent }
-\newlabel{fig:step2}{{2.16}{65}{step 2\relax }{figure.caption.50}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.28.3}Cut the cable to lenght}{65}{subsection.2.28.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.17}{\ignorespaces step 3\relax }}{65}{figure.caption.51}\protected@file@percent }
-\newlabel{fig:step3}{{2.17}{65}{step 3\relax }{figure.caption.51}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.28.4}Prepare the ends of the cable for crimping}{65}{subsection.2.28.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.18}{\ignorespaces step 4\relax }}{65}{figure.caption.52}\protected@file@percent }
-\newlabel{fig:step4}{{2.18}{65}{step 4\relax }{figure.caption.52}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.28.5}Place the Cat-5 cable ends into the RJ-45 heads}{66}{subsection.2.28.5}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.19}{\ignorespaces step 5\relax }}{66}{figure.caption.53}\protected@file@percent }
-\newlabel{fig:step5}{{2.19}{66}{step 5\relax }{figure.caption.53}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.28.6}Determine the orientation of the wires}{66}{subsection.2.28.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.28.7}Line the 8 wires up neatly so that they will fit into the plastic head}{66}{subsection.2.28.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.28.8}Crimp the head onto the cable}{66}{subsection.2.28.8}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.28.9}Test your cable if desired}{66}{subsection.2.28.9}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.29}Choose the Antivirus}{66}{section.2.29}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.29.1}Look for all-inclusive protection}{66}{subsection.2.29.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.30}VoIP}{68}{section.2.30}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.30.1}Overview}{68}{subsection.2.30.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.31}Common Port Numbers and Protocols}{68}{section.2.31}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.31.1}Protocols}{68}{subsection.2.31.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{what VoIP protocols include}{69}{section*.54}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Asterisk }{69}{section*.55}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Session Initiation Protocol}{69}{section*.56}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Quality of service}{69}{section*.57}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.31.2}use VoIP with satellite internet}{70}{subsection.2.31.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Benefits of using VoIP over satellite broadband}{70}{section*.58}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{CONs of VoIP}{70}{section*.59}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.32}Port Numbers}{70}{section.2.32}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}Emerging Technologies}{71}{chapter.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{RARP and DHCP}{20}{section*.18}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.4}Networking Hardware}{21}{section.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.1}Routers}{21}{subsection.2.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.8}{\ignorespaces Router connecting devices in a LAN over the Internet\relax }}{21}{figure.caption.19}\protected@file@percent }
+\newlabel{wrap-fig:4}{{2.8}{21}{Router connecting devices in a LAN over the Internet\relax }{figure.caption.19}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.2}Modems}{21}{subsection.2.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.3}Hubs, bridges and switches}{21}{subsection.2.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Hubs}{22}{section*.20}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.9}{\ignorespaces devices connected together\relax }}{22}{figure.caption.21}\protected@file@percent }
+\newlabel{wrap-fig:5}{{2.9}{22}{devices connected together\relax }{figure.caption.21}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.10}{\ignorespaces Bridge saving unnecessary data transfer\relax }}{22}{figure.caption.22}\protected@file@percent }
+\newlabel{fig:bridge}{{2.10}{22}{Bridge saving unnecessary data transfer\relax }{figure.caption.22}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Bridges}{22}{section*.23}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Switches}{23}{section*.24}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.5}Cisco Packet Tracer}{23}{section.2.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.1}The step-by-step guide}{24}{subsection.2.5.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.11}{\ignorespaces first screen he gets when he opens Cisco Packet Tracer\relax }}{24}{figure.caption.25}\protected@file@percent }
+\newlabel{wrap-fig:100}{{2.11}{24}{first screen he gets when he opens Cisco Packet Tracer\relax }{figure.caption.25}{}}
+\newlabel{seregios}{{4}{24}{}{Hfootnote.8}{}}
+\@writefile{toc}{\contentsline {subsubsection}{expanding the network}{44}{section*.26}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.6}Power over Ethernet}{46}{section.2.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.7}Network Topology}{46}{section.2.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.7.1}Star Topology}{47}{subsection.2.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{PROs}{47}{section*.27}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{CONs}{47}{section*.28}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.7.2}Ring Topology}{48}{subsection.2.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{PROs}{48}{section*.29}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{CONs}{48}{section*.30}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.7.3}Ring Topology on Cisco Packet Tracer}{49}{subsection.2.7.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.8}Routing Protocols}{49}{section.2.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.9}Interior gateway protocols}{50}{section.2.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.9.1}link state routing protocols}{50}{subsection.2.9.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{OSPF}{50}{section*.31}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.9.2}distance vector routing protocols}{50}{subsection.2.9.2}\protected@file@percent }
+\newlabel{autonomous-system}{{6}{50}{}{Hfootnote.10}{}}
+\@writefile{toc}{\contentsline {subsubsection}{RIP}{51}{section*.32}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{EIGRP}{51}{section*.33}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.10}Exterior gateway protocols}{51}{section.2.10}\protected@file@percent }
+\newlabel{EGP}{{7}{51}{}{Hfootnote.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.10.1}BGP}{52}{subsection.2.10.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.11}IoT}{52}{section.2.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.12}IoT in Aviation}{52}{section.2.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.12.1}Existing Technologies in Aviation Industry}{52}{subsection.2.12.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Digitized Security}{52}{section*.34}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{VR for Last-Minute Changes}{52}{section*.35}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Biometrics}{53}{section*.36}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.12.2}IoT Adoption Challenges}{53}{subsection.2.12.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.12.3}Opportunities for IoT in Aviation}{53}{subsection.2.12.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.13}IPv6}{54}{section.2.13}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.13.1}IPsec}{55}{subsection.2.13.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.12}{\ignorespaces IPv6 8-bytes Format \relax }}{55}{figure.caption.37}\protected@file@percent }
+\newlabel{wrap-fig:7}{{2.12}{55}{IPv6 8-bytes Format \relax }{figure.caption.37}{}}
+\@writefile{toc}{\contentsline {subsubsection}{what it does?}{55}{section*.38}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.13.2}Link-local address}{55}{subsection.2.13.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{APIPA}{55}{section*.39}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Which range does APIPA cover?}{55}{section*.40}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.13}{\ignorespaces IPv6 8-bytes Format \relax }}{55}{figure.caption.41}\protected@file@percent }
+\newlabel{fig:ipv6-8bytes}{{2.13}{55}{IPv6 8-bytes Format \relax }{figure.caption.41}{}}
+\newlabel{autoconfiguration}{{9}{55}{}{Hfootnote.13}{}}
+\newlabel{linklokal}{{10}{55}{}{Hfootnote.14}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.14}IPv4}{56}{section.2.14}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.14}{\ignorespaces IPv6 8-bytes Format \relax }}{56}{figure.caption.42}\protected@file@percent }
+\newlabel{wrap-fig:9}{{2.14}{56}{IPv6 8-bytes Format \relax }{figure.caption.42}{}}
+\newlabel{NDP}{{11}{56}{}{Hfootnote.15}{}}
+\newlabel{randomized}{{12}{56}{}{Hfootnote.16}{}}
+\newlabel{note2}{{13}{56}{}{Hfootnote.17}{}}
+\newlabel{note3}{{14}{56}{}{Hfootnote.18}{}}
+\newlabel{note4}{{15}{56}{}{Hfootnote.19}{}}
+\newlabel{note5}{{16}{56}{}{Hfootnote.20}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.14.1}conversion to binary}{57}{subsection.2.14.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.15}binary to Hex}{57}{section.2.15}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.16}IP config}{57}{section.2.16}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.16.1}ipconfig/all}{58}{subsection.2.16.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.16.2}ipconfig/displaydns}{58}{subsection.2.16.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.16.3}ipconfig/registerdns}{58}{subsection.2.16.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.16.4}ipconfig/flushdns}{59}{subsection.2.16.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{what flush DNS does}{59}{section*.43}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{why would you flush DNS}{59}{section*.44}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.17}DHCP}{60}{section.2.17}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.17.1}BYOD}{60}{subsection.2.17.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.17.2}ipconfig /release}{60}{subsection.2.17.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.17.3}ipconfig/ renew}{61}{subsection.2.17.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.17.4}vulnerabilities in LAN}{61}{subsection.2.17.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Poor configuration}{61}{section*.45}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Poor encryption}{61}{section*.46}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.17.5}Fixed IP}{61}{subsection.2.17.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.18}dns root server}{61}{section.2.18}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{why 13 DNS servers?}{61}{section*.47}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.18.1}who manages}{61}{subsection.2.18.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.19}The DNS Service}{61}{section.2.19}\protected@file@percent }
+\newlabel{sharedHostingServer}{{17}{61}{}{Hfootnote.21}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.20}The four DNS Servers to load a webpage}{62}{section.2.20}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.20.1}DNS recursor}{62}{subsection.2.20.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.20.2}Root name server}{62}{subsection.2.20.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.20.3}DNS server}{62}{subsection.2.20.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.20.4}Authoritative nameserver}{62}{subsection.2.20.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.21}PING}{63}{section.2.21}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.22}Loopback}{63}{section.2.22}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.23}Subnet}{63}{section.2.23}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.23.1}Routing prefix expressed in CIDR}{63}{subsection.2.23.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{the different CIDR classes}{63}{section*.48}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.24}Broadcast address}{64}{section.2.24}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.24.1}single Broadcast address}{64}{subsection.2.24.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.24.2}VLAN}{64}{subsection.2.24.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.25}Multicast}{64}{section.2.25}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.26}Unicast}{65}{section.2.26}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.27}The Five IPv4 Classes}{65}{section.2.27}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.27.1}Class A Public & Private IP Address Range}{65}{subsection.2.27.1}\protected@file@percent }
+\newlabel{unicast}{{18}{65}{}{Hfootnote.22}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.27.2}Class B Public & Private IP Address Range}{66}{subsection.2.27.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.27.3}Class C Public & Private IP Address Range}{66}{subsection.2.27.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.27.4}Class D IP Address Range}{67}{subsection.2.27.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.27.5}Class E IP Address Class}{67}{subsection.2.27.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.28}How to Crimp Cat 5}{67}{section.2.28}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.15}{\ignorespaces tools to measure the cable\relax }}{67}{figure.caption.49}\protected@file@percent }
+\newlabel{fig:meter}{{2.15}{67}{tools to measure the cable\relax }{figure.caption.49}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.28.1}Decide how much Cat-5 cable you need}{67}{subsection.2.28.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.28.2}Purchase the items you will need to build the cables}{68}{subsection.2.28.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.16}{\ignorespaces step 2\relax }}{68}{figure.caption.50}\protected@file@percent }
+\newlabel{fig:step2}{{2.16}{68}{step 2\relax }{figure.caption.50}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.28.3}Cut the cable to lenght}{68}{subsection.2.28.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.17}{\ignorespaces step 3\relax }}{68}{figure.caption.51}\protected@file@percent }
+\newlabel{fig:step3}{{2.17}{68}{step 3\relax }{figure.caption.51}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.28.4}Prepare the ends of the cable for crimping}{68}{subsection.2.28.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.18}{\ignorespaces step 4\relax }}{69}{figure.caption.52}\protected@file@percent }
+\newlabel{fig:step4}{{2.18}{69}{step 4\relax }{figure.caption.52}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.28.5}Place the Cat-5 cable ends into the RJ-45 heads}{70}{subsection.2.28.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.19}{\ignorespaces step 5\relax }}{70}{figure.caption.53}\protected@file@percent }
+\newlabel{fig:step5}{{2.19}{70}{step 5\relax }{figure.caption.53}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.28.6}Determine the orientation of the wires}{70}{subsection.2.28.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.28.7}Line the 8 wires up neatly so that they will fit into the plastic head}{70}{subsection.2.28.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.28.8}Crimp the head onto the cable}{70}{subsection.2.28.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.28.9}Test your cable if desired}{70}{subsection.2.28.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.29}Choose the Antivirus}{70}{section.2.29}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.29.1}Look for all-inclusive protection}{70}{subsection.2.29.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.30}VoIP}{72}{section.2.30}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.30.1}Overview}{72}{subsection.2.30.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.31}Common Port Numbers and Protocols}{72}{section.2.31}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.31.1}Protocols}{72}{subsection.2.31.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{what VoIP protocols include}{73}{section*.54}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Asterisk }{73}{section*.55}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Session Initiation Protocol}{73}{section*.56}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Quality of service}{74}{section*.57}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.31.2}use VoIP with satellite internet}{74}{subsection.2.31.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Benefits of using VoIP over satellite broadband}{74}{section*.58}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{CONs of VoIP}{74}{section*.59}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.32}Port Numbers}{75}{section.2.32}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Emerging Technologies}{77}{chapter.3}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}Wireless Emerging Technologies}{72}{section.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Fifth generation mobile}{72}{subsection.3.1.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{How does it work?}{72}{section*.60}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}NFC}{72}{subsection.3.1.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}RFID}{72}{subsection.3.1.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.4}ANT}{72}{subsection.3.1.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.5}ZigBee}{72}{subsection.3.1.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}potential implications of AI technologies on digital activities}{73}{section.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}what's an AI first}{73}{subsection.3.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}virtual agents}{73}{subsection.3.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}speech recognition}{73}{subsection.3.2.3}\protected@file@percent }
-\gdef \@abspage@last{73}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Wireless Emerging Technologies}{78}{section.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Fifth generation mobile}{78}{subsection.3.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{How does it work?}{78}{section*.60}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}NFC}{78}{subsection.3.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}RFID}{78}{subsection.3.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.4}ANT}{78}{subsection.3.1.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.5}ZigBee}{78}{subsection.3.1.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}potential implications of AI technologies on digital activities}{79}{section.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}what's an AI first}{79}{subsection.3.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}virtual agents}{79}{subsection.3.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}speech recognition}{79}{subsection.3.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Cloud Computing}{81}{chapter.4}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Introduction}{82}{section.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}PROs and CONs}{82}{section.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Carbon footprint}{82}{subsection.4.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Scam}{82}{subsection.4.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}dirty data}{82}{section.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Major cloud platforms}{82}{section.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Switching between providers}{82}{section*.61}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}Azure}{82}{subsection.4.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}Risks using the cloud}{83}{section.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}Lack of cloud expertise}{83}{subsection.4.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.2}Cloud misconfigurations}{83}{subsection.4.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.3}Non-compliance with data regulations}{83}{subsection.4.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.6}risk assessments}{83}{section.4.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.7}resource pooling}{83}{section.4.7}\protected@file@percent }
+\gdef \@abspage@last{83}
