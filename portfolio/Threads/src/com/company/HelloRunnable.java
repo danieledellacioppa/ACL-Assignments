@@ -3,11 +3,11 @@ package com.company;
 public class HelloRunnable implements Runnable {
 
     public void run() {
-        System.out.println("Hello from a thread!");
+        System.out.println("Hello from HelloRunnable!");
     }
 
-//    public static void main(String args[]) {
-//        (new Thread(new HelloRunnable())).start();
-//    }
+    public static void main(String args[]) {
+        (new Thread(new HelloRunnable())).start();
+    }
 
 }
