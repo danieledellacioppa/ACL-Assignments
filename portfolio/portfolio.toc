@@ -1,4 +1,4 @@
-\babel@toc {english}{}\relax 
+\babel@toc {english}{}
 \contentsline {part}{I\hspace {1em}Introduction}{5}{part.1}%
 \contentsline {chapter}{\numberline {1}Brief introduction}{7}{chapter.1}%
 \contentsline {section}{\numberline {1.1}What this document is}{7}{section.1.1}%
@@ -16,5 +16,6 @@
 \contentsline {subsection}{\numberline {3.3.1}Targets}{22}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Stage}{23}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Resolution}{23}{subsection.3.3.3}%
-\contentsline {part}{III\hspace {1em}Database development}{141}{part.3}%
-\contentsline {chapter}{\numberline {4}Database design}{145}{chapter.4}%
+\contentsline {subsubsection}{Thread Objects}{30}{section*.9}%
+\contentsline {part}{III\hspace {1em}Database development}{31}{part.3}%
+\contentsline {chapter}{\numberline {4}Database design}{35}{chapter.4}%
