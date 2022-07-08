@@ -1,4 +1,4 @@
-\babel@toc {english}{}\relax 
+\babel@toc {english}{}
 \contentsline {part}{I\hspace {1em}Networking}{5}{part.1}%
 \contentsline {chapter}{\numberline {1}The basics of Networks}{7}{chapter.1}%
 \contentsline {section}{\numberline {1.1}\textsc {What is a network?}}{8}{section.1.1}%
@@ -150,11 +150,13 @@
 \contentsline {subsection}{\numberline {4.2.2}Scam}{82}{subsection.4.2.2}%
 \contentsline {section}{\numberline {4.3}dirty data}{82}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Major cloud platforms}{82}{section.4.4}%
-\contentsline {paragraph}{Switching between providers}{82}{section*.61}%
 \contentsline {subsection}{\numberline {4.4.1}Azure}{82}{subsection.4.4.1}%
 \contentsline {section}{\numberline {4.5}Risks using the cloud}{83}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Lack of cloud expertise}{83}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Cloud misconfigurations}{83}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Non-compliance with data regulations}{83}{subsection.4.5.3}%
-\contentsline {section}{\numberline {4.6}risk assessments}{83}{section.4.6}%
-\contentsline {section}{\numberline {4.7}resource pooling}{83}{section.4.7}%
+\contentsline {subsection}{\numberline {4.5.1}Switching between providers}{83}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Lack of cloud expertise}{83}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Cloud misconfigurations}{83}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Non-compliance with data regulations}{83}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}Risk assessments}{84}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}User Access Controls}{84}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Continuous monitoring}{84}{subsection.4.6.2}%
+\contentsline {section}{\numberline {4.7}Resource pooling}{84}{section.4.7}%
