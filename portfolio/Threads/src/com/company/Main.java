@@ -14,7 +14,7 @@ public class Main
       HelloThread helloThread = new HelloThread();
       System.out.println("helloThread.run();");
       helloThread.run();
-      System.out.println("main() after helloThread launched");
+      System.out.println("main() after helloThread launched"); //why is this message waiting for helloThread to finish?
       System.out.println("main() about to finish");
     }
 
