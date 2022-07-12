@@ -18,12 +18,14 @@ public class HelloThread extends Thread
 
         } catch (InterruptedException e) {
             e.printStackTrace();
+            System.out.println("We've been interrupted");
+            return;
         }
         System.out.println("Hello from HelloThread!");
     }
 
     public static void main(String args[])
-    {
+    throws InterruptedException{
         (new HelloThread()).start();
     }
 
