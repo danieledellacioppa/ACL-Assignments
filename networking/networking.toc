@@ -1,159 +1,190 @@
-\babel@toc {english}{}
-\contentsline {part}{I\hspace {1em}Networking}{5}{part.1}%
-\contentsline {chapter}{\numberline {1}The basics of Networks}{7}{chapter.1}%
-\contentsline {section}{\numberline {1.1}\textsc {What is a network?}}{8}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}\textsc {Network benefits}}{8}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}\textsc {guided wiring}}{9}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}\textsc {unguided wiring}}{9}{subsection.1.1.3}%
-\contentsline {section}{\numberline {1.2}\textsc {LAN vs WAN}}{9}{section.1.2}%
-\contentsline {chapter}{\numberline {2}Standards and Protocols}{11}{chapter.2}%
-\contentsline {section}{\numberline {2.1}IEEE 802.3}{12}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}\textsc {Popular Versions}}{12}{subsection.2.1.1}%
-\contentsline {section}{\numberline {2.2}\textsc {Protocols}}{13}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}\textsc {OSI Standard}}{13}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}\textsc {A good Mnemonic}}{13}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}\textsc {Theory vs Practice}}{13}{subsection.2.2.3}%
-\contentsline {subsubsection}{\textsc {connection-oriented protocols}}{14}{section*.7}%
-\contentsline {subsubsection}{\textsc {connectionless protocols}}{15}{section*.9}%
-\contentsline {subsubsection}{\textsc {horizontal vs vertical approach}}{15}{section*.10}%
-\contentsline {section}{\numberline {2.3}Switched Local Area Networks}{16}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Link-layer addressing and ARP}{16}{subsection.2.3.1}%
-\contentsline {subsubsection}{MAC Addresses}{16}{section*.12}%
-\contentsline {subsubsection}{Address Resolution Protocol (ARP)}{17}{section*.14}%
-\contentsline {paragraph}{[arp -a] output on my linux shell}{19}{section*.17}%
-\contentsline {subsubsection}{RARP and DHCP}{19}{section*.18}%
-\contentsline {section}{\numberline {2.4}Networking Hardware}{20}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Routers}{20}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Modems}{20}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Hubs, bridges and switches}{20}{subsection.2.4.3}%
-\contentsline {subsubsection}{Hubs}{21}{section*.20}%
-\contentsline {subsubsection}{Bridges}{21}{section*.23}%
-\contentsline {subsubsection}{Switches}{22}{section*.24}%
-\contentsline {section}{\numberline {2.5}Cisco Packet Tracer}{22}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}The step-by-step guide}{23}{subsection.2.5.1}%
-\contentsline {subsubsection}{expanding the network}{43}{section*.26}%
-\contentsline {section}{\numberline {2.6}Power over Ethernet}{45}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Network Topology}{45}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Star Topology}{46}{subsection.2.7.1}%
-\contentsline {subsubsection}{PROs}{46}{section*.27}%
-\contentsline {subsubsection}{CONs}{46}{section*.28}%
-\contentsline {subsection}{\numberline {2.7.2}Ring Topology}{47}{subsection.2.7.2}%
-\contentsline {subsubsection}{PROs}{47}{section*.29}%
-\contentsline {subsubsection}{CONs}{47}{section*.30}%
-\contentsline {subsection}{\numberline {2.7.3}Ring Topology on Cisco Packet Tracer}{48}{subsection.2.7.3}%
-\contentsline {section}{\numberline {2.8}Routing Protocols}{48}{section.2.8}%
-\contentsline {section}{\numberline {2.9}Interior gateway protocols}{48}{section.2.9}%
-\contentsline {subsection}{\numberline {2.9.1}link state routing protocols}{49}{subsection.2.9.1}%
-\contentsline {subsubsection}{OSPF}{49}{section*.31}%
-\contentsline {subsection}{\numberline {2.9.2}distance vector routing protocols}{49}{subsection.2.9.2}%
-\contentsline {subsubsection}{RIP}{49}{section*.32}%
-\contentsline {subsubsection}{EIGRP}{50}{section*.33}%
-\contentsline {section}{\numberline {2.10}Exterior gateway protocols}{50}{section.2.10}%
-\contentsline {subsection}{\numberline {2.10.1}BGP}{50}{subsection.2.10.1}%
-\contentsline {section}{\numberline {2.11}IoT}{50}{section.2.11}%
-\contentsline {section}{\numberline {2.12}IoT in Aviation}{50}{section.2.12}%
-\contentsline {subsection}{\numberline {2.12.1}Existing Technologies in Aviation Industry}{51}{subsection.2.12.1}%
-\contentsline {subsubsection}{Digitized Security}{51}{section*.34}%
-\contentsline {subsubsection}{VR for Last-Minute Changes}{51}{section*.35}%
-\contentsline {subsubsection}{Biometrics}{51}{section*.36}%
-\contentsline {subsection}{\numberline {2.12.2}IoT Adoption Challenges}{51}{subsection.2.12.2}%
-\contentsline {subsection}{\numberline {2.12.3}Opportunities for IoT in Aviation}{52}{subsection.2.12.3}%
-\contentsline {section}{\numberline {2.13}IPv6}{52}{section.2.13}%
-\contentsline {subsection}{\numberline {2.13.1}IPsec}{53}{subsection.2.13.1}%
-\contentsline {subsubsection}{what it does?}{53}{section*.38}%
-\contentsline {subsection}{\numberline {2.13.2}Link-local address}{53}{subsection.2.13.2}%
-\contentsline {subsubsection}{APIPA}{53}{section*.39}%
-\contentsline {paragraph}{Which range does APIPA cover?}{53}{section*.40}%
-\contentsline {section}{\numberline {2.14}IPv4}{54}{section.2.14}%
-\contentsline {subsection}{\numberline {2.14.1}conversion to binary}{54}{subsection.2.14.1}%
-\contentsline {section}{\numberline {2.15}binary to Hex}{55}{section.2.15}%
-\contentsline {section}{\numberline {2.16}IP config}{55}{section.2.16}%
-\contentsline {subsection}{\numberline {2.16.1}ipconfig/all}{55}{subsection.2.16.1}%
-\contentsline {subsection}{\numberline {2.16.2}ipconfig/displaydns}{55}{subsection.2.16.2}%
-\contentsline {subsection}{\numberline {2.16.3}ipconfig/registerdns}{56}{subsection.2.16.3}%
-\contentsline {subsection}{\numberline {2.16.4}ipconfig/flushdns}{56}{subsection.2.16.4}%
-\contentsline {subsubsection}{what flush DNS does}{56}{section*.43}%
-\contentsline {subsubsection}{why would you flush DNS}{57}{section*.44}%
-\contentsline {section}{\numberline {2.17}DHCP}{57}{section.2.17}%
-\contentsline {subsection}{\numberline {2.17.1}BYOD}{57}{subsection.2.17.1}%
-\contentsline {subsection}{\numberline {2.17.2}ipconfig /release}{58}{subsection.2.17.2}%
-\contentsline {subsection}{\numberline {2.17.3}ipconfig/ renew}{58}{subsection.2.17.3}%
-\contentsline {subsection}{\numberline {2.17.4}Fixed IP}{58}{subsection.2.17.4}%
-\contentsline {section}{\numberline {2.18}dns root server}{58}{section.2.18}%
-\contentsline {paragraph}{why 13 DNS servers?}{58}{section*.45}%
-\contentsline {subsection}{\numberline {2.18.1}who manages}{58}{subsection.2.18.1}%
-\contentsline {section}{\numberline {2.19}The DNS Service}{58}{section.2.19}%
-\contentsline {section}{\numberline {2.20}The four DNS Servers to load a webpage}{59}{section.2.20}%
-\contentsline {subsection}{\numberline {2.20.1}DNS recursor}{59}{subsection.2.20.1}%
-\contentsline {subsection}{\numberline {2.20.2}Root name server}{59}{subsection.2.20.2}%
-\contentsline {subsection}{\numberline {2.20.3}DNS server}{59}{subsection.2.20.3}%
-\contentsline {subsection}{\numberline {2.20.4}Authoritative nameserver}{59}{subsection.2.20.4}%
-\contentsline {section}{\numberline {2.21}PING}{59}{section.2.21}%
-\contentsline {section}{\numberline {2.22}Loopback}{60}{section.2.22}%
-\contentsline {section}{\numberline {2.23}Subnet}{60}{section.2.23}%
-\contentsline {subsection}{\numberline {2.23.1}Routing prefix expressed in CIDR}{60}{subsection.2.23.1}%
-\contentsline {subsubsection}{the different CIDR classes}{60}{section*.46}%
-\contentsline {section}{\numberline {2.24}Broadcast address}{60}{section.2.24}%
-\contentsline {subsection}{\numberline {2.24.1}single Broadcast address}{61}{subsection.2.24.1}%
-\contentsline {subsection}{\numberline {2.24.2}VLAN}{61}{subsection.2.24.2}%
-\contentsline {section}{\numberline {2.25}Multicast}{61}{section.2.25}%
-\contentsline {section}{\numberline {2.26}Unicast}{61}{section.2.26}%
-\contentsline {section}{\numberline {2.27}The Five IPv4 Classes}{61}{section.2.27}%
-\contentsline {subsection}{\numberline {2.27.1}Class A Public & Private IP Address Range}{62}{subsection.2.27.1}%
-\contentsline {subsection}{\numberline {2.27.2}Class B Public & Private IP Address Range}{63}{subsection.2.27.2}%
-\contentsline {subsection}{\numberline {2.27.3}Class C Public & Private IP Address Range}{63}{subsection.2.27.3}%
-\contentsline {subsection}{\numberline {2.27.4}Class D IP Address Range}{64}{subsection.2.27.4}%
-\contentsline {subsection}{\numberline {2.27.5}Class E IP Address Class}{64}{subsection.2.27.5}%
-\contentsline {section}{\numberline {2.28}How to Crimp Cat 5}{64}{section.2.28}%
-\contentsline {subsection}{\numberline {2.28.1}Decide how much Cat-5 cable you need}{64}{subsection.2.28.1}%
-\contentsline {subsection}{\numberline {2.28.2}Purchase the items you will need to build the cables}{65}{subsection.2.28.2}%
-\contentsline {subsection}{\numberline {2.28.3}Cut the cable to lenght}{65}{subsection.2.28.3}%
-\contentsline {subsection}{\numberline {2.28.4}Prepare the ends of the cable for crimping}{65}{subsection.2.28.4}%
-\contentsline {subsection}{\numberline {2.28.5}Place the Cat-5 cable ends into the RJ-45 heads}{66}{subsection.2.28.5}%
-\contentsline {subsection}{\numberline {2.28.6}Determine the orientation of the wires}{66}{subsection.2.28.6}%
-\contentsline {subsection}{\numberline {2.28.7}Line the 8 wires up neatly so that they will fit into the plastic head}{66}{subsection.2.28.7}%
-\contentsline {subsection}{\numberline {2.28.8}Crimp the head onto the cable}{66}{subsection.2.28.8}%
-\contentsline {subsection}{\numberline {2.28.9}Test your cable if desired}{66}{subsection.2.28.9}%
-\contentsline {section}{\numberline {2.29}Choose the Antivirus}{66}{section.2.29}%
-\contentsline {subsection}{\numberline {2.29.1}Look for all-inclusive protection}{66}{subsection.2.29.1}%
-\contentsline {section}{\numberline {2.30}VoIP}{68}{section.2.30}%
-\contentsline {subsection}{\numberline {2.30.1}Overview}{68}{subsection.2.30.1}%
-\contentsline {section}{\numberline {2.31}Common Port Numbers and Protocols}{68}{section.2.31}%
-\contentsline {subsection}{\numberline {2.31.1}Protocols}{68}{subsection.2.31.1}%
-\contentsline {subsubsection}{what VoIP protocols include}{69}{section*.52}%
-\contentsline {subsubsection}{Asterisk }{69}{section*.53}%
-\contentsline {subsubsection}{Session Initiation Protocol}{69}{section*.54}%
-\contentsline {subsubsection}{Quality of service}{69}{section*.55}%
-\contentsline {subsection}{\numberline {2.31.2}use VoIP with satellite internet}{70}{subsection.2.31.2}%
-\contentsline {subsubsection}{Benefits of using VoIP over satellite broadband}{70}{section*.56}%
-\contentsline {subsubsection}{CONs of VoIP}{70}{section*.57}%
-\contentsline {section}{\numberline {2.32}Port Numbers}{70}{section.2.32}%
-\contentsline {chapter}{\numberline {3}Emerging Technologies}{71}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Wireless Emerging Technologies}{72}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Fifth generation mobile}{72}{subsection.3.1.1}%
-\contentsline {subsubsection}{How does it work?}{72}{section*.58}%
-\contentsline {subsection}{\numberline {3.1.2}NFC}{72}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}RFID}{72}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}ANT}{72}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5}ZigBee}{72}{subsection.3.1.5}%
-\contentsline {section}{\numberline {3.2}potential implications of AI technologies on digital activities}{73}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}what's an AI first}{73}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}virtual agents}{73}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}speech recognition}{73}{subsection.3.2.3}%
-\contentsline {chapter}{\numberline {4}Cloud Computing}{75}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{76}{section.4.1}%
-\contentsline {section}{\numberline {4.2}PROs and CONs}{76}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Carbon footprint}{76}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Scam}{76}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}dirty data}{76}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Major cloud platforms}{76}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Azure}{76}{subsection.4.4.1}%
-\contentsline {section}{\numberline {4.5}Risks using the cloud}{77}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Switching between providers}{77}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Lack of cloud expertise}{77}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Cloud misconfigurations}{77}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}Non-compliance with data regulations}{77}{subsection.4.5.4}%
-\contentsline {section}{\numberline {4.6}Risk assessments}{77}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}User Access Controls}{77}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}Continuous monitoring}{78}{subsection.4.6.2}%
-\contentsline {section}{\numberline {4.7}Resource pooling}{78}{section.4.7}%
+\babel@toc {english}{}\relax 
+\contentsline {part}{I\hspace {1em}Networking}{7}{part.1}%
+\contentsline {chapter}{\numberline {1}The basics of Networks}{9}{chapter.1}%
+\contentsline {section}{\numberline {1.1}\textsc {What is a network?}}{10}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}\textsc {Network benefits}}{10}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}\textsc {guided wiring}}{11}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}\textsc {unguided wiring}}{11}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.2}\textsc {LAN vs WAN}}{11}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Standards and Protocols}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}IEEE 802.3}{14}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}\textsc {Popular Versions}}{14}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}\textsc {Protocols}}{15}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}\textsc {OSI Standard}}{15}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}\textsc {A good Mnemonic}}{15}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}\textsc {Theory vs Practice}}{15}{subsection.2.2.3}%
+\contentsline {subsubsection}{\textsc {connection-oriented protocols}}{16}{section*.7}%
+\contentsline {subsubsection}{\textsc {connectionless protocols}}{17}{section*.9}%
+\contentsline {subsubsection}{\textsc {horizontal vs vertical approach}}{17}{section*.10}%
+\contentsline {section}{\numberline {2.3}Switched Local Area Networks}{18}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Link-layer addressing and ARP}{18}{subsection.2.3.1}%
+\contentsline {subsubsection}{MAC Addresses}{18}{section*.12}%
+\contentsline {subsubsection}{Address Resolution Protocol (ARP)}{19}{section*.14}%
+\contentsline {paragraph}{[arp -a] output on my linux shell}{21}{section*.17}%
+\contentsline {subsubsection}{RARP and DHCP}{21}{section*.18}%
+\contentsline {section}{\numberline {2.4}Networking Hardware}{22}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Routers}{22}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Modems}{22}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Hubs, bridges and switches}{22}{subsection.2.4.3}%
+\contentsline {subsubsection}{Hubs}{23}{section*.20}%
+\contentsline {subsubsection}{Bridges}{23}{section*.23}%
+\contentsline {subsubsection}{Switches}{24}{section*.24}%
+\contentsline {section}{\numberline {2.5}Cisco Packet Tracer}{24}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}The step-by-step guide}{25}{subsection.2.5.1}%
+\contentsline {subsubsection}{expanding the network}{45}{section*.26}%
+\contentsline {section}{\numberline {2.6}Power over Ethernet}{47}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Network Topology}{47}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Star Topology}{48}{subsection.2.7.1}%
+\contentsline {subsubsection}{PROs}{48}{section*.27}%
+\contentsline {subsubsection}{CONs}{48}{section*.28}%
+\contentsline {subsection}{\numberline {2.7.2}Ring Topology}{49}{subsection.2.7.2}%
+\contentsline {subsubsection}{PROs}{49}{section*.29}%
+\contentsline {subsubsection}{CONs}{49}{section*.30}%
+\contentsline {subsection}{\numberline {2.7.3}Ring Topology on Cisco Packet Tracer}{50}{subsection.2.7.3}%
+\contentsline {section}{\numberline {2.8}Routing Protocols}{50}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Interior gateway protocols}{50}{section.2.9}%
+\contentsline {subsection}{\numberline {2.9.1}link state routing protocols}{51}{subsection.2.9.1}%
+\contentsline {subsubsection}{OSPF}{51}{section*.31}%
+\contentsline {subsection}{\numberline {2.9.2}distance vector routing protocols}{51}{subsection.2.9.2}%
+\contentsline {subsubsection}{RIP}{51}{section*.32}%
+\contentsline {subsubsection}{EIGRP}{52}{section*.33}%
+\contentsline {section}{\numberline {2.10}Exterior gateway protocols}{52}{section.2.10}%
+\contentsline {subsection}{\numberline {2.10.1}BGP}{52}{subsection.2.10.1}%
+\contentsline {section}{\numberline {2.11}IoT}{52}{section.2.11}%
+\contentsline {section}{\numberline {2.12}IoT in Aviation}{53}{section.2.12}%
+\contentsline {subsection}{\numberline {2.12.1}Existing Technologies in Aviation Industry}{53}{subsection.2.12.1}%
+\contentsline {subsubsection}{Digitized Security}{53}{section*.34}%
+\contentsline {subsubsection}{VR for Last-Minute Changes}{53}{section*.35}%
+\contentsline {subsubsection}{Biometrics}{53}{section*.36}%
+\contentsline {subsection}{\numberline {2.12.2}IoT Adoption Challenges}{53}{subsection.2.12.2}%
+\contentsline {subsection}{\numberline {2.12.3}Opportunities for IoT in Aviation}{54}{subsection.2.12.3}%
+\contentsline {section}{\numberline {2.13}IPv6}{54}{section.2.13}%
+\contentsline {subsection}{\numberline {2.13.1}IPsec}{55}{subsection.2.13.1}%
+\contentsline {subsubsection}{what it does?}{55}{section*.38}%
+\contentsline {subsection}{\numberline {2.13.2}Link-local address}{55}{subsection.2.13.2}%
+\contentsline {subsubsection}{APIPA}{55}{section*.39}%
+\contentsline {paragraph}{Which range does APIPA cover?}{55}{section*.40}%
+\contentsline {section}{\numberline {2.14}IPv4}{56}{section.2.14}%
+\contentsline {subsection}{\numberline {2.14.1}conversion to binary}{56}{subsection.2.14.1}%
+\contentsline {section}{\numberline {2.15}binary to Hex}{57}{section.2.15}%
+\contentsline {section}{\numberline {2.16}IP config}{57}{section.2.16}%
+\contentsline {subsection}{\numberline {2.16.1}ipconfig/all}{57}{subsection.2.16.1}%
+\contentsline {subsection}{\numberline {2.16.2}ipconfig/displaydns}{58}{subsection.2.16.2}%
+\contentsline {subsection}{\numberline {2.16.3}ipconfig/registerdns}{58}{subsection.2.16.3}%
+\contentsline {subsection}{\numberline {2.16.4}ipconfig/flushdns}{58}{subsection.2.16.4}%
+\contentsline {subsubsection}{what flush DNS does}{59}{section*.43}%
+\contentsline {subsubsection}{why would you flush DNS}{59}{section*.44}%
+\contentsline {section}{\numberline {2.17}DHCP}{59}{section.2.17}%
+\contentsline {subsection}{\numberline {2.17.1}BYOD}{60}{subsection.2.17.1}%
+\contentsline {subsection}{\numberline {2.17.2}ipconfig /release}{60}{subsection.2.17.2}%
+\contentsline {subsection}{\numberline {2.17.3}ipconfig/ renew}{60}{subsection.2.17.3}%
+\contentsline {subsection}{\numberline {2.17.4}Fixed IP}{60}{subsection.2.17.4}%
+\contentsline {section}{\numberline {2.18}dns root server}{60}{section.2.18}%
+\contentsline {paragraph}{why 13 DNS servers?}{60}{section*.45}%
+\contentsline {subsection}{\numberline {2.18.1}who manages}{61}{subsection.2.18.1}%
+\contentsline {section}{\numberline {2.19}The DNS Service}{61}{section.2.19}%
+\contentsline {section}{\numberline {2.20}The four DNS Servers to load a webpage}{61}{section.2.20}%
+\contentsline {subsection}{\numberline {2.20.1}DNS recursor}{61}{subsection.2.20.1}%
+\contentsline {subsection}{\numberline {2.20.2}Root name server}{61}{subsection.2.20.2}%
+\contentsline {subsection}{\numberline {2.20.3}DNS server}{61}{subsection.2.20.3}%
+\contentsline {subsection}{\numberline {2.20.4}Authoritative nameserver}{62}{subsection.2.20.4}%
+\contentsline {section}{\numberline {2.21}PING}{62}{section.2.21}%
+\contentsline {section}{\numberline {2.22}Loopback}{62}{section.2.22}%
+\contentsline {section}{\numberline {2.23}Subnet}{62}{section.2.23}%
+\contentsline {subsection}{\numberline {2.23.1}Routing prefix expressed in CIDR}{62}{subsection.2.23.1}%
+\contentsline {subsubsection}{the different CIDR classes}{63}{section*.46}%
+\contentsline {section}{\numberline {2.24}Broadcast address}{63}{section.2.24}%
+\contentsline {subsection}{\numberline {2.24.1}single Broadcast address}{63}{subsection.2.24.1}%
+\contentsline {subsection}{\numberline {2.24.2}VLAN}{63}{subsection.2.24.2}%
+\contentsline {section}{\numberline {2.25}Multicast}{63}{section.2.25}%
+\contentsline {section}{\numberline {2.26}Unicast}{64}{section.2.26}%
+\contentsline {section}{\numberline {2.27}The Five IPv4 Classes}{64}{section.2.27}%
+\contentsline {subsection}{\numberline {2.27.1}Class A Public & Private IP Address Range}{64}{subsection.2.27.1}%
+\contentsline {subsection}{\numberline {2.27.2}Class B Public & Private IP Address Range}{65}{subsection.2.27.2}%
+\contentsline {subsection}{\numberline {2.27.3}Class C Public & Private IP Address Range}{65}{subsection.2.27.3}%
+\contentsline {subsection}{\numberline {2.27.4}Class D IP Address Range}{66}{subsection.2.27.4}%
+\contentsline {subsection}{\numberline {2.27.5}Class E IP Address Class}{66}{subsection.2.27.5}%
+\contentsline {section}{\numberline {2.28}How to Crimp Cat 5}{66}{section.2.28}%
+\contentsline {subsection}{\numberline {2.28.1}Decide how much Cat-5 cable you need}{66}{subsection.2.28.1}%
+\contentsline {subsection}{\numberline {2.28.2}Purchase the items you will need to build the cables}{67}{subsection.2.28.2}%
+\contentsline {subsection}{\numberline {2.28.3}Cut the cable to lenght}{67}{subsection.2.28.3}%
+\contentsline {subsection}{\numberline {2.28.4}Prepare the ends of the cable for crimping}{67}{subsection.2.28.4}%
+\contentsline {subsection}{\numberline {2.28.5}Place the Cat-5 cable ends into the RJ-45 heads}{68}{subsection.2.28.5}%
+\contentsline {subsection}{\numberline {2.28.6}Determine the orientation of the wires}{68}{subsection.2.28.6}%
+\contentsline {subsection}{\numberline {2.28.7}Line the 8 wires up neatly so that they will fit into the plastic head}{68}{subsection.2.28.7}%
+\contentsline {subsection}{\numberline {2.28.8}Crimp the head onto the cable}{68}{subsection.2.28.8}%
+\contentsline {subsection}{\numberline {2.28.9}Test your cable if desired}{68}{subsection.2.28.9}%
+\contentsline {section}{\numberline {2.29}Choose the Antivirus}{68}{section.2.29}%
+\contentsline {subsection}{\numberline {2.29.1}Look for all-inclusive protection}{68}{subsection.2.29.1}%
+\contentsline {section}{\numberline {2.30}VoIP}{70}{section.2.30}%
+\contentsline {subsection}{\numberline {2.30.1}Overview}{70}{subsection.2.30.1}%
+\contentsline {section}{\numberline {2.31}Common Port Numbers and Protocols}{70}{section.2.31}%
+\contentsline {subsection}{\numberline {2.31.1}Protocols}{70}{subsection.2.31.1}%
+\contentsline {subsubsection}{what VoIP protocols include}{71}{section*.52}%
+\contentsline {subsubsection}{Asterisk }{71}{section*.53}%
+\contentsline {subsubsection}{Session Initiation Protocol}{71}{section*.54}%
+\contentsline {subsubsection}{Quality of service}{71}{section*.55}%
+\contentsline {subsection}{\numberline {2.31.2}use VoIP with satellite internet}{72}{subsection.2.31.2}%
+\contentsline {subsubsection}{Benefits of using VoIP over satellite broadband}{72}{section*.56}%
+\contentsline {subsubsection}{CONs of VoIP}{72}{section*.57}%
+\contentsline {section}{\numberline {2.32}Port Numbers}{72}{section.2.32}%
+\contentsline {chapter}{\numberline {3}Emerging Technologies}{73}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Wireless Emerging Technologies}{74}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Fifth generation mobile}{74}{subsection.3.1.1}%
+\contentsline {subsubsection}{How does it work?}{74}{section*.58}%
+\contentsline {subsection}{\numberline {3.1.2}NFC}{74}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}RFID}{74}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}ANT}{74}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}ZigBee}{74}{subsection.3.1.5}%
+\contentsline {section}{\numberline {3.2}potential implications of AI technologies on digital activities}{75}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}what's an AI first}{75}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}virtual agents}{75}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}speech recognition}{75}{subsection.3.2.3}%
+\contentsline {chapter}{\numberline {4}Cloud Computing}{77}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{78}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Private}{78}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Hybrid}{78}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Public}{78}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Types of cloud platform}{78}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}IaaS}{78}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}PaaS}{78}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}SaaS}{78}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}PROs and CONs}{78}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Carbon footprint}{78}{subsection.4.3.1}%
+\contentsline {subsubsection}{Dirty data}{78}{section*.59}%
+\contentsline {subsection}{\numberline {4.3.2}Scam}{78}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Major cloud platforms}{78}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Azure}{79}{subsection.4.4.1}%
+\contentsline {section}{\numberline {4.5}Risks using the cloud}{80}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Switching between providers}{80}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Lack of cloud expertise}{80}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}In work environment}{80}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Cloud misconfigurations}{80}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Non-compliance with data regulations}{80}{subsection.4.6.2}%
+\contentsline {section}{\numberline {4.7}Risk assessments}{80}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}User Access Controls}{81}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Continuous monitoring}{81}{subsection.4.7.2}%
+\contentsline {section}{\numberline {4.8}Resource pooling}{81}{section.4.8}%
+\contentsline {chapter}{\numberline {5}Firewall}{83}{chapter.5}%
+\contentsline {section}{\numberline {5.1}DMZ}{83}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Firewall Types}{83}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Hardware}{83}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Software}{83}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}Functions Provided}{83}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Packet-filtering Firewalls}{83}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Circuit-level Gateways}{84}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Application-level Gateways (Proxy Firewalls)}{84}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Stateful Multi-layer Inspection (SMLI) Firewalls}{84}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}Next-generation Firewalls (NGFW)}{84}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.3.6}Threat-focused NGFW}{85}{subsection.5.3.6}%
+\contentsline {subsection}{\numberline {5.3.7}Network Address Translation (NAT) Firewalls}{85}{subsection.5.3.7}%
+\contentsline {subsection}{\numberline {5.3.8}Cloud Firewalls}{85}{subsection.5.3.8}%
+\contentsline {subsection}{\numberline {5.3.9}Unified Threat Management (UTM) Firewalls}{85}{subsection.5.3.9}%
+\contentsline {section}{\numberline {5.4}What to consider when purchasing a Firewall}{86}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Size of the organization}{86}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Availability of resources}{86}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Requirement of multi-level protection}{86}{subsection.5.4.3}%
+\contentsline {section}{\numberline {5.5}internal-external}{86}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}internal}{86}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}external}{86}{subsection.5.5.2}%
+\contentsline {section}{\numberline {5.6}ideal firewall for workplace}{86}{section.5.6}%

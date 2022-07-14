@@ -125,7 +125,7 @@
 
 \usepackage{fontspec}
 %\renewcommand{\familydefault}{\rmdefault}
-\setmainfont{FreeSerif}
+%\setmainfont{FreeSerif}
 
 \begin{document}
 
@@ -1508,19 +1508,31 @@ The delivery of on demanding computing power. The Cloud is a technical term used
 \clearpage
 
 \section{Introduction}
-It's meant for storage, virtual CPUs, and services like servers and computers
+It's meant for storage, virtual CPUs, and services like servers and computers. 
+\subsection{Private}
+\subsection{Hybrid}
+\subsection{Public}
+
+\section{Types of cloud platform}
+\subsection{IaaS}
+\subsection{PaaS}
+Substitutes the on-premises environment
+\subsection{SaaS}
+
 
 \section{PROs and CONs}
-it's much cheaper. you don't have to move your hard drives and computers if you move. But if your connection is poor it becomes unusable. It's great for disaster recovery (ie. if your company goes on fire then what's in the cloud stays in the cloud). You don't need that expertise in your team. You can buy more storage (scalable)
+It's much cheaper. you don't have to move your hard drives and computers if you move. But if your connection is poor it becomes unusable. It's great for disaster recovery (ie. if your company goes on fire then what's in the cloud stays in the cloud). You don't need that expertise in your team. You can buy more storage (scalable)
 
 \subsection{Carbon footprint}
  Some providers power their data centers with 100 percent renewable energy so, chosing wisely you could reduce consumption of CO2. 
 
+\subsubsection{Dirty data}
+Useless data like the pictures from whatsapp groups, Emails on your phone you're not reading, etc. This is what impacts on the carbon footprint. This makes obviously Carbon footprint worse
+
 \subsection{Scam}
 Your data can be sold to other people
 
-\section{dirty data}
-Useless data like the pictures from whatsapp groups, Emails on your phone you're not reading, etc. This is what impacts on the carbon footprint
+
 
 \section{Major cloud platforms}
 Many companies do offer cloud platforms that support the development and management of your organisation’s IT needs.
@@ -1540,6 +1552,7 @@ If you want to migrate, you need to find a good provider able to do it or you mi
 
 A significant risk of cloud computing is a lack of cloud expertise.To properly secure your cloud environment, you must be able to  secure and configure the architecture and integrate them with third-party services. This requires experts either employed in-house or via a third-party to ensure you can gain complete visibility of your infrastructure. You must know who has access to your cloud services and be able to maintain a security management strategy across your cloud environment.
 
+\section{In work environment}
 
 \subsection{Cloud misconfigurations}
 
@@ -1566,4 +1579,86 @@ It's a good practice that gives you just the resources you need as you go along 
 \clearpage
 \printindex
 
+\chapter{Firewall}
+Software that protects your computer from threats on the internet. It decides wheter to allow or block incoming traffic.
+%https://www.javatpoint.com/types-of-firewall
+\section{DMZ}
+It's a single IP where firewall rules do not apply. Can be useful to set a videogaming console on DMZ to allow some services to run or the firewall will stop them. 
+\section{Firewall Types}
+You need both Hardware and Software because threats comes from everywhere. %IT k Funde
+\subsection{Hardware}
+It's a physical device standing between a computer network and a gateway (aka Appliance Firewall)
+
+\subsection{Software}
+A software firewall is a simple program installed on a computer that works through port numbers and other installed software (aka Host Firewall).
+
+\section{Functions Provided}
+Besides, there are many other types of firewalls depending on their features and the level of security they provide. The following are types of firewall techniques that can be implemented as software or hardware.
+\subsection{Packet-filtering Firewalls}
+%only packet level but not that secure. cheap, very effective.
+The most basic type of firewall. It acts like a management program that monitors network traffic and filters incoming packets based on configured security rules because og which they can block network traffic IP protocols, IP address, and port numbers but do not prevent web-based attacks. They are not the safest.
+
+\subsection{Circuit-level Gateways}
+Circuit-level gateways are another simplified type of firewall that can be easily configured to allow or block traffic without consuming significant computing resources. These types of firewalls typically operate at the session-level of the OSI model by verifying TCP (Transmission Control Protocol) connections and sessions. Circuit-level gateways are designed to ensure that the established sessions are protected.
+
+Typically, circuit-level firewalls are implemented as security software or pre-existing firewalls. Like packet-filtering firewalls, these firewalls do not check for actual data, although they inspect information about transactions. Therefore, if a data contains malware, but follows the correct TCP connection, it will pass through the gateway. That is why circuit-level gateways are not considered safe enough to protect our systems.
+\subsection{Application-level Gateways (Proxy Firewalls)}
+Proxy firewalls operate at the application layer as an intermediate device to filter incoming traffic between two end systems (e.g., network and traffic systems). That is why these firewalls are called 'Application-level Gateways'.
+
+Unlike basic firewalls, these firewalls transfer requests from clients pretending to be original clients on the web-server. This protects the client's identity and other suspicious information, keeping the network safe from potential attacks. Once the connection is established, the proxy firewall inspects data packets coming from the source. If the contents of the incoming data packet are protected, the proxy firewall transfers it to the client. This approach creates an additional layer of security between the client and many different sources on the network.
+\subsection{Stateful Multi-layer Inspection (SMLI) Firewalls}
+Stateful multi-layer inspection firewalls include both packet inspection technology and TCP handshake verification, making SMLI firewalls superior to packet-filtering firewalls or circuit-level gateways. Additionally, these types of firewalls keep track of the status of established connections.
+
+In simple words, when a user establishes a connection and requests data, the SMLI firewall creates a database (state table). The database is used to store session information such as source IP address, port number, destination IP address, destination port number, etc. Connection information is stored for each session in the state table. Using stateful inspection technology, these firewalls create security rules to allow anticipated traffic.
+
+In most cases, SMLI firewalls are implemented as additional security levels. These types of firewalls implement more checks and are considered more secure than stateless firewalls. This is why stateful packet inspection is implemented along with many other firewalls to track statistics for all internal traffic. Doing so increases the load and puts more pressure on computing resources. This can give rise to a slower transfer rate for data packets than other solutions.
+\subsection{Next-generation Firewalls (NGFW)}
+Many of the latest released firewalls are usually defined as 'next-generation firewalls'. However, there is no specific definition for next-generation firewalls. This type of firewall is usually defined as a security device combining the features and functionalities of other firewalls. These firewalls include deep-packet inspection (DPI), surface-level packet inspection, and TCP handshake testing, etc.
+
+NGFW includes higher levels of security than packet-filtering and stateful inspection firewalls. Unlike traditional firewalls, NGFW monitors the entire transaction of data, including packet headers, packet contents, and sources. NGFWs are designed in such a way that they can prevent more sophisticated and evolving security threats such as malware attacks, external threats, and advance intrusion.
+\subsection{Threat-focused NGFW}
+Threat-focused NGFW includes all the features of a traditional NGFW. Additionally, they also provide advanced threat detection and remediation. These types of firewalls are capable of reacting against attacks quickly. With intelligent security automation, threat-focused NGFW set security rules and policies, further increasing the security of the overall defense system.
+
+In addition, these firewalls use retrospective security systems to monitor suspicious activities continuously. They keep analyzing the behavior of every activity even after the initial inspection. Due to this functionality, threat-focus NGFW dramatically reduces the overall time taken from threat detection to cleanup.
+\subsection{Network Address Translation (NAT) Firewalls}
+Network address translation or NAT firewalls are primarily designed to access Internet traffic and block all unwanted connections. These types of firewalls usually hide the IP addresses of our devices, making it safe from attackers.
+
+
+When multiple devices are used to connect to the Internet, NAT firewalls create a unique IP address and hide individual devices' IP addresses. As a result, a single IP address is used for all devices. By doing this, NAT firewalls secure independent network addresses from attackers scanning a network for accessing IP addresses. This results in enhanced protection against suspicious activities and attacks.
+
+In general, NAT firewalls works similarly to proxy firewalls. Like proxy firewalls, NAT firewalls also work as an intermediate device between a group of computers and external traffic.
+
+
+\subsection{Cloud Firewalls}
+Whenever a firewall is designed using a cloud solution, it is known as a cloud firewall or FaaS (firewall-as-service). Cloud firewalls are typically maintained and run on the Internet by third-party vendors. This type of firewall is considered similar to a proxy firewall. The reason for this is the use of cloud firewalls as proxy servers. However, they are configured based on requirements.
+
+
+The most significant advantage of cloud firewalls is scalability. Because cloud firewalls have no physical resources, they are easy to scale according to the organization's demand or traffic-load. If demand increases, additional capacity can be added to the cloud server to filter out the additional traffic load. Most organizations use cloud firewalls to secure their internal networks or entire cloud infrastructure.
+
+
+\subsection{Unified Threat Management (UTM) Firewalls}
+UTM firewalls are a special type of device that includes features of a stateful inspection firewall with anti-virus and intrusion prevention support. Such firewalls are designed to provide simplicity and ease of use. These firewalls can also add many other services, such as cloud management, etc.
+
+\section{What to consider when purchasing a Firewall}
+When it comes to selecting the best firewall architecture, there is no need to be explicit. It is always better to use a combination of different firewalls to add multiple layers of protection. For example, one can implement a hardware or cloud firewall at the perimeter of the network, and then further add individual software firewall with every network asset.
+
+Besides, the selection usually depends on the requirements of any organization. However, the following factors can be considered for the right selection of firewall:
+
+\subsection{Size of the organization}
+
+If an organization is large and maintains a large internal network, it is better to implement such firewall architecture, which can monitor the entire internal network.
+
+\subsection{Availability of resources}
+
+If an organization has the resources and can afford a separate firewall for each hardware piece, this is a good option. Besides, a cloud firewall may be another consideration.
+
+\subsection{Requirement of multi-level protection}
+The number and type of firewalls typically depend on the security measures that an internal network requires. This means, if an organization maintains sensitive data, it is better to implement multi-level protection of firewalls. This will ensure data security from hackers.\section{internal-external}
+
+\subsection{internal}
+\subsection{external}
+
+\section{ideal firewall for workplace}
+%legitimate gigabit
+%proxy firewall, UTM
 \end{document}
