@@ -1030,6 +1030,8 @@ I managed to make it crash again but this time I put \textbf{No filters} option 
 
 at 16:43:54.489 is when moans about mapper 3.x being not supported. So after that I am expecting to see anything related to the crash. But because all these messages we get all talk about memory waste and resources not being handled properly it might be worth having a look on how to handle threads properly in Java first as Matthew suggested
 
+
+
 \subsubsection{Thread Objects}
 %Each thread is associated with an instance of the class Thread. There are two basic strategies for using Thread objects to create a concurrent application.
 %
@@ -1051,6 +1053,10 @@ I raised the issue with my "On-the-job" trainer to get some training and supervi
 
 \item{once I'm done then expand my knowledge searching some tutorials on YouTube}
 \end{itemize}   
+
+\subsection{Function never reached}
+I actually realized there was a function responsible for closing the streams to and from the socket because the Thread who talks to the server enters in a loop where reads from an empty buffer causing the Thread to hang. That's why if I join from the main activity the whole app hangs. I don't even have to set a kill-countdown. The thread terminates by himself gently
+
 \part{Database development}
 
 The followings are the tasks I'm responsible with databases. You can label it the way you want but it's pretty much the whole lifecycle management except \emph{talking to the client}, make sure we both agree on \emph{what they want}, \emph{writing the specs} of the solution that needs to be \emph{designed}.
