@@ -18,5 +18,6 @@
 \contentsline {subsection}{\numberline {3.3.3}Resolution}{23}{subsection.3.3.3}%
 \contentsline {subsubsection}{Thread Objects}{30}{section*.9}%
 \contentsline {subsection}{\numberline {3.3.4}Function never reached}{30}{subsection.3.3.4}%
-\contentsline {part}{III\hspace {1em}Database development}{31}{part.3}%
-\contentsline {chapter}{\numberline {4}Database design}{35}{chapter.4}%
+\contentsline {subsubsection}{Infinite wait loop}{30}{section*.10}%
+\contentsline {part}{III\hspace {1em}Database development}{33}{part.3}%
+\contentsline {chapter}{\numberline {4}Database design}{37}{chapter.4}%

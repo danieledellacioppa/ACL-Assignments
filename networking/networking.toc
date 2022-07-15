@@ -1,4 +1,4 @@
-\babel@toc {english}{}\relax 
+\babel@toc {english}{}
 \contentsline {part}{I\hspace {1em}Networking}{7}{part.1}%
 \contentsline {chapter}{\numberline {1}The basics of Networks}{9}{chapter.1}%
 \contentsline {section}{\numberline {1.1}\textsc {What is a network?}}{10}{section.1.1}%
@@ -51,7 +51,7 @@
 \contentsline {section}{\numberline {2.10}Exterior gateway protocols}{52}{section.2.10}%
 \contentsline {subsection}{\numberline {2.10.1}BGP}{52}{subsection.2.10.1}%
 \contentsline {section}{\numberline {2.11}IoT}{52}{section.2.11}%
-\contentsline {section}{\numberline {2.12}IoT in Aviation}{53}{section.2.12}%
+\contentsline {section}{\numberline {2.12}IoT in Aviation}{52}{section.2.12}%
 \contentsline {subsection}{\numberline {2.12.1}Existing Technologies in Aviation Industry}{53}{subsection.2.12.1}%
 \contentsline {subsubsection}{Digitized Security}{53}{section*.34}%
 \contentsline {subsubsection}{VR for Last-Minute Changes}{53}{section*.35}%
@@ -69,36 +69,36 @@
 \contentsline {section}{\numberline {2.15}binary to Hex}{57}{section.2.15}%
 \contentsline {section}{\numberline {2.16}IP config}{57}{section.2.16}%
 \contentsline {subsection}{\numberline {2.16.1}ipconfig/all}{57}{subsection.2.16.1}%
-\contentsline {subsection}{\numberline {2.16.2}ipconfig/displaydns}{58}{subsection.2.16.2}%
+\contentsline {subsection}{\numberline {2.16.2}ipconfig/displaydns}{57}{subsection.2.16.2}%
 \contentsline {subsection}{\numberline {2.16.3}ipconfig/registerdns}{58}{subsection.2.16.3}%
 \contentsline {subsection}{\numberline {2.16.4}ipconfig/flushdns}{58}{subsection.2.16.4}%
-\contentsline {subsubsection}{what flush DNS does}{59}{section*.43}%
+\contentsline {subsubsection}{what flush DNS does}{58}{section*.43}%
 \contentsline {subsubsection}{why would you flush DNS}{59}{section*.44}%
 \contentsline {section}{\numberline {2.17}DHCP}{59}{section.2.17}%
-\contentsline {subsection}{\numberline {2.17.1}BYOD}{60}{subsection.2.17.1}%
+\contentsline {subsection}{\numberline {2.17.1}BYOD}{59}{subsection.2.17.1}%
 \contentsline {subsection}{\numberline {2.17.2}ipconfig /release}{60}{subsection.2.17.2}%
 \contentsline {subsection}{\numberline {2.17.3}ipconfig/ renew}{60}{subsection.2.17.3}%
 \contentsline {subsection}{\numberline {2.17.4}Fixed IP}{60}{subsection.2.17.4}%
 \contentsline {section}{\numberline {2.18}dns root server}{60}{section.2.18}%
 \contentsline {paragraph}{why 13 DNS servers?}{60}{section*.45}%
-\contentsline {subsection}{\numberline {2.18.1}who manages}{61}{subsection.2.18.1}%
-\contentsline {section}{\numberline {2.19}The DNS Service}{61}{section.2.19}%
+\contentsline {subsection}{\numberline {2.18.1}who manages}{60}{subsection.2.18.1}%
+\contentsline {section}{\numberline {2.19}The DNS Service}{60}{section.2.19}%
 \contentsline {section}{\numberline {2.20}The four DNS Servers to load a webpage}{61}{section.2.20}%
 \contentsline {subsection}{\numberline {2.20.1}DNS recursor}{61}{subsection.2.20.1}%
 \contentsline {subsection}{\numberline {2.20.2}Root name server}{61}{subsection.2.20.2}%
 \contentsline {subsection}{\numberline {2.20.3}DNS server}{61}{subsection.2.20.3}%
-\contentsline {subsection}{\numberline {2.20.4}Authoritative nameserver}{62}{subsection.2.20.4}%
-\contentsline {section}{\numberline {2.21}PING}{62}{section.2.21}%
+\contentsline {subsection}{\numberline {2.20.4}Authoritative nameserver}{61}{subsection.2.20.4}%
+\contentsline {section}{\numberline {2.21}PING}{61}{section.2.21}%
 \contentsline {section}{\numberline {2.22}Loopback}{62}{section.2.22}%
 \contentsline {section}{\numberline {2.23}Subnet}{62}{section.2.23}%
 \contentsline {subsection}{\numberline {2.23.1}Routing prefix expressed in CIDR}{62}{subsection.2.23.1}%
-\contentsline {subsubsection}{the different CIDR classes}{63}{section*.46}%
-\contentsline {section}{\numberline {2.24}Broadcast address}{63}{section.2.24}%
+\contentsline {subsubsection}{the different CIDR classes}{62}{section*.46}%
+\contentsline {section}{\numberline {2.24}Broadcast address}{62}{section.2.24}%
 \contentsline {subsection}{\numberline {2.24.1}single Broadcast address}{63}{subsection.2.24.1}%
 \contentsline {subsection}{\numberline {2.24.2}VLAN}{63}{subsection.2.24.2}%
 \contentsline {section}{\numberline {2.25}Multicast}{63}{section.2.25}%
-\contentsline {section}{\numberline {2.26}Unicast}{64}{section.2.26}%
-\contentsline {section}{\numberline {2.27}The Five IPv4 Classes}{64}{section.2.27}%
+\contentsline {section}{\numberline {2.26}Unicast}{63}{section.2.26}%
+\contentsline {section}{\numberline {2.27}The Five IPv4 Classes}{63}{section.2.27}%
 \contentsline {subsection}{\numberline {2.27.1}Class A Public & Private IP Address Range}{64}{subsection.2.27.1}%
 \contentsline {subsection}{\numberline {2.27.2}Class B Public & Private IP Address Range}{65}{subsection.2.27.2}%
 \contentsline {subsection}{\numberline {2.27.3}Class C Public & Private IP Address Range}{65}{subsection.2.27.3}%
@@ -166,25 +166,26 @@
 \contentsline {subsection}{\numberline {4.7.2}Continuous monitoring}{81}{subsection.4.7.2}%
 \contentsline {section}{\numberline {4.8}Resource pooling}{81}{section.4.8}%
 \contentsline {chapter}{\numberline {5}Firewall}{83}{chapter.5}%
-\contentsline {section}{\numberline {5.1}DMZ}{83}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Firewall Types}{83}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Hardware}{83}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Software}{83}{subsection.5.2.2}%
-\contentsline {section}{\numberline {5.3}Functions Provided}{83}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Packet-filtering Firewalls}{83}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Circuit-level Gateways}{84}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Application-level Gateways (Proxy Firewalls)}{84}{subsection.5.3.3}%
-\contentsline {subsection}{\numberline {5.3.4}Stateful Multi-layer Inspection (SMLI) Firewalls}{84}{subsection.5.3.4}%
-\contentsline {subsection}{\numberline {5.3.5}Next-generation Firewalls (NGFW)}{84}{subsection.5.3.5}%
-\contentsline {subsection}{\numberline {5.3.6}Threat-focused NGFW}{85}{subsection.5.3.6}%
-\contentsline {subsection}{\numberline {5.3.7}Network Address Translation (NAT) Firewalls}{85}{subsection.5.3.7}%
-\contentsline {subsection}{\numberline {5.3.8}Cloud Firewalls}{85}{subsection.5.3.8}%
-\contentsline {subsection}{\numberline {5.3.9}Unified Threat Management (UTM) Firewalls}{85}{subsection.5.3.9}%
-\contentsline {section}{\numberline {5.4}What to consider when purchasing a Firewall}{86}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Size of the organization}{86}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Availability of resources}{86}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Requirement of multi-level protection}{86}{subsection.5.4.3}%
-\contentsline {section}{\numberline {5.5}internal-external}{86}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}internal}{86}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}external}{86}{subsection.5.5.2}%
-\contentsline {section}{\numberline {5.6}ideal firewall for workplace}{86}{section.5.6}%
+\contentsline {section}{\numberline {5.1}What is it?}{83}{section.5.1}%
+\contentsline {section}{\numberline {5.2}DMZ}{83}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Firewall Types}{83}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Hardware}{83}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Software}{83}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}Functions Provided}{83}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Packet-filtering Firewalls}{84}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Circuit-level Gateways}{84}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Application-level Gateways (Proxy Firewalls)}{84}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Stateful Multi-layer Inspection (SMLI) Firewalls}{84}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.5}Next-generation Firewalls (NGFW)}{84}{subsection.5.4.5}%
+\contentsline {subsection}{\numberline {5.4.6}Threat-focused NGFW}{85}{subsection.5.4.6}%
+\contentsline {subsection}{\numberline {5.4.7}Network Address Translation (NAT) Firewalls}{85}{subsection.5.4.7}%
+\contentsline {subsection}{\numberline {5.4.8}Cloud Firewalls}{85}{subsection.5.4.8}%
+\contentsline {subsection}{\numberline {5.4.9}Unified Threat Management (UTM) Firewalls}{85}{subsection.5.4.9}%
+\contentsline {section}{\numberline {5.5}What to consider when purchasing a Firewall}{86}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Size of the organization}{86}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Availability of resources}{86}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Requirement of multi-level protection}{86}{subsection.5.5.3}%
+\contentsline {section}{\numberline {5.6}internal-external}{86}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}internal}{86}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}external}{86}{subsection.5.6.2}%
+\contentsline {section}{\numberline {5.7}ideal firewall for workplace}{86}{section.5.7}%

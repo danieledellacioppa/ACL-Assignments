@@ -1057,6 +1057,27 @@ I raised the issue with my "On-the-job" trainer to get some training and supervi
 \subsection{Function never reached}
 I actually realized there was a function responsible for closing the streams to and from the socket because the Thread who talks to the server enters in a loop where reads from an empty buffer causing the Thread to hang. That's why if I join from the main activity the whole app hangs. I don't even have to set a kill-countdown. The thread terminates by himself gently
 
+\subsubsection{Infinite wait loop}
+Checking if the input BufferedReader is ready to be read can be done using a built-in method of the class BufferedReader which the ready( ) function. Let \textbf{in} be an instance of the BufferedReader class. Then the instruction to use will be:
+
+\[in.ready()\]
+
+Performing a readLine( ) on a input Buffered reader which is actually empty makes the thread doing the readLine() to wait indefinitely for something to happen on that Buffer.
+If nothing ever happens the Thread will wait for ever for something readable to be present in the Buffer. This is avoided by checking the readiness of the Buffer first. 
+
+\clearpage
+The solution was:
+
+\begin{lstlisting}
+                if(in.ready())
+                {
+                   debugConsoleSimpleClient.append("the input buffer seems to be ready\n");
+                   line = in.readLine();
+                }
+                   else
+                   line=null;
+\end{lstlisting}
+
 \part{Database development}
 
 The followings are the tasks I'm responsible with databases. You can label it the way you want but it's pretty much the whole lifecycle management except \emph{talking to the client}, make sure we both agree on \emph{what they want}, \emph{writing the specs} of the solution that needs to be \emph{designed}.
