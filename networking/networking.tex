@@ -1502,13 +1502,33 @@ It is also known as automatic speech recognition (ASR), computer speech recognit
 
 
 \chapter{Cloud Computing}
-\AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{118.jpg}}
+%\AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{118.jpg}}
+
+\AddToShipoutPictureBG*{%
+  \AtPageUpperLeft{%
+    \raisebox{-\height}{%
+      \includegraphics[width=\paperwidth]{cloud.jpg}%
+    }%
+  }
+}
 
 The delivery of on demanding computing power. The Cloud is a technical term used to refer to all the technology used to store data that normally (in the past) would have been stored on a computer locally. Today this technology is continuously expanding and will become probably the place where everyone holds personal data. Google tried with Chromebook but it was still too early for the transition to happen. But this is what we're going to see soon.
+
+\medskip
+\medskip
+\medskip
+\medskip
+\medskip
+\medskip
+
+\noindent What Cloud computing delivers is a set of different services like data storage, servers, databases, networking, and software.Rather than keeping files on a proprietary hard drive or local storage device, cloud-based storage makes it possible to save them to a remote database. As long as an electronic device has access to the web, it has access to the data and the software programs to run it.
+
 \clearpage
 
 \section{Introduction}
-It's meant for storage, virtual CPUs, and services like servers and computers. 
+%It's meant for storage, virtual CPUs, and services like servers and computers. 
+Let's differentiate between Private Public and Hybrid
+
 \subsection{Private}
 \subsection{Hybrid}
 \subsection{Public}
@@ -1544,8 +1564,9 @@ Microsoft Azure is a great cloud solution for organisations that predominantly u
 
 There are many risks using the cloud. Here we list a few of them.
 
-\subsection{Switching between providers} \flushleft
+\subsection{Switching between providers}
 If you want to migrate, you need to find a good provider able to do it or you might experience \textbf{loss of data}. It might happen intentionally(scam) or unintentionally(human error)
+
 
 
 \subsection{Lack of cloud expertise}
@@ -1577,11 +1598,8 @@ Making frequent assessments can make sure the cloud is secure, especially when t
 \section{Resource pooling}
 It's a good practice that gives you just the resources you need as you go along instead of giving you resources you'll never use
 \clearpage
-\printindex
 
 \chapter{Firewall}
-\section{What is it?} 
-Software that protects your computer from threats on the internet. It decides wheter to allow or block incoming traffic.
 
 \AddToShipoutPictureBG*{%
   \AtPageUpperLeft{%
@@ -1591,20 +1609,51 @@ Software that protects your computer from threats on the internet. It decides wh
   }
 }
 
+\section{What is it?} 
+A firewall is a combination of \textbf{hardware} and \textbf{software} that isolates an organization’s internal network from the Internet at large, allowing some packets to pass and blocking others. A firewall allows a network administrator to control access between the outside world and resources within the administered network by managing the traffic
+flow to and from these resources. A firewall has three goals:
+
+
+\begin{wrapfigure}[12]{R}{10cm}
+\centering
+\includegraphics[width=10cm]{./firewall-placement.png}
+%\vspace{-10pt}
+\caption{Firewall placement between the administered network and the outside world}\label{fig:firewall-placement}
+\end{wrapfigure}
+
+
+
+\begin{itemize}
+\item{\emph{All traffic from outside to inside, and vice versa, passes through the firewall}. Figure \ref{fig:firewall-placement} shows a firewall, sitting squarely at the boundary between the administered network and the rest of the Internet. While large organizations may use multiple levels of firewalls or distributed firewalls [Skoudis 2006], locating a firewall at a single access point to the network, as shown in Figure \ref{fig:firewall-placement}, makes it easier to manage and enforce a security-access policy.}
+\item{\emph{Only authorized traffic, as defined by the local security policy, will be allowed to pass}. With all traffic entering and leaving the institutional network passing through the firewall, the firewall can restrict access to authorized traffic.}
+\item{\emph{The firewall itself is immune to penetration}. The firewall itself is a device connected to the network. If not designed or installed properly, it can be compromised, in which case it provides only a false sense of security (which is worse than no firewall at all!).}
+\end{itemize}
+
+\noindent Cisco and Check Point are two of the leading firewall vendors today. You can also easily create a firewall (packet filter) from a Linux box using iptables (public-domain software that is normally shipped with Linux). Furthermore, firewalls are now frequently implemented in routers and controlled remotely. 
+
+%Firewalls can be classified in three categories: \textbf{traditional packet filters}, \textbf{stateful filters}, and \textbf{application gateways}. We’ll cover each of these in turn in the following subsections.
+
 
 %https://www.javatpoint.com/types-of-firewall
-\section{DMZ}
-It's a single IP where firewall rules do not apply. Can be useful to set a videogaming console on DMZ to allow some services to run or the firewall will stop them. 
-\section{Firewall Types}
-You need both Hardware and Software because threats comes from everywhere. %IT k Funde
-\subsection{Hardware}
-It's a physical device standing between a computer network and a gateway (aka Appliance Firewall)
 
-\subsection{Software}
-A software firewall is a simple program installed on a computer that works through port numbers and other installed software (aka Host Firewall).
+\section{DMZ}
+In computer security, a DMZ Network (sometimes referred to as a “demilitarized zone”) functions as a subnetwork containing an organization's exposed, outward-facing services. It acts as the exposed point to an untrusted networks, commonly the Internet.
+
+The goal of a DMZ is to add an extra layer of security to an organization's local area network. A protected and monitored network node that faces outside the internal network can access what is exposed in the DMZ, while the rest of the organization's network is safe behind a firewall.
+
+On a PlayStation the DMZ host It's a single IP where firewall rules do not apply. Can be useful to set a videogaming console on DMZ to allow some services to run or the firewall will stop them.
+
+ 
+%\section{Firewall Types}
+%You need both Hardware and Software because threats comes from everywhere. %IT k Funde
+%\subsection{Hardware}
+%It's a physical device standing between a computer network and a gateway (aka Appliance Firewall)
+%
+%\subsection{Software}
+%A software firewall is a simple program installed on a computer that works through port numbers and other installed software (aka Host Firewall).
 
 \section{Functions Provided}
-Besides, there are many other types of firewalls depending on their features and the level of security they provide. The following are types of firewall techniques that can be implemented as software or hardware.
+We can differentiate Firewall depending on the function they provide.
 
 \subsection{Packet-filtering Firewalls}
 %only packet level but not that secure. cheap, very effective.
@@ -1680,4 +1729,6 @@ The number and type of firewalls typically depend on the security measures that 
 \section{ideal firewall for workplace}
 %legitimate gigabit
 %proxy firewall, UTM
+
+\printindex
 \end{document}

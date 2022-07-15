@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2022.7.1)  15 JUL 2022 12:51
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2022.7.1)  15 JUL 2022 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1687,18 +1687,27 @@ File: 118.jpg Graphic file (type bmp)
 
 ]
 Chapter 4.
-File: 118.jpg Graphic file (type bmp)
-<118.jpg>
+File: cloud.jpg Graphic file (type bmp)
+<cloud.jpg>
 [77] [78
 
 ] [79] [80
 
-] [81]
+] [81] [82
+
+
+]
+Chapter 5.
+File: ./firewall-placement.png Graphic file (type bmp)
+<./firewall-placement.png>
+File: firewall.jpg Graphic file (type bmp)
+<firewall.jpg>
+[83] [84] [85]
 ! Undefined control sequence.
 <argument> \imki@jobname 
                          @idxfile
-l.1581 
-       
+l.1734 \end
+           {document}
 ? 
 
 ! Package imakeidx Error: Misplaced \printindex.
@@ -1707,37 +1716,29 @@ See the imakeidx package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1581 
-       
+l.1734 \end
+           {document}
 ? 
-[82
-
-
-]
-Chapter 5.
-File: firewall.jpg Graphic file (type bmp)
-<firewall.jpg>
-[83] [84] [85]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1683.
- [86]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1683.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1734.
+[86]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1734.
  (./networking.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1683.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1683.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1734.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1734.
 
 Package rerunfilecheck Info: File `networking.out' has not changed.
-(rerunfilecheck)             Checksum: 9F41B9A84A961B5221677EF1AB291737;11928.
+(rerunfilecheck)             Checksum: 8C4A53BCC5560DA785F262E0AAD45A89;11737.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1683.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1734.
  ) 
 Here is how much of TeX's memory you used:
- 19078 strings out of 481370
- 337034 string characters out of 5926568
+ 19090 strings out of 481370
+ 337265 string characters out of 5926568
  822468 words of memory out of 5000000
- 35744 multiletter control sequences out of 15000+600000
+ 35754 multiletter control sequences out of 15000+600000
  540566 words of font info for 79 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
  55i,12n,103p,1212b,1526s stack positions out of 5000i,500n,10000p,200000b,80000s
