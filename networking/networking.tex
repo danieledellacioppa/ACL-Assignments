@@ -125,7 +125,7 @@
 
 \usepackage{fontspec}
 %\renewcommand{\familydefault}{\rmdefault}
-\setmainfont{FreeSerif}
+%\setmainfont{FreeSerif}
 
 \begin{document}
 
@@ -1624,7 +1624,7 @@ flow to and from these resources. A firewall has three goals:
 
 
 \begin{itemize}
-\item{\emph{All traffic from outside to inside, and vice versa, passes through the firewall}. Figure \ref{fig:firewall-placement} shows a firewall, sitting squarely at the boundary between the administered network and the rest of the Internet. While large organizations may use multiple levels of firewalls or distributed firewalls [Skoudis 2006], locating a firewall at a single access point to the network, as shown in Figure \ref{fig:firewall-placement}, makes it easier to manage and enforce a security-access policy.}
+\item{\emph{All traffic from outside to inside, and vice versa, passes through the firewall}. Figure \ref{fig:firewall-placement} shows a firewall, sitting at the boundary between the administered network and the rest of the Internet. While large organizations may use multiple levels of firewalls or distributed firewalls [Skoudis 2006], locating a firewall at a single access point to the network, as shown in Figure \ref{fig:firewall-placement}, makes it easier to manage and enforce a security-access policy.}
 \item{\emph{Only authorized traffic, as defined by the local security policy, will be allowed to pass}. With all traffic entering and leaving the institutional network passing through the firewall, the firewall can restrict access to authorized traffic.}
 \item{\emph{The firewall itself is immune to penetration}. The firewall itself is a device connected to the network. If not designed or installed properly, it can be compromised, in which case it provides only a false sense of security (which is worse than no firewall at all!).}
 \end{itemize}
@@ -1722,13 +1722,79 @@ If an organization has the resources and can afford a separate firewall for each
 The number and type of firewalls typically depend on the security measures that an internal network requires. This means, if an organization maintains sensitive data, it is better to implement multi-level protection of firewalls. This will ensure data security from hackers.
 
 
-\section{internal-external}
-\subsection{internal}
-\subsection{external}
+%\section{internal-external}
+%\subsection{internal}
+%\subsection{external}
+
+%\section{types of attacks}
+%\subsection{passive}
+%\subsection{active}
 
 \section{ideal firewall for workplace}
+For a company of 30 employees the only thing I would not consider purchasing an internal firewall since the amount of threats we can have from the inside is comparatively miniscule. I'd still use Proxy Firewalls though to protect the identity of the employees, although might reduce speed in communication. One Next Gen Firewall should be fine since it mixes all the firewall types together. As i said is a relatively small company so one external Firewall mixing all of them should be reasonable in terms of price. Internal could be useful against man-in-the-middle
+
 %legitimate gigabit
 %proxy firewall, UTM
+
+\chapter{Configuration Management}
+
+\section{What it is?}
+%A process to make sure computer systems operate as desired
+%if we get an audit we can see from one pc all the software installed on every computer
+
+Configuration management is a process for maintaining computer systems, servers, and software in a desired, consistent state. It’s a way to make sure that a system performs as it’s expected to as changes are made over time. 
+
+Managing IT system configurations involves defining a system's desired state—like server configuration—then building and maintaining those systems. Closely related to configuration assessments and drift analyses, configuration management uses both to identify systems to update, reconfigure, or patch.
+
+\subsection{why manage configuration?}
+
+Configuration management keeps you from making small or large changes that go undocumented. Misconfigurations like these were identified in our State of Kubernetes Security report as a leading cause of security incidents among containerized or Kubernetes-orchestrated environments. 
+
+Misconfigurations can lead to poor performance, inconsistencies, or noncompliance and negatively impact business operations and security. When undocumented changes are made across many systems and applications, it adds to instability and downtime.
+
+Manually identifying systems that require attention, determining remediation steps, prioritizing actions, and validating completion are too complicated to perform in large environments. But without documentation, maintenance, and a change control process, system administrators and software developers could end up not knowing what’s on a server or which software has been updated.
+
+Configuration management systems let you consistently define system settings, as well as build and maintain those systems according to those baseline settings. Configuration management helps users and administrators know where certain services exist and what the current state of applications are.
+
+Proper configuration management tools:
+\begin{itemize}
+\item{Classify and manage systems by groups and subgroups.} 
+\item{Centrally modify base configurations.}
+\item{Roll out new settings to all applicable systems.}
+\item{Automate system identification, patches, and updates}
+\item{Identify outdated, poor performing, and noncompliant configurations.}
+\item{Prioritize actions.}
+\item{Access and apply prescriptive remediation.}
+\end{itemize}
+
+\subsection{what can be managed?}
+Think of it like this. If you keep up with the small things, you can avoid more complicated, expensive repairs in the future. Configuration management is about preventing issues so you don’t have to deal with as many problems later. 
+
+For example, you can make sure that your test and production environments match. That way, you’ll have fewer problems with applications once they’ve been deployed than you would if these environments weren’t exactly the same.
+
+With configuration management, you can accurately replicate an environment with the correct configurations and software because you know what exists in the original environment.
+
+\subsection{benefits of automating}
+The role of configuration management is to maintain systems in a desired state. Traditionally, this was handled manually or with custom scripting by system administrators. Automation is the use of software to perform tasks, such as configuration management, in order to reduce cost, complexity, and errors.
+
+Through automation, a configuration management tool can provision a new server within minutes with less room for error. You can also use automation to maintain a server in the desired state, such as your standard operating environment (SOE), without the provisioning scripts needed previously.
+
+%https://www.redhat.com/en/topics/management/what-is-an-soe
+
+\subsection{what can go wrong with misconfiguration}
+
+internal audit with questions trying to find out what happened. Something that could have been automated but it's still being done manually.
+
+audit question are like:
+what software patches have you applied?
+
+%would a spreadsheet work for a big company?
+
+\subsection{benefits of a good config management tools}
+simplicity, centralized based management
+
+%keywords SOE / ITIL
+%https://www.redhat.com/en/topics/automation/what-is-configuration-management
 
 \printindex
 \end{document}
